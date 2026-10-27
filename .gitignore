@@ -1,0 +1,22 @@
+app/.venv/
+app/frontend/node_modules/
+app/frontend/dist/
+app/.cache/
+app/.env
+__pycache__/
+.pytest_cache/
+.DS_Store
+output/
+*.tsbuildinfo
+
+.playwright-cli/
+backups/
+*.tar.gz
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log

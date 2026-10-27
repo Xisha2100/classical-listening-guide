@@ -1,0 +1,173 @@
+{
+  "retrieved_at": "2026-10-27",
+  "files": {
+    "bach-bwv847/SOURCE.md": {
+      "bytes": 1461,
+      "sha256": "d9b7f30d02164f9877a4c10a5de6e88ada06c792226f43b9ba9fb4d928253d8c"
+    },
+    "bach-bwv847/mutopia-original.ly": {
+      "bytes": 6337,
+      "sha256": "5b4ba90ea58a8daae5f74d9f022ef65ffccd6ab4faf8e9c58d099ed1426db6db"
+    },
+    "bach-bwv847/mutopia-original.mid": {
+      "bytes": 6466,
+      "sha256": "74c3c61d820ce694741abaf9736a8ad81b8f587beb06eddd7ee8edd6c442b384"
+    },
+    "bach-bwv847/source.mxl": {
+      "bytes": 5571,
+      "sha256": "5c6f10ef4437a2a029321922f54d16fb5935a1f96d18cc346d1b7484fb3b620d"
+    },
+    "beethoven-op67-1/Beethoven_Op.67_1.mm.json": {
+      "bytes": 1067,
+      "sha256": "1e4cfa08bca0cb6749cd30d5c027656ab9fd25eba09ef0fd99d247430dcfa731"
+    },
+    "beethoven-op67-1/Beethoven_Op.67_1.mxl": {
+      "bytes": 232765,
+      "sha256": "62b72bb1ab6ea50f6ed6ba4be990164722f720b85b7148e033f754a8b34906e2"
+    },
+    "beethoven-op67-1/Beethoven_Op.67_1_annotations.csv": {
+      "bytes": 7292,
+      "sha256": "067d61dc4dd93ac733d8fb656e02b8e01e3690bb7b8f95134868fa5e423cc411"
+    },
+    "beethoven-op67-1/Beethoven_Op.67_1_melody.mxl": {
+      "bytes": 24545,
+      "sha256": "f2682126826ab8c2a48b6fa0df32ff2461df81b7d1d8199cc5a7f748353b0790"
+    },
+    "beethoven-op67-1/LICENSE": {
+      "bytes": 1068,
+      "sha256": "e9420b07d0268f65164bf69e43ec7602c071020881be05e11234a1dbfd82526f"
+    },
+    "beethoven-op67-1/README.upstream.txt": {
+      "bytes": 7517,
+      "sha256": "9c523d17e5c5691da27889f1e18702cbb49c82f69dc9fdf30ca59d993378a085"
+    },
+    "beethoven-op67-1/SOURCE.md": {
+      "bytes": 1893,
+      "sha256": "9eaf98fba6eaa465ad7049005fd2b390745b043fa32ea27bd3bbaa9088fb0a9b"
+    },
+    "beethoven-op67-1/annotation.upstream.txt": {
+      "bytes": 8370,
+      "sha256": "8b878bcb522c0135f5a554d8e60a504cff802b7e5662c29edad45e0e8b6f4820"
+    },
+    "mozart-k265/K265.krn": {
+      "bytes": 25637,
+      "sha256": "6ce4ce3bd82ba306c7b2934fd48f1a0ba6579218baaf5d0139a92c826a40fc86"
+    },
+    "mozart-k265/K265.xml": {
+      "bytes": 2060754,
+      "sha256": "18887d1d9ab0a1443d8afdf751f11092b55ed5bf6a29a70dc5f1ef82e31c7770"
+    },
+    "mozart-k265/LICENSE": {
+      "bytes": 15985,
+      "sha256": "292a5de943f6fb9833c136124a2df1e285b2d86e8eca8244244d2689cb93d663"
+    },
+    "mozart-k265/README.upstream.txt": {
+      "bytes": 3544,
+      "sha256": "2e57958dbb2dae50dc33db276af4523300362f5b2159b6dadaac1db9da0ad0e1"
+    },
+    "mozart-k265/SOURCE.md": {
+      "bytes": 1552,
+      "sha256": "2fa308d9ec515569ebfe67aedf7c493ca8214c3a7f49e66a4694dd91e0c609f1"
+    },
+    "mozart-k265/annotations/M265_00_01a_a.krn": {
+      "bytes": 542,
+      "sha256": "46126173d2d745ca33a12ed761f0bbd5e61d1b17c2429be9a39590c8c905e103"
+    },
+    "mozart-k265/annotations/M265_00_01a_b.krn": {
+      "bytes": 531,
+      "sha256": "7ebaf58672448349d13a494f2159d754dc6d1bf42257f6f1d1b74c092a691df9"
+    },
+    "mozart-k265/annotations/M265_00_02b_a.krn": {
+      "bytes": 632,
+      "sha256": "6febf16a7c7f43cdec9606f4203df3fb2918e658eebd7c46e2c307e5ab50eaad"
+    },
+    "mozart-k265/annotations/M265_00_02b_b.krn": {
+      "bytes": 634,
+      "sha256": "dc3719b9ac2dea05b808c6c5e837f2c8e673a2130f50e7bbce7f06e494169e33"
+    },
+    "mozart-k265/annotations/M265_00_03a_a.krn": {
+      "bytes": 602,
+      "sha256": "30ccfa84206a51adb0fcce1b94088f0027b8e87756abe936ae7540f4a2f900ca"
+    },
+    "mozart-k265/annotations/M265_00_03a_b.krn": {
+      "bytes": 602,
+      "sha256": "30ccfa84206a51adb0fcce1b94088f0027b8e87756abe936ae7540f4a2f900ca"
+    },
+    "mozart-k265/annotations/M265_01_01a_a.krn": {
+      "bytes": 1055,
+      "sha256": "d8080793b6f52e49b584937c07c697c6aac1d119981b51b1511184ffa9b18067"
+    },
+    "mozart-k265/annotations/M265_01_01a_b.krn": {
+      "bytes": 1069,
+      "sha256": "67e97f0cc46350a44cc428ddda41eee4c0f802026dcefe268e64667e8b6ba998"
+    },
+    "mozart-k265/annotations/M265_01_02b_a.krn": {
+      "bytes": 1153,
+      "sha256": "026a601fd2e198a7ba168e3250dbde523c083ba03132885f732ebd3097523981"
+    },
+    "mozart-k265/annotations/M265_01_02b_b.krn": {
+      "bytes": 1154,
+      "sha256": "78e953c399b138dee91d9208c24f140523897494288c1308a0c3a6f8e9f80419"
+    },
+    "mozart-k265/annotations/M265_01_03a_a.krn": {
+      "bytes": 1056,
+      "sha256": "bf29fa91beed08ccb2cadd592e974d05301ac7d2a4f9f6cd77c22823e1b0673f"
+    },
+    "mozart-k265/annotations/M265_01_03a_b.krn": {
+      "bytes": 1070,
+      "sha256": "ded504eb7a45340285795234b4cb14bfbc4b200a2fd496e5c10be10d0e8982ec"
+    },
+    "mozart-k265/annotations/M265_02_01a_a.krn": {
+      "bytes": 1322,
+      "sha256": "a0c1f1f47137719d6b015a293ad495a07f7fc3cd3574f10bea8b62497bf0eb94"
+    },
+    "mozart-k265/annotations/M265_02_01a_b.krn": {
+      "bytes": 1321,
+      "sha256": "410c13d6d283b37bb90795825cda8339a6b3f549aa865dfb58a1cb5ce613af54"
+    },
+    "mozart-k265/annotations/M265_02_02b_a.krn": {
+      "bytes": 1277,
+      "sha256": "9cb023259732728cd516ccf2812daf8e1028a53b765affe1328e2558fcb863cd"
+    },
+    "mozart-k265/annotations/M265_02_02b_b.krn": {
+      "bytes": 1272,
+      "sha256": "84543e7aebf94cae55032ed02a3fc73ae72707bf0fe641aa6ca6a5f884c107ee"
+    },
+    "mozart-k265/annotations/M265_02_03a_a.krn": {
+      "bytes": 1298,
+      "sha256": "175b33e90a26d3c431311c75eb1718544884d165bd0f1b6cf035c9f666b2a1e7"
+    },
+    "mozart-k265/annotations/M265_02_03a_b.krn": {
+      "bytes": 1298,
+      "sha256": "175b33e90a26d3c431311c75eb1718544884d165bd0f1b6cf035c9f666b2a1e7"
+    },
+    "mozart-k265/annotations/M265_03_01a_a.krn": {
+      "bytes": 1106,
+      "sha256": "c5718bf6e9ed061687dcaef28078cff135576d9295f1737a7b15cd6cdc1b8608"
+    },
+    "mozart-k265/annotations/M265_03_01a_b.krn": {
+      "bytes": 1106,
+      "sha256": "9734705af95d17186622be56f0086736e77130426695de2041ba02350c3d49ad"
+    },
+    "mozart-k265/annotations/M265_03_02b_a.krn": {
+      "bytes": 1147,
+      "sha256": "4a380e580616b095088783db119ec46f06506f0aa134b6ae0d9c7ba2517f346c"
+    },
+    "mozart-k265/annotations/M265_03_02b_b.krn": {
+      "bytes": 1155,
+      "sha256": "73eb1a825fad22e27226c1fe34f224ce755cba81d6e8eb8ca914ea6df3c5ac64"
+    },
+    "mozart-k265/annotations/M265_03_03a_a.krn": {
+      "bytes": 1100,
+      "sha256": "9116bb4e28ec5b87fd09485a7747821aec433cf310903a8b3f223483ef71dd8c"
+    },
+    "mozart-k265/annotations/M265_03_03a_b.krn": {
+      "bytes": 1100,
+      "sha256": "8db4511fff5946a649c3a3c1cc9c2c812f2afbc80462cce4126409c2b01f7b62"
+    },
+    "seed-specs.json": {
+      "bytes": 18954,
+      "sha256": "a6923598a7d1d310b0f1db6fcc1852e1dd86905aa55d636504db6ca9632d3467"
+    }
+  }
+}

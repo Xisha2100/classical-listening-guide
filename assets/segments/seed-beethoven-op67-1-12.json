@@ -1,0 +1,115 @@
+[
+  {
+    "id": "seed-12-0",
+    "label": "第二小提琴",
+    "score_version": "0dc9a06dc592e643",
+    "start": 10.5,
+    "end": 12.5,
+    "staffs": [
+      "15"
+    ],
+    "voices": [
+      "1"
+    ],
+    "routes": [],
+    "note_ids": [
+      "n2ib81t",
+      "ru42izx",
+      "s1qy67ab",
+      "eyrce34"
+    ],
+    "start_measure": 5,
+    "end_measure": 6
+  },
+  {
+    "id": "seed-12-1",
+    "label": "中提琴",
+    "score_version": "0dc9a06dc592e643",
+    "start": 12.5,
+    "end": 14.5,
+    "staffs": [
+      "16"
+    ],
+    "voices": [
+      "1"
+    ],
+    "routes": [],
+    "note_ids": [
+      "r16rnxu",
+      "w1d58ot6",
+      "y1ftka4v",
+      "l1cd6xt3"
+    ],
+    "start_measure": 6,
+    "end_measure": 7
+  },
+  {
+    "id": "seed-12-2",
+    "label": "第一小提琴",
+    "score_version": "0dc9a06dc592e643",
+    "start": 14.5,
+    "end": 18.5,
+    "staffs": [
+      "14"
+    ],
+    "voices": [
+      "1"
+    ],
+    "routes": [],
+    "note_ids": [
+      "kd32f0f",
+      "p1fr6jbb",
+      "r1hyhysh",
+      "e1sysc7v",
+      "r1hxrs5i"
+    ],
+    "start_measure": 7,
+    "end_measure": 9
+  },
+  {
+    "id": "seed-hauptstimme-route",
+    "label": "连续接力：二提琴→中提琴→一提琴",
+    "score_version": "0dc9a06dc592e643",
+    "start": 10.5,
+    "end": 18.5,
+    "staffs": [],
+    "voices": [],
+    "routes": [
+      {
+        "start": 10.5,
+        "end": 12.5,
+        "staff": "15",
+        "voice": "1"
+      },
+      {
+        "start": 12.5,
+        "end": 14.5,
+        "staff": "16",
+        "voice": "1"
+      },
+      {
+        "start": 14.5,
+        "end": 18.5,
+        "staff": "14",
+        "voice": "1"
+      }
+    ],
+    "note_ids": [
+      "n2ib81t",
+      "ru42izx",
+      "s1qy67ab",
+      "eyrce34",
+      "r16rnxu",
+      "w1d58ot6",
+      "y1ftka4v",
+      "kd32f0f",
+      "p1fr6jbb",
+      "r1hyhysh",
+      "l1cd6xt3",
+      "e1sysc7v",
+      "r1hxrs5i"
+    ],
+    "start_measure": 5,
+    "end_measure": 9
+  }
+]

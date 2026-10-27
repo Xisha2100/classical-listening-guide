@@ -1,0 +1,24 @@
+[
+  {
+    "id": "seed-10-0",
+    "label": "原型：第一小提琴",
+    "score_version": "0dc9a06dc592e643",
+    "start": 0.0,
+    "end": 4.0,
+    "staffs": [
+      "14"
+    ],
+    "voices": [
+      "1"
+    ],
+    "routes": [],
+    "note_ids": [
+      "k190f35j",
+      "oeg183e",
+      "p9vmd3q",
+      "be441t3"
+    ],
+    "start_measure": 0,
+    "end_measure": 1
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "seed-11-0",
+    "label": "原型",
+    "score_version": "0dc9a06dc592e643",
+    "start": 0.0,
+    "end": 4.0,
+    "staffs": [
+      "14"
+    ],
+    "voices": [
+      "1"
+    ],
+    "routes": [],
+    "note_ids": [
+      "k190f35j",
+      "oeg183e",
+      "p9vmd3q",
+      "be441t3"
+    ],
+    "start_measure": 0,
+    "end_measure": 1
+  },
+  {
+    "id": "seed-11-1",
+    "label": "再次陈述",
+    "score_version": "0dc9a06dc592e643",
+    "start": 4.0,
+    "end": 10.0,
+    "staffs": [
+      "14"
+    ],
+    "voices": [
+      "1"
+    ],
+    "routes": [],
+    "note_ids": [
+      "r4e9plb",
+      "vnlpifc",
+      "w1ripc5f",
+      "i155fs3p",
+      "v5qvyaa"
+    ],
+    "start_measure": 2,
+    "end_measure": 4
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bach-bwv847",
+    "title": "C 小调赋格",
+    "composer": "约翰·塞巴斯蒂安·巴赫",
+    "catalogue": "BWV 847",
+    "movement": "《平均律》第一卷 · 第二首赋格",
+    "era": "巴洛克",
+    "color": "#52694f",
+    "aliases": [
+      "巴赫",
+      "平均律",
+      "C小调赋格",
+      "Bach",
+      "Well Tempered Clavier",
+      "BWV847"
+    ],
+    "description": "在三条旋律之间，听见同一主题的接力。",
+    "edition": "Urs Metzger / Peters，Noctave 数字转换",
+    "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1941",
+    "score_version": "cfaa5636d2158b4f",
+    "source_sha256": "5c6f10ef4437a2a029321922f54d16fb5935a1f96d18cc346d1b7484fb3b620d",
+    "source_file": "assets/scores/bach-bwv847/source.mxl"
+  },
+  {
+    "id": "mozart-k265",
+    "title": "小星星变奏曲",
+    "composer": "沃尔夫冈·阿马德乌斯·莫扎特",
+    "catalogue": "K.265",
+    "movement": "主题与前三个变奏",
+    "era": "古典主义",
+    "color": "#b08d55",
+    "aliases": [
+      "小星星",
+      "莫扎特",
+      "Mozart",
+      "K265",
+      "K.300e",
+      "Ah vous dirai-je maman"
+    ],
+    "description": "熟悉的旋律，如何变成四种不同的表情。",
+    "edition": "TAVERN 数字谱，截取前 96 小节",
+    "source_url": "https://u.osu.edu/tavern/dataset-details/",
+    "score_version": "5dc424496363e353",
+    "source_sha256": "18887d1d9ab0a1443d8afdf751f11092b55ed5bf6a29a70dc5f1ef82e31c7770",
+    "source_file": "assets/scores/mozart-k265/K265.xml"
+  },
+  {
+    "id": "beethoven-op67-1",
+    "title": "第五交响曲",
+    "composer": "路德维希·范·贝多芬",
+    "catalogue": "Op.67",
+    "movement": "第一乐章 · Allegro con brio",
+    "era": "古典主义",
+    "color": "#a46248",
+    "aliases": [
+      "命运",
+      "贝五",
+      "贝多芬第五",
+      "Beethoven",
+      "Symphony 5",
+      "第五交响曲",
+      "Op67"
+    ],
+    "description": "从四个音开始，追踪动机在乐队中的流动。",
+    "edition": "OpenScore Orchestra / Hauptstimme",
+    "source_url": "https://github.com/MarkGotham/Hauptstimme",
+    "score_version": "0dc9a06dc592e643",
+    "source_sha256": "62b72bb1ab6ea50f6ed6ba4be990164722f720b85b7148e033f754a8b34906e2",
+    "source_file": "assets/scores/beethoven-op67-1/Beethoven_Op.67_1.mxl"
+  }
+]

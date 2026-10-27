@@ -1,0 +1,74 @@
+[
+  {
+    "id": "seed-2-0",
+    "label": "原型：中声部",
+    "score_version": "cfaa5636d2158b4f",
+    "start": 0.0,
+    "end": 8.0,
+    "staffs": [
+      "1"
+    ],
+    "voices": [
+      "2"
+    ],
+    "routes": [],
+    "note_ids": [
+      "zcd18bc",
+      "a33nbs0",
+      "dcka6oa",
+      "e1m4zl1f",
+      "g1owpnkr",
+      "i15soamb",
+      "j1x2xnbc",
+      "l1pq4zwk",
+      "mlwwcxb",
+      "e1yj2or9",
+      "f1c1kwkh",
+      "g19rxzmi",
+      "j1xw1bnm",
+      "k1jqye0d",
+      "m1b8ho0e",
+      "n1de7wkm",
+      "owx9mhp",
+      "r1lpre9w",
+      "sv96r05"
+    ],
+    "start_measure": 0,
+    "end_measure": 1
+  },
+  {
+    "id": "seed-2-1",
+    "label": "低声部进入",
+    "score_version": "cfaa5636d2158b4f",
+    "start": 24.0,
+    "end": 32.0,
+    "staffs": [
+      "2"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "e1rdxmef",
+      "fp0uyvl",
+      "i1kqvzei",
+      "j1ekoz30",
+      "l14jdj4v",
+      "no5nhdb",
+      "o1qehx04",
+      "r1k0o2c2",
+      "s153vsof",
+      "rtwkgqh",
+      "s167fh4l",
+      "typzgiy",
+      "wfdp9yi",
+      "x1gucqv",
+      "z10xsxf1",
+      "a1xlnmn6",
+      "bx7l49z",
+      "euzd0qx",
+      "f93ogjc"
+    ],
+    "start_measure": 6,
+    "end_measure": 7
+  }
+]

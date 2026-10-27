@@ -1,0 +1,582 @@
+[
+  {
+    "work_id": "bach-bwv847",
+    "title": "主题初次进入：中声部",
+    "kind": "主题",
+    "body": "先听中声部的主题开头。短促的 C—B—C 邻音接着下行到 G，形成很容易辨认的轮廓。此谱例选取第 1—2 小节；主题后续的衔接请在总谱中继续查看。",
+    "source_url": "https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html",
+    "start_measure": 1,
+    "end_measure": 2,
+    "staff": "1",
+    "voice": "2",
+    "segments": [
+      {
+        "label": "原型：中声部",
+        "start_measure": 1,
+        "end_measure": 2,
+        "staff": "1",
+        "voice": "2"
+      }
+    ],
+    "verification": "对照 Puget Sound 教材的首呈示段说明、Mutopia alt 声部和 MusicXML；前四个发音 MIDI 为 72、71、72、67，Verovio staff 1／layer 2。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "bach-bwv847",
+    "title": "高声部应答：起始音程发生调整",
+    "kind": "主题",
+    "body": "第 3 小节高声部接过主题。对照初次进入，第三音至第四音由 C—G 的下行四度变为 G—C 的下行五度；这是教材所说明的调性应答。可以依次播放原型与应答，听相同节奏中的音程差别。",
+    "source_url": "https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html",
+    "start_measure": 1,
+    "end_measure": 2,
+    "staff": "1",
+    "voice": "2",
+    "segments": [
+      {
+        "label": "原型",
+        "start_measure": 1,
+        "end_measure": 2,
+        "staff": "1",
+        "voice": "2"
+      },
+      {
+        "label": "高声部应答",
+        "start_measure": 3,
+        "end_measure": 4,
+        "staff": "1",
+        "voice": "1"
+      }
+    ],
+    "verification": "教材明确指出 m1 与 m3 的第三至第四音音程差别；MusicXML 应答前四音为 G5、F#5、G5、C5，staff 1／layer 1。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "bach-bwv847",
+    "title": "低声部进入：同一主题的低八度",
+    "kind": "主题",
+    "body": "第 7 小节低声部加入，主题的开头移到低音区。将第 1—2 小节与第 7—8 小节对照，可以听出开头音高整体低一个八度而节奏保持一致。此处单独播放下谱表。",
+    "source_url": "https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html",
+    "start_measure": 1,
+    "end_measure": 2,
+    "staff": "1",
+    "voice": "2",
+    "segments": [
+      {
+        "label": "原型：中声部",
+        "start_measure": 1,
+        "end_measure": 2,
+        "staff": "1",
+        "voice": "2"
+      },
+      {
+        "label": "低声部进入",
+        "start_measure": 7,
+        "end_measure": 8,
+        "staff": "2"
+      }
+    ],
+    "verification": "对照 Mutopia bass 声部及教材首呈示段；前四音为 C4、B3、C4、G3。下谱表 m7 layer10、m8 layer9，故不能固定单一 layer；这两小节下谱表没有其他发音声部。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "bach-bwv847",
+    "title": "第 11 小节：高声部的主题开头",
+    "kind": "主题",
+    "body": "高声部再次呈示可辨认的邻音轮廓，这次以降 E 为出发音。谱例保留进入前的短音，便于听见上下文；比较时重点听随后降 E—D—降 E—降 B 的四音开头。",
+    "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1941",
+    "start_measure": 1,
+    "end_measure": 2,
+    "staff": "1",
+    "voice": "2",
+    "segments": [
+      {
+        "label": "原型",
+        "start_measure": 1,
+        "end_measure": 2,
+        "staff": "1",
+        "voice": "2"
+      },
+      {
+        "label": "第 11—12 小节",
+        "start_measure": 11,
+        "end_measure": 12,
+        "staff": "1",
+        "voice": "1"
+      }
+    ],
+    "verification": "直接核对 Mutopia sopran 第 11—12 小节和 MusicXML；m11 先有 Eb5 八分音符，随后 Eb5、D5、Eb5、Bb4 对应开头轮廓；不把选取的两小节宣称为完整的形式区段。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "bach-bwv847",
+    "title": "第 20 小节：主题开头回到 C",
+    "kind": "主题",
+    "body": "第 20—21 小节高声部重现开头的 C—B—C—G 以及后续节奏。先听最初的中声部版本，再听此处的高声部版本，留意相同材料在织体中的位置变化。",
+    "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1941",
+    "start_measure": 1,
+    "end_measure": 2,
+    "staff": "1",
+    "voice": "2",
+    "segments": [
+      {
+        "label": "原型：中声部",
+        "start_measure": 1,
+        "end_measure": 2,
+        "staff": "1",
+        "voice": "2"
+      },
+      {
+        "label": "再次出现：高声部",
+        "start_measure": 20,
+        "end_measure": 21,
+        "staff": "1",
+        "voice": "1"
+      }
+    ],
+    "verification": "逐音比较原始 MusicXML 的 m1—2 voice2 与 m20—21 voice1，首段音高及记谱时值相同；交叉核对 Mutopia LilyPond sopran 第 20 小节。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "mozart-k265",
+    "title": "主题原型：开头八小节",
+    "kind": "主题",
+    "body": "从右手的 C—C—G—G 开始熟悉主题原型。这里先只听上谱表的旋律，再切换全部声部，听旋律与低音的配合。TAVERN 将这八小节标为主题的第一个乐句。",
+    "source_url": "https://github.com/jcdevaney/TAVERN/tree/master/Mozart/K265",
+    "start_measure": 1,
+    "end_measure": 8,
+    "staff": "1",
+    "segments": [
+      {
+        "label": "主题原型",
+        "start_measure": 1,
+        "end_measure": 8,
+        "staff": "1"
+      }
+    ],
+    "verification": "TAVERN M265_00_01a_a/b.krn 与 MusicXML m1—8；起始旋律四分音符 C5、C5，m2 G5、G5。两个 XML part 依顺序对应 staff1（右手）、staff2（左手）。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "mozart-k265",
+    "title": "主题中段与开头的比较",
+    "kind": "主题",
+    "body": "主题第 9—16 小节转入另一组旋律走向。先听第 1—8 小节，再听中段，最后可在总谱查看第 17 小节回到开头旋律。这张卡片比较乐句材料，不推断未核验的和声终止类型。",
+    "source_url": "https://github.com/jcdevaney/TAVERN/tree/master/Mozart/K265",
+    "start_measure": 1,
+    "end_measure": 8,
+    "staff": "1",
+    "segments": [
+      {
+        "label": "开头乐句",
+        "start_measure": 1,
+        "end_measure": 8,
+        "staff": "1"
+      },
+      {
+        "label": "中段乐句",
+        "start_measure": 9,
+        "end_measure": 16,
+        "staff": "1"
+      },
+      {
+        "label": "开头材料返回",
+        "start_measure": 17,
+        "end_measure": 24,
+        "staff": "1"
+      }
+    ],
+    "verification": "TAVERN 00_01a、00_02b、00_03a 的记谱小节起点分别为1、9、17；XML m9 右手 G5、G5，m17 C5、C5。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "mozart-k265",
+    "title": "变奏一：右手的十六分音符装饰",
+    "kind": "变奏",
+    "body": "变奏一从总谱第 25 小节开始。原型以较平稳的四分音符行进，这里右手改为密集的十六分音符。按顺序试听主题和变奏，观察同一乐句范围内旋律表面的装饰。",
+    "source_url": "https://github.com/jcdevaney/TAVERN/tree/master/Mozart/K265",
+    "start_measure": 1,
+    "end_measure": 8,
+    "staff": "1",
+    "segments": [
+      {
+        "label": "原型",
+        "start_measure": 1,
+        "end_measure": 8,
+        "staff": "1"
+      },
+      {
+        "label": "变奏一：右手",
+        "start_measure": 25,
+        "end_measure": 32,
+        "staff": "1"
+      }
+    ],
+    "verification": "TAVERN M265_01_01a 起点=25；XML divisions=768，m25右手8个 duration192 音符，依次D5,C5,B4,C5,B4,C5,B4,C5；左手仍为两个四分音符。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "mozart-k265",
+    "title": "变奏二：快速运动转到左手",
+    "kind": "变奏",
+    "body": "第 49 小节起，快速的十六分音符主要放在左手，右手起始仍保持主题的 C—C。先听右手保留的旋律，再听左手运动，也可切换全部声部感受两者结合。",
+    "source_url": "https://github.com/jcdevaney/TAVERN/tree/master/Mozart/K265",
+    "start_measure": 1,
+    "end_measure": 8,
+    "staff": "1",
+    "segments": [
+      {
+        "label": "原型：右手",
+        "start_measure": 1,
+        "end_measure": 8,
+        "staff": "1"
+      },
+      {
+        "label": "变奏二：右手旋律",
+        "start_measure": 49,
+        "end_measure": 56,
+        "staff": "1"
+      },
+      {
+        "label": "变奏二：左手运动",
+        "start_measure": 49,
+        "end_measure": 56,
+        "staff": "2"
+      }
+    ],
+    "verification": "TAVERN M265_02_01a 起点=49；XML m49 P1为C5四分音符两次，P2为8个十六分音符，开头C3,C4,B3,C4。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "mozart-k265",
+    "title": "变奏三：三连音的分解和弦",
+    "kind": "变奏",
+    "body": "第 73 小节起，右手以三连音分解和弦展开。它与变奏一的十六分音符具有不同的分拍方式；可先听原型，再听此处的连续三连音，比较一拍内的运动密度。",
+    "source_url": "https://github.com/jcdevaney/TAVERN/tree/master/Mozart/K265",
+    "start_measure": 1,
+    "end_measure": 8,
+    "staff": "1",
+    "segments": [
+      {
+        "label": "原型",
+        "start_measure": 1,
+        "end_measure": 8,
+        "staff": "1"
+      },
+      {
+        "label": "变奏三：右手三连音",
+        "start_measure": 73,
+        "end_measure": 80,
+        "staff": "1"
+      }
+    ],
+    "verification": "TAVERN M265_03_01a 起点=73；XML m73右手6个duration256音符，每个time-modification=3:2，起始C4,E4,G4,C5,E5,G5，左手两个四分音符。",
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "beethoven-op67-1",
+    "title": "开头动机：三短一长",
+    "kind": "动机",
+    "body": "从第一小提琴声部单独听开头：三个同音的短音接到一个较长的音。这里使用钢琴音色呈现这一声部，便于把节奏轮廓与后续片段比较。",
+    "source_url": "https://github.com/MarkGotham/Hauptstimme/blob/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1/Beethoven_Op.67_1_annotations.csv",
+    "start_measure": 1,
+    "end_measure": 2,
+    "staff": "14",
+    "voice": "1",
+    "segments": [
+      {
+        "label": "原型：第一小提琴",
+        "start_measure": 1,
+        "end_measure": 2,
+        "staff": "14",
+        "voice": "1"
+      }
+    ],
+    "verification": {
+      "method": "核对上游主导旋律标注的 measure/beat/part_num 与 MusicXML part-list、实际音符。part_num 为0基，Verovio staff为1基。片段按谱面整小节选取，初始休止保留。",
+      "annotation_rows": [
+        {
+          "qstamp": "0.5",
+          "measure": "1",
+          "beat": "1.5",
+          "measure_fraction": "0.25",
+          "label": "a",
+          "part": "Vln 1",
+          "part_num": "13",
+          "instrument": "Vln"
+        }
+      ]
+    },
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "beethoven-op67-1",
+    "title": "开头动机的再次陈述",
+    "kind": "动机",
+    "body": "第 3 小节从较低音开始再次陈述三短一长。两个片段采用相同的声部，便于比较节奏的保持与音高的变化。谱面上的延长记号不对应固定的额外秒数，播放器按记谱时值复奏。",
+    "source_url": "https://github.com/MarkGotham/Hauptstimme/blob/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1/Beethoven_Op.67_1_annotations.csv",
+    "start_measure": 1,
+    "end_measure": 2,
+    "staff": "14",
+    "voice": "1",
+    "segments": [
+      {
+        "label": "原型",
+        "start_measure": 1,
+        "end_measure": 2,
+        "staff": "14",
+        "voice": "1"
+      },
+      {
+        "label": "再次陈述",
+        "start_measure": 3,
+        "end_measure": 5,
+        "staff": "14",
+        "voice": "1"
+      }
+    ],
+    "verification": {
+      "method": "核对上游主导旋律标注的 measure/beat/part_num 与 MusicXML part-list、实际音符。part_num 为0基，Verovio staff为1基。片段按谱面整小节选取，初始休止保留。",
+      "annotation_rows": [
+        {
+          "qstamp": "0.5",
+          "measure": "1",
+          "beat": "1.5",
+          "measure_fraction": "0.25",
+          "label": "a",
+          "part": "Vln 1",
+          "part_num": "13",
+          "instrument": "Vln"
+        },
+        {
+          "qstamp": "4.5",
+          "measure": "3",
+          "beat": "1.5",
+          "measure_fraction": "0.25",
+          "label": "a",
+          "part": "Vln 1",
+          "part_num": "13",
+          "instrument": "Vln"
+        }
+      ]
+    },
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "beethoven-op67-1",
+    "title": "动机在弦乐声部间传递",
+    "kind": "动机",
+    "body": "上游标注从第 6 小节起依次选择第二小提琴、中提琴、第一小提琴为主导声部。分别试听三个入口，听同一节奏材料在不同音区接续。每段保留至下一次入口前的延续音；材料标签 a 是上游的分析标记。",
+    "source_url": "https://github.com/MarkGotham/Hauptstimme/blob/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1/Beethoven_Op.67_1_annotations.csv",
+    "start_measure": 6,
+    "end_measure": 7,
+    "staff": "15",
+    "voice": "1",
+    "segments": [
+      {
+        "label": "第二小提琴",
+        "start_measure": 6,
+        "end_measure": 7,
+        "staff": "15",
+        "voice": "1",
+        "start_offset": 0.5,
+        "end_offset": 0.5
+      },
+      {
+        "label": "中提琴",
+        "start_measure": 7,
+        "end_measure": 8,
+        "staff": "16",
+        "voice": "1",
+        "start_offset": 0.5,
+        "end_offset": 0.5
+      },
+      {
+        "label": "第一小提琴",
+        "start_measure": 8,
+        "end_measure": 10,
+        "staff": "14",
+        "voice": "1",
+        "start_offset": 0.5,
+        "end_offset": 0.5
+      },
+      {
+        "label": "连续接力：二提琴→中提琴→一提琴",
+        "start_measure": 6,
+        "start_offset": 0.5,
+        "end_measure": 10,
+        "end_offset": 0.5,
+        "routes": [
+          {
+            "label": "第二小提琴",
+            "start_measure": 6,
+            "end_measure": 7,
+            "staff": "15",
+            "voice": "1",
+            "start_offset": 0.5,
+            "end_offset": 0.5
+          },
+          {
+            "label": "中提琴",
+            "start_measure": 7,
+            "end_measure": 8,
+            "staff": "16",
+            "voice": "1",
+            "start_offset": 0.5,
+            "end_offset": 0.5
+          },
+          {
+            "label": "第一小提琴",
+            "start_measure": 8,
+            "end_measure": 10,
+            "staff": "14",
+            "voice": "1",
+            "start_offset": 0.5,
+            "end_offset": 0.5
+          }
+        ]
+      }
+    ],
+    "verification": {
+      "method": "核对上游主导旋律标注的 measure/beat/part_num 与 MusicXML part-list、实际音符。part_num 为0基，Verovio staff为1基。片段按谱面整小节选取，初始休止保留。",
+      "annotation_rows": [
+        {
+          "qstamp": "10.5",
+          "measure": "6",
+          "beat": "1.5",
+          "measure_fraction": "0.25",
+          "label": "a",
+          "part": "Vln 2",
+          "part_num": "14",
+          "instrument": "Vln"
+        },
+        {
+          "qstamp": "12.5",
+          "measure": "7",
+          "beat": "1.5",
+          "measure_fraction": "0.25",
+          "label": "a",
+          "part": "Vla",
+          "part_num": "15",
+          "instrument": "Vla"
+        },
+        {
+          "qstamp": "14.5",
+          "measure": "8",
+          "beat": "1.5",
+          "measure_fraction": "0.25",
+          "label": "a",
+          "part": "Vln 1",
+          "part_num": "13",
+          "instrument": "Vln"
+        }
+      ]
+    },
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "beethoven-op67-1",
+    "title": "圆号中的材料 a",
+    "kind": "动机",
+    "body": "第 59 小节，Hauptstimme 将主导旋律交给第一圆号，并仍使用材料标签 a。试听时比较三次重复的短音及随后延续的音。圆号是移调乐器，钢琴复奏须使用实际音高。",
+    "source_url": "https://github.com/MarkGotham/Hauptstimme/blob/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1/Beethoven_Op.67_1_annotations.csv",
+    "start_measure": 1,
+    "end_measure": 2,
+    "staff": "14",
+    "voice": "1",
+    "segments": [
+      {
+        "label": "第一小提琴原型",
+        "start_measure": 1,
+        "end_measure": 2,
+        "staff": "14",
+        "voice": "1"
+      },
+      {
+        "label": "第一圆号",
+        "start_measure": 59,
+        "end_measure": 62,
+        "staff": "9",
+        "voice": "1"
+      }
+    ],
+    "verification": {
+      "method": "核对上游主导旋律标注的 measure/beat/part_num 与 MusicXML part-list、实际音符。part_num 为0基，Verovio staff为1基。片段按谱面整小节选取，初始休止保留。",
+      "annotation_rows": [
+        {
+          "qstamp": "0.5",
+          "measure": "1",
+          "beat": "1.5",
+          "measure_fraction": "0.25",
+          "label": "a",
+          "part": "Vln 1",
+          "part_num": "13",
+          "instrument": "Vln"
+        },
+        {
+          "qstamp": "116.5",
+          "measure": "59",
+          "beat": "1.5",
+          "measure_fraction": "0.25",
+          "label": "a",
+          "part": "Hn 1",
+          "part_num": "8",
+          "instrument": "Hn"
+        }
+      ]
+    },
+    "audition_status": "pending-human-listening"
+  },
+  {
+    "work_id": "beethoven-op67-1",
+    "title": "材料 b：小提琴与单簧管接续",
+    "kind": "主题",
+    "body": "第 63 小节起，上游使用新的材料标签 b，首先由第一小提琴承担；第 67 小节改由第一单簧管接续。可依次播放两段，比较旋律线在不同音区和乐器声部中的继续。标签本身不替代完整的奏鸣曲式分析。",
+    "source_url": "https://github.com/MarkGotham/Hauptstimme/blob/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1/Beethoven_Op.67_1_annotations.csv",
+    "start_measure": 63,
+    "end_measure": 66,
+    "staff": "14",
+    "voice": "1",
+    "segments": [
+      {
+        "label": "材料 b：第一小提琴",
+        "start_measure": 63,
+        "end_measure": 66,
+        "staff": "14",
+        "voice": "1"
+      },
+      {
+        "label": "材料 b：第一单簧管",
+        "start_measure": 67,
+        "end_measure": 70,
+        "staff": "5",
+        "voice": "1"
+      }
+    ],
+    "verification": {
+      "method": "核对上游主导旋律标注的 measure/beat/part_num 与 MusicXML part-list、实际音符。part_num 为0基，Verovio staff为1基。片段按谱面整小节选取，初始休止保留。",
+      "annotation_rows": [
+        {
+          "qstamp": "124.0",
+          "measure": "63",
+          "beat": "1.0",
+          "measure_fraction": "0.0",
+          "label": "b",
+          "part": "Vln 1",
+          "part_num": "13",
+          "instrument": "Vln"
+        },
+        {
+          "qstamp": "132.0",
+          "measure": "67",
+          "beat": "1.0",
+          "measure_fraction": "0.0",
+          "label": "b",
+          "part": "Cl 1",
+          "part_num": "4",
+          "instrument": "Cl"
+        }
+      ]
+    },
+    "audition_status": "pending-human-listening"
+  }
+]
