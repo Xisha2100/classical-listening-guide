@@ -26,9 +26,8 @@ if [[ ! -d app/frontend/node_modules ]] || [[ ! -f app/frontend/node_modules/.pa
   (cd app/frontend && npm ci)
   cp app/frontend/package-lock.json app/frontend/node_modules/.package-lock-installed
 fi
-if [[ ! -f app/.env ]]; then cp app/.env.example app/.env; fi
-app/.venv/bin/python app/scripts/prepare_corpus.py
+# Project content is authoritative. Starting the reader never reinstalls example notes.
 (cd app/frontend && npm run build)
 export PYTHONPATH="$PWD/app${PYTHONPATH:+:$PYTHONPATH}"
-echo '导听助手已准备好。浏览器打开 http://127.0.0.1:8765；Ctrl+C 停止。'
+echo '本地阅读器已准备好。浏览器打开 http://127.0.0.1:8765；Ctrl+C 停止。'
 exec app/.venv/bin/python -m uvicorn backend.main:app --host 127.0.0.1 --port 8765

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "sol-1-horn-s1",
+    "label": "圆号动机",
+    "score_version": "308ba2c44a982ae0",
+    "start": 1.5,
+    "end": 9.0,
+    "staffs": [
+      "6"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "l1hr9wrb",
+      "m1efkevw",
+      "ohz5lwo",
+      "t11h7wix",
+      "u104jlhq",
+      "w1uyrpj5",
+      "icl9341",
+      "k1kineji",
+      "ljlubgg",
+      "mhka1hm",
+      "o7k89h3",
+      "qkh5vr8",
+      "sr15jse",
+      "t11ek8iz",
+      "u1l8hxx6",
+      "w1x07heo",
+      "i1rxpzk3",
+      "k7l2xu6",
+      "l17hbrdk",
+      "m1qe96mc",
+      "o13pv9kv",
+      "q1mh7uui",
+      "sywd6q8",
+      "tptbvx3",
+      "uukjiqt",
+      "we7maix"
+    ],
+    "start_measure": 0,
+    "end_measure": 2,
+    "role": "evidence",
+    "boundary_note": "第1小节内部第1.5个四分音符起三音；仅动机证据，不标为完整主题。",
+    "boundary_status": "supported",
+    "source_ids": [
+      "tcha-op23-local-score",
+      "tonic-chord-2018"
+    ]
+  }
+]

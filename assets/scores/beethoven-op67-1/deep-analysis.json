@@ -1,0 +1,1230 @@
+{
+  "schema_version": 1,
+  "score_version": "0dc9a06dc592e643",
+  "sources": [
+    {
+      "id": "beethoven-v2-score",
+      "kind": "score",
+      "title": "贝多芬 Op.67 第一乐章 · OpenScore Orchestra 总谱",
+      "author": "Ludwig van Beethoven；OpenScore Orchestra 转录",
+      "edition": "固定 MusicXML／canonical MEI 谱本 0dc9a06dc592e643",
+      "pages": "",
+      "url": "https://github.com/MarkGotham/Hauptstimme/tree/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1",
+      "accessed_at": "2026-10-28",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "以下音高、节奏、声部及记号直接取自本地保留的总谱，不将 Hauptstimme 材料标签当作完整曲式分析。总谱 CC0 1.0 Universal。"
+    },
+    {
+      "id": "beethoven-v2-esm",
+      "kind": "web",
+      "title": "Beethoven Symphony Basics · Symphony No. 5",
+      "author": "Eastman School of Music；页面署名 FJ、JM、MER",
+      "edition": "",
+      "pages": "",
+      "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+      "accessed_at": "2026-10-28",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "资料概括：第一乐章的四大部分篇幅接近；尾声继续展开材料；再现部把先前圆号的呼唤交给巴松。本文只把这些作为导听观点，具体小节、音高与声部另行对谱。"
+    },
+    {
+      "id": "beethoven-v2-mtsu",
+      "kind": "web",
+      "title": "Beethoven’s 5th Symphony: Listening Guide",
+      "author": "James E. Walker Library, Middle Tennessee State University",
+      "edition": "",
+      "pages": "",
+      "url": "https://library.mtsu.edu/Beethoven5/guide",
+      "accessed_at": "2026-10-28",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "资料概括：呈示部结束于124，展开始于125，再现始于248；268是双簧管华彩式插段。该页将尾声入口标为376，与采用374重叠边界的分析可并列阅读。"
+    },
+    {
+      "id": "beethoven-v2-mason",
+      "kind": "book",
+      "title": "The Appreciation of Music, Volume I",
+      "author": "Thomas Whitney Surette；Daniel Gregory Mason",
+      "edition": "第九版；Project Gutenberg 电子版 58458",
+      "pages": "183–187（原书页码）",
+      "url": "https://www.gutenberg.org/cache/epub/58458/pg58458-images.html",
+      "accessed_at": "2026-10-28",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "资料概括：结构表把374同时列作结束组终点和尾声起点；195之后的段落逐步削减旋律轮廓。它将240–252归入再现的过渡处理，本应用按原主题实际返回采用248作导航边界，保留这一分析差异。"
+    }
+  ],
+  "guide": {
+    "work_id": "beethoven-op67-1",
+    "overview": "从曲式、和声、节奏、织体与配器共同理解第一乐章。四段导航采用1–124、125–247、248–373、374–502；374/376的尾声接缝及240–252的再现预备范围保留资料分歧。详细卡片区分谱面事实、资料观点与编辑解释，位置核对不等于乐理及人工试听已完成。",
+    "sections": [
+      {
+        "id": "exposition",
+        "title": "呈示部｜建立材料与调性对比",
+        "start_measure": 0,
+        "end_measure": 123,
+        "description": "1–124。以开头短音原型及模仿组织主部；59圆号呼唤后进入副部，后段以降E大调终止。124的反复不改变谱面坐标。",
+        "source_ids": [
+          "beethoven-v2-score",
+          "beethoven-v2-mtsu"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "展开部｜换位、碎片化与回返准备",
+        "start_measure": 124,
+        "end_measure": 246,
+        "description": "125–247。重新分配原型，管弦交换的单位逐步缩短，后段准备再现。Surette／Mason把240–252视为更宽的再现预备处理，本导航以248原型实际返回为界。",
+        "source_ids": [
+          "beethoven-v2-score",
+          "beethoven-v2-mtsu",
+          "beethoven-v2-mason"
+        ]
+      },
+      {
+        "id": "recapitulation",
+        "title": "再现部｜返回与改写",
+        "start_measure": 247,
+        "end_measure": 372,
+        "description": "248–373。原型从连续运动中出现；268双簧管插段改变时间感；303巴松呼唤与307的C大调副部构成对呈示的改写。",
+        "source_ids": [
+          "beethoven-v2-score",
+          "beethoven-v2-mtsu",
+          "beethoven-v2-esm"
+        ]
+      },
+      {
+        "id": "coda",
+        "title": "尾声｜重新打开终止，再落实C小调",
+        "start_measure": 373,
+        "end_measure": 501,
+        "description": "374–502。374同时承担前段终止和尾声启动，MTSU将新段入口放376；两种边界并列。374为C大三和弦，376转F小三和弦，不把章节标签误当逐小节和声。",
+        "source_ids": [
+          "beethoven-v2-score",
+          "beethoven-v2-mason",
+          "beethoven-v2-mtsu"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "beethoven-v2-score",
+        "kind": "score",
+        "title": "贝多芬 Op.67 第一乐章 · OpenScore Orchestra 总谱",
+        "author": "Ludwig van Beethoven；OpenScore Orchestra 转录",
+        "edition": "固定 MusicXML／canonical MEI 谱本 0dc9a06dc592e643",
+        "pages": "",
+        "url": "https://github.com/MarkGotham/Hauptstimme/tree/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1",
+        "accessed_at": "2026-10-28",
+        "excerpt": "",
+        "extracted": true,
+        "summary": "以下音高、节奏、声部及记号直接取自本地保留的总谱，不将 Hauptstimme 材料标签当作完整曲式分析。总谱 CC0 1.0 Universal。"
+      },
+      {
+        "id": "beethoven-v2-esm",
+        "kind": "web",
+        "title": "Beethoven Symphony Basics · Symphony No. 5",
+        "author": "Eastman School of Music；页面署名 FJ、JM、MER",
+        "edition": "",
+        "pages": "",
+        "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+        "accessed_at": "2026-10-28",
+        "excerpt": "",
+        "extracted": true,
+        "summary": "资料概括：第一乐章的四大部分篇幅接近；尾声继续展开材料；再现部把先前圆号的呼唤交给巴松。本文只把这些作为导听观点，具体小节、音高与声部另行对谱。"
+      },
+      {
+        "id": "beethoven-v2-mtsu",
+        "kind": "web",
+        "title": "Beethoven’s 5th Symphony: Listening Guide",
+        "author": "James E. Walker Library, Middle Tennessee State University",
+        "edition": "",
+        "pages": "",
+        "url": "https://library.mtsu.edu/Beethoven5/guide",
+        "accessed_at": "2026-10-28",
+        "excerpt": "",
+        "extracted": true,
+        "summary": "资料概括：呈示部结束于124，展开始于125，再现始于248；268是双簧管华彩式插段。该页将尾声入口标为376，与采用374重叠边界的分析可并列阅读。"
+      },
+      {
+        "id": "beethoven-v2-mason",
+        "kind": "book",
+        "title": "The Appreciation of Music, Volume I",
+        "author": "Thomas Whitney Surette；Daniel Gregory Mason",
+        "edition": "第九版；Project Gutenberg 电子版 58458",
+        "pages": "183–187（原书页码）",
+        "url": "https://www.gutenberg.org/cache/epub/58458/pg58458-images.html",
+        "accessed_at": "2026-10-28",
+        "excerpt": "",
+        "extracted": true,
+        "summary": "资料概括：结构表把374同时列作结束组终点和尾声起点；195之后的段落逐步削减旋律轮廓。它将240–252归入再现的过渡处理，本应用按原主题实际返回采用248作导航边界，保留这一分析差异。"
+      }
+    ],
+    "source_ids": [
+      "beethoven-v2-score",
+      "beethoven-v2-esm",
+      "beethoven-v2-mtsu",
+      "beethoven-v2-mason"
+    ]
+  },
+  "cards": [
+    {
+      "id": "seed-v2-beethoven-00",
+      "title": "总览｜四大部分怎样组织一场持续的冲突",
+      "dimensions": [
+        "曲式",
+        "调性／调式"
+      ],
+      "section_id": "",
+      "scope": "overview",
+      "body": "先把第一乐章听成四段各有任务的过程：呈示部建立 C 小调主部与降 E 大调副部的对比；展开部拆分材料、改变组合；再现部让熟悉的轮廓回到主调范围；尾声继续处理尚未结束的张力。这里的“主调范围”不等于每一小节都只能使用 C 小三和弦，副部再现就会使用 C 大调。\n\n本谱导航采用呈示 1–124、展开 125–247、再现 248–373、尾声 374–502。边界是分析选择：374 的 C 大三和弦同时可作前段终止与新段启动；MTSU 导听从 376 标尾声，Surette／Mason 的表格在374重叠，且把240–252视为再现的预备处理。可依次试听四个入口，再进入各章细读。ESM 强调四部分的篇幅相近；这说明尾声有独立分量，而不只是结束时附加的几记和弦。",
+      "listen_for": "依次比较四个入口的声部密度和节奏组织；章节长度按谱面顺序统计，不包含呈示反复。",
+      "segments": [
+        {
+          "label": "呈示：开头",
+          "measures": [
+            1,
+            5
+          ],
+          "staffs": [
+            14,
+            17
+          ]
+        },
+        {
+          "label": "展开：换位部署",
+          "measures": [
+            125,
+            132
+          ],
+          "staffs": [
+            5,
+            9,
+            14,
+            17
+          ]
+        },
+        {
+          "label": "再现：原型回返",
+          "measures": [
+            248,
+            252
+          ],
+          "staffs": [
+            1,
+            14,
+            17
+          ]
+        },
+        {
+          "label": "尾声：重叠入口",
+          "measures": [
+            374,
+            381
+          ],
+          "staffs": [
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "ESM 将四个主要部分理解为篇幅相近的结构，尾声承担进一步展开的作用。",
+          "evidence_type": "source",
+          "segments": [],
+          "source_ids": [
+            "beethoven-v2-esm"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "MTSU 采用125展开、248再现、376尾声入口；Surette／Mason 在374把结束与尾声重叠，并对再现预备区另有划分。",
+          "evidence_type": "source",
+          "segments": [],
+          "source_ids": [
+            "beethoven-v2-mtsu",
+            "beethoven-v2-mason"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "本谱374的实音集合为C、E、G；376为F、降A、C，所以结构边界不能简化为“374起所有和弦都是C小调”。",
+          "evidence_type": "score",
+          "segments": [
+            3
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-esm",
+        "beethoven-v2-mtsu",
+        "beethoven-v2-mason"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-01",
+      "title": "节拍与停顿｜开头的第一声并不在强拍上",
+      "dimensions": [
+        "节奏／节拍",
+        "力度／奏法",
+        "动机"
+      ],
+      "section_id": "exposition",
+      "scope": "section",
+      "body": "谱面是 2/4 拍，但第一小节先留一个八分休止，再出现三个 G 八分音符；次小节才落到降 E。也就是说，最熟悉的四音形状跨过了小节线。若只凭“三短一长”哼唱，容易把第一声当成第一拍，从而错过弱起般的推动。先跟着四个八分音符的格子数，再听真正发声的位置。\n\n第二次陈述以 F 的三次重复接 D，末尾长音还跨小节延续。第2、5小节的延长记号让机械拍点暂时失去支配力，开头的五小节也不是整齐的两个两小节句。力度 ff 和齐奏强调轮廓，休止与停顿则使它具有断句作用。钢琴片段保留最初的休止及记谱时值；延长记号的自由等待没有固定秒数，因此这里应把节奏位置与演奏者实际留白分开理解。",
+      "listen_for": "先数“空、短、短、短”，再听跨小节长音；比较两次停顿前的音高和长度。",
+      "segments": [
+        {
+          "label": "开头：第一小提琴与大提琴",
+          "measures": [
+            1,
+            5
+          ],
+          "staffs": [
+            14,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第一小提琴第一声G出现在小节开始后0.5个四分音符单位，随后三个G均长0.5；第二小节落在降E。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "原始总谱第2、5小节有延长记号；延长不应被误写成另一个固定音符时值。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-02",
+      "title": "织体｜短小材料如何形成重叠的声部网络",
+      "dimensions": [
+        "织体／复调",
+        "动机",
+        "节奏／节拍"
+      ],
+      "section_id": "exposition",
+      "scope": "section",
+      "body": "第6小节起，听觉焦点不再是大家同时喊出一句话，而是在弦乐内部移动。第二小提琴先进入，中提琴随后应答，第一小提琴再把材料带到较高音区。每个入口仍含重复短音，但前一声部并不一定在后一声部进入时完全消失，持续音和新起奏叠在一起，形成推进感。\n\n这一段适合先独听第一小提琴，再听三条弦乐线合起来。单独的最高声部有空白，合起来却具有接力的连续性；“旋律”因此不是一条从头到尾固定不变的独奏线。把这种模仿听成织体组织，比仅数动机出现几次更能解释张力怎样积累。这里称为模仿和声部叠置，并不据此把整个段落判作严格赋格：判断赋格还需要主题—答题关系及后续组织等更多条件。",
+      "listen_for": "注意第二小提琴、中提琴、第一小提琴依次起奏时，其他声部是否仍在持续。",
+      "segments": [
+        {
+          "label": "只听第一小提琴",
+          "measures": [
+            6,
+            13
+          ],
+          "staffs": [
+            14
+          ]
+        },
+        {
+          "label": "弦乐三线叠置",
+          "measures": [
+            6,
+            13
+          ],
+          "staffs": [
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第6、7、8小节可分别核对第二小提琴、中提琴与第一小提琴的短音入口，合奏片段保留三声部的同时延续。",
+          "evidence_type": "score",
+          "segments": [
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "把这个段落听作逐层积累的模仿织体，是基于上述入口关系的导听解释；并不自动等于严格赋格。",
+          "evidence_type": "hypothesis",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-03",
+      "title": "和声与声部进行｜增六度如何把音乐推向属和弦",
+      "dimensions": [
+        "和声",
+        "曲式"
+      ],
+      "section_id": "exposition",
+      "scope": "section",
+      "body": "第20小节的弦乐给出降 A、C、升 F；接着第21小节出现 G、B、D。这是比泛泛说“这里紧张”更明确的谱面证据：降 A 在低声部下行到 G，升 F 所代表的导向音也指向 G，两端趋向同一属音。按 C 小调语境，可把前一个音组解释为意大利增六和弦，后一个为属和弦。\n\n这个例子要同时看拼写与声部运动，不能把升 F 当作降 G 后只按等音音集合分类。先播放低音，再听加入小提琴和中提琴的和弦；注意“挤向 G”的效果。到属和弦并不等于全曲已经安稳结束，它使乐句停在仍可继续的方向上。这里的和声名称由局部音符和上下文支撑，不是由几小节的自动调性估计直接推出；听者仍可核对终止功能的解释。",
+      "listen_for": "比较20到21小节：低音降A→G，以及上方升F朝G的导向。",
+      "segments": [
+        {
+          "label": "低音与终止准备",
+          "measures": [
+            19,
+            21
+          ],
+          "staffs": [
+            17
+          ]
+        },
+        {
+          "label": "弦乐和声：增六到属",
+          "measures": [
+            19,
+            21
+          ],
+          "staffs": [
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "弦乐第20小节的实音类别为降A、C、升F，第21小节为G、B、D；原谱以升F拼写相关音。",
+          "evidence_type": "score",
+          "segments": [
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "在C小调上下文中，这一拼写和解决方向支持“意大利增六和弦到属和弦”的分析。",
+          "evidence_type": "hypothesis",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-04",
+      "title": "A／B 配器｜圆号的呼唤为何由巴松接手",
+      "dimensions": [
+        "配器",
+        "调性／调式",
+        "力度／奏法"
+      ],
+      "section_id": "recapitulation",
+      "scope": "section",
+      "body": "先听呈示部59–62小节的第一圆号，再听再现部303–306小节的第一巴松。两段都有三次短音后接长音的节奏框架，但实音分别从降 B 落向降 E，以及从 G 落向 C；这把同一角色移到了不同调性位置。它们并非“同一音频换个乐器名字”，而是可在总谱上验证的重新配器与移调。\n\nESM 将这一处的圆号—巴松替换作为再现变化的例子。对本应用而言，钢琴复奏能帮助比较音程、音区、起奏与延续；要判断真实圆号与巴松的音色差异，仍须回到管弦录音。谱中长音处的 sf 与随后的弱化也提示：这一呼唤既是突出的标点，又在为较柔和的后续旋律腾出位置。不要把“再现”理解为整段照搬，声部承担的角色也会改变。",
+      "listen_for": "A先听圆号实音，B再听巴松实音；比较重复音后的下行与长音重音。",
+      "segments": [
+        {
+          "label": "A 呈示：第一圆号",
+          "measures": [
+            59,
+            62
+          ],
+          "staffs": [
+            9
+          ]
+        },
+        {
+          "label": "B 再现：第一巴松",
+          "measures": [
+            303,
+            306
+          ],
+          "staffs": [
+            7
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "圆号59–60小节为三个降B4接降E4；巴松303–304为三个G4接C4，节奏相应而实音整体下移小三度。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "ESM 指出再现中该呼唤由巴松替代呈示中的圆号。",
+          "evidence_type": "source",
+          "segments": [],
+          "source_ids": [
+            "beethoven-v2-esm"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-esm"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-05",
+      "title": "A／B 调性｜副部回到的是主音范围，不是原来的调",
+      "dimensions": [
+        "调性／调式",
+        "曲式",
+        "主题"
+      ],
+      "section_id": "recapitulation",
+      "scope": "section",
+      "body": "呈示部63–66小节的第一小提琴以降 B—降 E 起句，再现部307–310小节则改成 G—C。把两段并排试听，会发现旋律的节奏与相对走向保留，而音高整体下移小三度。更关键的是伴随的和声支点：前段起句的弦乐包含降 E、G、降 B，后段则是 C、E、G。\n\n因此，“副部再现回到主调”在这里需要说得精确：它回到以 C 为主音的范围，却使用大调色彩，不能因为作品总调为 C 小调就把 E 自然音改说成降 E。先各听旋律，再加入弦乐和声；把两种层次分开，会更容易听出材料相同与调性功能不同如何同时存在。这也是奏鸣曲式的一项核心工作：通过重置副部的调性位置，回应呈示部建立的对比，而不只让听众认出熟悉旋律。",
+      "listen_for": "比较降B—降E与G—C；在B段和弦中寻找E自然音，避免误听成降E。",
+      "segments": [
+        {
+          "label": "A 呈示：降E大调副部起句",
+          "measures": [
+            63,
+            66
+          ],
+          "staffs": [
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "label": "B 再现：C大调副部起句",
+          "measures": [
+            307,
+            310
+          ],
+          "staffs": [
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "63小节第一小提琴起句为降B4、降E5，307小节对应G4、C5；节奏相同，后者整体低小三度。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "63小节弦乐的起始音组包含降E、G、降B；307小节对应C、E、G，副部再现呈现C大调色彩。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-06",
+      "title": "前景与背景｜抒情旋律下面仍有短音节奏",
+      "dimensions": [
+        "织体／复调",
+        "节奏／节拍",
+        "主题"
+      ],
+      "section_id": "exposition",
+      "scope": "section",
+      "body": "63小节开始的旋律比开头舒展，第一小提琴大体以四分音符展开；这不意味着开头的节奏机制已经离场。到65小节，大提琴和低音提琴以三个降 B 八分音符接下一小节的降 E，在较低音区重新呈现短音—长音关系。旋律与伴奏因此形成两层不同的时间感：上层连续歌唱，下层在特定位置推动。\n\n本卡先提供第一小提琴单独的片段，再提供它与大提琴合奏的版本。不要只寻找哪条线“更重要”，而要听低音进入后，旋律原本平稳的四分拍怎样获得方向。低音并非一直把原型逐字重复，也不是副部每一拍都有敲击；实际入口在65、69等小节。把真实起点标清，能避免把“动机贯穿全曲”误解成每个声部时时都在重复同样四个音。",
+      "listen_for": "先听旋律，再把注意力移向65小节的低音三个短音，听两层如何同时运作。",
+      "segments": [
+        {
+          "label": "旋律：第一小提琴",
+          "measures": [
+            63,
+            66
+          ],
+          "staffs": [
+            14
+          ]
+        },
+        {
+          "label": "旋律与低音共同播放",
+          "measures": [
+            63,
+            66
+          ],
+          "staffs": [
+            14,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第一小提琴63–66小节以四分音符旋律为主；大提琴65小节在起点后0.5处进入三个降B2八分音符，66落到降E3。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "上层旋律与下层短音型相叠，可听作舒展前景与推动背景的并存。",
+          "evidence_type": "hypothesis",
+          "segments": [
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-07",
+      "title": "终止功能｜降E大调怎样被反复确认",
+      "dimensions": [
+        "和声",
+        "曲式",
+        "节奏／节拍"
+      ],
+      "section_id": "exposition",
+      "scope": "section",
+      "body": "117–122小节把终止压缩成可以直接比较的和弦往返。117、119、121的主要实音类别是降 B、D、F；紧接的118、120、122则是降 E、G、降 B。低音从降 B 回到降 E，配合短音群与落点的对比，使属—主关系被多次加强。这里无需先猜复杂的和声名称，先听清两种低音与两组三和弦就能抓住功能。\n\n这一结尾把呈示部副调区的稳定性落实到终止上，与开头未充分展开的齐奏轮廓很不相同。试听时先只听大提琴的根音，再加入弦乐和弦，比较“要求继续”与“落地”的感觉怎样由音符支撑。总谱124小节保留呈示反复标记；本工具按谱面顺序只播放一次，不据此改变导航小节号。终止的力度不等于全曲已结束，它只是完成了呈示部这个层级的任务。",
+      "listen_for": "听降B低音到降E低音的三次落点，并比较单独低音与完整弦乐和声。",
+      "segments": [
+        {
+          "label": "根音：大提琴",
+          "measures": [
+            117,
+            122
+          ],
+          "staffs": [
+            17
+          ]
+        },
+        {
+          "label": "终止和声：弦乐",
+          "measures": [
+            117,
+            122
+          ],
+          "staffs": [
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "117、119、121小节的主要音类为降B、D、F，118、120、122为降E、G、降B，低音反复从降B回到降E。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "这一局部配置支持降E大调中的属—主终止功能；它确认的是呈示部副调区而非全乐章结束。",
+          "evidence_type": "hypothesis",
+          "segments": [
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-08",
+      "title": "展开的开门｜熟悉节奏被重新分配到不同声部",
+      "dimensions": [
+        "曲式",
+        "织体／复调",
+        "调性／调式"
+      ],
+      "section_id": "development",
+      "scope": "section",
+      "body": "125小节的展开入口重新突出三个短音，但首先承担它的是单簧管与圆号，而不是原来开头的弦乐齐奏。其后弦乐在126小节加入不同音高的短音群，127落到长 C。可以先把两层拆开听，再合起来：相邻的短句虽然共享节奏语汇，音区、音高和先后次序已经改变。\n\n这段说明“展开”并不是进入一个与前面毫无关系的新主题。听者靠相同节奏认出旧材料，作曲家则通过换位部署让旧材料产生新的连接。片段后部有降 A、降 D 等音，不能只凭第一个降 B 或单一短窗口就断言整段已经稳定在某个调；具体调性功能需要低音、和弦和后续进行共同支持。先识别谁先说、谁接着说，再讨论调性，比直接给每两小节贴一个新调名更可靠。",
+      "listen_for": "比较管乐125的先发短音与弦乐126的接入，听原型如何失去开头的齐奏方式。",
+      "segments": [
+        {
+          "label": "管乐先进入",
+          "measures": [
+            125,
+            132
+          ],
+          "staffs": [
+            5,
+            9
+          ]
+        },
+        {
+          "label": "管乐与弦乐的重新部署",
+          "measures": [
+            125,
+            132
+          ],
+          "staffs": [
+            5,
+            9,
+            14,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "125小节第一单簧管实音为三个降B4；126小节第一小提琴出现三个降D4，127落在C4。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "125是MTSU导听采用的展开起点。",
+          "evidence_type": "source",
+          "segments": [],
+          "source_ids": [
+            "beethoven-v2-mtsu"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-mtsu"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-09",
+      "title": "碎片化｜从两小节应答到一小节应答",
+      "dimensions": [
+        "织体／复调",
+        "节奏／节拍",
+        "曲式"
+      ],
+      "section_id": "development",
+      "scope": "section",
+      "body": "196–203小节可以听见管乐与弦乐成块交换：长笛等管乐先给 F—G 的两小节线条，弦乐随后以自己的和弦回应。两边没有同时把所有音填满，接力的间隙正是结构的一部分。到208–215，交换的尺度缩短，210的弦乐长音、211的管乐长音、212的弦乐长音、213的管乐长音逐小节轮替。\n\n这里的“碎片化”不等于总是越写越多、越弹越快。单个起奏反而使用较长的记谱时值，变化的是材料轮廓和交换单位；210附近的 dim. 又把力度引向削弱。请比较两个片段，听“一个回答还剩多少形状”，而不是只数声音的密度。钢琴版让轮流起奏很清楚，但会抹去管弦乐组之间的音色对比；要完成配器听感判断，需要再对照真实乐队演奏。",
+      "listen_for": "A听两小节一组的管弦应答，B听210以后几乎一小节一换的交替。",
+      "segments": [
+        {
+          "label": "A 两小节一组：196–203",
+          "measures": [
+            196,
+            203
+          ],
+          "staffs": [
+            1,
+            3,
+            5,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "label": "B 逐小节交换：208–215",
+          "measures": [
+            208,
+            215
+          ],
+          "staffs": [
+            1,
+            3,
+            5,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "长笛196与197小节分别奏F5、G5，弦乐198–199接入；210弦乐、211管乐、212弦乐、213管乐交替。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "原谱第一小提琴和大提琴在210附近标有dim.；持续音的时值与交换组块的缩短是两种不同变化。",
+          "evidence_type": "score",
+          "segments": [
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-10",
+      "title": "回返前的和声｜减七和弦怎样维持悬念",
+      "dimensions": [
+        "和声",
+        "调性／调式",
+        "曲式"
+      ],
+      "section_id": "development",
+      "scope": "section",
+      "body": "236–240小节的突出音类是 B、D、F、降 A，构成等距小三度叠置的减七和弦。低音与上方声部并不是单纯铺开一个稳定主三和弦；它们把紧张维持住，同时继续嵌入短音起奏。先听低声部的 B 与周围持续和弦，再听接下来 F 与降 A 的往复，最后进入248的原型回返。\n\n这张卡把可核对的“和弦构成”与需要上下文的“功能解释”分开。音集合本身能支持减七和弦判断，但等音转写会给出不止一种可能解释；本谱的拼写和随后回到 C 的方向使它适合听成回返前的属功能准备。不要把一个减七和弦自动等同于已经完成转调。试听范围延伸至248，是为了让听者能检验前面的悬念究竟指向哪里，而不是在张力最高处截断后凭感觉命名。",
+      "listen_for": "听B–D–F–降A的紧张音组，再跟随短音反复走到248小节的G。",
+      "segments": [
+        {
+          "label": "回返准备：236–248",
+          "measures": [
+            236,
+            248
+          ],
+          "staffs": [
+            1,
+            3,
+            5,
+            7,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "236小节各声部的主要实音类别为B、D、F、降A，可按谱面音高核对减七和弦构成。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "将这一减七音组听成回到C之前的属功能准备，是结合随后进行作出的局部功能解释，不等于宣告某次完整转调。",
+          "evidence_type": "hypothesis",
+          "segments": [
+            0
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-11",
+      "title": "A／B 再现入口｜熟悉原型藏在连续运动里",
+      "dimensions": [
+        "曲式",
+        "织体／复调",
+        "动机"
+      ],
+      "section_id": "recapitulation",
+      "scope": "section",
+      "body": "第一次开头先有休止，三个 G 才出现；再现入口248小节却接在上一段的连续运动中。第一小提琴先保留一个 F 八分音符，然后出现三个 G，249落到降 E。若只等一个“完全安静后再开始”的信号，就容易错过再现已经发生的时刻。请把1–5与248–252依次播放，比较相似音高轮廓与不同的接缝。\n\n再现不是剪贴式回到开头。新增的管乐、铜管和定音鼓参与强化 G 的支点，使开头的细胞嵌入更厚的整体织体。本卡选择长笛、第一小提琴和大提琴作可辨的比较；要查看其他加强声部，可在总谱中展开。248作为导航边界依据原型实际返回，240起的准备运动仍能被听作一个连续过渡。边界帮助阅读，而不应把音乐错误切成互不相干的方块。",
+      "listen_for": "A听最初休止后的G，B听先有F续接再冒出的G；再现是怎样从展开内部发生的？",
+      "segments": [
+        {
+          "label": "A 呈示开头",
+          "measures": [
+            1,
+            5
+          ],
+          "staffs": [
+            1,
+            14,
+            17
+          ]
+        },
+        {
+          "label": "B 再现入口",
+          "measures": [
+            248,
+            252
+          ],
+          "staffs": [
+            1,
+            14,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第一小提琴248小节为F5八分音符接三个G5，249落在降E5；第一小节则以休止开始，再奏三个G4。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "采用248作再现入口与MTSU导听一致；Surette／Mason把240–252列为更宽的再现预备处理。",
+          "evidence_type": "source",
+          "segments": [],
+          "source_ids": [
+            "beethoven-v2-mtsu",
+            "beethoven-v2-mason"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-mtsu",
+        "beethoven-v2-mason"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-12",
+      "title": "双簧管插段｜拍点暂退，声部像在独白",
+      "dimensions": [
+        "配器",
+        "节奏／节拍",
+        "力度／奏法"
+      ],
+      "section_id": "recapitulation",
+      "scope": "section",
+      "body": "268小节先有乐队的属和声停顿，随后第一双簧管展开华彩式线条。原谱在这里标出 Adagio 与延长记号，双簧管包含长短不一的下行及装饰音型；其他声部并没有以同样密度持续伴奏。它的作用不只是“换一种乐器演奏主题”，而是突然改变音乐组织时间的方式：从集体、规则的推进，转为较自由的单线陈述。\n\n先播放双簧管单独的268，再听267–269的上下文，比较它进入前后整体密度的差异。这个小节在规范事件索引中占10个四分音符单位，不能按常态2/4一律算成两个单位，也不能用“小节号乘二”定位其后的分析。应用按记谱事件复奏，不能替代演奏者对停顿和呼吸的处理；从钢琴片段中首先确认的是线条、留白和它相对乐队的独立性。",
+      "listen_for": "先听独奏内部长短音，再听它如何使267到269之间的集体推进暂时停下。",
+      "segments": [
+        {
+          "label": "第一双簧管的268",
+          "measures": [
+            268,
+            268
+          ],
+          "staffs": [
+            3
+          ]
+        },
+        {
+          "label": "前后上下文",
+          "measures": [
+            267,
+            269
+          ],
+          "staffs": [
+            1,
+            3,
+            5,
+            7,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "原谱268小节含Adagio与延长记号，第一双簧管有11个可播放音符事件，规范索引中该小节跨度为10个四分音符单位。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "MTSU将268标为双簧管的华彩式插段。",
+          "evidence_type": "source",
+          "segments": [],
+          "source_ids": [
+            "beethoven-v2-mtsu"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-mtsu"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-13",
+      "title": "尾声接缝｜已经结束的C大三和弦为何又打开",
+      "dimensions": [
+        "和声",
+        "曲式",
+        "调性／调式"
+      ],
+      "section_id": "coda",
+      "scope": "section",
+      "body": "374小节的弦乐并不是 C 小三和弦，而是 C、E、G。紧接着376出现 F、降 A、C，378又回到 C 大三和弦，380再次给 F 小三和弦。低音与内声部的变化使同一个高 C 被重新着色；刚像终止的落点，随即成为新的进行起点。先听大提琴的根音变化，再加入弦乐和弦，会比只听最高音更容易发现这件事。\n\n因此，本导听把374列为重叠的尾声入口，并保留MTSU从376算起的另一种界定。两种边界强调的是不同层次：前者包括那个双重作用的终止和弦，后者突出新的和声转向。不能为了让图表整齐，就把374错误标成降 E 或声称尾声从头至尾只有一个和弦。真正值得听的是终止如何被重新打开，以及尾声为何还需要相当长的过程才能结束。",
+      "listen_for": "先听低音C—降A／F相关支点，再听E自然与降A加入后同一高C的和声色彩变化。",
+      "segments": [
+        {
+          "label": "低音方向",
+          "measures": [
+            374,
+            381
+          ],
+          "staffs": [
+            17
+          ]
+        },
+        {
+          "label": "弦乐和声的重新打开",
+          "measures": [
+            374,
+            381
+          ],
+          "staffs": [
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "374与378小节的音类为C、E、G；376与380为F、降A、C；374不能写成C小三和弦。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "Surette／Mason在374重叠结束组与尾声，MTSU则标376为尾声入口；本导听保留这一分歧。",
+          "evidence_type": "source",
+          "segments": [],
+          "source_ids": [
+            "beethoven-v2-mason",
+            "beethoven-v2-mtsu"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-mason",
+        "beethoven-v2-mtsu"
+      ]
+    },
+    {
+      "id": "seed-v2-beethoven-14",
+      "title": "收束｜终止靠的是声部与低音，不只是更响",
+      "dimensions": [
+        "和声",
+        "节奏／节拍",
+        "曲式"
+      ],
+      "section_id": "coda",
+      "scope": "section",
+      "body": "最后几小节可以把复杂发展暂时还原为清楚的终止动作。500小节的 C、降 E、G，501的 G、B、D，以及502再回到 C、降 E、G，形成可核对的主—属—主交替。低音从 C 到 G 再回 C，内声部的 B 朝 C、D朝降 E 的邻接关系共同加强落点。最终明确的是 C 小调，而不是前面副部再现曾给出的 C 大调。\n\n先播放低声部，再加入小提琴与中提琴。不要仅用“声音很大”判断结束；同样响的音响也可能停在属和弦上，真正的收束还取决于低音、和弦音及最后的休止。这个短片段可以与117–122的呈示终止相互参照：两处都反复使用属—主关系，却分别确认降 E 与 C。把每一处终止放回其结构层级，才能听出同一种和声手段为何承担不同任务。",
+      "listen_for": "听末三小节C—G—C的低音及降E的回归，并与呈示部降B—降E的落点比较。",
+      "segments": [
+        {
+          "label": "最后的低音",
+          "measures": [
+            498,
+            502
+          ],
+          "staffs": [
+            17
+          ]
+        },
+        {
+          "label": "最后的弦乐终止",
+          "measures": [
+            498,
+            502
+          ],
+          "staffs": [
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "500、501、502的实音集合依次为C–降E–G、G–B–D、C–降E–G，低音对应C、G、C。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        },
+        {
+          "statement": "这组末尾进行支持C小调中的主—属—主收束判断，可与呈示部的降E终止作不同层级的比较。",
+          "evidence_type": "hypothesis",
+          "segments": [
+            1
+          ],
+          "source_ids": [
+            "beethoven-v2-score"
+          ],
+          "listening_cue": ""
+        }
+      ],
+      "source_ids": [
+        "beethoven-v2-score"
+      ]
+    }
+  ],
+  "v1_original_sha256": {
+    "seed-beethoven-op67-1-14": "065769d9ca81163de222d8c2a34f9e08f7e3044bb598010833b55c4c74d22d46",
+    "seed-beethoven-op67-1-10": "79fcbe4f045611280b71f288eb4ab464f117005ac1c3f9a61ffb0a851ac10409",
+    "seed-beethoven-op67-1-11": "c199d6bfea600ee511fd92e5e84d6cb1ff9a8fbdb217b3ddfd146ce5bf730661",
+    "seed-beethoven-op67-1-12": "37504d42cd73ba67177e6252a0ec3725c5f3c07bd02bff1d737550c334a86bc3",
+    "seed-beethoven-op67-1-13": "88e44ba91421e94488ee85faa9141542bcd69e4f782e047df3b6669df9e2a5ac"
+  },
+  "installation": {
+    "notes": {
+      "seed-v2-beethoven-00": "eaa0755a4a3735bd743b9ef438132ada642d8159dc4fee3b28554a8e859fee3b",
+      "seed-v2-beethoven-01": "ca371167be54133c3dd5c869320fcc2c0bf9a3db8eca313b2a2e1474afd19a2f",
+      "seed-v2-beethoven-02": "772e08ce08054e4e946a6781b25a111afe8edb107c2319d0e61b280e552ae8d1",
+      "seed-v2-beethoven-03": "3e9d6d09ec27c1a3804f2b6b0648defe3d5d774e6d8f8d1c3db9445cccfeb4e5",
+      "seed-v2-beethoven-04": "260c50f2f1cd024f10563e418ecf029a7e922d90c8ca6b8eb776270d9664a864",
+      "seed-v2-beethoven-05": "54ac8bb1c413caea07c52fc38e707f7533a6b7173fb61a1634246507ddebf79a",
+      "seed-v2-beethoven-06": "d6991536d3c8e7d50d3aa24c8f4c116c23b2003b32b0936bc4271056f40eea5c",
+      "seed-v2-beethoven-07": "8ef32294e1b832babeaebf341bca764fa894dff62154b0a0d45f8d4377971f34",
+      "seed-v2-beethoven-08": "15d466bced76b485819262865624cde00ec145b7e7549f4135f618a94bc17238",
+      "seed-v2-beethoven-09": "cf5c36e7f038b135a80716e326d0256857b0776abec4053d721c4122ba0afacc",
+      "seed-v2-beethoven-10": "93df59f26ad3fd809033b09dbf439d111a2470ce34cddbcf56c264180ae9fb5e",
+      "seed-v2-beethoven-11": "f3a2bd65fe607b1984376eed1c66d99fa73b4ca19584866f76feebc0c17bdaed",
+      "seed-v2-beethoven-12": "fb379737eea17431c2764c77861297e6005b4064cd4953056894c269272b2985",
+      "seed-v2-beethoven-13": "ba840e969fe4fea5e9a4c55ead5b24924e838a0cd043c66126912a80477588b3",
+      "seed-v2-beethoven-14": "6b3d200586ea9fdb65383809254b710bd44ede18d96ceca48a4e8b783e73990c"
+    },
+    "archived_v1": [
+      "seed-beethoven-op67-1-14",
+      "seed-beethoven-op67-1-10",
+      "seed-beethoven-op67-1-11",
+      "seed-beethoven-op67-1-12",
+      "seed-beethoven-op67-1-13"
+    ],
+    "guide_sha256": "7500bce34827196df89f0c7db7339070fcc7d2847e2b4b596b03688440f1eddc"
+  },
+  "verification": {
+    "score_facts_checked": true,
+    "checks": 33,
+    "human_listening": "pending",
+    "method": "直接核对保留的 MusicXML 声部、音高与记号，以及规范实音事件索引；未声称完成人工试听。",
+    "boundary_note": "呈示结束124含反复；125展开；248再现主题进入。374为C大三和弦终止与尾声启动的重叠，376转F小三和弦；两种尾声入口解释并列保留。"
+  }
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "beethoven-op37",
+    "title": "第三钢琴协奏曲",
+    "composer": "路德维希·范·贝多芬",
+    "catalogue": "Op.37",
+    "arranger": "",
+    "description": "计划收录三个乐章完整管弦总谱，重点细读第一乐章。",
+    "overview": "先区分乐队呈示与独奏进入，再比较主题的调性位置、钢琴与乐队的对话、展开和再现的处理。详细导听与谱例须在完整数字总谱核对后发布。",
+    "work_ids": [],
+    "availability": "pending",
+    "missing": [
+      "三个乐章完整数字总谱尚待取得并核验；已发现网页候选，但尚未验证真实文件。"
+    ]
+  },
+  {
+    "id": "tchaikovsky-op23",
+    "title": "第一钢琴协奏曲",
+    "composer": "彼得·伊里奇·柴可夫斯基",
+    "catalogue": "Op.23",
+    "arranger": "",
+    "description": "三个乐章完整管弦总谱已入库，首乐章提供多维谱例细读。",
+    "overview": "导听将区分开篇引子与主体，追踪独奏和乐队角色、节奏组织与调性路线。各乐章必须确认属于同一版本，不能用双钢琴改编替代总谱。",
+    "work_ids": [
+      "tchaikovsky-op23-1",
+      "tchaikovsky-op23-2",
+      "tchaikovsky-op23-3"
+    ],
+    "availability": "ready",
+    "missing": [
+      "完整三乐章已取得并解析；具体修订版、逐音人工校勘与试听仍待核对。"
+    ]
+  },
+  {
+    "id": "mussorgsky-ravel-pictures",
+    "title": "图画展览会",
+    "composer": "莫杰斯特·彼得罗维奇·穆索尔斯基",
+    "catalogue": "Pictures at an Exhibition",
+    "arranger": "莫里斯·拉威尔",
+    "description": "计划收录拉威尔配器版完整组曲及其全部漫步段落。",
+    "overview": "以漫步材料与十幅图画的联系为主线，分析节拍、调式、低音、织体和配器。钢琴复奏用于理解音高、节奏与声部关系，配器音色需结合总谱及原编制聆听。",
+    "work_ids": [],
+    "availability": "pending",
+    "missing": [
+      "已确认开放数据集中十二份分曲候选；侏儒、杜伊勒里宫、利莫日市场尚待取得。",
+      "全套顺序、全部声部和谱面完整性尚待校对。"
+    ]
+  }
+]

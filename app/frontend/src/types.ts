@@ -11,6 +11,12 @@ export interface Work {
   edition: string;
   source_url: string;
   aliases: string[];
+  collection_id?: string;
+  arranger?: string;
+  movement_order?: number;
+  availability?: "ready" | "pending";
+  coverage?: string;
+  score_type?: string;
 }
 export interface NoteEvent {
   id: string;
@@ -58,6 +64,10 @@ export interface Segment {
   note_ids: string[];
   start_measure: number;
   end_measure: number;
+  role?: "excerpt" | "theme" | "phrase" | "evidence";
+  boundary_note?: string;
+  boundary_status?: "candidate" | "supported";
+  source_ids?: string[];
 }
 export interface Source {
   id: string;
@@ -70,6 +80,7 @@ export interface Source {
   accessed_at: string;
   excerpt: string;
   extracted: boolean;
+  summary: string;
 }
 export interface Analysis {
   id: string;
@@ -78,19 +89,21 @@ export interface Analysis {
   body: string;
   kind: string;
   origin: "manual" | "model" | "seed";
-  status: "unlocated" | "suggested" | "confirmed";
+  status: "unlocated" | "suggested" | "confirmed" | "not_applicable";
+  dimensions: string[];
+  scope: "overview" | "movement" | "section" | "segment";
+  section_id: string;
+  listen_for: string;
+  claims: Claim[];
+  review_status: "unreviewed" | "checked";
+  listening_status: "pending" | "checked";
   sources: Source[];
   segments: Segment[];
   verification: string;
+  analysis_model?: string;
+  analysis_run_id?: string;
   created_at?: string;
   updated_at?: string;
-}
-export interface Job {
-  id: string;
-  kind: string;
-  status: string;
-  error?: string;
-  result?: any;
 }
 export async function api<T>(
   path: string,
@@ -132,16 +145,74 @@ export const blankAnalysis = (wid: string): Analysis => ({
   sources: [],
   segments: [],
   verification: "",
+  dimensions: ["主题"],
+  scope: "segment",
+  section_id: "",
+  listen_for: "",
+  claims: [],
+  review_status: "unreviewed",
+  listening_status: "pending",
 });
-export const blankSource = (): Source => ({
-  id: crypto.randomUUID(),
-  kind: "book",
-  title: "",
-  author: "",
-  edition: "",
-  pages: "",
-  url: "",
-  accessed_at: "",
-  excerpt: "",
-  extracted: false,
-});
+export const dimensions = [
+  "动机",
+  "主题",
+  "变奏",
+  "曲式",
+  "和声",
+  "调性／调式",
+  "节奏／节拍",
+  "织体／复调",
+  "配器",
+  "力度／奏法",
+];
+export interface Claim {
+  id: string;
+  statement: string;
+  evidence_type: "source" | "score" | "hypothesis";
+  source_ids: string[];
+  segment_ids: string[];
+  listening_cue: string;
+}
+export interface GuideSection {
+  id: string;
+  parent_id?: string;
+  title: string;
+  start_measure: number;
+  end_measure: number;
+  description: string;
+  source_ids: string[];
+}
+export interface Guide {
+  work_id: string;
+  overview: string;
+  sections: GuideSection[];
+  source_ids: string[];
+  sources: Source[];
+}
+export interface Collection {
+  id: string;
+  title: string;
+  composer: string;
+  catalogue: string;
+  arranger: string;
+  description: string;
+  work_ids: string[];
+  availability: string;
+  missing: string[];
+  overview: string;
+}
+export interface ComparisonEntry {
+  id: string;
+  work_id: string;
+  work_title: string;
+  segment: Segment;
+}
+export function normalizeAnalysis(a: Analysis): Analysis {
+  return {
+    ...blankAnalysis(a.work_id),
+    ...a,
+    dimensions: a.dimensions?.length ? a.dimensions : [a.kind],
+    sources: a.sources.map((s) => ({ ...s, summary: s.summary || "" })),
+    claims: a.claims || [],
+  };
+}

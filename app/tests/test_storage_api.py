@@ -16,33 +16,50 @@ def test_markdown_roundtrip_and_rebuild(store):
  # Sidecar is an export; atomic Markdown keeps an intact source of truth.
  (store.assets/'segments'/f'{saved.id}.json').unlink()
  assert Store(store.root).get_note(saved.id).segments==saved.segments
+ # A damaged derived export must not hide the intact authoritative Markdown.
+ (store.assets/'segments'/f'{saved.id}.json').write_text('{broken')
+ assert Store(store.root).get_note(saved.id).segments==saved.segments
 
-def test_api_crud_validation_and_local_only(store):
+def test_reader_routes_and_local_only(store):
+ idx=store.events('test-work')
+ a=store.save(Analysis(work_id='test-work',title='本地记录',body='原文',origin='model',analysis_model='gpt-6-sol',analysis_run_id='existing'))
  with TestClient(create_app(store.root)) as c:
   assert c.get('/api/works?q=贝五').json()[0]['id']=='test-work'
   assert c.get('/api/works?q=Op.67').json()[0]['id']=='test-work'
   assert c.get('/api/works?q=不在曲库').json()==[]
+  assert c.get('/api/health').json()['mode']=='local-reader'
   assert c.post('/api/reindex',headers={'Origin':'https://evil.example'}).status_code==403
-  idx=store.events('test-work')
-  p={'work_id':'test-work','title':'新增笔记','body':'个人解释','sources':[{'id':'s1','title':'书名','excerpt':'未修改原文','pages':'23'}],'segments':[{'score_version':idx['version'],'start':0,'end':2}],'status':'confirmed'}
-  r=c.post('/api/analyses',json=p);assert r.status_code==200,r.text
-  a=r.json();assert a['origin']=='manual' and a['segments'][0]['note_ids']
-  a['body']='改后的解释';a['origin']='model'
-  assert c.post('/api/analyses',json=a).json()['origin']=='manual'
-  a['segments'][0]['note_ids']=['invalid']
-  assert c.post('/api/analyses',json=a).status_code==400
+  paths=c.get('/openapi.json').json()['paths']
+  for path in ('/api/research','/api/extract','/api/analysis-runs','/api/jobs/test','/api/model-profiles','/api/settings','/api/score-search','/api/import','/api/analyses'):
+   assert path not in paths
+   assert c.post(path,json={}).status_code==404
+   assert c.get(path).status_code==404
+  assert c.put('/api/works/test-work/guide',json={}).status_code in (404,405)
+  assert c.delete('/api/analyses/'+a.id).status_code==404
+  body=c.get('/api/works/test-work/analyses').json()[0]
+  assert body['analysis_model']=='gpt-6-sol' and body['body']=='原文'
+  selection=c.post('/api/works/test-work/segments',json={'score_version':idx['version'],'start':0,'end':2}).json()
+  assert selection['note_ids']
+  assert store.get_note(a.id).segments==[]
+  # Simulate Codex editing files while the reader is open, then refresh.
+  a.body='Codex 新记录';store.save(a)
   assert c.post('/api/reindex').json()['ok']
-  assert len(c.get('/api/works/test-work/analyses?q=未修改原文').json())==1
-  assert c.delete('/api/analyses/'+a['id']).status_code==200
-  assert c.get('/api/works/test-work/analyses').json()==[]
+  assert c.get('/api/works/test-work/analyses?q=新记录').json()[0]['body']=='Codex 新记录'
+  assert "connect-src 'self'" in c.get('/api/health').headers['content-security-policy']
 
-def test_import_new_version_does_not_reuse_locations(store):
+
+def test_import_new_version_does_not_reuse_locations(store,tmp_path):
  from conftest import SCORE
- with TestClient(create_app(store.root)) as c:
-  old=store.events('test-work')['version']
-  changed=SCORE.replace(b'<step>A</step>',b'<step>B</step>')
-  r=c.post('/api/import',data={'title':'新版本','work_id':'test-work'},files={'file':('score.musicxml',changed,'application/xml')})
-  assert r.status_code==200,r.text
-  assert r.json()['score_version']!=old
-  assert c.post('/api/works/test-work/segments',json={'score_version':old,'start':0,'end':2}).status_code==400
-  assert (store.assets/'generated'/'test-work'/old/'score.mei').exists()
+ from backend.project import import_score
+ import pytest
+ old=store.events('test-work')['version']
+ path=tmp_path/'score.musicxml';path.write_bytes(SCORE.replace(b'<step>A</step>',b'<step>B</step>'))
+ meta={'title':'新版本','composer':'测试','catalogue':'Op.67','movement':'I','edition':'测试谱','license':'自制测试资料','source_url':'score.musicxml','previous_work_id':'test-work'}
+ work=import_score(store,path,meta)
+ assert work['score_version']!=old and work['id']!='test-work'
+ with pytest.raises(ValueError):validate_segment(Segment(score_version=old,start=0,end=2),store.events(work['id']))
+ assert (store.assets/'generated'/'test-work'/old/'score.mei').exists()
+ assert (store.root/work['source_file']).read_bytes()==path.read_bytes()
+ count=len(store.works());path.write_bytes(b'broken xml')
+ with pytest.raises(ValueError):import_score(store,path,meta)
+ assert len(store.works())==count

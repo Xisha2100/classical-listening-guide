@@ -1,0 +1,381 @@
+---
+id: sol-1-recap-primary
+work_id: tchaikovsky-op23-1
+title: 主部在钢琴密集织体中再现
+kind: 曲式
+dimensions:
+- 曲式
+- 变奏
+scope: segment
+section_id: m1-recap
+listen_for: 第448小节钢琴的短促重复与半音音阶把主部节奏压缩进十六分音符织体，听上去不再是呈示部第109小节的清楚旋律。第452小节弦乐和单簧管开始加入和声层；第467小节木管转向第二主题的准备。由于旋律在密集音型中不易逐音辨识，本轮只标局部再现证据，不称它为完整主部主题。
+claims:
+- id: sol-1-recap-primary-c1
+  statement: 第448小节钢琴的短促重复与半音音阶把主部节奏压缩进十六分音符织体，听上去不再是呈示部第109小节的清楚旋律。第452小节弦乐和单簧管开始加入和声层；第467小节木管转向第二主题的准备。由于旋律在密集音型中不易逐音辨识，本轮只标局部再现证据，不称它为完整主部主题。
+  evidence_type: source
+  source_ids:
+  - tcha-op23-local-score
+  - crescendo-2016
+  segment_ids:
+  - sol-1-recap-primary-s1
+  - sol-1-recap-primary-s2
+  listening_cue: 第448小节钢琴的短促重复与半音音阶把主部节奏压缩进十六分音符织体，听上去不再是呈示部第109小节的清楚旋律。第452小节弦乐和单簧管开始加入和声层；第467小节木管转向第二主题的准备。由于旋律在密集音型中不易逐音辨识，本轮只标局部再现证据，不称它为完整主部主题。
+origin: model
+status: suggested
+review_status: unreviewed
+listening_status: pending
+sources:
+- id: tcha-op23-local-score
+  kind: score
+  title: PDMX v9 归档的 jeronjoseph 数字管弦总谱：柴可夫斯基第一钢琴协奏曲 Op.23（本地保留的完整 MusicXML）
+  author: jeronjoseph；PDMX 数字转换
+  edition: ''
+  pages: movement-1/2/3.mxl；各 movement-*-measure-map.json
+  url: https://zenodo.org/records/15571083
+  accessed_at: ''
+  excerpt: ''
+  extracted: true
+  summary: 本轮边界、配器及印刷小节与内部 ordinal 对应的直接谱面证据。
+- id: crescendo-2016
+  kind: web
+  title: 'Les Concertos du Concours : le 1er Tchaikovski – Guide d’écoute'
+  author: Bernadette Beyne et Quentin Mourier
+  edition: ''
+  pages: I §§Introduction, Allegro, Développement, Réexposition；II §§A–B–A；III §§Rondo–Coda
+  url: https://www.crescendo-magazine.be/conc-tchaiko_quentin_corr/
+  accessed_at: ''
+  excerpt: ''
+  extracted: true
+  summary: 附录音与谱例的逐段导听，明确第1乐章第2主题为单簧管/钢琴、第3主题为弱音弦乐；第二乐章中段歌曲归弦乐；终乐章第101段为过渡。与本地谱小节号仍有若干处偏移。
+segments:
+- id: sol-1-recap-primary-s1
+  label: 钢琴主部节奏再现
+  score_version: 308ba2c44a982ae0
+  start: 1756.984375
+  end: 1800.984375
+  staffs:
+  - '12'
+  voices: []
+  routes: []
+  note_ids:
+  - c16rb96w
+  - f10u3kq7
+  - i17yxkkd
+  - k18nyjop
+  - l1aadir
+  - n1p8pe04
+  - o1i4a1l3
+  - q431e9d
+  - s16vpqlj
+  - t115mw9a
+  - ukcpm01
+  - w1se0lvo
+  - xp6l2b2
+  - a1ckxjn6
+  - d1v6tfy5
+  - fpilxvh
+  - grzs5df
+  - i1sp09xr
+  - jil5003
+  - lds885g
+  - n194lkfu
+  - o1a27r0q
+  - ppxjatx
+  - rm0kbwd
+  - htjnr8z
+  - k9uvar3
+  - n6ij9w2
+  - pt07njs
+  - r1kwfoxi
+  - u166kcor
+  - woqppvr
+  - z1ecc7gx
+  - c67konl
+  - e12ddtt0
+  - fx8jkhj
+  - hpd7de
+  - i1lla2k8
+  - l5ua1ma
+  - oofjykp
+  - q1dlsfgn
+  - r1bfsa4w
+  - trjbs2g
+  - umndvs8
+  - w9ku3o5
+  - y1yakrjy
+  - z1dbz4sb
+  - a142lflz
+  - c1adaip0
+  - tvdx7wy
+  - wby0po0
+  - z1ozbsn6
+  - bgrg4ze
+  - c19sbruw
+  - exkzzd8
+  - f1c6b2dv
+  - i10igs9y
+  - liymklb
+  - n48jarf
+  - o11ni47w
+  - q1xv3pz0
+  - rth2s3j
+  - txkd8p5
+  - v1is4e02
+  - w22rzuh
+  - x11stirf
+  - z1nweoci
+  - a13xtb8e
+  - c1a2gqpn
+  - evaf0nm
+  - fisc1r
+  - g17m536o
+  - iufyyk0
+  - z1qoinhg
+  - csqsv4h
+  - f1jn6dy
+  - h1emh9kv
+  - i1kar9fs
+  - k1ptelww
+  - l1p2tu3n
+  - o1gg4gxu
+  - r3s8mc8
+  - t94bggn
+  - v150mpu2
+  - ynyh2qe
+  - a11jlo9t
+  - c1qeqze1
+  - e1s0dhg8
+  - f15kcpj9
+  - h1u5lobc
+  - k1fyyi66
+  - my8a096
+  - p1srtrvu
+  - s176om71
+  - u1qtjk20
+  - v108ud13
+  - x1cyhx9x
+  - takhf44
+  - wcu2uht
+  - zncinan
+  - b4m098s
+  - cqidq0u
+  - ehida4v
+  - fv20lz5
+  - i15u01p0
+  - l1a2g0au
+  - n1umjkez
+  - o1f8pve1
+  - q1t6vgmp
+  - tctf4b0
+  - w181kp78
+  - z1crgmip
+  - b1g57nby
+  - dac32qx
+  - g1ttzgrg
+  - iuzvlqv
+  - k1aqg630
+  - m1fvigdw
+  - n1x0d5h9
+  - p1gss2kf
+  - s1xvcdr0
+  - k10qy7t0
+  - n1xw46t
+  - q1qf0yp4
+  - s1c4a2p6
+  - uqpc0pw
+  - x12vdr3
+  - z8rygd4
+  - cpb1nzg
+  - ftulj96
+  - h11vnddg
+  - i1k8lv5z
+  - k11b780a
+  - l75le55
+  - o249eon
+  - r1gblbea
+  - tntxli4
+  - ujy86lg
+  - w1wdc8an
+  - xtr05bq
+  - z1gdxoah
+  - b191e12s
+  - cgcdzb2
+  - du0ifob
+  - f10xx8q
+  - vtx643h
+  - ylqd5w8
+  - b1tx7l62
+  - d1mey496
+  - e9emj4j
+  - g98wqbk
+  - hxotgxl
+  - k175o5kl
+  - nt6wfoj
+  - p1xdfuwn
+  - q6cp4ak
+  - slbeulv
+  - txuyfo0
+  - we8hkno
+  - z1oqxquy
+  - bmohyki
+  - d18alje3
+  - g1b0xzcn
+  - i1rk90tn
+  - krqwgg9
+  - m1h4uq9s
+  - n1fg5ole
+  - p1fa9bqy
+  - s13eymrg
+  - oks4mhj
+  - q218t20
+  - s1xm6dkq
+  - t3n8l21
+  - vgzwgeh
+  - ynq363r
+  - ackyjv5
+  - dkskd4e
+  - g6d1qy1
+  - i1npm8s6
+  - j1n5e0st
+  - l1xt3duy
+  - m1f49w0m
+  - pzriatq
+  - sxooqjj
+  - u1i9z5jd
+  - v1ojcclz
+  - x1way27f
+  - y782uox
+  - b2ex9v8
+  - e4qx86b
+  - g10cvanh
+  - h8l3ces
+  - j1n6q6p6
+  - z1ur1lsv
+  - c1c6sqrt
+  - fwccaoi
+  - h1oyywcd
+  - ixgz5yl
+  - kvy2jzh
+  - l1g6fvew
+  - ohf7j8k
+  - r183l5sj
+  - tdx2o2c
+  - u4yejzq
+  - wuzwu0w
+  - x1lt0mqr
+  - a1v3v7b0
+  - d1d6lhfp
+  - fkxpnpo
+  - hju31to
+  - kkhomy2
+  - m1p7ll2y
+  - o1cof18o
+  - q1dk0ziw
+  - riocinp
+  - t1lnn9yp
+  - w14wv7ly
+  - n1ky40jv
+  - q1uncnaw
+  - t17lelxa
+  - vccr04f
+  - x1384eeg
+  - a1aswm67
+  - c1vk09qi
+  - f8mx4e2
+  - i1bmrt0h
+  - kfe4cf1
+  - lc9r672
+  - no54acz
+  - o17euna8
+  - r1yjrc7m
+  - u148qf25
+  - w8evlfl
+  - xik5okv
+  - z1l0iz6o
+  - al2fxyd
+  - cn5738s
+  - ezmddxh
+  - fj5zmq1
+  - g1dajctm
+  - i17vkyby
+  - z10f5ech
+  - c5gotsv
+  - f1ibgg9o
+  - h5qfecc
+  - i8yzjv0
+  - ksti96m
+  - luo9nq3
+  - o1rs53vo
+  - rgq5pkq
+  - t15wnni4
+  - u1u3546k
+  - w11aw72k
+  - x1yujtgz
+  - abxhcfl
+  - d1b3nqbc
+  - f1hvsafd
+  - hid5g10
+  - k1xaykc
+  - m1xxt282
+  - o1xa6ea
+  - qm5r3hd
+  - r13umhnx
+  - tb5zdy5
+  - w1a8b27k
+  start_measure: 448
+  end_measure: 458
+  role: evidence
+  boundary_note: 第448小节起钢琴密集十六分音符；这是节奏再现的局部证据，不能直接称完整主题。
+  boundary_status: supported
+  source_ids:
+  - tcha-op23-local-score
+  - crescendo-2016
+- id: sol-1-recap-primary-s2
+  label: 木管转向副题
+  score_version: 308ba2c44a982ae0
+  start: 1832.984375
+  end: 1852.984375
+  staffs:
+  - '3'
+  - '4'
+  voices: []
+  routes: []
+  note_ids:
+  - ezprbbt
+  - hh5x3sj
+  - igt85ac
+  - l1r002yh
+  - m1umly6x
+  - o1ehwlmj
+  - i1a06o6k
+  - l2xwguu
+  - nw34vaf
+  - q18pi8ac
+  - s1jbh3f6
+  - u6o6n21
+  - m1xgvibo
+  - p1e75h3j
+  - sfr72un
+  - umyoxez
+  - vdyxypj
+  - x1hy2g37
+  - z1pec2f5
+  - b3zoydu
+  start_measure: 467
+  end_measure: 471
+  role: evidence
+  boundary_note: 第467小节双簧管/单簧管短型进入，第472小节双簧管完整起句。
+  boundary_status: supported
+  source_ids:
+  - tcha-op23-local-score
+  - crescendo-2016
+created_at: '2026-10-31T07:06:26.727041+00:00'
+updated_at: '2026-10-31T07:06:26.727048+00:00'
+verification: GPT-6 Sol 根据所列资料与固定数字谱提出曲式和乐句边界；程序已检查谱本、印刷编号、声部和音符范围。边界理由见各谱例，资料编号差异已注明。尚未完成人工乐理复核及听感验收。
+analysis_model: gpt-6-sol
+analysis_run_id: tchaikovsky-phrases-2026-10-31
+---
+
+# 主部在钢琴密集织体中再现
+
+第448小节钢琴的短促重复与半音音阶把主部节奏压缩进十六分音符织体，听上去不再是呈示部第109小节的清楚旋律。第452小节弦乐和单簧管开始加入和声层；第467小节木管转向第二主题的准备。由于旋律在密集音型中不易逐音辨识，本轮只标局部再现证据，不称它为完整主部主题。

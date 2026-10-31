@@ -1,0 +1,78 @@
+[
+  {
+    "id": "seed-v2-beethoven-02-s1",
+    "label": "只听第一小提琴",
+    "score_version": "0dc9a06dc592e643",
+    "start": 10.0,
+    "end": 26.0,
+    "staffs": [
+      "14"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "kd32f0f",
+      "p1fr6jbb",
+      "r1hyhysh",
+      "e1sysc7v",
+      "r1hxrs5i",
+      "s2dsa1o",
+      "w15qo4fk",
+      "x1tqu6np",
+      "j1u4krwu"
+    ],
+    "start_measure": 5,
+    "end_measure": 12
+  },
+  {
+    "id": "seed-v2-beethoven-02-s2",
+    "label": "弦乐三线叠置",
+    "score_version": "0dc9a06dc592e643",
+    "start": 10.0,
+    "end": 26.0,
+    "staffs": [
+      "14",
+      "15",
+      "16"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "n2ib81t",
+      "ru42izx",
+      "s1qy67ab",
+      "eyrce34",
+      "r16rnxu",
+      "w1d58ot6",
+      "y1ftka4v",
+      "kd32f0f",
+      "p1fr6jbb",
+      "r1hyhysh",
+      "sxi82d9",
+      "l1cd6xt3",
+      "e1sysc7v",
+      "gl275eb",
+      "yo0gmga",
+      "r1hxrs5i",
+      "vle4ngo",
+      "x4tgtfd",
+      "bkemq24",
+      "c1nq1p18",
+      "l1d0pwj2",
+      "o1fyitif",
+      "a1m4c4e3",
+      "f1gc2cpe",
+      "h418kzz",
+      "s2dsa1o",
+      "w15qo4fk",
+      "x1tqu6np",
+      "b1mn9irc",
+      "u5nsbm5",
+      "j1u4krwu",
+      "n1ngud4r",
+      "gkimbi0"
+    ],
+    "start_measure": 5,
+    "end_measure": 12
+  }
+]

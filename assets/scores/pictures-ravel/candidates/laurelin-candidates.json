@@ -1,0 +1,32 @@
+[
+  {
+    "section": 2,
+    "title_candidate": "Gnomus",
+    "file": "section-02-laurelin.mxl",
+    "source_start_ordinal": 25,
+    "source_end_ordinal": 133,
+    "measure_count": 109,
+    "part_count": 42,
+    "source_url": "https://musescore.com/user/194052/scores/5326667",
+    "license": "CC0-1.0",
+    "internal_rights": "Public Domain",
+    "status": "candidate_needs_reference_score_comparison",
+    "warning": "Upstream composer field wrongly says Tchaikovsky, XML work-title says The Nutcracker; note content and section sequence match Pictures candidates. Do not import based on title alone.",
+    "sha256": "feb4e5e5157e78a8fc705e6598a1db2b295f749a7a203346f28126506ddee352"
+  },
+  {
+    "section": 6,
+    "title_candidate": "Tuileries",
+    "file": "section-06-laurelin.mxl",
+    "source_start_ordinal": 262,
+    "source_end_ordinal": 291,
+    "measure_count": 30,
+    "part_count": 42,
+    "source_url": "https://musescore.com/user/194052/scores/5326667",
+    "license": "CC0-1.0",
+    "internal_rights": "Public Domain",
+    "status": "candidate_needs_reference_score_comparison",
+    "warning": "Upstream composer field wrongly says Tchaikovsky, XML work-title says The Nutcracker; note content and section sequence match Pictures candidates. Do not import based on title alone.",
+    "sha256": "42415fb0732e0b017d0961720c45ec8a5cce273e18c0a0006db0123b606f5f37"
+  }
+]

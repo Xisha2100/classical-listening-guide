@@ -1,0 +1,2305 @@
+{
+  "work_id": "tchaikovsky-op23-1",
+  "score_version": "308ba2c44a982ae0",
+  "date": "2026-10-31",
+  "time_unit": "quarter_note",
+  "source_sha256": "63bbb5063a8d7f883993d852d9025662559d7e8eb7778a1481333f695f4ecfa8",
+  "analysis_model": "unknown",
+  "human_listening_completed": false,
+  "sonority_checks": [
+    {
+      "observation": "10首拍：降D低音及降E小七音组",
+      "q": 27,
+      "staffs": [],
+      "pitch_classes": [
+        1,
+        3,
+        6,
+        10
+      ],
+      "events": [
+        {
+          "id": "z1z3xij",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "id": "q16mq74r",
+          "pitch": 78,
+          "spelling": "Gb5",
+          "staff": "2",
+          "voice": "1"
+        },
+        {
+          "id": "b18s8qii",
+          "pitch": 66,
+          "spelling": "Gb4",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "fmvm2bc",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "fd0ylt7",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "i1fifqik",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "bpj1036",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "f1owm9n0",
+          "pitch": 49,
+          "spelling": "Db3",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "wuow4ij",
+          "pitch": 54,
+          "spelling": "Gb3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "a1k60i29",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "j15of12f",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "f5ufy5a",
+          "pitch": 51,
+          "spelling": "Eb3",
+          "staff": "13",
+          "voice": "2"
+        },
+        {
+          "id": "i1gqh1zy",
+          "pitch": 54,
+          "spelling": "Gb3",
+          "staff": "13",
+          "voice": "2"
+        },
+        {
+          "id": "k3tbu2k",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "13",
+          "voice": "2"
+        },
+        {
+          "id": "o1lwlnfj",
+          "pitch": 25,
+          "spelling": "Db1",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "rij3wcb",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "b110obg5",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "kdwlpde",
+          "pitch": 49,
+          "spelling": "Db3",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "m1jvfw2q",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "egviyzy",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "18",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "12首拍：降D低音及降A大三音组",
+      "q": 33,
+      "staffs": [],
+      "pitch_classes": [
+        0,
+        1,
+        3,
+        8
+      ],
+      "events": [
+        {
+          "id": "aln38h6",
+          "pitch": 84,
+          "spelling": "C6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "id": "r11scwu6",
+          "pitch": 80,
+          "spelling": "Ab5",
+          "staff": "2",
+          "voice": "1"
+        },
+        {
+          "id": "ji2uq7i",
+          "pitch": 68,
+          "spelling": "Ab4",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "n1x05ool",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "j1486tii",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "mtjunas",
+          "pitch": 72,
+          "spelling": "C5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "j1ue5405",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "n1ffqynb",
+          "pitch": 49,
+          "spelling": "Db3",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "c1tb9mfi",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "gnrhfsu",
+          "pitch": 60,
+          "spelling": "C4",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "r14p98v9",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "udfdjhg",
+          "pitch": 60,
+          "spelling": "C4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "v1gr9mos",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "xt8osw4",
+          "pitch": 68,
+          "spelling": "Ab4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "stphhaq",
+          "pitch": 25,
+          "spelling": "Db1",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "v1a8ai49",
+          "pitch": 32,
+          "spelling": "Ab1",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "xme290z",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "m1cwcdxb",
+          "pitch": 68,
+          "spelling": "Ab4",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "ob4tocs",
+          "pitch": 49,
+          "spelling": "Db3",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "x1hua19z",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "i1lfivos",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "18",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "15首拍：降A大三和弦",
+      "q": 42,
+      "staffs": [],
+      "pitch_classes": [
+        0,
+        3,
+        8
+      ],
+      "events": [
+        {
+          "id": "o1bv0e",
+          "pitch": 84,
+          "spelling": "C6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "id": "hrvpdg9",
+          "pitch": 80,
+          "spelling": "Ab5",
+          "staff": "2",
+          "voice": "1"
+        },
+        {
+          "id": "k1rd1gul",
+          "pitch": 68,
+          "spelling": "Ab4",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "n1sm5hx5",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "gj12vx5",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "i1fhq2cr",
+          "pitch": 72,
+          "spelling": "C5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "k1wdnvsi",
+          "pitch": 44,
+          "spelling": "Ab2",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "n1o7d0ay",
+          "pitch": 44,
+          "spelling": "Ab2",
+          "staff": "5",
+          "voice": "2"
+        },
+        {
+          "id": "d26lj6q",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "gc6ktpj",
+          "pitch": 60,
+          "spelling": "C4",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "ccqbguf",
+          "pitch": 60,
+          "spelling": "C4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "e13ft8qk",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "y15k44xm",
+          "pitch": 51,
+          "spelling": "Eb3",
+          "staff": "13",
+          "voice": "2"
+        },
+        {
+          "id": "b1u5gewu",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "13",
+          "voice": "2"
+        },
+        {
+          "id": "e12ub877",
+          "pitch": 32,
+          "spelling": "Ab1",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "h1vag5je",
+          "pitch": 44,
+          "spelling": "Ab2",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "u1kxwpc5",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "hxnd8qk",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "f10hwvyc",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "bkn2gsq",
+          "pitch": 44,
+          "spelling": "Ab2",
+          "staff": "18",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "16首拍：降D大三和弦",
+      "q": 45,
+      "staffs": [],
+      "pitch_classes": [
+        1,
+        5,
+        8
+      ],
+      "events": [
+        {
+          "id": "bwqts24",
+          "pitch": 85,
+          "spelling": "Db6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "id": "u1fnhcq0",
+          "pitch": 80,
+          "spelling": "Ab5",
+          "staff": "2",
+          "voice": "1"
+        },
+        {
+          "id": "aryl2ue",
+          "pitch": 68,
+          "spelling": "Ab4",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "d1tr8zyx",
+          "pitch": 77,
+          "spelling": "F5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "u1f7z9er",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "w11ufrlv",
+          "pitch": 73,
+          "spelling": "Db5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "a6kbipp",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "d151hyf1",
+          "pitch": 49,
+          "spelling": "Db3",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "sv4zrnl",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "v1ks5i1x",
+          "pitch": 61,
+          "spelling": "Db4",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "o1tvgqhj",
+          "pitch": 61,
+          "spelling": "Db4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "rucw1o1",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "inko9q2",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "13",
+          "voice": "2"
+        },
+        {
+          "id": "ke06eqk",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "13",
+          "voice": "2"
+        },
+        {
+          "id": "o8xghvx",
+          "pitch": 25,
+          "spelling": "Db1",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "rs9z8fh",
+          "pitch": 32,
+          "spelling": "Ab1",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "t1h25frx",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "a1n7u99x",
+          "pitch": 61,
+          "spelling": "Db4",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "v1elt4es",
+          "pitch": 49,
+          "spelling": "Db3",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "mmf1146",
+          "pitch": 49,
+          "spelling": "Db3",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "r1ugp9o6",
+          "pitch": 37,
+          "spelling": "Db2",
+          "staff": "18",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "185伴奏：降B小七／降A",
+      "q": 636,
+      "staffs": [
+        "5",
+        "7"
+      ],
+      "pitch_classes": [
+        1,
+        5,
+        8,
+        10
+      ],
+      "events": [
+        {
+          "id": "z1uq5r65",
+          "pitch": 56,
+          "spelling": "Ab3",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "c1yvbfhk",
+          "pitch": 61,
+          "spelling": "Db4",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "v3wwtra",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "xy5fqop",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "7",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "186伴奏：G半减七",
+      "q": 640,
+      "staffs": [
+        "5",
+        "7"
+      ],
+      "pitch_classes": [
+        1,
+        5,
+        7,
+        10
+      ],
+      "events": [
+        {
+          "id": "a1ohwmcc",
+          "pitch": 55,
+          "spelling": "G3",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "dn15ej",
+          "pitch": 61,
+          "spelling": "Db4",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "q1xuheeb",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "s1d6gvfe",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "7",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "204末拍：钢琴G属七",
+      "q": 715,
+      "staffs": [
+        "12",
+        "13"
+      ],
+      "pitch_classes": [
+        2,
+        5,
+        7,
+        11
+      ],
+      "events": [
+        {
+          "id": "r8fnr43",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "whhipvc",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "12",
+          "voice": "2"
+        },
+        {
+          "id": "z31w9g8",
+          "pitch": 55,
+          "spelling": "G3",
+          "staff": "12",
+          "voice": "2"
+        },
+        {
+          "id": "i1ki1yeq",
+          "pitch": 59,
+          "spelling": "B3",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "ojy9d5u",
+          "pitch": 55,
+          "spelling": "G3",
+          "staff": "13",
+          "voice": "6"
+        }
+      ]
+    },
+    {
+      "observation": "205首拍：钢琴C小三和弦",
+      "q": 716,
+      "staffs": [
+        "12",
+        "13"
+      ],
+      "pitch_classes": [
+        0,
+        3,
+        7
+      ],
+      "events": [
+        {
+          "id": "d1c5jo6a",
+          "pitch": 60,
+          "spelling": "C4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "i1gsqxrq",
+          "pitch": 51,
+          "spelling": "Eb3",
+          "staff": "12",
+          "voice": "2"
+        },
+        {
+          "id": "lgwwj9c",
+          "pitch": 55,
+          "spelling": "G3",
+          "staff": "12",
+          "voice": "2"
+        },
+        {
+          "id": "o1pgbiif",
+          "pitch": 36,
+          "spelling": "C2",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "qwyxwtd",
+          "pitch": 43,
+          "spelling": "G2",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "scqqvq1",
+          "pitch": 48,
+          "spelling": "C3",
+          "staff": "13",
+          "voice": "5"
+        }
+      ]
+    },
+    {
+      "observation": "663：全体降B大三和弦",
+      "q": 2639.359375,
+      "staffs": [],
+      "pitch_classes": [
+        2,
+        5,
+        10
+      ],
+      "events": [
+        {
+          "id": "ki2y99h",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "id": "nmtmxjy",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "2",
+          "voice": "1"
+        },
+        {
+          "id": "i1kjoy5s",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "k1p547nf",
+          "pitch": 77,
+          "spelling": "F5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "a1ku8wqm",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "c17l6u48",
+          "pitch": 77,
+          "spelling": "F5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "y11v868i",
+          "pitch": 34,
+          "spelling": "Bb1",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "b1qw769o",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "uwa6ux8",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "wf3g9j6",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "q15wr4om",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "s1yw2b5o",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "r1wjzdt8",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "8",
+          "voice": "1"
+        },
+        {
+          "id": "tg78qa1",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "8",
+          "voice": "1"
+        },
+        {
+          "id": "r14g945h",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "9",
+          "voice": "1"
+        },
+        {
+          "id": "u1y8uis",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "9",
+          "voice": "1"
+        },
+        {
+          "id": "t1xlvxpn",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "10",
+          "voice": "1"
+        },
+        {
+          "id": "i1ojkoif",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "11",
+          "voice": "1"
+        },
+        {
+          "id": "sq945wi",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "v9tv21k",
+          "pitch": 94,
+          "spelling": "Bb6",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "hnvg85n",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "k1nhb7we",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "zu4nn4v",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "c1ov1psm",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "d1tc0eib",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "em32tfn",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "z16zat7t",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "btdcoty",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "d1gf4s9q",
+          "pitch": 77,
+          "spelling": "F5",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "x1rcn8g5",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "a1ceiuwo",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "av6rzjn",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "d1q14efa",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "e1ngptmk",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "qfv8dyd",
+          "pitch": 34,
+          "spelling": "Bb1",
+          "staff": "18",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "665第二拍：全体降E大三和弦",
+      "q": 2648.359375,
+      "staffs": [],
+      "pitch_classes": [
+        3,
+        7,
+        10
+      ],
+      "events": [
+        {
+          "id": "u5w4b8g",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "id": "xyt3l7b",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "2",
+          "voice": "1"
+        },
+        {
+          "id": "x1dwtupg",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "a1aqndnu",
+          "pitch": 79,
+          "spelling": "G5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "p1h0cn6b",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "r1ree785",
+          "pitch": 79,
+          "spelling": "G5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "x1f6zwqk",
+          "pitch": 39,
+          "spelling": "Eb2",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "a1fviqmo",
+          "pitch": 51,
+          "spelling": "Eb3",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "j1w9ype8",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "l1ut9ros",
+          "pitch": 67,
+          "spelling": "G4",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "f5pob03",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "h10fpivm",
+          "pitch": 67,
+          "spelling": "G4",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "gtz5tnu",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "8",
+          "voice": "1"
+        },
+        {
+          "id": "ip1q7pm",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "8",
+          "voice": "1"
+        },
+        {
+          "id": "l63x5w9",
+          "pitch": 55,
+          "spelling": "G3",
+          "staff": "9",
+          "voice": "1"
+        },
+        {
+          "id": "n1u0borw",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "9",
+          "voice": "1"
+        },
+        {
+          "id": "dgcbrxw",
+          "pitch": 51,
+          "spelling": "Eb3",
+          "staff": "10",
+          "voice": "1"
+        },
+        {
+          "id": "sybn09e",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "11",
+          "voice": "1"
+        },
+        {
+          "id": "h12wzpdl",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "k10yhg4p",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "mo3ptyo",
+          "pitch": 79,
+          "spelling": "G5",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "n368zau",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "f14fi7gu",
+          "pitch": 51,
+          "spelling": "Eb3",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "ipl8fzo",
+          "pitch": 55,
+          "spelling": "G3",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "j1joirnf",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "lkekbqh",
+          "pitch": 63,
+          "spelling": "Eb4",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "i1navyes",
+          "pitch": 75,
+          "spelling": "Eb5",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "l119xeyh",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "yordhrl",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "b1s3pjkq",
+          "pitch": 79,
+          "spelling": "G5",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "rve9tuk",
+          "pitch": 67,
+          "spelling": "G4",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "w1tyby5k",
+          "pitch": 51,
+          "spelling": "Eb3",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "a32z0a3",
+          "pitch": 39,
+          "spelling": "Eb2",
+          "staff": "18",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "665第三拍：全体降B大三和弦",
+      "q": 2649.359375,
+      "staffs": [],
+      "pitch_classes": [
+        2,
+        5,
+        10
+      ],
+      "events": [
+        {
+          "id": "wvkkbdb",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "id": "zbemv9b",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "2",
+          "voice": "1"
+        },
+        {
+          "id": "bl7ix4z",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "drvkr62",
+          "pitch": 77,
+          "spelling": "F5",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "s1hk2aqz",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "u9lro7z",
+          "pitch": 77,
+          "spelling": "F5",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "cqm2mgj",
+          "pitch": 34,
+          "spelling": "Bb1",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "fcr6gan",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "mplp5h8",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "o197971n",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "ijl1k3d",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "kmze3hg",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "kxrr9h1",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "8",
+          "voice": "1"
+        },
+        {
+          "id": "m1mqaa5b",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "8",
+          "voice": "1"
+        },
+        {
+          "id": "ps2llmh",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "9",
+          "voice": "1"
+        },
+        {
+          "id": "st2qu0t",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "9",
+          "voice": "1"
+        },
+        {
+          "id": "f1ght8mm",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "10",
+          "voice": "1"
+        },
+        {
+          "id": "uq7gghe",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "11",
+          "voice": "1"
+        },
+        {
+          "id": "p19lhbwq",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "s15uwars",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "t1a6pq2x",
+          "pitch": 77,
+          "spelling": "F5",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "u133d572",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "nz57bes",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "q169hnx1",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "rbd65s3",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "t6cgm8l",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "n7iu7rn",
+          "pitch": 74,
+          "spelling": "D5",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "p1ebks6z",
+          "pitch": 82,
+          "spelling": "Bb5",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "c1t05ntf",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "felv6c4",
+          "pitch": 77,
+          "spelling": "F5",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "s1942a1u",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "vxwp5r7",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "y7bly49",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "c6iu7fg",
+          "pitch": 34,
+          "spelling": "Bb1",
+          "staff": "18",
+          "voice": "1"
+        }
+      ]
+    },
+    {
+      "observation": "666：全体降B大三和弦",
+      "q": 2651.359375,
+      "staffs": [],
+      "pitch_classes": [
+        2,
+        5,
+        10
+      ],
+      "events": [
+        {
+          "id": "k1pgjari",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "id": "nwr2xyc",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "2",
+          "voice": "1"
+        },
+        {
+          "id": "qiixk24",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "3",
+          "voice": "1"
+        },
+        {
+          "id": "u1mziavs",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "3",
+          "voice": "2"
+        },
+        {
+          "id": "hcj8q64",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "km1rv33",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "4",
+          "voice": "1"
+        },
+        {
+          "id": "t1uihfbj",
+          "pitch": 34,
+          "spelling": "Bb1",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "xoic05p",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "5",
+          "voice": "1"
+        },
+        {
+          "id": "b1gbqzqk",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "e1b4d4lt",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "6",
+          "voice": "1"
+        },
+        {
+          "id": "x1d5zwfq",
+          "pitch": 53,
+          "spelling": "F3",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "a1wgedvw",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "7",
+          "voice": "1"
+        },
+        {
+          "id": "z11rzf47",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "8",
+          "voice": "1"
+        },
+        {
+          "id": "chq8i3e",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "8",
+          "voice": "2"
+        },
+        {
+          "id": "f1ejxf01",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "9",
+          "voice": "1"
+        },
+        {
+          "id": "jruogct",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "9",
+          "voice": "1"
+        },
+        {
+          "id": "tebiudw",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "10",
+          "voice": "1"
+        },
+        {
+          "id": "j1ncl2ka",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "11",
+          "voice": "1"
+        },
+        {
+          "id": "h1yipk33",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "12",
+          "voice": "1"
+        },
+        {
+          "id": "lmjkaul",
+          "pitch": 34,
+          "spelling": "Bb1",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "p1ij8rx5",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "13",
+          "voice": "5"
+        },
+        {
+          "id": "d14hy0cp",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "gbz824q",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "14",
+          "voice": "1"
+        },
+        {
+          "id": "s1ty485g",
+          "pitch": 62,
+          "spelling": "D4",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "v1lltrl2",
+          "pitch": 70,
+          "spelling": "Bb4",
+          "staff": "15",
+          "voice": "1"
+        },
+        {
+          "id": "i1avm6ih",
+          "pitch": 58,
+          "spelling": "Bb3",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "m13h1h41",
+          "pitch": 65,
+          "spelling": "F4",
+          "staff": "16",
+          "voice": "1"
+        },
+        {
+          "id": "maqc398",
+          "pitch": 46,
+          "spelling": "Bb2",
+          "staff": "17",
+          "voice": "1"
+        },
+        {
+          "id": "q4yazo0",
+          "pitch": 34,
+          "spelling": "Bb1",
+          "staff": "18",
+          "voice": "1"
+        }
+      ]
+    }
+  ],
+  "octave_pairs_in_intro": 36,
+  "piano_answer": {
+    "start": 746,
+    "end": 750,
+    "cross_bar_ties_preserved": true
+  },
+  "recap_first_three_notes_transposed_semitones": 2,
+  "segments": [
+    {
+      "analysis_id": "codex-tcha1-opening-harmony",
+      "segment_id": "ct1-opening-call",
+      "label": "完整开场引句及落点｜1–6",
+      "role": "phrase",
+      "start": 1.5,
+      "end": 18.0,
+      "start_measure_label": "1",
+      "end_measure_label": "6",
+      "staffs": [],
+      "note_ids_count": 292,
+      "sounding_note_count": 292
+    },
+    {
+      "analysis_id": "codex-tcha1-opening-harmony",
+      "segment_id": "ct1-opening-bass",
+      "label": "局部证据：半音低音链｜2–5",
+      "role": "evidence",
+      "start": 4.0,
+      "end": 15.0,
+      "start_measure_label": "2",
+      "end_measure_label": "5",
+      "staffs": [
+        "17",
+        "18"
+      ],
+      "note_ids_count": 14,
+      "sounding_note_count": 14
+    },
+    {
+      "analysis_id": "codex-tcha1-opening-harmony",
+      "segment_id": "ct1-opening-arrival",
+      "label": "局部证据：降E—降A—降D｜5–6",
+      "role": "evidence",
+      "start": 13.0,
+      "end": 18.0,
+      "start_measure_label": "5",
+      "end_measure_label": "6",
+      "staffs": [],
+      "note_ids_count": 106,
+      "sounding_note_count": 106
+    },
+    {
+      "analysis_id": "codex-tcha1-tonic-pedal",
+      "segment_id": "ct1-pedal-full",
+      "label": "完整歌唱乐句：含和声与低音｜7弱起–16落点",
+      "role": "phrase",
+      "start": 19.5,
+      "end": 45.5,
+      "start_measure_label": "7",
+      "end_measure_label": "16",
+      "staffs": [],
+      "note_ids_count": 382,
+      "sounding_note_count": 357
+    },
+    {
+      "analysis_id": "codex-tcha1-tonic-pedal",
+      "segment_id": "ct1-pedal-middle",
+      "label": "局部证据：不动的低音、变化的上方和声｜10–13",
+      "role": "evidence",
+      "start": 27.0,
+      "end": 39.0,
+      "start_measure_label": "10",
+      "end_measure_label": "13",
+      "staffs": [],
+      "note_ids_count": 166,
+      "sounding_note_count": 146
+    },
+    {
+      "analysis_id": "codex-tcha1-tonic-pedal",
+      "segment_id": "ct1-pedal-cadence",
+      "label": "局部证据：属和声到主和弦｜15–16落点",
+      "role": "evidence",
+      "start": 42.0,
+      "end": 45.5,
+      "start_measure_label": "15",
+      "end_measure_label": "16",
+      "staffs": [],
+      "note_ids_count": 70,
+      "sounding_note_count": 68
+    },
+    {
+      "analysis_id": "codex-tcha1-intro-syntax",
+      "segment_id": "ct1-syntax-full",
+      "label": "完整乐句：弱起—八小节主体—落点",
+      "role": "phrase",
+      "start": 19.5,
+      "end": 45.5,
+      "start_measure_label": "7",
+      "end_measure_label": "16",
+      "staffs": [
+        "14",
+        "17"
+      ],
+      "note_ids_count": 72,
+      "sounding_note_count": 70
+    },
+    {
+      "analysis_id": "codex-tcha1-intro-syntax",
+      "segment_id": "ct1-syntax-pickup",
+      "label": "局部证据：第7小节后半的弱起",
+      "role": "evidence",
+      "start": 19.5,
+      "end": 24.0,
+      "start_measure_label": "7",
+      "end_measure_label": "8",
+      "staffs": [
+        "14",
+        "17"
+      ],
+      "note_ids_count": 12,
+      "sounding_note_count": 12
+    },
+    {
+      "analysis_id": "codex-tcha1-intro-syntax",
+      "segment_id": "ct1-syntax-end",
+      "label": "局部证据：下降音型、到达与短休止前的句尾",
+      "role": "evidence",
+      "start": 42.0,
+      "end": 45.5,
+      "start_measure_label": "15",
+      "end_measure_label": "16",
+      "staffs": [
+        "14",
+        "17"
+      ],
+      "note_ids_count": 16,
+      "sounding_note_count": 14
+    },
+    {
+      "analysis_id": "codex-tcha1-intro-orchestration",
+      "segment_id": "ct1-orchestration-strings",
+      "label": "完整乐句 A：第一小提琴与大提琴",
+      "role": "phrase",
+      "start": 19.5,
+      "end": 45.5,
+      "start_measure_label": "7",
+      "end_measure_label": "16",
+      "staffs": [
+        "14",
+        "17"
+      ],
+      "note_ids_count": 72,
+      "sounding_note_count": 70
+    },
+    {
+      "analysis_id": "codex-tcha1-intro-orchestration",
+      "segment_id": "ct1-orchestration-full",
+      "label": "完整乐句 B：含钢琴及乐队伴奏",
+      "role": "phrase",
+      "start": 19.5,
+      "end": 45.5,
+      "start_measure_label": "7",
+      "end_measure_label": "16",
+      "staffs": [],
+      "note_ids_count": 382,
+      "sounding_note_count": 357
+    },
+    {
+      "analysis_id": "codex-tcha1-intro-orchestration",
+      "segment_id": "ct1-orchestration-piano",
+      "label": "同一完整乐句的钢琴伴奏层",
+      "role": "phrase",
+      "start": 19.5,
+      "end": 45.5,
+      "start_measure_label": "7",
+      "end_measure_label": "16",
+      "staffs": [
+        "12",
+        "13"
+      ],
+      "note_ids_count": 189,
+      "sounding_note_count": 196
+    },
+    {
+      "analysis_id": "codex-tcha1-intro-orchestration",
+      "segment_id": "ct1-orchestration-proof",
+      "label": "局部证据：旋律八度加倍与钢琴逐拍和弦｜8–9",
+      "role": "evidence",
+      "start": 21.0,
+      "end": 27.0,
+      "start_measure_label": "8",
+      "end_measure_label": "9",
+      "staffs": [
+        "12",
+        "13",
+        "14",
+        "17"
+      ],
+      "note_ids_count": 56,
+      "sounding_note_count": 56
+    },
+    {
+      "analysis_id": "codex-tcha1-secondary-harmony",
+      "segment_id": "ct1-secondary-winds-full",
+      "label": "完整木管陈述：交接前的八小节｜185–192",
+      "role": "phrase",
+      "start": 636.0,
+      "end": 668.0,
+      "start_measure_label": "185",
+      "end_measure_label": "192",
+      "staffs": [],
+      "note_ids_count": 142,
+      "sounding_note_count": 135
+    },
+    {
+      "analysis_id": "codex-tcha1-secondary-harmony",
+      "segment_id": "ct1-secondary-harmony",
+      "label": "局部证据：巴松与圆号的两组和声｜185–186",
+      "role": "evidence",
+      "start": 636.0,
+      "end": 644.0,
+      "start_measure_label": "185",
+      "end_measure_label": "186",
+      "staffs": [
+        "5",
+        "7"
+      ],
+      "note_ids_count": 24,
+      "sounding_note_count": 24
+    },
+    {
+      "analysis_id": "codex-tcha1-secondary-harmony",
+      "segment_id": "ct1-secondary-opening-compare",
+      "label": "局部对照：开场的同类和声｜2–3",
+      "role": "evidence",
+      "start": 4.0,
+      "end": 9.0,
+      "start_measure_label": "2",
+      "end_measure_label": "3",
+      "staffs": [
+        "5",
+        "8",
+        "9",
+        "10",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "note_ids_count": 34,
+      "sounding_note_count": 34
+    },
+    {
+      "analysis_id": "codex-tcha1-secondary-harmony",
+      "segment_id": "ct1-secondary-handover",
+      "label": "局部证据：木管结束后钢琴接话｜192–193",
+      "role": "evidence",
+      "start": 664.0,
+      "end": 672.0,
+      "start_measure_label": "192",
+      "end_measure_label": "193",
+      "staffs": [],
+      "note_ids_count": 27,
+      "sounding_note_count": 27
+    },
+    {
+      "analysis_id": "codex-tcha1-piano-cadence",
+      "segment_id": "ct1-piano-extension-full",
+      "label": "完整钢琴接奏及落点｜193–205首拍",
+      "role": "phrase",
+      "start": 668.0,
+      "end": 717.0,
+      "start_measure_label": "193",
+      "end_measure_label": "205",
+      "staffs": [
+        "12",
+        "13"
+      ],
+      "note_ids_count": 191,
+      "sounding_note_count": 168
+    },
+    {
+      "analysis_id": "codex-tcha1-piano-cadence",
+      "segment_id": "ct1-piano-c-minor-proof",
+      "label": "局部证据：G属七到C小三和弦｜204–205首拍",
+      "role": "evidence",
+      "start": 712.0,
+      "end": 717.0,
+      "start_measure_label": "204",
+      "end_measure_label": "205",
+      "staffs": [
+        "12",
+        "13"
+      ],
+      "note_ids_count": 18,
+      "sounding_note_count": 18
+    },
+    {
+      "analysis_id": "codex-tcha1-piano-cadence",
+      "segment_id": "ct1-after-piano-strings",
+      "label": "完整后继弦乐主题：降A区域｜205弱起–212",
+      "role": "phrase",
+      "start": 717.0,
+      "end": 748.0,
+      "start_measure_label": "205",
+      "end_measure_label": "212",
+      "staffs": [
+        "5",
+        "6",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "note_ids_count": 109,
+      "sounding_note_count": 98
+    },
+    {
+      "analysis_id": "codex-tcha1-piano-cadence",
+      "segment_id": "ct1-c-minor-to-ab",
+      "label": "局部证据：同小节内交接｜205–206",
+      "role": "evidence",
+      "start": 716.0,
+      "end": 724.0,
+      "start_measure_label": "205",
+      "end_measure_label": "206",
+      "staffs": [],
+      "note_ids_count": 29,
+      "sounding_note_count": 27
+    },
+    {
+      "analysis_id": "codex-tcha1-muted-orchestration",
+      "segment_id": "ct1-muted-full",
+      "label": "完整第三主题：旋律与乐队伴奏｜205弱起–212",
+      "role": "phrase",
+      "start": 717.0,
+      "end": 748.0,
+      "start_measure_label": "205",
+      "end_measure_label": "212",
+      "staffs": [
+        "5",
+        "6",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "note_ids_count": 109,
+      "sounding_note_count": 98
+    },
+    {
+      "analysis_id": "codex-tcha1-muted-orchestration",
+      "segment_id": "ct1-muted-melody",
+      "label": "同一完整乐句：第一小提琴单独",
+      "role": "phrase",
+      "start": 717.0,
+      "end": 748.0,
+      "start_measure_label": "205",
+      "end_measure_label": "212",
+      "staffs": [
+        "14"
+      ],
+      "note_ids_count": 30,
+      "sounding_note_count": 30
+    },
+    {
+      "analysis_id": "codex-tcha1-muted-orchestration",
+      "segment_id": "ct1-muted-support",
+      "label": "局部证据：圆号、巴松与拨弦低音｜206–208",
+      "role": "evidence",
+      "start": 720.0,
+      "end": 732.0,
+      "start_measure_label": "206",
+      "end_measure_label": "208",
+      "staffs": [
+        "5",
+        "6",
+        "7",
+        "17",
+        "18"
+      ],
+      "note_ids_count": 18,
+      "sounding_note_count": 18
+    },
+    {
+      "analysis_id": "codex-tcha1-muted-orchestration",
+      "segment_id": "ct1-muted-grouping",
+      "label": "局部证据：第二个短组与句尾休止｜209弱起–212",
+      "role": "evidence",
+      "start": 733.0,
+      "end": 748.0,
+      "start_measure_label": "209",
+      "end_measure_label": "212",
+      "staffs": [
+        "14"
+      ],
+      "note_ids_count": 14,
+      "sounding_note_count": 14
+    },
+    {
+      "analysis_id": "codex-tcha1-muted-orchestration",
+      "segment_id": "ct1-muted-piano-answer",
+      "label": "局部证据：钢琴跨过主题句尾的答句｜212后半–213前半",
+      "role": "evidence",
+      "start": 746.0,
+      "end": 750.0,
+      "start_measure_label": "212",
+      "end_measure_label": "213",
+      "staffs": [
+        "12",
+        "13"
+      ],
+      "note_ids_count": 14,
+      "sounding_note_count": 10
+    },
+    {
+      "analysis_id": "codex-tcha1-recap-tonality",
+      "segment_id": "ct1-recap-ab",
+      "label": "完整对照 A：呈示部木管陈述｜185–192",
+      "role": "phrase",
+      "start": 636.0,
+      "end": 668.0,
+      "start_measure_label": "185",
+      "end_measure_label": "192",
+      "staffs": [],
+      "note_ids_count": 142,
+      "sounding_note_count": 135
+    },
+    {
+      "analysis_id": "codex-tcha1-recap-tonality",
+      "segment_id": "ct1-recap-bb",
+      "label": "完整对照 B：再现部双簧管陈述｜472–479",
+      "role": "phrase",
+      "start": 1852.984375,
+      "end": 1884.984375,
+      "start_measure_label": "472",
+      "end_measure_label": "479",
+      "staffs": [],
+      "note_ids_count": 197,
+      "sounding_note_count": 191
+    },
+    {
+      "analysis_id": "codex-tcha1-recap-tonality",
+      "segment_id": "ct1-recap-ab-arrival",
+      "label": "局部证据 A：降A大三和弦落点｜189",
+      "role": "evidence",
+      "start": 652.0,
+      "end": 656.0,
+      "start_measure_label": "189",
+      "end_measure_label": "189",
+      "staffs": [],
+      "note_ids_count": 19,
+      "sounding_note_count": 19
+    },
+    {
+      "analysis_id": "codex-tcha1-recap-tonality",
+      "segment_id": "ct1-recap-bb-arrival",
+      "label": "局部证据 B：降B大三和弦落点｜476",
+      "role": "evidence",
+      "start": 1868.984375,
+      "end": 1872.984375,
+      "start_measure_label": "476",
+      "end_measure_label": "476",
+      "staffs": [],
+      "note_ids_count": 26,
+      "sounding_note_count": 27
+    },
+    {
+      "analysis_id": "codex-tcha1-coda-cadence",
+      "segment_id": "ct1-coda-final-full",
+      "label": "完整终止段：钢琴上行至最后和弦｜659–666",
+      "role": "phrase",
+      "start": 2623.359375,
+      "end": 2655.359375,
+      "start_measure_label": "659",
+      "end_measure_label": "666",
+      "staffs": [],
+      "note_ids_count": 547,
+      "sounding_note_count": 547
+    },
+    {
+      "analysis_id": "codex-tcha1-coda-cadence",
+      "segment_id": "ct1-coda-major-proof",
+      "label": "局部证据：大三度D与主和弦重复｜663–664",
+      "role": "evidence",
+      "start": 2639.359375,
+      "end": 2647.359375,
+      "start_measure_label": "663",
+      "end_measure_label": "664",
+      "staffs": [],
+      "note_ids_count": 152,
+      "sounding_note_count": 152
+    },
+    {
+      "analysis_id": "codex-tcha1-coda-cadence",
+      "segment_id": "ct1-coda-plagal-proof",
+      "label": "局部证据：I—IV—I与末尾长音｜665–666",
+      "role": "evidence",
+      "start": 2647.359375,
+      "end": 2655.359375,
+      "start_measure_label": "665",
+      "end_measure_label": "666",
+      "staffs": [],
+      "note_ids_count": 133,
+      "sounding_note_count": 133
+    }
+  ]
+}

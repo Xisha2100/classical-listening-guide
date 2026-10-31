@@ -1,0 +1,48 @@
+{
+  "work_id": "beethoven-op37",
+  "required_movements": [
+    1,
+    2,
+    3
+  ],
+  "status": "blocked_source_acquisition",
+  "files_obtained": [],
+  "candidates": [
+    {
+      "movement": 1,
+      "url": "https://musescore.com/user/38606/scores/12906169",
+      "author": "cozilax",
+      "visible_parts": 20,
+      "visible_measures": 511,
+      "license_page_label": "Creative Commons copyright waiver",
+      "file_verified": false
+    },
+    {
+      "movement": 2,
+      "url": "https://musescore.com/user/38606/scores/12962101",
+      "author": "cozilax",
+      "visible_parts": 20,
+      "license_page_label": null,
+      "file_verified": false
+    },
+    {
+      "movement": 3,
+      "url": "https://musescore.com/user/38606/scores/13106833",
+      "author": "cozilax",
+      "visible_parts": 20,
+      "visible_measures": 465,
+      "license_page_label": "Creative Commons copyright waiver",
+      "file_verified": false
+    }
+  ],
+  "blockers": [
+    "Normal original page access returned HTTP403; normal Chrome visit remains on Cloudflare verification. No verification bypass or paywall bypass attempted.",
+    "None of the three score IDs appear in PDMX v9 CSV.",
+    "All 85 PDMX concerto/konzert/концерт rows with >=9 tracks reviewed; no target full-score candidate identified.",
+    "MuseData official public index contains Beethoven Op19 and Op61 concertos, not Op37.",
+    "No MusicXML/MXL/MSCZ file downloaded and parsed for this work.",
+    "Broader scan of 79 multi-track rows containing Limoges/Marche/Mussorgsky/Ravel/C minor/Op37/Concerto III variants also found no target; the C-minor concerto rows name contemporary composers."
+  ],
+  "reference_print_score": "https://imslp.org/wiki/Piano_Concerto_No.3,_Op.37_(Beethoven,_Ludwig_van)",
+  "next_required_action": "Obtain all three orchestral score source files through the original site’s normal authorized download flow or another clearly licensed public source; then audit instrumentation, measures, transposition, license, and source edition. Do not substitute two-piano reductions or excerpts."
+}

@@ -1,0 +1,282 @@
+{
+  "work_id": "tchaikovsky-op23-3",
+  "overview": "终乐章反复回来的 A 舞蹈主题与 B 抒情插段是可靠的两个主题家族；第101–113小节按过渡处理。整体可描述为回旋/近回旋结构，外部资料对中段是否另列C有分歧。",
+  "sections": [
+    {
+      "id": "m3-intro",
+      "parent_id": "",
+      "title": "乐队引入",
+      "start_measure": 0,
+      "end_measure": 3,
+      "description": "第5小节钢琴开始回旋主题。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-a1",
+      "parent_id": "",
+      "title": "A：回旋主部首次陈述",
+      "start_measure": 4,
+      "end_measure": 43,
+      "description": "钢琴舞蹈主题及调性变化。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-bridge1",
+      "parent_id": "",
+      "title": "乐队过渡",
+      "start_measure": 44,
+      "end_measure": 54,
+      "description": "第45与49小节有速度标记，带往抒情插段。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-b1",
+      "parent_id": "",
+      "title": "B：抒情插段",
+      "start_measure": 55,
+      "end_measure": 78,
+      "description": "与 A 的舞蹈节奏对比；Gauldin 视此为全乐章唯一抒情旋律家族。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-bridge2",
+      "parent_id": "",
+      "title": "回返准备",
+      "start_measure": 79,
+      "end_measure": 87,
+      "description": "第89小节 A 回归。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-a2",
+      "parent_id": "",
+      "title": "A：首次回返",
+      "start_measure": 88,
+      "end_measure": 99,
+      "description": "回旋主题在钢琴上重现。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-c",
+      "parent_id": "",
+      "title": "过渡：A主题碎片",
+      "start_measure": 100,
+      "end_measure": 112,
+      "description": "第101小节慢下并发展A主题碎片；Crescendo称过渡，Tonic Chord称C，主题身份保留分歧。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016",
+        "tonic-chord-2018",
+        "gauldin-2004"
+      ]
+    },
+    {
+      "id": "m3-a3",
+      "parent_id": "",
+      "title": "A：短回返",
+      "start_measure": 113,
+      "end_measure": 120,
+      "description": "第114小节快速度回归，主题以变化调性出现。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-bridge3",
+      "parent_id": "",
+      "title": "过渡",
+      "start_measure": 121,
+      "end_measure": 131,
+      "description": "第122与126小节有速度标记，准备 B 回返。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-b2",
+      "parent_id": "",
+      "title": "B：抒情插段回返",
+      "start_measure": 132,
+      "end_measure": 148,
+      "description": "第133小节主题重来，调性与配器变化。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-bridge4",
+      "parent_id": "",
+      "title": "回返准备",
+      "start_measure": 149,
+      "end_measure": 157,
+      "description": "第159小节 A 再来。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-a4",
+      "parent_id": "",
+      "title": "A：末次较完整回返",
+      "start_measure": 158,
+      "end_measure": 181,
+      "description": "舞蹈主题最后一轮较完整呈示。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-development",
+      "parent_id": "",
+      "title": "展开性过渡与合流",
+      "start_measure": 182,
+      "end_measure": 241,
+      "description": "音阶琶音与先前材料交替，逐步推至独奏华彩。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-cadenza",
+      "parent_id": "",
+      "title": "短华彩",
+      "start_measure": 242,
+      "end_measure": 250,
+      "description": "第243小节钢琴密集独奏，第252小节转入终结段。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m3-coda",
+      "parent_id": "",
+      "title": "大调尾声与抒情主题升华",
+      "start_measure": 251,
+      "end_measure": 300,
+      "description": "第252小节开始降B大调尾声；Gauldin称抒情插段升华。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tcha-op23-local-score",
+      "kind": "score",
+      "title": "PDMX v9 归档的 jeronjoseph 数字管弦总谱：柴可夫斯基第一钢琴协奏曲 Op.23（本地保留的完整 MusicXML）",
+      "author": "jeronjoseph；PDMX 数字转换",
+      "edition": "",
+      "pages": "movement-1/2/3.mxl；各 movement-*-measure-map.json",
+      "url": "https://zenodo.org/records/15571083",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "本轮边界、配器及印刷小节与内部 ordinal 对应的直接谱面证据。"
+    },
+    {
+      "id": "gauldin-2004",
+      "kind": "web",
+      "title": "Tragic Love and Musical Memory",
+      "author": "Robert Gauldin",
+      "edition": "",
+      "pages": "§§17–21；Example 5a–l",
+      "url": "https://www.mtosmt.org/classic/mto.04.10.4/mto.04.10.4.gauldin.html",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "支持主题身份与大结构；其自传性解释属作者假说，本文件不把它当既定事实。"
+    },
+    {
+      "id": "gauldin-ex5",
+      "kind": "web",
+      "title": "Gauldin, Example 5: Unusual features of Tchaikovsky’s B-flat minor Piano Concerto",
+      "author": "Robert Gauldin",
+      "edition": "",
+      "pages": "Example 5a–l，PDF pp. 1–2",
+      "url": "https://mtosmt.org/issues/mto.04.10.4/gauldin_examples.pdf",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "用作主题类型和结构交叉核对，不提供本地谱的精确小节映射。"
+    },
+    {
+      "id": "tonic-chord-2018",
+      "kind": "web",
+      "title": "Tchaikovsky: Piano Concerto No.1 Analysis",
+      "author": "Tonic Chord",
+      "edition": "",
+      "pages": "First Movement, Second Movement, Third Movement 各节；网页行 59–177",
+      "url": "https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "第二、三乐章区段与本地谱对照；第一乐章只用作功能候选并以本地谱核界。"
+    },
+    {
+      "id": "ptna-wada",
+      "kind": "web",
+      "title": "Concerto for piano and orchestra No. 1 b-moll Op.23",
+      "author": "Mayuko Wada（英译网页）",
+      "edition": "",
+      "pages": "Commentary：First/Second/Third Movement",
+      "url": "https://enc.piano.or.jp/en/musics/92",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "大结构和主题角色辅助；网页声明英译未经原作者审校。"
+    },
+    {
+      "id": "tchaikovsky-research",
+      "kind": "web",
+      "title": "Piano Concerto No. 1",
+      "author": "Tchaikovsky Research",
+      "edition": "",
+      "pages": "Composition；Versions；Musical features",
+      "url": "https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "版本差异背景。"
+    },
+    {
+      "id": "crescendo-2016",
+      "kind": "web",
+      "title": "Les Concertos du Concours : le 1er Tchaikovski – Guide d’écoute",
+      "author": "Bernadette Beyne et Quentin Mourier",
+      "edition": "",
+      "pages": "I §§Introduction, Allegro, Développement, Réexposition；II §§A–B–A；III §§Rondo–Coda",
+      "url": "https://www.crescendo-magazine.be/conc-tchaiko_quentin_corr/",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "附录音与谱例的逐段导听，明确第1乐章第2主题为单簧管/钢琴、第3主题为弱音弦乐；第二乐章中段歌曲归弦乐；终乐章第101段为过渡。与本地谱小节号仍有若干处偏移。"
+    }
+  ],
+  "source_ids": []
+}

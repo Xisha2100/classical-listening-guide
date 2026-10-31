@@ -1,0 +1,43 @@
+[
+  {
+    "id": "seed-v2-tcha-1-06-s1",
+    "label": "单簧管与钢琴的旋律交接",
+    "score_version": "308ba2c44a982ae0",
+    "start": 636.0,
+    "end": 640.0,
+    "staffs": [
+      "4"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "sdo7jex",
+      "uhdygne",
+      "wdu7894"
+    ],
+    "start_measure": 185,
+    "end_measure": 185
+  },
+  {
+    "id": "seed-v2-tcha-1-06-s2",
+    "label": "钢琴接过起句",
+    "score_version": "308ba2c44a982ae0",
+    "start": 668.0,
+    "end": 672.0,
+    "staffs": [
+      "12"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "m1ubo4f1",
+      "o1mh70qa",
+      "r8td04p",
+      "v1u7bkmq",
+      "w1ls5ezv",
+      "x1dg9vxs"
+    ],
+    "start_measure": 193,
+    "end_measure": 193
+  }
+]

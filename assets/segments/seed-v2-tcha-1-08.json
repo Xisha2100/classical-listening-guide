@@ -1,0 +1,40 @@
+[
+  {
+    "id": "seed-v2-tcha-1-08-s1",
+    "label": "旋律返回与移调",
+    "score_version": "308ba2c44a982ae0",
+    "start": 1884.984375,
+    "end": 1888.984375,
+    "staffs": [
+      "14"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "y16sxqj4",
+      "aqkkli3",
+      "d1umj486"
+    ],
+    "start_measure": 480,
+    "end_measure": 480
+  },
+  {
+    "id": "seed-v2-tcha-1-08-s2",
+    "label": "较早单簧管原型",
+    "score_version": "308ba2c44a982ae0",
+    "start": 636.0,
+    "end": 640.0,
+    "staffs": [
+      "4"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "sdo7jex",
+      "uhdygne",
+      "wdu7894"
+    ],
+    "start_measure": 185,
+    "end_measure": 185
+  }
+]

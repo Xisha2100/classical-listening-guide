@@ -1,0 +1,388 @@
+---
+id: sol-1-recap-secondary
+work_id: tchaikovsky-op23-1
+title: 第二主题移调再现
+kind: 曲式
+dimensions:
+- 曲式
+- 主题
+scope: segment
+section_id: m1-recap
+listen_for: 第472小节双簧管以降E–B–C起句，与第185小节单簧管主题实音降D–A–降B保持同一节奏及整体上移全音。第479小节尾音后双簧管在480休止，长笛和第一小提琴从480同奏该旋律；它们的第492小节起始
+  D4 是收束音，之后钢琴才重新进入。第493小节钢琴再以降E–B–C接过旋律并加琶音。换奏休止与第492小节内部终止共同确立前两轮，钢琴后续仍只标局部证据。
+claims:
+- id: sol-1-recap-secondary-c1
+  statement: 第472小节双簧管以降E–B–C起句，与第185小节单簧管主题实音降D–A–降B保持同一节奏及整体上移全音。第479小节尾音后双簧管在480休止，长笛和第一小提琴从480同奏该旋律；它们的第492小节起始
+    D4 是收束音，之后钢琴才重新进入。第493小节钢琴再以降E–B–C接过旋律并加琶音。换奏休止与第492小节内部终止共同确立前两轮，钢琴后续仍只标局部证据。
+  evidence_type: source
+  source_ids:
+  - tcha-op23-local-score
+  - crescendo-2016
+  segment_ids:
+  - sol-1-recap-secondary-s1
+  - sol-1-recap-secondary-s2
+  - sol-1-recap-secondary-s3
+  listening_cue: 第472小节双簧管以降E–B–C起句，与第185小节单簧管主题实音降D–A–降B保持同一节奏及整体上移全音。第479小节尾音后双簧管在480休止，长笛和第一小提琴从480同奏该旋律；它们的第492小节起始
+    D4 是收束音，之后钢琴才重新进入。第493小节钢琴再以降E–B–C接过旋律并加琶音。换奏休止与第492小节内部终止共同确立前两轮，钢琴后续仍只标局部证据。
+origin: model
+status: suggested
+review_status: unreviewed
+listening_status: pending
+sources:
+- id: tcha-op23-local-score
+  kind: score
+  title: PDMX v9 归档的 jeronjoseph 数字管弦总谱：柴可夫斯基第一钢琴协奏曲 Op.23（本地保留的完整 MusicXML）
+  author: jeronjoseph；PDMX 数字转换
+  edition: ''
+  pages: movement-1/2/3.mxl；各 movement-*-measure-map.json
+  url: https://zenodo.org/records/15571083
+  accessed_at: ''
+  excerpt: ''
+  extracted: true
+  summary: 本轮边界、配器及印刷小节与内部 ordinal 对应的直接谱面证据。
+- id: crescendo-2016
+  kind: web
+  title: 'Les Concertos du Concours : le 1er Tchaikovski – Guide d’écoute'
+  author: Bernadette Beyne et Quentin Mourier
+  edition: ''
+  pages: I §§Introduction, Allegro, Développement, Réexposition；II §§A–B–A；III §§Rondo–Coda
+  url: https://www.crescendo-magazine.be/conc-tchaiko_quentin_corr/
+  accessed_at: ''
+  excerpt: ''
+  extracted: true
+  summary: 附录音与谱例的逐段导听，明确第1乐章第2主题为单簧管/钢琴、第3主题为弱音弦乐；第二乐章中段歌曲归弦乐；终乐章第101段为过渡。与本地谱小节号仍有若干处偏移。
+segments:
+- id: sol-1-recap-secondary-s1
+  label: 双簧管移调起句
+  score_version: 308ba2c44a982ae0
+  start: 1852.984375
+  end: 1884.984375
+  staffs:
+  - '3'
+  voices: []
+  routes: []
+  note_ids:
+  - d38x3ac
+  - f8ifsl6
+  - if892xi
+  - w3ttu41
+  - x1u4ley
+  - z16rorxz
+  - o1c5tn7v
+  - rt86frs
+  - s1regvo8
+  - u6yhmmd
+  - jynpoh7
+  - kyuu3ew
+  - lamctqi
+  - nlpdxii
+  - b11lowxe
+  - c1mw8uer
+  - d1hxql8i
+  - trtjy2w
+  - u1s53jps
+  - w2pss5v
+  - x1w5olwc
+  - m12i3v4r
+  - nqen1x8
+  - q17gswfx
+  - se5qroi
+  - g3c95oy
+  - h1utap8b
+  - k8jdwjp
+  start_measure: 472
+  end_measure: 479
+  role: phrase
+  boundary_note: 第472小节双簧管降E5–B4–C5起，与呈示部单簧管实音整体上移全音；第479小节C5结束，第480小节双簧管休止且长笛/小提琴接手，472–479为完整首轮。
+  boundary_status: supported
+  source_ids:
+  - tcha-op23-local-score
+  - crescendo-2016
+- id: sol-1-recap-secondary-s2
+  label: 长笛与小提琴应答
+  score_version: 308ba2c44a982ae0
+  start: 1884.984375
+  end: 1933.984375
+  staffs:
+  - '1'
+  - '14'
+  voices: []
+  routes: []
+  note_ids:
+  - s11up9xe
+  - u7dtpz1
+  - x1fd0y8v
+  - y16sxqj4
+  - aqkkli3
+  - d1umj486
+  - j1ugpb2x
+  - kp5cv50
+  - m1stptr3
+  - pdk767c
+  - q17si90j
+  - s1l5yboa
+  - z18hk03g
+  - c1ced2m4
+  - d1tg1ssq
+  - e1kbdfjo
+  - f161f71h
+  - i12gbhz1
+  - j1o97ojb
+  - l1gbvgjf
+  - r9vt3dp
+  - t1xa3y7b
+  - u1u65ydp
+  - vgcyn53
+  - y1wrj6wz
+  - z18nwqo6
+  - a1jxc04e
+  - c1mc9tpc
+  - ifzlora
+  - lo4xjkn
+  - n1hojei7
+  - o1pbcfmw
+  - o1a7aqbk
+  - r2ytkdc
+  - tljtie2
+  - u17pnwqd
+  - af5vqsz
+  - d1lmn5y3
+  - e1jkalmg
+  - g1mtdlwf
+  - jj1paje
+  - kuvkjkw
+  - s1drys82
+  - u1kxek2c
+  - x3ymxk
+  - y13kc8yq
+  - ygxg6we
+  - anovuk8
+  - d46zlp6
+  - e1wvv5wc
+  - kpmuyc6
+  - nfiqxbr
+  - o1g7nch9
+  - qofxypv
+  - t2wtrir
+  - vjj8tu4
+  - c13wovo8
+  - e1gp5v3k
+  - hnmcxhl
+  - ixkq1zg
+  - jjqniim
+  - l159284
+  - o115nv7x
+  - pii8f87
+  - u5z3kbw
+  - x1gutbfp
+  - y1ddjb3d
+  - bmz0qqc
+  - b1dhsczb
+  - e12wj3dr
+  - fmdh1vo
+  - i1cxkk75
+  - r1lfcgom
+  - srurjk2
+  - tfxe37n
+  - v1b9dccx
+  - xhjbpfr
+  - z1qdbfnp
+  - a1lw2b8e
+  - c1ushzin
+  - h1dijllr
+  - jxr343j
+  - o13io8mc
+  - qqvudv8
+  - c14p62w0
+  - dj0l62m
+  start_measure: 480
+  end_measure: 492
+  role: phrase
+  boundary_note: 第480小节长笛与第一小提琴同奏降E5–B4–C5；第491小节连线到E4，第492小节开始D4四分音符是收束音，偏移1.0为排他终点。钢琴在492小节偏移2.33起新连接，493小节正式接句。
+  boundary_status: supported
+  source_ids:
+  - tcha-op23-local-score
+  - crescendo-2016
+- id: sol-1-recap-secondary-s3
+  label: 钢琴装饰接续
+  score_version: 308ba2c44a982ae0
+  start: 1936.984375
+  end: 1972.984375
+  staffs:
+  - '12'
+  - '4'
+  voices: []
+  routes: []
+  note_ids:
+  - hdwl23x
+  - ijkt1tc
+  - l1b3gcfy
+  - s1rfbd3
+  - u1vslv0f
+  - axowaee
+  - e127c8hw
+  - h1l1vfzx
+  - i1ot7zhb
+  - j1baco1d
+  - m1mistwq
+  - oof8amj
+  - ptnuskh
+  - r19tz1v0
+  - v1o3rrnb
+  - xpubpbq
+  - zq4112p
+  - zn88yfu
+  - a16dt9sl
+  - c1p0ao0a
+  - bq1wlv5
+  - cjexnqj
+  - gki98vg
+  - kp5bo32
+  - mshm36m
+  - o2km960
+  - p1xgh9pj
+  - re0p5rg
+  - t16wky8
+  - u1bm65kg
+  - v1buy3ah
+  - ah0uma4
+  - cd324ld
+  - dml5lur
+  - o1lyxogv
+  - q1qnvo68
+  - r1r6rmtg
+  - tnv8vx8
+  - c1dl53ky
+  - fnuu6nl
+  - iqbjmps
+  - jyzrwbu
+  - poeeswu
+  - rs9ejwh
+  - s1iakgy2
+  - xgpxxsu
+  - zhzppu2
+  - a1fbsx5h
+  - fcdc8b7
+  - gws65i7
+  - hnwy0rt
+  - i8y0onm
+  - j8wq5js
+  - n1nddptr
+  - rb9bl4h
+  - vv8aylu
+  - b1cqo50s
+  - e1fprjd9
+  - fit7wep
+  - i1xs1pqi
+  - lp651pp
+  - m1a0wmow
+  - pntjqo5
+  - s1du73s8
+  - u1mhnjws
+  - x1yq96iv
+  - z1ugxzen
+  - bl67b3i
+  - dc5w3vg
+  - vzzhzbq
+  - w1kvbya5
+  - x722wfo
+  - y7e2t3q
+  - z1ysfp4q
+  - dwlrz5t
+  - k18z1l8f
+  - l8t2wq1
+  - mr8dlx2
+  - p1qzrk6t
+  - sxd28gf
+  - t1cueak3
+  - vugm892
+  - m13ppbqk
+  - n10fvjxc
+  - piba9xk
+  - q16ynb81
+  - h1rpo8l
+  - k19idi14
+  - o1hqfdht
+  - q12y4y1k
+  - v16ztp9o
+  - w1p4ax4m
+  - y16xxlss
+  - a1opvqw2
+  - do6oo8q
+  - f1966zbz
+  - gnmllua
+  - j1ks2car
+  - m194zx4d
+  - n23cxq2
+  - qboxn79
+  - s1cbk7x0
+  - u1bx4ufe
+  - f1s4vr1s
+  - g15lmnnb
+  - i1evng7
+  - kqk34cp
+  - y13mshtd
+  - b1qsmu6w
+  - g1sxd5sw
+  - k1xh4z6m
+  - p1atzu0v
+  - r1qpwsdc
+  - tihmrk7
+  - woejqv1
+  - y1ws7vy8
+  - z4eqxne
+  - cpmab15
+  - dke4hwq
+  - e174iblb
+  - i1guws77
+  - jl2fpon
+  - k5hzjea
+  - yqz1v3d
+  - z6dfoyn
+  - c9zp1uf
+  - l1jcc1m9
+  - m1fqe6s0
+  - sna0mnq
+  - v1rwg5cp
+  - w13qistx
+  - ylkq134
+  - c1527qh4
+  - ff5hco
+  - g1tsinv1
+  - i179j1gs
+  - khkdmsh
+  - mekplg
+  - n1tyfa2e
+  - o1th1jyf
+  - yl076tw
+  - as2o2kw
+  - grfd828
+  - k15pluby
+  - n1rhy8kf
+  - ox8n1y6
+  - p1pbdycm
+  - s59ehvx
+  - u180wqut
+  - vv7die2
+  - x128vv81
+  - berbe8l
+  - dhm25m1
+  - fdpdcrl
+  start_measure: 493
+  end_measure: 501
+  role: evidence
+  boundary_note: 第493小节钢琴降E5–B4–C5并以琶音装饰；仅取局部身份识别证据。
+  boundary_status: supported
+  source_ids:
+  - tcha-op23-local-score
+  - crescendo-2016
+created_at: '2026-10-31T07:06:26.853519+00:00'
+updated_at: '2026-10-31T07:06:26.853527+00:00'
+verification: GPT-6 Sol 根据所列资料与固定数字谱提出曲式和乐句边界；程序已检查谱本、印刷编号、声部和音符范围。边界理由见各谱例，资料编号差异已注明。尚未完成人工乐理复核及听感验收。
+analysis_model: gpt-6-sol
+analysis_run_id: tchaikovsky-phrases-2026-10-31
+---
+
+# 第二主题移调再现
+
+第472小节双簧管以降E–B–C起句，与第185小节单簧管主题实音降D–A–降B保持同一节奏及整体上移全音。第479小节尾音后双簧管在480休止，长笛和第一小提琴从480同奏该旋律；它们的第492小节起始 D4 是收束音，之后钢琴才重新进入。第493小节钢琴再以降E–B–C接过旋律并加琶音。换奏休止与第492小节内部终止共同确立前两轮，钢琴后续仍只标局部证据。

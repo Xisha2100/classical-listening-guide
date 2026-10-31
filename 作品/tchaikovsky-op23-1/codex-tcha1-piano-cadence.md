@@ -1,0 +1,489 @@
+---
+id: codex-tcha1-piano-cadence
+work_id: tchaikovsky-op23-1
+title: 钢琴接奏的句尾：C 小调落点与降 A 区域接续
+kind: 调性／调式
+dimensions:
+- 调性／调式
+- 和声
+- 曲式
+scope: segment
+section_id: m1-secondary-piano-extension
+listen_for: 听末尾G的张力如何解决到C，尤其注意降E带来的小调色彩；然后听弦乐进入及降A低音把语境带向下一段。
+claims:
+- id: codex-tcha1-piano-cadence-c1
+  statement: 第204小节末钢琴含G、B、D、F；第205首拍为C、降E、G，原始MusicXML的E音带 alter=-1。
+  evidence_type: score
+  source_ids: []
+  segment_ids:
+  - ct1-piano-c-minor-proof
+  listening_cue: ''
+- id: codex-tcha1-piano-cadence-c2
+  statement: 第205小节钢琴和弦时值为一拍；第一小提琴偏移1进入，低弦与巴松偏移2进入降A。
+  evidence_type: score
+  source_ids: []
+  segment_ids:
+  - ct1-c-minor-to-ab
+  listening_cue: ''
+- id: codex-tcha1-piano-cadence-c3
+  statement: G7—Cm 为局部C小调到达提供证据，但不能据此把整个副题组改判为C小调；随后降A语境须另行听辨。
+  evidence_type: hypothesis
+  source_ids:
+  - score-tcha1-308ba2c4
+  segment_ids:
+  - ct1-piano-extension-full
+  - ct1-after-piano-strings
+  - ct1-c-minor-to-ab
+  listening_cue: ''
+origin: model
+status: suggested
+review_status: unreviewed
+listening_status: pending
+sources:
+- id: score-tcha1-308ba2c4
+  kind: score
+  title: 柴可夫斯基第一钢琴协奏曲第一乐章：本地固定数字总谱
+  author: jeronjoseph；PDMX v9 数字转换
+  edition: score_version 308ba2c44a982ae0；历史版次仍待校勘
+  pages: movement-1.mxl；同版本 MEI 与 events.json
+  url: https://zenodo.org/records/15571083
+  accessed_at: '2026-10-31'
+  excerpt: ''
+  extracted: true
+  summary: 本次定位以本地印刷小节号、实音事件及原始 MusicXML 为准；谱源标注 CC0-1.0。文件 SHA-256 与逐项证据见本地研究记录。
+segments:
+- id: ct1-piano-extension-full
+  label: 完整钢琴接奏及落点｜193–205首拍
+  score_version: 308ba2c44a982ae0
+  start: 668.0
+  end: 717.0
+  staffs:
+  - '12'
+  - '13'
+  voices: []
+  routes: []
+  note_ids:
+  - m1ubo4f1
+  - o1mh70qa
+  - r8td04p
+  - v1u7bkmq
+  - w1ls5ezv
+  - x1dg9vxs
+  - z6ai5ra
+  - c137hqix
+  - ei89kx6
+  - jkzaqyu
+  - mjl2nec
+  - o1h9wl2m
+  - q1vw75yf
+  - t13fs46r
+  - v1bhu5oa
+  - kd0oy49
+  - l96195r
+  - ne3hpc4
+  - rg901t5
+  - te7g28f
+  - v1p06qys
+  - x1gsd21i
+  - zt0zii1
+  - btcef30
+  - ep2v00g
+  - h3ai4yv
+  - j2izn1i
+  - l1a1v77u
+  - nr9f2e4
+  - pjwtddu
+  - rkraoyc
+  - t1yb9rrj
+  - vo2nx68
+  - ktm9yzs
+  - o1o3q26s
+  - q1ssrmbv
+  - t15jr9xa
+  - xfpvw93
+  - aa4y3jg
+  - c12ekhwx
+  - e1ncu36r
+  - hj6e464
+  - j1itxu8z
+  - k1n115fj
+  - omdnn5o
+  - ry9340f
+  - ta1y8fy
+  - v13y648w
+  - blgi3g
+  - d1vkqi1x
+  - fo8bave
+  - gal2a5b
+  - i1nisemx
+  - ku51zki
+  - mxmahbp
+  - p14l6i8a
+  - r10b1doi
+  - t1voalb9
+  - v7s0n40
+  - wrtls7d
+  - z162zhbh
+  - b6aqgnn
+  - e10zrz9f
+  - h1mkx61o
+  - x1yvx611
+  - b4dygk5
+  - d1chh55w
+  - fuz11ur
+  - hf1zchh
+  - l4rv9fp
+  - npmoh9l
+  - q1q67gij
+  - t1l5mjxy
+  - vsxbtcd
+  - yd2zg10
+  - bebcpa0
+  - d6pkgev
+  - g18p2d6t
+  - j109094r
+  - k1ov4awa
+  - non1vt
+  - c1uv1wh7
+  - f1ianfax
+  - g6kgorh
+  - i131ufnu
+  - ls0bufm
+  - o15qcb1p
+  - rbcc1uy
+  - w8p69v1
+  - zihpaiz
+  - a1vmdxha
+  - d1emnbev
+  - eyjb05c
+  - gessryt
+  - k10halbk
+  - m1hz1h2r
+  - b1odrbbn
+  - d134w2gx
+  - f1ys7azt
+  - im84stj
+  - mvpxka
+  - ryh0sjk
+  - t1iq7v5x
+  - vovgub5
+  - yypdhm0
+  - bw3av6r
+  - d1mshe4w
+  - e1g2zg7t
+  - in91spf
+  - x68d3hv
+  - zzoxdfg
+  - a1cgvir3
+  - ctjljfh
+  - fsmgjyx
+  - i1gtwmjq
+  - k19bl7vz
+  - nmmvnjv
+  - s18ifmwh
+  - u1km1ms2
+  - w1tlvrz4
+  - agw6i
+  - c19c39rr
+  - d1qxni43
+  - hi7yk5j
+  - v4fy9nu
+  - x1dltzva
+  - z1p01c2b
+  - c158154
+  - g1gee3d4
+  - i1i6vak4
+  - k1k3bz70
+  - m8grygr
+  - p8o7opy
+  - s1mxd9su
+  - um0wn9k
+  - v1d5z49p
+  - ztto4i3
+  - oljyens
+  - qb4cym5
+  - rrca84h
+  - t1lsg65f
+  - w1nevgub
+  - z11ubaql
+  - ca9it9l
+  - ges98nr
+  - iz4w8yw
+  - knzmuwm
+  - mys1ou4
+  - pvvs9mt
+  - r1ke7qia
+  - syyak4d
+  - v194gk0a
+  - ijsojsq
+  - k1kqssdh
+  - n4ltqnn
+  - qmg582j
+  - vzme3g3
+  - y1utaunw
+  - bz4lqng
+  - ccxy75x
+  - g7v8cow
+  - v1m5aoc7
+  - xe2uen2
+  - a1c7ic4s
+  - d1t0gn2t
+  - fxoyrkc
+  - gkw4lrd
+  - k1paaszm
+  - n3f1k5p
+  - q1nioiiz
+  - u1nyaxk9
+  - v11ft179
+  - z1idvak0
+  - or6j8ce
+  - r8fnr43
+  - udf7ttj
+  - whhipvc
+  - z31w9g8
+  - c1uib8ab
+  - dty23x1
+  - g8f44sh
+  - i1ki1yeq
+  - l12ey1k4
+  - n1njobtw
+  - ojy9d5u
+  - d1c5jo6a
+  - i1gsqxrq
+  - lgwwj9c
+  - o1pgbiif
+  - qwyxwtd
+  - scqqvq1
+  start_measure: 193
+  end_measure: 205
+  role: phrase
+  boundary_note: 从第193小节钢琴接奏开始，完整保留扩展到第205小节首拍的C小三和弦；第205小节偏移1弦乐新旋律进入，属于下一主题。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+- id: ct1-piano-c-minor-proof
+  label: 局部证据：G属七到C小三和弦｜204–205首拍
+  score_version: 308ba2c44a982ae0
+  start: 712.0
+  end: 717.0
+  staffs:
+  - '12'
+  - '13'
+  voices: []
+  routes: []
+  note_ids:
+  - or6j8ce
+  - r8fnr43
+  - udf7ttj
+  - whhipvc
+  - z31w9g8
+  - c1uib8ab
+  - dty23x1
+  - g8f44sh
+  - i1ki1yeq
+  - l12ey1k4
+  - n1njobtw
+  - ojy9d5u
+  - d1c5jo6a
+  - i1gsqxrq
+  - lgwwj9c
+  - o1pgbiif
+  - qwyxwtd
+  - scqqvq1
+  start_measure: 204
+  end_measure: 205
+  role: evidence
+  boundary_note: 第204小节末的G–B–D–F与第205小节首拍C–降E–G均包含；到和弦时值结束再停。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+- id: ct1-after-piano-strings
+  label: 完整后继弦乐主题：降A区域｜205弱起–212
+  score_version: 308ba2c44a982ae0
+  start: 717.0
+  end: 748.0
+  staffs:
+  - '5'
+  - '6'
+  - '14'
+  - '15'
+  - '16'
+  - '17'
+  - '18'
+  voices: []
+  routes: []
+  note_ids:
+  - z1zhfay
+  - c1c7ptws
+  - qt3nhdx
+  - t1l9fqz2
+  - udghax4
+  - xmtbcd8
+  - zi3oin9
+  - j62faup
+  - r5sxb0p
+  - q13frlb0
+  - t1d4vd
+  - uytp1tn
+  - xh9c800
+  - hsy6b02
+  - jtz52mh
+  - l1m6ht6z
+  - n1f52arl
+  - lqthgti
+  - n1ka2al6
+  - npcym0j
+  - pmnbmtx
+  - yc0gfp9
+  - gvc6gbt
+  - h1guy4k1
+  - k1xkw6z8
+  - l8nsb7j
+  - o144yp29
+  - a15mmwjx
+  - cyc8v8e
+  - engoyh8
+  - gn2p1r6
+  - b1x2vkir
+  - c61twv1
+  - c1opmaox
+  - ek7uo42
+  - ii88ig
+  - n1j3qzha
+  - v1c2uxn1
+  - y1rs503x
+  - b6c2jqj
+  - cq95gv3
+  - f1sh0t82
+  - t1m4mjc2
+  - v5g96rb
+  - xn95h8k
+  - y1kjkvsd
+  - q1rmy8o6
+  - sfy4hc
+  - wtv3r4o
+  - z1u5nz8o
+  - a4rap7q
+  - da83sls
+  - cfhh4hr
+  - kit8e8m
+  - pq0zxlg
+  - swv220
+  - sml9113
+  - vhj7ka4
+  - l1jfz0ei
+  - mn5nymy
+  - p1xcjmon
+  - qykw1fn
+  - f6npxga
+  - g1lbj5n8
+  - pq7s0bm
+  - r15747cx
+  - r1mrsqtc
+  - z575hmr
+  - gncdvd9
+  - j433kz8
+  - k19ga6f7
+  - ntriaq0
+  - d1bc8mgi
+  - f1pdol1l
+  - h1umlzgl
+  - j1f8i1f1
+  - ud816ax
+  - w1wgy9yd
+  - f4c56sq
+  - hyrgphs
+  - g1i9jhsq
+  - ov4n4hz
+  - xthbaq4
+  - a95cby4
+  - buk1k9s
+  - e1ex73gu
+  - w1n210cp
+  - ykulrt0
+  - anezcb4
+  - c1hgfw6r
+  - k1kthtyk
+  - l8yxmrh
+  - ucuszl9
+  - wa4y6py
+  - a7z9ixx
+  - v12j13pf
+  - d1rkztdl
+  - smpolq4
+  - v1vmx9jg
+  - p11sm67y
+  - rkzctmo
+  - tvsvl9w
+  - z1bqhzeh
+  - bjau8dg
+  - o23w40j
+  - r1p48wy3
+  - sqwu3lz
+  - kvkwvfk
+  - sl12j8q
+  start_measure: 205
+  end_measure: 212
+  role: phrase
+  boundary_note: 在钢琴C小调落点结束后，从第一小提琴偏移1的弱起开始；第212小节末旋律休止，213偏移1另起扩展。保留旋律和乐队伴奏，不混入212后半已经开启新答句的钢琴；可用前后文听交叠。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+- id: ct1-c-minor-to-ab
+  label: 局部证据：同小节内交接｜205–206
+  score_version: 308ba2c44a982ae0
+  start: 716.0
+  end: 724.0
+  staffs: []
+  voices: []
+  routes: []
+  note_ids:
+  - z1zhfay
+  - c1c7ptws
+  - d1c5jo6a
+  - i1gsqxrq
+  - lgwwj9c
+  - o1pgbiif
+  - qwyxwtd
+  - scqqvq1
+  - qt3nhdx
+  - t1l9fqz2
+  - udghax4
+  - xmtbcd8
+  - zi3oin9
+  - j62faup
+  - r5sxb0p
+  - q13frlb0
+  - t1d4vd
+  - uytp1tn
+  - xh9c800
+  - hsy6b02
+  - jtz52mh
+  - l1m6ht6z
+  - n1f52arl
+  - lqthgti
+  - n1ka2al6
+  - npcym0j
+  - pmnbmtx
+  - yc0gfp9
+  - gvc6gbt
+  start_measure: 205
+  end_measure: 206
+  role: evidence
+  boundary_note: 先听205首拍的钢琴C小和弦，再听偏移1的弦乐和偏移2的降A低音；这里只展示交接。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+created_at: '2026-10-31T08:29:19.593221+00:00'
+updated_at: '2026-10-31T08:29:19.593298+00:00'
+verification: Codex 核对了固定谱本的印刷号映射、MEI、实音事件和相关 MusicXML 记谱；论点分别标注资料观点、谱面观察与分析推测。程序定位检查不等于人工听审；新分析尚待用户复核。当前会话未提供可核验的具体模型标识，故记为
+  unknown。
+analysis_model: unknown
+analysis_run_id: 作品/tchaikovsky-op23-1/研究记录/和声调性句法与配器.md
+---
+
+# 钢琴接奏的句尾：C 小调落点与降 A 区域接续
+
+钢琴在第193小节接过单簧管材料后，没有照抄八小节长度，而是继续延长。第204小节末的G–B–D–F导向第205小节首拍的C–降E–G；原始MusicXML明确写出降E，因此这里是C小三和弦，不能写成C大调终止。G属七至C小三和弦支持把这个局部落点理解为C小调收束。
+
+同一个第205小节并不全属于这一句：偏移1处第一小提琴已开始下一主题，偏移2处进入降A低音。这使C小调局部到达与降A区域的新陈述紧邻相接。完整接奏试听停在首拍和弦结束处；要听两段之间的关系，请用交接证据或前后文，而不要截掉到达和弦。

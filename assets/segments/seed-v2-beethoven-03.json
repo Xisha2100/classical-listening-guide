@@ -1,0 +1,60 @@
+[
+  {
+    "id": "seed-v2-beethoven-03-s1",
+    "label": "低音与终止准备",
+    "score_version": "0dc9a06dc592e643",
+    "start": 36.0,
+    "end": 42.0,
+    "staffs": [
+      "17"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "mahjn0o",
+      "zki2ds2",
+      "nin20jo"
+    ],
+    "start_measure": 18,
+    "end_measure": 20
+  },
+  {
+    "id": "seed-v2-beethoven-03-s2",
+    "label": "弦乐和声：增六到属",
+    "score_version": "0dc9a06dc592e643",
+    "start": 36.0,
+    "end": 42.0,
+    "staffs": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "i1hd8gx0",
+      "l3hpjvo",
+      "ntjtsp4",
+      "o7g7xnx",
+      "v6upuy3",
+      "mahjn0o",
+      "w1yl10wz",
+      "zlqb261",
+      "bwcqhbf",
+      "c1xbw4mq",
+      "f1utpfas",
+      "h1jxhraa",
+      "j166qd14",
+      "zki2ds2",
+      "oatvjgv",
+      "u1tfo8vi",
+      "wx96m2o",
+      "xtxqd1e",
+      "x1c3649a",
+      "nin20jo"
+    ],
+    "start_measure": 18,
+    "end_measure": 20
+  }
+]

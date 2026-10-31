@@ -1,0 +1,113 @@
+{
+  "work_id": "beethoven-op67-1",
+  "overview": "从曲式、和声、节奏、织体与配器共同理解第一乐章。四段导航采用1–124、125–247、248–373、374–502；374/376的尾声接缝及240–252的再现预备范围保留资料分歧。详细卡片区分谱面事实、资料观点与编辑解释，位置核对不等于乐理及人工试听已完成。",
+  "sections": [
+    {
+      "id": "exposition",
+      "title": "呈示部｜建立材料与调性对比",
+      "start_measure": 0,
+      "end_measure": 123,
+      "description": "1–124。以开头短音原型及模仿组织主部；59圆号呼唤后进入副部，后段以降E大调终止。124的反复不改变谱面坐标。",
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-mtsu"
+      ]
+    },
+    {
+      "id": "development",
+      "title": "展开部｜换位、碎片化与回返准备",
+      "start_measure": 124,
+      "end_measure": 246,
+      "description": "125–247。重新分配原型，管弦交换的单位逐步缩短，后段准备再现。Surette／Mason把240–252视为更宽的再现预备处理，本导航以248原型实际返回为界。",
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-mtsu",
+        "beethoven-v2-mason"
+      ]
+    },
+    {
+      "id": "recapitulation",
+      "title": "再现部｜返回与改写",
+      "start_measure": 247,
+      "end_measure": 372,
+      "description": "248–373。原型从连续运动中出现；268双簧管插段改变时间感；303巴松呼唤与307的C大调副部构成对呈示的改写。",
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-mtsu",
+        "beethoven-v2-esm"
+      ]
+    },
+    {
+      "id": "coda",
+      "title": "尾声｜重新打开终止，再落实C小调",
+      "start_measure": 373,
+      "end_measure": 501,
+      "description": "374–502。374同时承担前段终止和尾声启动，MTSU将新段入口放376；两种边界并列。374为C大三和弦，376转F小三和弦，不把章节标签误当逐小节和声。",
+      "source_ids": [
+        "beethoven-v2-score",
+        "beethoven-v2-mason",
+        "beethoven-v2-mtsu"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "beethoven-v2-score",
+      "kind": "score",
+      "title": "贝多芬 Op.67 第一乐章 · OpenScore Orchestra 总谱",
+      "author": "Ludwig van Beethoven；OpenScore Orchestra 转录",
+      "edition": "固定 MusicXML／canonical MEI 谱本 0dc9a06dc592e643",
+      "pages": "",
+      "url": "https://github.com/MarkGotham/Hauptstimme/tree/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1",
+      "accessed_at": "2026-10-28",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "以下音高、节奏、声部及记号直接取自本地保留的总谱，不将 Hauptstimme 材料标签当作完整曲式分析。总谱 CC0 1.0 Universal。"
+    },
+    {
+      "id": "beethoven-v2-esm",
+      "kind": "web",
+      "title": "Beethoven Symphony Basics · Symphony No. 5",
+      "author": "Eastman School of Music；页面署名 FJ、JM、MER",
+      "edition": "",
+      "pages": "",
+      "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+      "accessed_at": "2026-10-28",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "资料概括：第一乐章的四大部分篇幅接近；尾声继续展开材料；再现部把先前圆号的呼唤交给巴松。本文只把这些作为导听观点，具体小节、音高与声部另行对谱。"
+    },
+    {
+      "id": "beethoven-v2-mtsu",
+      "kind": "web",
+      "title": "Beethoven’s 5th Symphony: Listening Guide",
+      "author": "James E. Walker Library, Middle Tennessee State University",
+      "edition": "",
+      "pages": "",
+      "url": "https://library.mtsu.edu/Beethoven5/guide",
+      "accessed_at": "2026-10-28",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "资料概括：呈示部结束于124，展开始于125，再现始于248；268是双簧管华彩式插段。该页将尾声入口标为376，与采用374重叠边界的分析可并列阅读。"
+    },
+    {
+      "id": "beethoven-v2-mason",
+      "kind": "book",
+      "title": "The Appreciation of Music, Volume I",
+      "author": "Thomas Whitney Surette；Daniel Gregory Mason",
+      "edition": "第九版；Project Gutenberg 电子版 58458",
+      "pages": "183–187（原书页码）",
+      "url": "https://www.gutenberg.org/cache/epub/58458/pg58458-images.html",
+      "accessed_at": "2026-10-28",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "资料概括：结构表把374同时列作结束组终点和尾声起点；195之后的段落逐步削减旋律轮廓。它将240–252归入再现的过渡处理，本应用按原主题实际返回采用248作导航边界，保留这一分析差异。"
+    }
+  ],
+  "source_ids": [
+    "beethoven-v2-score",
+    "beethoven-v2-esm",
+    "beethoven-v2-mtsu",
+    "beethoven-v2-mason"
+  ]
+}

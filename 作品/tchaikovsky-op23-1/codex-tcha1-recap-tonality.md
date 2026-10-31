@@ -1,0 +1,536 @@
+---
+id: codex-tcha1-recap-tonality
+work_id: tchaikovsky-op23-1
+title: 再现的调性与配器：副部上移全音，交给双簧管
+kind: 调性／调式
+dimensions:
+- 调性／调式
+- 配器
+- 和声
+scope: segment
+section_id: m1-recap-secondary-first
+listen_for: A后接B，先听音高整体上移，再听D自然音与降B低音确定大调色彩；网页音色相同，乐器身份请对照谱表。
+claims:
+- id: codex-tcha1-recap-tonality-c1
+  statement: 185单簧管的降D–A–降B对应472双簧管的降E–B–C；三个起始音均上移两个半音，节奏同为1、2、1个四分音符单位。
+  evidence_type: score
+  source_ids: []
+  segment_ids:
+  - ct1-recap-ab
+  - ct1-recap-bb
+  listening_cue: ''
+- id: codex-tcha1-recap-tonality-c2
+  statement: 189与476的对应落点分别有降A–C–降E、降B–D–F的和弦骨架。
+  evidence_type: score
+  source_ids: []
+  segment_ids:
+  - ct1-recap-ab-arrival
+  - ct1-recap-bb-arrival
+  listening_cue: ''
+- id: codex-tcha1-recap-tonality-c3
+  statement: Crescendo 将再现中的副题区域说明为降B大调。
+  evidence_type: source
+  source_ids:
+  - crescendo-first-movement-2016
+  segment_ids: []
+  listening_cue: ''
+- id: codex-tcha1-recap-tonality-c4
+  statement: 结合移调关系和对应落点，可把这轮再现听作副题从降A区域向降B大调语境的重置；这不表示每一拍都是主和弦。
+  evidence_type: hypothesis
+  source_ids:
+  - score-tcha1-308ba2c4
+  segment_ids:
+  - ct1-recap-ab
+  - ct1-recap-bb
+  - ct1-recap-ab-arrival
+  - ct1-recap-bb-arrival
+  listening_cue: ''
+origin: model
+status: suggested
+review_status: unreviewed
+listening_status: pending
+sources:
+- id: score-tcha1-308ba2c4
+  kind: score
+  title: 柴可夫斯基第一钢琴协奏曲第一乐章：本地固定数字总谱
+  author: jeronjoseph；PDMX v9 数字转换
+  edition: score_version 308ba2c44a982ae0；历史版次仍待校勘
+  pages: movement-1.mxl；同版本 MEI 与 events.json
+  url: https://zenodo.org/records/15571083
+  accessed_at: '2026-10-31'
+  excerpt: ''
+  extracted: true
+  summary: 本次定位以本地印刷小节号、实音事件及原始 MusicXML 为准；谱源标注 CC0-1.0。文件 SHA-256 与逐项证据见本地研究记录。
+- id: crescendo-first-movement-2016
+  kind: web
+  title: 'Les Concertos du Concours : le 1er Tchaikovski – Guide d’écoute'
+  author: Bernadette Beyne et Quentin Mourier
+  edition: Crescendo Magazine，2016-05-19
+  pages: 第一乐章：Introduction、Thèmes 2–3、Réexposition
+  url: https://www.crescendo-magazine.be/conc-tchaiko_quentin_corr/
+  accessed_at: '2026-10-31'
+  excerpt: ''
+  extracted: true
+  summary: 已读第一乐章相关正文；沿用分析问题，外部小节号不直接套用本地谱。
+segments:
+- id: ct1-recap-ab
+  label: 完整对照 A：呈示部木管陈述｜185–192
+  score_version: 308ba2c44a982ae0
+  start: 636.0
+  end: 668.0
+  staffs: []
+  voices: []
+  routes: []
+  note_ids:
+  - sdo7jex
+  - uhdygne
+  - wdu7894
+  - z1uq5r65
+  - c1yvbfhk
+  - elxshn1
+  - h1lvi8av
+  - jxhuy39
+  - mu50dyk
+  - v3wwtra
+  - xy5fqop
+  - ywqv1zr
+  - a9mtuii
+  - b15gwi2y
+  - d1k16pu
+  - l74ujk6
+  - rbhypiv
+  - l1i4b77w
+  - njmy8gq
+  - o1bsaeai
+  - qvur4ve
+  - rqdqgax
+  - tri90a
+  - a1ohwmcc
+  - dn15ej
+  - f19rpdgg
+  - hiudj4p
+  - jjykwye
+  - ljpoyte
+  - q1xuheeb
+  - s1d6gvfe
+  - t18r348a
+  - v1v81u68
+  - wu99gdg
+  - ypx6u1v
+  - l1d7q814
+  - n1abfltb
+  - qaaicav
+  - sy7xjln
+  - u1vem7r4
+  - i1dybiwc
+  - m10l7aqq
+  - o1r6p8o4
+  - rpufyvn
+  - t1l7djc0
+  - v1s03urp
+  - w42dm9a
+  - zsi765u
+  - ay7ttmh
+  - cvapc7a
+  - e1tmploi
+  - h1rrq28d
+  - kqn92oh
+  - m8m1ng0
+  - n43ha92
+  - q1da7m5o
+  - h115so75
+  - lvgwtab
+  - nuyfk46
+  - saa2h64
+  - uyibqe5
+  - w10wj6mv
+  - xgarrh2
+  - z197lmha
+  - a10hsmsc
+  - a286r4w
+  - c1gqumv4
+  - f8e34l1
+  - iovc3qc
+  - j1k05rek
+  - l1cnhdj6
+  - fb8jemd
+  - hyvrfpu
+  - a197w17e
+  - skyyxtz
+  - t1paq5u0
+  - uo9whsh
+  - x98s7hq
+  - zpnwo0
+  - bnbp9hg
+  - e24a2k8
+  - aa8k9yj
+  - dkb7p1i
+  - ff7csmz
+  - icloyke
+  - k17y052j
+  - nw5tu89
+  - rtpwxnm
+  - qr83inz
+  - x12yy04k
+  - y1oljmdy
+  - z6vd27l
+  - q14in39y
+  - r1a36pd5
+  - s1cmytim
+  - vzirkek
+  - wtzyb2n
+  - y18vtt1g
+  - zvjrsjv
+  - b1gcbdac
+  - e19o9vh0
+  - e1a1ohvw
+  - h1yv9p9m
+  - i13f4bnx
+  - k12v4jtm
+  - m1ntfk0p
+  - pohn53m
+  - r8qj85x
+  - uc6w3n2
+  - e1u3umxk
+  - hpr4r8f
+  - pziz5ld
+  - r1w4zc8s
+  - s1u6yqff
+  - q1mg6qcy
+  - rn5ky55
+  - u1dsepib
+  - whxitsz
+  - ys2fw7t
+  - hepzveh
+  - kpf173
+  - l15862f8
+  - p19jbl7x
+  - r1nrsjp4
+  - u1po1ev1
+  - w13kwkij
+  - zheug18
+  - t1eymrja
+  - u19iylum
+  - i3e9v04
+  - n1k9w70o
+  - o1dle76j
+  - ruer68p
+  - tuhdq7n
+  - v1j7d6k8
+  - l1n2e41i
+  - n17m529u
+  - q6in2ct
+  - t6lzv4b
+  - vv6rzqg
+  - w1iarf96
+  - xnctnvq
+  start_measure: 185
+  end_measure: 192
+  role: phrase
+  boundary_note: 完整保留一轮单簧管陈述，至193钢琴接话之前；此处句尾开放，不能把窗口末端称为降A主和弦终止。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+- id: ct1-recap-bb
+  label: 完整对照 B：再现部双簧管陈述｜472–479
+  score_version: 308ba2c44a982ae0
+  start: 1852.984375
+  end: 1884.984375
+  staffs: []
+  voices: []
+  routes: []
+  note_ids:
+  - d38x3ac
+  - f8ifsl6
+  - if892xi
+  - w169m69w
+  - b17l7giy
+  - rlyoo3w
+  - spsudsb
+  - t1nrpeb4
+  - ue4ql47
+  - v14q3kb3
+  - x102tuus
+  - zaylct0
+  - b1vm2fwb
+  - d1m62tuv
+  - fylccza
+  - ej4jlw7
+  - f6vbbyn
+  - g5fm7s0
+  - hizxkq7
+  - i1980qb0
+  - z1305obj
+  - qln6ne3
+  - w3ttu41
+  - x1u4ley
+  - z16rorxz
+  - h1866knk
+  - ijfl6sx
+  - je860xy
+  - k13z8z5l
+  - lrhbsl8
+  - s1a8g9qd
+  - ufykq93
+  - w1vgndx8
+  - y1wq3j3u
+  - a1o0yq7j
+  - u187ln4h
+  - v1kovkjl
+  - w1afpjj7
+  - xsvdtnb
+  - yngq5tj
+  - movjtyw
+  - d9i2ytv
+  - o1c5tn7v
+  - rt86frs
+  - s1regvo8
+  - u6yhmmd
+  - x1dp4j80
+  - y1kq2k8q
+  - z13xr7uq
+  - aizp5vr
+  - b1768m98
+  - nt5h7vw
+  - p1esjfs
+  - r1fgombc
+  - t1m8ywt1
+  - v1lap7sr
+  - k11tq65i
+  - l1sugrvf
+  - m1ut6r4j
+  - ngextki
+  - o1n3xv2
+  - y100womu
+  - pypln29
+  - jynpoh7
+  - kyuu3ew
+  - lamctqi
+  - nlpdxii
+  - o7czki3
+  - p1ii3vei
+  - s1wizl6e
+  - u12btc1d
+  - y1p5xtn1
+  - a1w3btlp
+  - ddrha2e
+  - e1bve5wm
+  - i1qug1k
+  - jmpnw97
+  - kw1x7ve
+  - l1e2uo5s
+  - mmk1ra9
+  - b1xlxsev
+  - cxx0a0e
+  - f7b9hic
+  - htu9323
+  - lp2g092
+  - nbvwb1y
+  - qk1zzjy
+  - r2p94fd
+  - k1a5ewrs
+  - l15d5kch
+  - mmoa4v2
+  - o1bcla90
+  - b14h7amg
+  - c1md5kh3
+  - d1h25512
+  - f1fj8t1y
+  - b11lowxe
+  - c1mw8uer
+  - d1hxql8i
+  - o1iax659
+  - qv081iw
+  - skmrv4h
+  - u1863t28
+  - w18rapo8
+  - y1csxcfb
+  - ameqrgi
+  - yxml8zm
+  - zkvf5zw
+  - a18l3gnt
+  - c1xwk8v4
+  - duop54g
+  - e7bkau0
+  - dxpz5ni
+  - ekm1y9n
+  - f1k6jcbc
+  - g7fs5yp
+  - i1bmm2sw
+  - kh3jqs1
+  - at0ulj8
+  - c1c5pra5
+  - r1h5bgls
+  - t2cl865
+  - trtjy2w
+  - u1s53jps
+  - w2pss5v
+  - x1w5olwc
+  - dzoaj39
+  - p14yn1ya
+  - qutpjiv
+  - tzczojb
+  - v1rd40n3
+  - wqtaunh
+  - xfmcawa
+  - y15aa32z
+  - s8umsa0
+  - tv5glfn
+  - w1gj0qwr
+  - xpf3m5q
+  - y1cdii7p
+  - ztc7w3t
+  - a1aw9wxi
+  - zekqzff
+  - b1m6eaf8
+  - f1tuckt2
+  - g17qsdm4
+  - hz9uvql
+  - ilrheqh
+  - j196mkgy
+  - q9v48pq
+  - sjiqeqw
+  - t10omyw7
+  - h1m0xrxr
+  - j1uduzv5
+  - kfjke5f
+  - m12i3v4r
+  - nqen1x8
+  - q17gswfx
+  - se5qroi
+  - l1o8cjbv
+  - m1ukiupg
+  - o1kvp7za
+  - q1nagei6
+  - s1vymixk
+  - nzeb9cy
+  - p1os79k7
+  - ssv6efr
+  - u1ui32x3
+  - w1dd0scg
+  - wrmktvz
+  - x1h0vly4
+  - ywfzpzb
+  - bhgjibu
+  - cj5zl0a
+  - g11r4fw5
+  - hx6ahh
+  - x142ytzp
+  - yjmu0ek
+  - g3c95oy
+  - h1utap8b
+  - k8jdwjp
+  - e10uliy3
+  - fchd5rf
+  - g17tovo1
+  - io4cffs
+  - j1gaoqaf
+  - k8xowiq
+  - j14lou6a
+  - k1hc7qad
+  - l1ofj70y
+  - n1v59dsw
+  - omoq5cr
+  - puzhhjw
+  - p13doopf
+  - rcrp4ut
+  - u17dw65u
+  - t1e0kmg
+  - kglefb
+  start_measure: 472
+  end_measure: 479
+  role: phrase
+  boundary_note: 从472双簧管起句至479末，480开始由其他乐器接续；这是与185–192对应的一轮陈述，保留开放句尾。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+- id: ct1-recap-ab-arrival
+  label: 局部证据 A：降A大三和弦落点｜189
+  score_version: 308ba2c44a982ae0
+  start: 652.0
+  end: 656.0
+  staffs: []
+  voices: []
+  routes: []
+  note_ids:
+  - a197w17e
+  - skyyxtz
+  - t1paq5u0
+  - uo9whsh
+  - x98s7hq
+  - zpnwo0
+  - bnbp9hg
+  - e24a2k8
+  - aa8k9yj
+  - dkb7p1i
+  - ff7csmz
+  - icloyke
+  - k17y052j
+  - nw5tu89
+  - rtpwxnm
+  - qr83inz
+  - x12yy04k
+  - y1oljmdy
+  - z6vd27l
+  start_measure: 189
+  end_measure: 189
+  role: evidence
+  boundary_note: 第189小节首拍为比较调性落点的证据；其余拍包含继续变化，不单独称为终止乐句。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+- id: ct1-recap-bb-arrival
+  label: 局部证据 B：降B大三和弦落点｜476
+  score_version: 308ba2c44a982ae0
+  start: 1868.984375
+  end: 1872.984375
+  staffs: []
+  voices: []
+  routes: []
+  note_ids:
+  - b11lowxe
+  - c1mw8uer
+  - d1hxql8i
+  - o1iax659
+  - qv081iw
+  - skmrv4h
+  - u1863t28
+  - w18rapo8
+  - y1csxcfb
+  - ameqrgi
+  - yxml8zm
+  - zkvf5zw
+  - a18l3gnt
+  - c1xwk8v4
+  - duop54g
+  - e7bkau0
+  - dxpz5ni
+  - ekm1y9n
+  - f1k6jcbc
+  - g7fs5yp
+  - i1bmm2sw
+  - kh3jqs1
+  - at0ulj8
+  - c1c5pra5
+  - r1h5bgls
+  - t2cl865
+  start_measure: 476
+  end_measure: 476
+  role: evidence
+  boundary_note: 比较第476小节的降B低音与D自然音；旋律经过音仍保留，需与和弦骨架区分。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+created_at: '2026-10-31T08:29:21.753790+00:00'
+updated_at: '2026-10-31T08:29:21.753867+00:00'
+verification: Codex 核对了固定谱本的印刷号映射、MEI、实音事件和相关 MusicXML 记谱；论点分别标注资料观点、谱面观察与分析推测。程序定位检查不等于人工听审；新分析尚待用户复核。当前会话未提供可核验的具体模型标识，故记为
+  unknown。
+analysis_model: unknown
+analysis_run_id: 作品/tchaikovsky-op23-1/研究记录/和声调性句法与配器.md
+---
+
+# 再现的调性与配器：副部上移全音，交给双簧管
+
+把呈示部185–192与再现部472–479连起来听：单簧管起句的降D–A–降B，在双簧管中变为降E–B–C，移高一个全音，长短节奏仍可辨认。伴奏和到达和弦也一起变化：189的降A大三和弦落点，对应476的降B大三和弦落点。
+
+因此不只是在辨认“同一旋律回来了”，还要听副部从降A区域转入降B大调语境，以及主奏由单簧管变为双簧管。Crescendo 也强调再现的降B大调色彩。起句本身有半音化和声，不能只依据第472小节一个音组判定调性；完整对照保留伴奏，局部证据则单独突出较稳定的落点。

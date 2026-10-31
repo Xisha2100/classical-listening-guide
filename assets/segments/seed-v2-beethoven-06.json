@@ -1,0 +1,55 @@
+[
+  {
+    "id": "seed-v2-beethoven-06-s1",
+    "label": "旋律：第一小提琴",
+    "score_version": "0dc9a06dc592e643",
+    "start": 124.0,
+    "end": 132.0,
+    "staffs": [
+      "14"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "z1et67v",
+      "f1laf7hs",
+      "sq8uy5e",
+      "t1j4ecex",
+      "g1qi6j0z",
+      "hiworxa",
+      "tykeoz",
+      "v1a90bub"
+    ],
+    "start_measure": 62,
+    "end_measure": 65
+  },
+  {
+    "id": "seed-v2-beethoven-06-s2",
+    "label": "旋律与低音共同播放",
+    "score_version": "0dc9a06dc592e643",
+    "start": 124.0,
+    "end": 132.0,
+    "staffs": [
+      "14",
+      "17"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "z1et67v",
+      "f1laf7hs",
+      "sq8uy5e",
+      "t1j4ecex",
+      "g1qi6j0z",
+      "hiworxa",
+      "j1mlx8to",
+      "l4otp26",
+      "n11s5gvu",
+      "tykeoz",
+      "v1a90bub",
+      "aevlwsd"
+    ],
+    "start_measure": 62,
+    "end_measure": 65
+  }
+]

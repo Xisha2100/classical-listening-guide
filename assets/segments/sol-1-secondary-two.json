@@ -1,0 +1,94 @@
+[
+  {
+    "id": "sol-1-secondary-two-s1",
+    "label": "第三主题弱音小提琴首轮",
+    "score_version": "308ba2c44a982ae0",
+    "start": 717.0,
+    "end": 748.0,
+    "staffs": [
+      "14"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "qt3nhdx",
+      "t1l9fqz2",
+      "udghax4",
+      "hsy6b02",
+      "jtz52mh",
+      "l1m6ht6z",
+      "n1f52arl",
+      "a15mmwjx",
+      "cyc8v8e",
+      "engoyh8",
+      "gn2p1r6",
+      "t1m4mjc2",
+      "v5g96rb",
+      "xn95h8k",
+      "y1kjkvsd",
+      "l1jfz0ei",
+      "mn5nymy",
+      "p1xcjmon",
+      "qykw1fn",
+      "d1bc8mgi",
+      "f1pdol1l",
+      "h1umlzgl",
+      "j1f8i1f1",
+      "w1n210cp",
+      "ykulrt0",
+      "anezcb4",
+      "c1hgfw6r",
+      "p11sm67y",
+      "rkzctmo",
+      "tvsvl9w"
+    ],
+    "start_measure": 205,
+    "end_measure": 212,
+    "role": "theme",
+    "boundary_note": "第205小节小提琴偏移1.0处降E4–F4–G4弱起，连线跨小节形成成对短句；第212小节末有休止，第213小节再起扩展，因此首次完整八小节陈述止于212。",
+    "boundary_status": "supported",
+    "source_ids": [
+      "tcha-op23-local-score",
+      "crescendo-2016",
+      "gauldin-2004"
+    ]
+  },
+  {
+    "id": "sol-1-secondary-two-s2",
+    "label": "小提琴新起句",
+    "score_version": "308ba2c44a982ae0",
+    "start": 717.0,
+    "end": 732.0,
+    "staffs": [
+      "14"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "qt3nhdx",
+      "t1l9fqz2",
+      "udghax4",
+      "hsy6b02",
+      "jtz52mh",
+      "l1m6ht6z",
+      "n1f52arl",
+      "a15mmwjx",
+      "cyc8v8e",
+      "engoyh8",
+      "gn2p1r6",
+      "t1m4mjc2",
+      "v5g96rb",
+      "xn95h8k",
+      "y1kjkvsd"
+    ],
+    "start_measure": 205,
+    "end_measure": 208,
+    "role": "evidence",
+    "boundary_note": "205小节偏移1.0起 降E4–F4–G4，206小节续上行，证明主旋律在弦乐。",
+    "boundary_status": "supported",
+    "source_ids": [
+      "tcha-op23-local-score",
+      "crescendo-2016"
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "seed-v2-beethoven-05-s1",
+    "label": "A 呈示：降E大调副部起句",
+    "score_version": "0dc9a06dc592e643",
+    "start": 124.0,
+    "end": 132.0,
+    "staffs": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "z1et67v",
+      "f1laf7hs",
+      "v4m3q2u",
+      "cffvg86",
+      "sq8uy5e",
+      "t1j4ecex",
+      "i1mufoo9",
+      "qoqawgw",
+      "g1qi6j0z",
+      "hiworxa",
+      "vxlcse3",
+      "cqswglu",
+      "j1mlx8to",
+      "l4otp26",
+      "n11s5gvu",
+      "tykeoz",
+      "v1a90bub",
+      "jxud2ku",
+      "p1iarmid",
+      "aevlwsd"
+    ],
+    "start_measure": 62,
+    "end_measure": 65
+  },
+  {
+    "id": "seed-v2-beethoven-05-s2",
+    "label": "B 再现：C大调副部起句",
+    "score_version": "0dc9a06dc592e643",
+    "start": 620.0,
+    "end": 628.0,
+    "staffs": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "l6wvc2o",
+      "q1iekkhw",
+      "u1kp8l9w",
+      "kp6zmxl",
+      "c1ujd7ht",
+      "elqh2tx",
+      "iq88xgf",
+      "xmam0i2",
+      "qnuq9qc",
+      "r1ggqrnc",
+      "up79763",
+      "j1lwr5ho",
+      "gliujtn",
+      "hffao2z",
+      "i1yyvrr4",
+      "e28h0fw",
+      "h1o3b8vj",
+      "h1cu2n7j",
+      "x1v0tgrs",
+      "u1wg2j2y"
+    ],
+    "start_measure": 306,
+    "end_measure": 309
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "retrieved_at": "2026-10-28",
+  "dataset": "PDMX v9",
+  "record_url": "https://zenodo.org/records/15571083",
+  "cache_directory": "/tmp/music-guide-corpus-cache",
+  "archives": [
+    {
+      "name": "PDMX.csv",
+      "bytes": 225399738,
+      "md5": "30392ccf38bb63ce70e7afae70f9c88c",
+      "verified": true
+    },
+    {
+      "name": "metadata.tar.gz",
+      "bytes": 159444765,
+      "md5": "5bc79445090dd2fe5e96cffa77a3461c",
+      "verified": true
+    },
+    {
+      "name": "mxl.tar.gz",
+      "md5": "49ffd75ecf5489c0be6d41182eb11ff7",
+      "verified": true
+    }
+  ],
+  "reproduction_script": "app/scripts/acquire_corpus_v2.py",
+  "note": "This is a retrieval audit, not a claim all target works passed complete score proofreading. Per-work manifests carry acquisition and verification status."
+}

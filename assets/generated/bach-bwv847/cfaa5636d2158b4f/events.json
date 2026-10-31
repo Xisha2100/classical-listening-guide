@@ -14,7 +14,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "a33nbs0",
@@ -28,7 +29,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "dcka6oa",
@@ -42,7 +44,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1m4zl1f",
@@ -56,7 +59,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "g1owpnkr",
@@ -70,7 +74,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "i15soamb",
@@ -84,7 +89,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j1x2xnbc",
@@ -98,7 +104,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1pq4zwk",
@@ -112,7 +119,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "mlwwcxb",
@@ -126,7 +134,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1yj2or9",
@@ -140,7 +149,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "f1c1kwkh",
@@ -154,7 +164,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "g19rxzmi",
@@ -168,7 +179,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j1xw1bnm",
@@ -182,7 +194,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k1jqye0d",
@@ -196,7 +209,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m1b8ho0e",
@@ -210,7 +224,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "n1de7wkm",
@@ -224,7 +239,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "owx9mhp",
@@ -238,7 +254,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "r1lpre9w",
@@ -252,7 +269,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "sv96r05",
@@ -266,7 +284,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1itx9q7",
@@ -280,7 +299,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "m18qt2hi",
@@ -294,7 +314,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "pr1oipb",
@@ -308,7 +329,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "quiyfzb",
@@ -322,7 +344,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "snuomq8",
@@ -336,7 +359,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ul9xlva",
@@ -350,7 +374,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v1si9w90",
@@ -364,7 +389,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y14eqjgv",
@@ -378,7 +404,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z1mddde2",
@@ -392,7 +419,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "dfyan68",
@@ -406,7 +434,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "f68rxd3",
@@ -420,7 +449,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "g19ao0z7",
@@ -434,7 +464,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i15mtq0c",
@@ -448,7 +479,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "lctwuqp",
@@ -462,7 +494,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "m11uhsas",
@@ -476,7 +509,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "oj434sv",
@@ -490,7 +524,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q1f1n8wf",
@@ -504,7 +539,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "sbt94p6",
@@ -518,7 +554,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t18pmhod",
@@ -532,7 +569,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v1wsjodd",
@@ -546,7 +584,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w1op8bzh",
@@ -560,7 +599,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "qkwmyng",
@@ -574,7 +614,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "r1vapa1n",
@@ -588,7 +629,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "snwq5hd",
@@ -602,7 +644,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v1bplvao",
@@ -616,7 +659,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w1szl7vm",
@@ -630,7 +674,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z1z3xij",
@@ -644,7 +689,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "a145oj4m",
@@ -658,7 +704,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "b18oag74",
@@ -672,7 +719,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "e1ochxjo",
@@ -686,7 +734,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "f11bo9mg",
@@ -700,7 +749,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i133213d",
@@ -714,7 +764,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "kgotd4i",
@@ -728,7 +779,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m1soq7mf",
@@ -742,7 +794,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "osac8ig",
@@ -756,7 +809,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q4xsm6r",
@@ -770,7 +824,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "srxdtgt",
@@ -784,7 +839,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t5necdz",
@@ -798,7 +854,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "uw0kxj3",
@@ -812,7 +869,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "r1bmqv3x",
@@ -826,7 +884,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "tcsfdj5",
@@ -840,7 +899,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v1eelgly",
@@ -854,7 +914,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "xgs3goi",
@@ -868,7 +929,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z1abwc5h",
@@ -882,7 +944,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "bmpwbzf",
@@ -896,7 +959,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "d1hvyfqb",
@@ -910,7 +974,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e1ycu303",
@@ -924,7 +989,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "hh66lrj",
@@ -938,7 +1004,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "iblp14y",
@@ -952,7 +1019,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "lc168sv",
@@ -966,7 +1034,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "o1bv0e",
@@ -980,7 +1049,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "p1aak5nx",
@@ -994,7 +1064,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "qnpgkeb",
@@ -1008,7 +1079,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t19shlvf",
@@ -1022,7 +1094,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u1vvthms",
@@ -1036,7 +1109,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "vcm34o6",
@@ -1050,7 +1124,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.75
+      "sounding_duration": 0.75,
+      "articulations": []
     },
     {
       "id": "z1iow4uh",
@@ -1064,7 +1139,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "bwqts24",
@@ -1078,7 +1154,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ce5ijad",
@@ -1092,7 +1169,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e13ctm4d",
@@ -1106,7 +1184,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c9reoue",
@@ -1120,7 +1199,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e7m44q8",
@@ -1134,7 +1214,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fjbn56c",
@@ -1148,7 +1229,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h1hl96az",
@@ -1162,7 +1244,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ifwbbw3",
@@ -1176,7 +1259,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "l3zwdgw",
@@ -1190,7 +1274,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m13ci53r",
@@ -1204,7 +1289,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "nicr2l7",
@@ -1218,7 +1304,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "psnqbi",
@@ -1232,7 +1319,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 1.5
+      "sounding_duration": 1.5,
+      "articulations": []
     },
     {
       "id": "tdcerkn",
@@ -1246,7 +1334,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "uiqyqih",
@@ -1260,7 +1349,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "whxm4ym",
@@ -1274,7 +1364,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.75
+      "sounding_duration": 0.75,
+      "articulations": []
     },
     {
       "id": "ahelztq",
@@ -1288,7 +1379,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "cz7xr4l",
@@ -1302,7 +1394,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "exxu19l",
@@ -1316,7 +1409,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "f1vqyav1",
@@ -1330,7 +1424,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h11njcyn",
@@ -1344,7 +1439,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "jqd0a3z",
@@ -1358,7 +1454,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "kj1xh5a",
@@ -1372,7 +1469,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l16kbaaz",
@@ -1386,7 +1484,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "orymzgz",
@@ -1400,7 +1499,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "p18rcqz9",
@@ -1414,7 +1514,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "qjg2j4d",
@@ -1428,7 +1529,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "rhc7z87",
@@ -1442,7 +1544,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "s21t2p9",
@@ -1456,7 +1559,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u14vq9v1",
@@ -1470,7 +1574,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w19es7xq",
@@ -1484,7 +1589,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "xogtq1t",
@@ -1498,7 +1604,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "znsxu28",
@@ -1512,7 +1619,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "b1ub8n",
@@ -1526,7 +1634,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "d1ru9ljr",
@@ -1540,7 +1649,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1tfys4a",
@@ -1554,7 +1664,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "g18ipbf4",
@@ -1568,7 +1679,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "he5jiip",
@@ -1582,7 +1694,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j18tc9vd",
@@ -1596,7 +1709,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "nuc6jsi",
@@ -1610,7 +1724,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o6ic10",
@@ -1624,7 +1739,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "qmphip0",
@@ -1638,7 +1754,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1rdxmef",
@@ -1652,7 +1769,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fp0uyvl",
@@ -1666,7 +1784,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i1kqvzei",
@@ -1680,7 +1799,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j1ekoz30",
@@ -1694,7 +1814,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "l14jdj4v",
@@ -1708,7 +1829,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "no5nhdb",
@@ -1722,7 +1844,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "o1qehx04",
@@ -1736,7 +1859,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "r1k0o2c2",
@@ -1750,7 +1874,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "s153vsof",
@@ -1764,7 +1889,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "gyxmed5",
@@ -1778,7 +1904,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "i1083ehk",
@@ -1792,7 +1919,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j7uyywo",
@@ -1806,7 +1934,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "lgdsdbt",
@@ -1820,7 +1949,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "nnqdgp1",
@@ -1834,7 +1964,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "p1onpiio",
@@ -1848,7 +1979,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q1ogfsdm",
@@ -1862,7 +1994,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "r1d7dxhb",
@@ -1876,7 +2009,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "vi1n237",
@@ -1890,7 +2024,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "x1gnn9a4",
@@ -1904,7 +2039,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "y1gdddk4",
@@ -1918,7 +2054,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a1s7kblb",
@@ -1932,7 +2069,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "b1kcngw4",
@@ -1946,7 +2084,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c9ddvbw",
@@ -1960,7 +2099,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fw7eyoi",
@@ -1974,7 +2114,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "g1xohr66",
@@ -1988,7 +2129,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "rtwkgqh",
@@ -2002,7 +2144,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "s167fh4l",
@@ -2016,7 +2159,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "typzgiy",
@@ -2030,7 +2174,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "wfdp9yi",
@@ -2044,7 +2189,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "x1gucqv",
@@ -2058,7 +2204,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z10xsxf1",
@@ -2072,7 +2219,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "a1xlnmn6",
@@ -2086,7 +2234,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "bx7l49z",
@@ -2100,7 +2249,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "euzd0qx",
@@ -2114,7 +2264,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "f93ogjc",
@@ -2128,7 +2279,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t9d0i90",
@@ -2142,7 +2294,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "uz34jy5",
@@ -2156,7 +2309,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "vrwx5mn",
@@ -2170,7 +2324,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y1rem1tk",
@@ -2184,7 +2339,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z1rkap0j",
@@ -2198,7 +2354,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a1vc7sr3",
@@ -2212,7 +2369,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "d14699rs",
@@ -2226,7 +2384,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "g1paq610",
@@ -2240,7 +2399,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "i11h1db2",
@@ -2254,7 +2414,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "l1d0tb78",
@@ -2268,7 +2429,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m4u2db4",
@@ -2282,7 +2444,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ny4gy9l",
@@ -2296,7 +2459,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q10ih9lr",
@@ -2310,7 +2474,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ronvdcr",
@@ -2324,7 +2489,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a2qbhzx",
@@ -2338,7 +2504,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "cjxqt5w",
@@ -2352,7 +2519,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "di2lnl1",
@@ -2366,7 +2534,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "frooo46",
@@ -2380,7 +2549,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "iyhcs7v",
@@ -2394,7 +2564,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "js5zler",
@@ -2408,7 +2579,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l19hcfd0",
@@ -2422,7 +2594,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "n1o8swzy",
@@ -2436,7 +2609,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "p1cytul8",
@@ -2450,7 +2624,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q3mr4z3",
@@ -2464,7 +2639,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "r1i20jmj",
@@ -2478,7 +2654,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "tnfqvbc",
@@ -2492,7 +2669,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v1j64fyh",
@@ -2506,7 +2684,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w1jmsf9l",
@@ -2520,7 +2699,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y1jgtbsb",
@@ -2534,7 +2714,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "a19ts8cu",
@@ -2548,7 +2729,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ova0dcz",
@@ -2562,7 +2744,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "p13zcz3h",
@@ -2576,7 +2759,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "qoa9nls",
@@ -2590,7 +2774,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "tjx3ym8",
@@ -2604,7 +2789,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "upxo291",
@@ -2618,7 +2804,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "vm4f9k9",
@@ -2632,7 +2819,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "x1tsk4gi",
@@ -2646,7 +2834,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z1fwjaws",
@@ -2660,7 +2849,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "cy0el80",
@@ -2674,7 +2864,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "f11kiq9h",
@@ -2688,7 +2879,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h1qnbbtg",
@@ -2702,7 +2894,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j13fshwj",
@@ -2716,7 +2909,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "m1nv8gh2",
@@ -2730,7 +2924,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "okbfsbi",
@@ -2744,7 +2939,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v183yvc4",
@@ -2758,7 +2954,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "wtmkm71",
@@ -2772,7 +2969,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y10xpyr8",
@@ -2786,7 +2984,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "a1irz7mq",
@@ -2800,7 +2999,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c13bhkit",
@@ -2814,7 +3014,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "dmsb58e",
@@ -2828,7 +3029,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fmedafm",
@@ -2842,7 +3044,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "gigb8u7",
@@ -2856,7 +3059,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i1gctff5",
@@ -2870,7 +3074,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "k17lyhev",
@@ -2884,7 +3089,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1lglw4z",
@@ -2898,7 +3104,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "m1o0yk6j",
@@ -2912,7 +3119,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "o17af2jx",
@@ -2926,7 +3134,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q1p43jtl",
@@ -2940,7 +3149,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s1bdsv17",
@@ -2954,7 +3164,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t1b14yet",
@@ -2968,7 +3179,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "he8fxtq",
@@ -2982,7 +3194,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "jm2b74",
@@ -2996,7 +3209,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l176p2dd",
@@ -3010,7 +3224,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "nn7gw9z",
@@ -3024,7 +3239,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "p1uilbea",
@@ -3038,7 +3254,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "sa167hk",
@@ -3052,7 +3269,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t4apnug",
@@ -3066,7 +3284,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v1k8n9ah",
@@ -3080,7 +3299,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y1jjas71",
@@ -3094,7 +3314,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a10uwbll",
@@ -3108,7 +3329,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "c1pxfmv5",
@@ -3122,7 +3344,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "eiieqy1",
@@ -3136,7 +3359,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "gvwhipy",
@@ -3150,7 +3374,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "i1v0skps",
@@ -3164,7 +3389,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "kw552yy",
@@ -3178,7 +3404,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "lwaq0uc",
@@ -3192,7 +3419,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q1cz7uld",
@@ -3206,7 +3434,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "sb5avst",
@@ -3220,7 +3449,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u1hmrks8",
@@ -3234,7 +3464,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "vq9gf7u",
@@ -3248,7 +3479,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x10xnc79",
@@ -3262,7 +3494,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "z1od3tdk",
@@ -3276,7 +3509,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "b1ne9dy8",
@@ -3290,7 +3524,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c1qfw2yc",
@@ -3304,7 +3539,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "f1u7t04q",
@@ -3318,7 +3554,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h1glvjvu",
@@ -3332,7 +3569,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "i5mhtfe",
@@ -3346,7 +3584,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "kujrc3g",
@@ -3360,7 +3599,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "zycnjcu",
@@ -3374,7 +3614,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "b57l1zq",
@@ -3388,7 +3629,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "d1seghi4",
@@ -3402,7 +3644,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fp60ux2",
@@ -3416,7 +3659,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h180uo3r",
@@ -3430,7 +3674,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j1x6c0my",
@@ -3444,7 +3689,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1363rrv",
@@ -3458,7 +3704,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "n1m6r7i1",
@@ -3472,7 +3719,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "p16a5e31",
@@ -3486,7 +3734,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "r1rv38sg",
@@ -3500,7 +3749,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v1xqgc6w",
@@ -3514,7 +3764,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w16zygki",
@@ -3528,7 +3779,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "x18sxe9u",
@@ -3542,7 +3794,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ym0p82b",
@@ -3556,7 +3809,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "b1oiehhp",
@@ -3570,7 +3824,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "c1luakbe",
@@ -3584,7 +3839,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1jzsabr",
@@ -3598,7 +3854,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "fi3ixk5",
@@ -3612,7 +3869,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j1v9i98s",
@@ -3626,7 +3884,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "l1eaqpzt",
@@ -3640,7 +3899,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n1q0ld4b",
@@ -3654,7 +3914,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "qs3vndw",
@@ -3668,7 +3929,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "sgb89gs",
@@ -3682,7 +3944,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "uqpay7e",
@@ -3696,7 +3959,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w1o0q4op",
@@ -3710,7 +3974,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k14a7xs2",
@@ -3724,7 +3989,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1pt8jlq",
@@ -3738,7 +4004,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ncaq9ln",
@@ -3752,7 +4019,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "o1wmc0mp",
@@ -3766,7 +4034,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "qi4qcfn",
@@ -3780,7 +4049,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s1uv8t1f",
@@ -3794,7 +4064,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "uid17v3",
@@ -3808,7 +4079,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v173c8sd",
@@ -3822,7 +4094,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x16hyi2u",
@@ -3836,7 +4109,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "z112hkvy",
@@ -3850,7 +4124,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "am4588f",
@@ -3864,7 +4139,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "boqb1w7",
@@ -3878,7 +4154,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "djwbqvw",
@@ -3892,7 +4169,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "f1llb3qd",
@@ -3906,7 +4184,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "gl96kpk",
@@ -3920,7 +4199,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h1bcl6r6",
@@ -3934,7 +4214,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ljo3ijo",
@@ -3948,7 +4229,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n1mf1kmc",
@@ -3962,7 +4244,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "pcbh8is",
@@ -3976,7 +4259,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "qwrubso",
@@ -3990,7 +4274,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "s16w4yet",
@@ -4004,7 +4289,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t82wqz7",
@@ -4018,7 +4304,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v75y900",
@@ -4032,7 +4319,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w1tlk80j",
@@ -4046,7 +4334,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z4nnfih",
@@ -4060,7 +4349,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "bgxmxux",
@@ -4074,7 +4364,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "c1u45q89",
@@ -4088,7 +4379,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ezugysi",
@@ -4102,7 +4394,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h1prmjtr",
@@ -4116,7 +4409,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j1czwgfs",
@@ -4130,7 +4424,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "kjt8alr",
@@ -4144,7 +4439,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "lp822ep",
@@ -4158,7 +4454,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "az8zjjg",
@@ -4172,7 +4469,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c3hrv8f",
@@ -4186,7 +4484,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "dioj1cm",
@@ -4200,7 +4499,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ej6roe",
@@ -4214,7 +4514,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h12vvpt",
@@ -4228,7 +4529,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j1luml1b",
@@ -4242,7 +4544,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "kur2v9u",
@@ -4256,7 +4559,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "mw7grjf",
@@ -4270,7 +4574,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "p1y5wszf",
@@ -4284,7 +4589,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q10fmsxn",
@@ -4298,7 +4604,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s5ioe8m",
@@ -4312,7 +4619,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t1ltwzw1",
@@ -4326,7 +4634,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w1eymx73",
@@ -4340,7 +4649,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x16o7suc",
@@ -4354,7 +4664,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y7wmswl",
@@ -4368,7 +4679,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "aetko2e",
@@ -4382,7 +4694,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e1dtgm9j",
@@ -4396,7 +4709,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "f131xkz9",
@@ -4410,7 +4724,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "hqjj9lu",
@@ -4424,7 +4739,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j1mgp68r",
@@ -4438,7 +4754,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "l19g8lbq",
@@ -4452,7 +4769,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n1857uhj",
@@ -4466,7 +4784,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o2lviu4",
@@ -4480,7 +4799,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "qbb336f",
@@ -4494,7 +4814,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "u6es513",
@@ -4508,7 +4829,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v1lx1iwr",
@@ -4522,7 +4844,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "xpwbodz",
@@ -4536,7 +4859,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "y1z0g2uv",
@@ -4550,7 +4874,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "b1nka4j0",
@@ -4564,7 +4889,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "cxqt5y6",
@@ -4578,7 +4904,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1d7834l",
@@ -4592,7 +4919,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "fosdv3w",
@@ -4606,7 +4934,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t1bmnivp",
@@ -4620,7 +4949,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C6",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "utuiuav",
@@ -4634,7 +4964,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w1asr9r4",
@@ -4648,7 +4979,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "z1mfqzdm",
@@ -4662,7 +4994,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "a17xot5t",
@@ -4676,7 +5009,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c19mknq9",
@@ -4690,7 +5024,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e8h6iac",
@@ -4704,7 +5039,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "gbx9kjq",
@@ -4718,7 +5054,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "hnsm58l",
@@ -4732,7 +5069,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "jgwq5d4",
@@ -4746,7 +5084,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "kjis1uk",
@@ -4760,7 +5099,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m1jwin2y",
@@ -4774,7 +5114,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o1hs5wd3",
@@ -4788,7 +5129,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "p17dpjcg",
@@ -4802,7 +5144,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s1wgcgd4",
@@ -4816,7 +5159,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "tcxnnfl",
@@ -4830,7 +5174,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v5qu4nz",
@@ -4844,7 +5189,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "xnlc836",
@@ -4858,7 +5204,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y1mr1sks",
@@ -4872,7 +5219,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "b1wzxhzo",
@@ -4886,7 +5234,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "cm1n3su",
@@ -4900,7 +5249,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "fc71aeq",
@@ -4914,7 +5264,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "l1wwbjx7",
@@ -4928,7 +5279,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "mn5s9mi",
@@ -4942,7 +5294,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o1e129kj",
@@ -4956,7 +5309,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "d1mmg62x",
@@ -4970,7 +5324,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "f1g7i5xk",
@@ -4984,7 +5339,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h15hqt1z",
@@ -4998,7 +5354,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "jylzyou",
@@ -5012,7 +5369,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "lbujptd",
@@ -5026,7 +5384,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n11s1kn3",
@@ -5040,7 +5399,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o1dtgd2s",
@@ -5054,7 +5414,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q1jbh8jy",
@@ -5068,7 +5429,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "u12ankrx",
@@ -5082,7 +5444,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "vb3jhr3",
@@ -5096,7 +5459,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "wrfu2ca",
@@ -5110,7 +5474,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "zmi8xm8",
@@ -5124,7 +5489,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "aovg08",
@@ -5138,7 +5504,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "dk9vvcz",
@@ -5152,7 +5519,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e16aredg",
@@ -5166,7 +5534,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "f1a29znz",
@@ -5180,7 +5549,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "ij3nuss",
@@ -5194,7 +5564,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j12qq8ss",
@@ -5208,7 +5579,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "nmfwkr8",
@@ -5222,7 +5594,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "p111tvnr",
@@ -5236,7 +5609,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q1p4stqv",
@@ -5250,7 +5624,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "sjr4s3k",
@@ -5264,7 +5639,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t11q0skv",
@@ -5278,7 +5654,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ur3z6wx",
@@ -5292,7 +5669,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "xq4jn79",
@@ -5306,7 +5684,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "y1sccu0f",
@@ -5320,7 +5699,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "mwa1s75",
@@ -5334,7 +5714,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n1kv2935",
@@ -5348,7 +5729,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ok06t4x",
@@ -5362,7 +5744,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "p14j8nan",
@@ -5376,7 +5759,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t1jv3c1u",
@@ -5390,7 +5774,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v90wbp9",
@@ -5404,7 +5789,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w1jbjeqv",
@@ -5418,7 +5804,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z1bmqujh",
@@ -5432,7 +5819,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1lmk1en",
@@ -5446,7 +5834,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fx2ogn5",
@@ -5460,7 +5849,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h1pvbomw",
@@ -5474,7 +5864,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "k41x0eu",
@@ -5488,7 +5879,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "lff0zv9",
@@ -5502,7 +5894,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "nwr13iy",
@@ -5516,7 +5909,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.75
+      "sounding_duration": 0.75,
+      "articulations": []
     },
     {
       "id": "rpcft87",
@@ -5530,7 +5924,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "to2njll",
@@ -5544,7 +5939,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v11iipr0",
@@ -5558,7 +5954,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "xrejj2h",
@@ -5572,7 +5969,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "a1hms5x0",
@@ -5586,7 +5984,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "bcrq3y9",
@@ -5600,7 +5999,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "d13vqzql",
@@ -5614,7 +6014,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "g1xqhixk",
@@ -5628,7 +6029,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "idyez32",
@@ -5642,7 +6044,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k13oq94r",
@@ -5656,7 +6059,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "mu7b6vq",
@@ -5670,7 +6074,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "nmqupcd",
@@ -5684,7 +6089,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q1tv6vte",
@@ -5698,7 +6104,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "r7vz4sc",
@@ -5712,7 +6119,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h1jyv1gl",
@@ -5726,7 +6134,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "jxxzs8",
@@ -5740,7 +6149,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1otilcs",
@@ -5754,7 +6164,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "qgj2339",
@@ -5768,7 +6179,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "rmm5n5a",
@@ -5782,7 +6194,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t1tfksm1",
@@ -5796,7 +6209,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "xk2nnfp",
@@ -5810,7 +6224,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ztor3vi",
@@ -5824,7 +6239,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "b1phxg8",
@@ -5838,7 +6254,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.75
+      "sounding_duration": 0.75,
+      "articulations": []
     },
     {
       "id": "ekfz5d9",
@@ -5852,7 +6269,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fw3q9km",
@@ -5866,7 +6284,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h1mapf3a",
@@ -5880,7 +6299,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ilj8hzq",
@@ -5894,7 +6314,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "k1y8ddk2",
@@ -5908,7 +6329,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m1h2jo2",
@@ -5922,7 +6344,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "o9hnscs",
@@ -5936,7 +6359,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q1touvpd",
@@ -5950,7 +6374,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "s1l776lf",
@@ -5964,7 +6389,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v1f66hk1",
@@ -5978,7 +6404,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "wvt2xg8",
@@ -5992,7 +6419,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x5yguhv",
@@ -6006,7 +6434,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "z1e7tsoz",
@@ -6020,7 +6449,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "awx127s",
@@ -6034,7 +6464,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "c134ibh7",
@@ -6048,7 +6479,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "f1idfam9",
@@ -6062,7 +6494,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "gqwobyp",
@@ -6076,7 +6509,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i1ryfvb7",
@@ -6090,7 +6524,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y1b4dqin",
@@ -6104,7 +6539,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "a7yy5fn",
@@ -6118,7 +6554,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "b19c90dd",
@@ -6132,7 +6569,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "frdw8ln",
@@ -6146,7 +6584,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "hjrh1px",
@@ -6160,7 +6599,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "iq7j851",
@@ -6174,7 +6614,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "mtminef",
@@ -6188,7 +6629,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "owkn1bg",
@@ -6202,7 +6644,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "pefea8r",
@@ -6216,7 +6659,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s1qr44w6",
@@ -6230,7 +6674,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "tptzq80",
@@ -6244,7 +6689,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "wp9nl6d",
@@ -6258,7 +6704,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "yuh3ssf",
@@ -6272,7 +6719,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "z1lukhhd",
@@ -6286,7 +6734,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "bkzqkw3",
@@ -6300,7 +6749,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "cdqu65a",
@@ -6314,7 +6764,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "gxaj28w",
@@ -6328,7 +6779,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h1wa68cd",
@@ -6342,7 +6794,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "iv33vfv",
@@ -6356,7 +6809,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.75
+      "sounding_duration": 0.75,
+      "articulations": []
     },
     {
       "id": "m1nbm5av",
@@ -6370,7 +6824,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "o17p5xt6",
@@ -6384,7 +6839,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q16cxazv",
@@ -6398,7 +6854,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s7f9abj",
@@ -6412,7 +6869,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ucwx69a",
@@ -6426,7 +6884,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v17l8ei9",
@@ -6440,7 +6899,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x1jrz61d",
@@ -6454,7 +6914,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.75
+      "sounding_duration": 0.75,
+      "articulations": []
     },
     {
       "id": "a1b3c1m8",
@@ -6468,7 +6929,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "bqx8pse",
@@ -6482,7 +6944,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "deynai5",
@@ -6496,7 +6959,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e1nmxqip",
@@ -6510,7 +6974,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t75xsz9",
@@ -6524,7 +6989,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u1l36m77",
@@ -6538,7 +7004,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "xyych7b",
@@ -6552,7 +7019,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "y1kjpjl3",
@@ -6566,7 +7034,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a1fwpgjp",
@@ -6580,7 +7049,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "crbrfv6",
@@ -6594,7 +7064,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "d1lup7sy",
@@ -6608,7 +7079,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "g1kheaqs",
@@ -6622,7 +7094,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "hn89gij",
@@ -6636,7 +7109,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k1kpdgmr",
@@ -6650,7 +7124,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "lg7ontn",
@@ -6664,7 +7139,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "m1vi6rzc",
@@ -6678,7 +7154,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "oylznxt",
@@ -6692,7 +7169,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "qiuipuq",
@@ -6706,7 +7184,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "r3bmlsr",
@@ -6720,7 +7199,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "taj2nj2",
@@ -6734,7 +7214,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "vrgv7n3",
@@ -6748,7 +7229,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w8kzqts",
@@ -6762,7 +7244,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "yy3kzfb",
@@ -6776,7 +7259,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a1q4x5uu",
@@ -6790,7 +7274,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "bx1vxvl",
@@ -6804,7 +7289,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "d2b2j6g",
@@ -6818,7 +7304,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "hj3uo30",
@@ -6832,7 +7319,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "kvp4b5x",
@@ -6846,7 +7334,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "lv333km",
@@ -6860,7 +7349,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m13nrxwh",
@@ -6874,7 +7364,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o38dzwu",
@@ -6888,7 +7379,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "c13q1341",
@@ -6902,7 +7394,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "d8yfejz",
@@ -6916,7 +7409,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e15mapt4",
@@ -6930,7 +7424,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h1p7zxab",
@@ -6944,7 +7439,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "i4ijyjv",
@@ -6958,7 +7454,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k1vzo3ah",
@@ -6972,7 +7469,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "lzvdbr5",
@@ -6986,7 +7484,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "m1tqk3iq",
@@ -7000,7 +7499,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "p1gsn13x",
@@ -7014,7 +7514,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q1q038ju",
@@ -7028,7 +7529,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t1jafm9i",
@@ -7042,7 +7544,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v1hvuqah",
@@ -7056,7 +7559,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w13ebcb",
@@ -7070,7 +7574,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "y1bqiwy8",
@@ -7084,7 +7589,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a9qeg4w",
@@ -7098,7 +7604,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ci23dyh",
@@ -7112,7 +7619,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "d9aqpw",
@@ -7126,7 +7634,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "enkdbpf",
@@ -7140,7 +7649,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "i195qoj1",
@@ -7154,7 +7664,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k7obnm2",
@@ -7168,7 +7679,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "l1wo5oql",
@@ -7182,7 +7694,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n13uc7c9",
@@ -7196,7 +7709,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o16f5xo2",
@@ -7210,7 +7724,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "p1pnlo69",
@@ -7224,7 +7739,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s1jw0fef",
@@ -7238,7 +7754,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "tdr0fh2",
@@ -7252,7 +7769,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h1yspggf",
@@ -7266,7 +7784,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j6tdar2",
@@ -7280,7 +7799,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "k1t0y1ei",
@@ -7294,7 +7814,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "n1o9w5x0",
@@ -7308,7 +7829,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o2w40e7",
@@ -7322,7 +7844,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "pfs4u6o",
@@ -7336,7 +7859,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "s1mtu54t",
@@ -7350,7 +7874,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v19uhpfg",
@@ -7364,7 +7889,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "xi6d6v7",
@@ -7378,7 +7904,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a8k4ph6",
@@ -7392,7 +7919,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "b3x9egn",
@@ -7406,7 +7934,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c1a8rlfy",
@@ -7420,7 +7949,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "f1gh6ngb",
@@ -7434,7 +7964,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "g1yj0gbg",
@@ -7448,7 +7979,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j1hty8h3",
@@ -7462,7 +7994,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "k145snl9",
@@ -7476,7 +8009,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1s56qyb",
@@ -7490,7 +8024,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "n1d7yy4u",
@@ -7504,7 +8039,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "pjzk52z",
@@ -7518,7 +8054,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q1i759tc",
@@ -7532,7 +8069,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "sznr9r3",
@@ -7546,7 +8084,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ueoi9wm",
@@ -7560,7 +8099,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w4ebzmq",
@@ -7574,7 +8114,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "xipu0z2",
@@ -7588,7 +8129,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "zegags8",
@@ -7602,7 +8144,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "bhotjz1",
@@ -7616,7 +8159,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "dpm6q47",
@@ -7630,7 +8174,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e1q8ubhw",
@@ -7644,7 +8189,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "g1kthqqo",
@@ -7658,7 +8204,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "hz7emel",
@@ -7672,7 +8219,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v1v05h93",
@@ -7686,7 +8234,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "xllqb76",
@@ -7700,7 +8249,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "zf354to",
@@ -7714,7 +8264,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "cgyv8s",
@@ -7728,7 +8279,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1lb15w2",
@@ -7742,7 +8294,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "fh92hue",
@@ -7756,7 +8309,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "htow213",
@@ -7770,7 +8324,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "kvlmml8",
@@ -7784,7 +8339,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "mgxrtwd",
@@ -7798,7 +8354,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o5ekfi5",
@@ -7812,7 +8369,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q1l8bbuz",
@@ -7826,7 +8384,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "sfu3fti",
@@ -7840,7 +8399,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u1f1q8e7",
@@ -7854,7 +8414,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w1w7zlne",
@@ -7868,7 +8429,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a11rpi54",
@@ -7882,7 +8444,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "cegsl4z",
@@ -7896,7 +8459,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "d1xfsyva",
@@ -7910,7 +8474,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e174755k",
@@ -7924,7 +8489,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "gggpm78",
@@ -7938,7 +8504,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i1tasvky",
@@ -7952,7 +8519,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "k16bpp0k",
@@ -7966,7 +8534,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1u2sgbn",
@@ -7980,7 +8549,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "n8w1nor",
@@ -7994,7 +8564,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "pxql61m",
@@ -8008,7 +8579,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "r1yirjro",
@@ -8022,7 +8594,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s1jlo2fy",
@@ -8036,7 +8609,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "uu9p4xo",
@@ -8050,7 +8624,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w1kbstk6",
@@ -8064,7 +8639,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x1n5gbgg",
@@ -8078,7 +8654,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y1mliwdc",
@@ -8092,7 +8669,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "n118ro17",
@@ -8106,7 +8684,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "o4wdcbd",
@@ -8120,7 +8699,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q1oo09eu",
@@ -8134,7 +8714,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "tn0enul",
@@ -8148,7 +8729,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u167hgkb",
@@ -8162,7 +8744,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "wfndwkm",
@@ -8176,7 +8759,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x1s4bydl",
@@ -8190,7 +8774,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "z2hjqxr",
@@ -8204,7 +8789,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 2.5
+      "sounding_duration": 2.5,
+      "articulations": []
     },
     {
       "id": "c1ywh1ll",
@@ -8218,7 +8804,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 2.5
+      "sounding_duration": 2.5,
+      "articulations": []
     },
     {
       "id": "f1q0cxs6",
@@ -8232,7 +8819,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "g1fc4wg8",
@@ -8246,7 +8834,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h114mryt",
@@ -8260,7 +8849,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "k18zzrm1",
@@ -8274,7 +8864,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "llm57yf",
@@ -8288,7 +8879,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ntl4sbp",
@@ -8302,7 +8894,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "otog4a7",
@@ -8316,7 +8909,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "r1mmsrmp",
@@ -8330,7 +8924,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "tpb9udb",
@@ -8344,7 +8939,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v3a2ssi",
@@ -8358,7 +8954,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w1idkeod",
@@ -8372,7 +8969,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "zt19te4",
@@ -8386,7 +8984,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "b11l0n0u",
@@ -8400,7 +8999,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c1byh8x",
@@ -8414,7 +9014,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "d6of3o4",
@@ -8428,7 +9029,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "g1yijxvb",
@@ -8442,7 +9044,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h70gbzs",
@@ -8456,7 +9059,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i18tmcrr",
@@ -8470,7 +9074,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j16skpfw",
@@ -8484,7 +9089,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "m3c3ij8",
@@ -8498,7 +9104,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "n18gb6x3",
@@ -8512,7 +9119,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "o1mrzc5c",
@@ -8526,7 +9134,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q13wsh44",
@@ -8540,7 +9149,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fwt87hw",
@@ -8554,7 +9164,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "gu52meb",
@@ -8568,7 +9179,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h145pvte",
@@ -8582,7 +9194,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j5oooi1",
@@ -8596,7 +9209,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "kqi21ad",
@@ -8610,7 +9224,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "mxt6imk",
@@ -8624,7 +9239,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "oz9gxm2",
@@ -8638,7 +9254,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "q11d47i5",
@@ -8652,7 +9269,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s17kj4he",
@@ -8666,7 +9284,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "u3igcxu",
@@ -8680,7 +9299,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w1hhp959",
@@ -8694,7 +9314,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "alfcwll",
@@ -8708,7 +9329,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "b16iegoz",
@@ -8722,7 +9344,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e1uwy2ct",
@@ -8736,7 +9359,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "hp61mvr",
@@ -8750,7 +9374,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "l1cvxobk",
@@ -8764,7 +9389,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "mlfdzef",
@@ -8778,7 +9404,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "o1u8gtoi",
@@ -8792,7 +9419,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "rh6e25r",
@@ -8806,7 +9434,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "s1l3gtto",
@@ -8820,7 +9449,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t1l90v5v",
@@ -8834,7 +9464,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v10w65l4",
@@ -8848,7 +9479,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j1ok80mo",
@@ -8862,7 +9494,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k1lvyqrz",
@@ -8876,7 +9509,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "lh7pxor",
@@ -8890,7 +9524,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "of8izy1",
@@ -8904,7 +9539,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "p1b0ya7y",
@@ -8918,7 +9554,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "s1x9pdqr",
@@ -8932,7 +9569,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "t8oq0bs",
@@ -8946,7 +9584,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u1sa3rka",
@@ -8960,7 +9599,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "w1oeaetu",
@@ -8974,7 +9614,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "y3uvwgo",
@@ -8988,7 +9629,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "z5bows2",
@@ -9002,7 +9644,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "b1ppv6bg",
@@ -9016,7 +9659,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "d10g1pw0",
@@ -9030,7 +9674,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ftstckj",
@@ -9044,7 +9689,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ibr9wnr",
@@ -9058,7 +9704,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "k92yx50",
@@ -9072,7 +9719,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n7gyt8w",
@@ -9086,7 +9734,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q1jm1xxd",
@@ -9100,7 +9749,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "r1vr1rtn",
@@ -9114,7 +9764,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "sig4ofy",
@@ -9128,7 +9779,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u1kesufc",
@@ -9142,7 +9794,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "wndaoap",
@@ -9156,7 +9809,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "xn7xsq1",
@@ -9170,7 +9824,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "z1bt3l53",
@@ -9184,7 +9839,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "awf7k9z",
@@ -9198,7 +9854,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "c5x8g0q",
@@ -9212,7 +9869,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e14xkeli",
@@ -9226,7 +9884,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ff6f8vu",
@@ -9240,7 +9899,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h1hfknpw",
@@ -9254,7 +9914,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "i13bjuy7",
@@ -9268,7 +9929,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w1iv44dm",
@@ -9282,7 +9944,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "x1jhy7or",
@@ -9296,7 +9959,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "yudto3c",
@@ -9310,7 +9974,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a19s462x",
@@ -9324,7 +9989,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "d8haeuy",
@@ -9338,7 +10004,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "f15nrlo2",
@@ -9352,7 +10019,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ggwt20b",
@@ -9366,7 +10034,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "jg4o8xu",
@@ -9380,7 +10049,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "l1xuj7oj",
@@ -9394,7 +10064,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n1pw0zgt",
@@ -9408,7 +10079,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "og1vdol",
@@ -9422,7 +10094,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "qi1d3m2",
@@ -9436,7 +10109,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "s1f1yx3o",
@@ -9450,7 +10124,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t1biax55",
@@ -9464,7 +10139,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v1fxthgo",
@@ -9478,7 +10154,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "y1aezwmq",
@@ -9492,7 +10169,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "aax6640",
@@ -9506,7 +10184,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "bugljx9",
@@ -9520,7 +10199,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "e1ph23yz",
@@ -9534,7 +10214,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "fmaw6wp",
@@ -9548,7 +10229,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h18e1rxn",
@@ -9562,7 +10244,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "izliwcn",
@@ -9576,7 +10259,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "jxwo2r6",
@@ -9590,7 +10274,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ldqnb3y",
@@ -9604,7 +10289,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "mbiccjz",
@@ -9618,7 +10304,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "a1des3v3",
@@ -9632,7 +10319,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "b1sm9yfi",
@@ -9646,7 +10334,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "cghwqof",
@@ -9660,7 +10349,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "fc0e2by",
@@ -9674,7 +10364,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "g1j8krf9",
@@ -9688,7 +10379,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ious0bx",
@@ -9702,7 +10394,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k99l1mc",
@@ -9716,7 +10409,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m1oxaft9",
@@ -9730,7 +10424,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q17rsnld",
@@ -9744,7 +10439,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "s13ibepw",
@@ -9758,7 +10454,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "t1a3kmoj",
@@ -9772,7 +10469,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "u3kb1rl",
@@ -9786,7 +10484,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "w1b5h4ku",
@@ -9800,7 +10499,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "x1jtjgmx",
@@ -9814,7 +10514,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z1t5wugj",
@@ -9828,7 +10529,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "c1oi8v2",
@@ -9842,7 +10544,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "d1115b6l",
@@ -9856,7 +10559,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "esazzxq",
@@ -9870,7 +10574,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A2",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "h15rterg",
@@ -9884,7 +10589,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i1addc8m",
@@ -9898,7 +10604,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F2",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "jwoh06j",
@@ -9912,7 +10619,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E2",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "m1t6gwt9",
@@ -9926,7 +10634,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "bp430c7",
@@ -9940,7 +10649,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "d1pp0wjd",
@@ -9954,7 +10664,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "f10l6cqp",
@@ -9968,7 +10679,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "g1vz77x8",
@@ -9982,7 +10694,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ianp5h",
@@ -9996,7 +10709,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "jhzaql8",
@@ -10010,7 +10724,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "lm3owe4",
@@ -10024,7 +10739,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m1241cut",
@@ -10038,7 +10754,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ntn6ugy",
@@ -10052,7 +10769,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "pi9femi",
@@ -10066,7 +10784,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "q1apsoah",
@@ -10080,7 +10799,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ta5ewcc",
@@ -10094,7 +10814,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "u25u67g",
@@ -10108,7 +10829,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v14tfk3m",
@@ -10122,7 +10844,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x1r92lbm",
@@ -10136,7 +10859,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.75
+      "sounding_duration": 0.75,
+      "articulations": []
     },
     {
       "id": "a97xpaf",
@@ -10150,7 +10874,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "b6nkrja",
@@ -10164,7 +10889,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "dijstoc",
@@ -10178,7 +10904,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "f1yh8s2j",
@@ -10192,7 +10919,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "j1peq1h9",
@@ -10206,7 +10934,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "k1iyldot",
@@ -10220,7 +10949,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "lupzm5u",
@@ -10234,7 +10964,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m1vkzaj",
@@ -10248,7 +10979,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G2",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "n1114hc4",
@@ -10262,7 +10994,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C2",
-      "sounding_duration": 10.0
+      "sounding_duration": 10.0,
+      "articulations": []
     },
     {
       "id": "q1oa1zii",
@@ -10276,7 +11009,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 10.0
+      "sounding_duration": 10.0,
+      "articulations": []
     },
     {
       "id": "fvgp94y",
@@ -10290,7 +11024,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "h6y3can",
@@ -10304,7 +11039,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "i93ak6l",
@@ -10318,7 +11054,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "l1hmdt1o",
@@ -10332,7 +11069,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "m1qmker7",
@@ -10346,7 +11084,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "po6xpoq",
@@ -10360,7 +11099,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "r13mlv2l",
@@ -10374,7 +11114,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "tb4wks4",
@@ -10388,7 +11129,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "u1420qup",
@@ -10402,7 +11144,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "v4uetek",
@@ -10416,7 +11159,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "x1cgilei",
@@ -10430,7 +11174,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "yuqwagr",
@@ -10444,7 +11189,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D5",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "ax6zch4",
@@ -10458,7 +11204,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "c199u305",
@@ -10472,7 +11219,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "e3hvtt6",
@@ -10486,7 +11234,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "fmoqumd",
@@ -10500,7 +11249,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "h1u5fgy7",
@@ -10514,7 +11264,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "jfr1l5k",
@@ -10528,7 +11279,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "lqakjc0",
@@ -10542,7 +11294,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "nqfpx2d",
@@ -10556,7 +11309,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "qfdvmub",
@@ -10570,7 +11324,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "C2",
-      "sounding_duration": 8.0
+      "sounding_duration": 8.0,
+      "articulations": []
     },
     {
       "id": "tes8iq",
@@ -10584,7 +11339,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 8.0
+      "sounding_duration": 8.0,
+      "articulations": []
     },
     {
       "id": "ie6m04d",
@@ -10598,7 +11354,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "j1rqdbyo",
@@ -10612,7 +11369,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "ku4fssl",
@@ -10626,7 +11384,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "A4",
-      "sounding_duration": 1.0
+      "sounding_duration": 1.0,
+      "articulations": []
     },
     {
       "id": "nkxsiuk",
@@ -10640,7 +11399,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "o1bjgo5n",
@@ -10654,7 +11414,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "F4",
-      "sounding_duration": 0.25
+      "sounding_duration": 0.25,
+      "articulations": []
     },
     {
       "id": "p5w7nku",
@@ -10668,7 +11429,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "E4",
-      "sounding_duration": 2.0
+      "sounding_duration": 2.0,
+      "articulations": []
     },
     {
       "id": "s25xwd1",
@@ -10682,7 +11444,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "v1ehalkc",
@@ -10696,7 +11459,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "x798kj6",
@@ -10710,7 +11474,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "B3",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "z1ivw5i3",
@@ -10724,7 +11489,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "D4",
-      "sounding_duration": 0.5
+      "sounding_duration": 0.5,
+      "articulations": []
     },
     {
       "id": "bto4il9",
@@ -10738,7 +11504,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "G3",
-      "sounding_duration": 2.0
+      "sounding_duration": 2.0,
+      "articulations": []
     },
     {
       "id": "d1ptdaqt",
@@ -10752,7 +11519,8 @@
       "playable": true,
       "velocity": 0.6299212598425197,
       "name": "C4",
-      "sounding_duration": 2.0
+      "sounding_duration": 2.0,
+      "articulations": []
     },
     {
       "id": "f1wxvchl",
@@ -10766,7 +11534,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "C2",
-      "sounding_duration": 4.0
+      "sounding_duration": 4.0,
+      "articulations": []
     },
     {
       "id": "hjf2fct",
@@ -10780,7 +11549,8 @@
       "playable": false,
       "velocity": 0.6299212598425197,
       "name": "C3",
-      "sounding_duration": 4.0
+      "sounding_duration": 4.0,
+      "articulations": []
     }
   ],
   "measures": [
@@ -10790,7 +11560,25 @@
       "id": "if1mycf",
       "start": 0,
       "page": 1,
-      "end": 4
+      "end": 4,
+      "staff_context": {
+        "1": {
+          "meter": {
+            "count": "4",
+            "unit": "4",
+            "symbol": "common"
+          },
+          "key_signature": "3f"
+        },
+        "2": {
+          "meter": {
+            "count": "4",
+            "unit": "4",
+            "symbol": "common"
+          },
+          "key_signature": "3f"
+        }
+      }
     },
     {
       "index": 1,
@@ -13115,5 +13903,19 @@
   ],
   "duration": 124.0,
   "pages": 3,
-  "engine": "6.3.0-425dd7b"
+  "engine": "6.3.0-425dd7b",
+  "feature_schema": 4,
+  "marks": [
+    {
+      "id": "t1nt30ae",
+      "type": "tempo",
+      "text": "",
+      "staff": "1",
+      "measure": 0,
+      "beat": "1",
+      "beat_unit": "meter_denominator",
+      "form": "",
+      "startid": ""
+    }
+  ]
 }

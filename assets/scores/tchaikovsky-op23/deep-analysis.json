@@ -1,0 +1,580 @@
+{
+  "score_versions": {
+    "tchaikovsky-op23-1": "308ba2c44a982ae0",
+    "tchaikovsky-op23-2": "75d22d0412a765e3",
+    "tchaikovsky-op23-3": "3b6744272ac1857f"
+  },
+  "source_sha256": {
+    "tchaikovsky-op23-1": "63bbb5063a8d7f883993d852d9025662559d7e8eb7778a1481333f695f4ecfa8",
+    "tchaikovsky-op23-2": "62fba4caf5cd2388d0622ea29c0526fb98da6962af99ee5dc20c421f310ace40",
+    "tchaikovsky-op23-3": "465470d8420eed66c08bedb607878c37edc537d294a1584b3d3a9b7e8438a494"
+  },
+  "sources": [
+    {
+      "id": "tcha-v2-score",
+      "title": "柴可夫斯基第一钢琴协奏曲：保留数字总谱",
+      "url": "https://zenodo.org/records/15571083",
+      "excerpt": "分析音高、时值与记号依据本地保留的完整 MusicXML。具体修订版待校核。",
+      "kind": "score"
+    }
+  ],
+  "cards": [
+    {
+      "id": "seed-v2-tcha-1-00",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "第1乐章导听路线",
+      "body": "先比较引子与快板的节拍和织体，再观察旋律交接、再现移调、独奏华彩与末尾和声。章节是试听导航，不主张每个接缝都是唯一曲式边界。",
+      "dimensions": [
+        "曲式"
+      ],
+      "scope": "overview",
+      "listen_for": "结合谱面与真实演奏比较速度、织体和音区。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [],
+      "claims": [
+        {
+          "statement": "先比较引子与快板的节拍和织体，再观察旋律交接、再现移调、独奏华彩与末尾和声。章节是试听导航，不主张每个接缝都是唯一曲式边界。",
+          "evidence_type": "hypothesis"
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-2-00",
+      "work_id": "tchaikovsky-op23-2",
+      "title": "第2乐章导听路线",
+      "body": "从6/8拍的舒缓段落进入第59小节 Allegro vivace assai，再于第146小节 Tempo I 返回。关注速度与织体对比；当前提供完整谱，细读卡片待补充。",
+      "dimensions": [
+        "曲式"
+      ],
+      "scope": "overview",
+      "listen_for": "结合谱面与真实演奏比较速度、织体和音区。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [],
+      "claims": [
+        {
+          "statement": "从6/8拍的舒缓段落进入第59小节 Allegro vivace assai，再于第146小节 Tempo I 返回。关注速度与织体对比；当前提供完整谱，细读卡片待补充。",
+          "evidence_type": "hypothesis"
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-3-00",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "第3乐章导听路线",
+      "body": "完整终乐章可供选段分析。第252小节调号为两个降号，末小节钢琴高声部落在降B音级。当前概览仅说明可验证导航事实，完整回旋／奏鸣结构仍待专题整理。",
+      "dimensions": [
+        "曲式"
+      ],
+      "scope": "overview",
+      "listen_for": "结合谱面与真实演奏比较速度、织体和音区。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [],
+      "claims": [
+        {
+          "statement": "完整终乐章可供选段分析。第252小节调号为两个降号，末小节钢琴高声部落在降B音级。当前概览仅说明可验证导航事实，完整回旋／奏鸣结构仍待专题整理。",
+          "evidence_type": "hypothesis"
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-01",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "圆号开场：节奏召唤与小调色彩",
+      "body": "圆号开头三个八分音符的实音为 F、降D、C。先听短音之间的下行，再留意句子如何由停顿形成召唤感。钢琴复奏可辨别音高与时值，但不能代替圆号的音色及强弱重音。",
+      "dimensions": [
+        "节奏／节拍",
+        "配器"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "钢琴复奏可辨别音高与时值，但不能代替圆号的音色及强弱重音。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "圆号开场：节奏召唤与小调色彩",
+          "measures": [
+            1,
+            1
+          ],
+          "staffs": [
+            6
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "圆号开头三个八分音符的实音为 F、降D、C。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-02",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "宽广弦乐旋律与八度加厚",
+      "body": "第7小节小提琴与大提琴的起句相隔八度。先单独选择两个谱表，再一起播放：旋律轮廓一致，音区叠置增加厚度。这里的配器分析关注同一旋律如何获得重量，并非两条独立主题的对答。",
+      "dimensions": [
+        "配器",
+        "织体／复调"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "这里的配器分析关注同一旋律如何获得重量，并非两条独立主题的对答。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "宽广弦乐旋律与八度加厚",
+          "measures": [
+            7,
+            9
+          ],
+          "staffs": [
+            14,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第7小节小提琴与大提琴的起句相隔八度。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-03",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "钢琴柱式和弦：降D大调支点",
+      "body": "第6至9小节钢琴高声部使用降D、F、降A构成的音级集合。持续的柱式和弦为弦乐旋律提供稳定背景。试听时把纵向和弦的重复与横向旋律区分开；这一局部和声事实不代表整个引子只有一个和弦。",
+      "dimensions": [
+        "和声",
+        "织体／复调"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "试听时把纵向和弦的重复与横向旋律区分开；这一局部和声事实不代表整个引子只有一个和弦。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "钢琴柱式和弦：降D大调支点",
+          "measures": [
+            6,
+            9
+          ],
+          "staffs": [
+            12,
+            13
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第6至9小节钢琴高声部使用降D、F、降A构成的音级集合。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-04",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "低音与和声转移",
+      "body": "第10小节钢琴右手出现降E、降G、降B，构成降E小三和弦音级集合；左手最低音为降D。和弦上层与低音并非同一根音位置，不能只凭右手三和弦命名就忽略低音作用。对比前一张卡片，听色彩从稳定大三和弦转向较暗的音响。",
+      "dimensions": [
+        "和声",
+        "调性／调式"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "对比前一张卡片，听色彩从稳定大三和弦转向较暗的音响。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "低音与和声转移",
+          "measures": [
+            10,
+            10
+          ],
+          "staffs": [
+            12,
+            13
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第10小节钢琴右手出现降E、降G、降B，构成降E小三和弦音级集合；左手最低音为降D。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-05",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "进入快板：拍号与细分改变",
+      "body": "第109小节谱面标有 Allegro con spirito，拍号转为4/4，钢琴声部包含三连音细分。将它作为可核对的导航接缝：新的速度标记、拍号和运动形态共同改变听感。规则钢琴播放保留相对时值，不能完整模拟演奏者的速度过渡。",
+      "dimensions": [
+        "曲式",
+        "节奏／节拍"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "规则钢琴播放保留相对时值，不能完整模拟演奏者的速度过渡。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "进入快板：拍号与细分改变",
+          "measures": [
+            109,
+            112
+          ],
+          "staffs": [
+            12,
+            13
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第109小节谱面标有 Allegro con spirito，拍号转为4/4，钢琴声部包含三连音细分。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-06",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "单簧管与钢琴的旋律交接",
+      "body": "第185小节单簧管起句实音及四分音符单位时值为升C（1）、A（2）、升A（1）；第193小节钢琴以同样音高和时值接过这一起句。绑定的第二片段用于直接比较：旋律身份保持，发声媒介发生变化。",
+      "dimensions": [
+        "主题",
+        "配器"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "绑定的第二片段用于直接比较：旋律身份保持，发声媒介发生变化。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "单簧管与钢琴的旋律交接",
+          "measures": [
+            185,
+            185
+          ],
+          "staffs": [
+            4
+          ]
+        },
+        {
+          "label": "钢琴接过起句",
+          "measures": [
+            193,
+            193
+          ],
+          "staffs": [
+            12
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第185小节单簧管起句实音及四分音符单位时值为升C（1）、A（2）、升A（1）；第193小节钢琴以同样音高和时值接过这一起句。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-07",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "歌唱线条与三连音背景",
+      "body": "第268小节小提琴的四个四分音符为 F、G、降E、F，大提琴声部采用三连音时值。两种细分叠置，使歌唱线条与流动背景同时存在。先分别听谱表，再听合奏，注意不要把伴奏的每一次起音误听成旋律重音。",
+      "dimensions": [
+        "织体／复调",
+        "节奏／节拍"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "先分别听谱表，再听合奏，注意不要把伴奏的每一次起音误听成旋律重音。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "歌唱线条与三连音背景",
+          "measures": [
+            268,
+            268
+          ],
+          "staffs": [
+            14,
+            17
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第268小节小提琴的四个四分音符为 F、G、降E、F，大提琴声部采用三连音时值。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-08",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "旋律返回与移调",
+      "body": "第480小节小提琴起句较第185小节单簧管起句整体高两个半音，节奏仍为1、2、1。第472小节调号已变为两个降号。这里能够直接验证的是起句的移调与调号变化；更大范围的曲式判断仍需结合前后段落。",
+      "dimensions": [
+        "主题",
+        "调性／调式"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "这里能够直接验证的是起句的移调与调号变化；更大范围的曲式判断仍需结合前后段落。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "旋律返回与移调",
+          "measures": [
+            480,
+            480
+          ],
+          "staffs": [
+            14
+          ]
+        },
+        {
+          "label": "较早单簧管原型",
+          "measures": [
+            185,
+            185
+          ],
+          "staffs": [
+            4
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第480小节小提琴起句较第185小节单簧管起句整体高两个半音，节奏仍为1、2、1。",
+          "evidence_type": "score",
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-09",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "华彩：独奏与自由速度",
+      "body": "第538小节有 Cadenza 标记，第539小节出现 rubato；539至541小节的有音高事件仅位于钢琴双谱表。织体从协奏转为独奏，演奏者的时间处理成为重点。当前播放器按固定节拍复奏，因此只用于核对音符组织，不应据此判断真实华彩的呼吸。",
+      "dimensions": [
+        "曲式",
+        "力度／奏法",
+        "织体／复调"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "当前播放器按固定节拍复奏，因此只用于核对音符组织，不应据此判断真实华彩的呼吸。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "华彩：独奏与自由速度",
+          "measures": [
+            539,
+            541
+          ],
+          "staffs": [
+            12,
+            13
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第538小节有 Cadenza 标记，第539小节出现 rubato；539至541小节的有音高事件仅位于钢琴双谱表。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-v2-tcha-1-10",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "尾声的变格色彩",
+      "body": "第665小节钢琴右手连续音级集合为降B–D–F、降E–G–降B、降B–D–F，可听作降B大调 I–IV–I 的局部变格色彩。第666小节高声部落在降B音级。请把这一末尾局部收束与整段尾声的和声过程区别开，避免将最后两小节概括成全乐章的唯一终止方式。",
+      "dimensions": [
+        "和声",
+        "调性／调式"
+      ],
+      "scope": "segment",
+      "section_id": "whole",
+      "listen_for": "请把这一末尾局部收束与整段尾声的和声过程区别开，避免将最后两小节概括成全乐章的唯一终止方式。",
+      "source_ids": [
+        "tcha-v2-score"
+      ],
+      "segments": [
+        {
+          "label": "尾声的变格色彩",
+          "measures": [
+            665,
+            666
+          ],
+          "staffs": [
+            12,
+            13
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第665小节钢琴右手连续音级集合为降B–D–F、降E–G–降B、降B–D–F，可听作降B大调 I–IV–I 的局部变格色彩。",
+          "evidence_type": "score",
+          "segments": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "work_id": "tchaikovsky-op23-1",
+      "overview": "先比较引子与快板的节拍和织体，再观察旋律交接、再现移调、独奏华彩与末尾和声。章节是试听导航，不主张每个接缝都是唯一曲式边界。",
+      "sections": [
+        {
+          "id": "whole",
+          "title": "第1乐章全谱",
+          "measures": [
+            1,
+            666
+          ],
+          "description": "先比较引子与快板的节拍和织体，再观察旋律交接、再现移调、独奏华彩与末尾和声。章节是试听导航，不主张每个接缝都是唯一曲式边界。",
+          "source_ids": [
+            "tcha-v2-score"
+          ]
+        }
+      ],
+      "source_ids": [
+        "tcha-v2-score"
+      ]
+    },
+    {
+      "work_id": "tchaikovsky-op23-2",
+      "overview": "从6/8拍的舒缓段落进入第59小节 Allegro vivace assai，再于第146小节 Tempo I 返回。关注速度与织体对比；当前提供完整谱，细读卡片待补充。",
+      "sections": [
+        {
+          "id": "whole",
+          "title": "第2乐章全谱",
+          "measures": [
+            1,
+            170
+          ],
+          "description": "从6/8拍的舒缓段落进入第59小节 Allegro vivace assai，再于第146小节 Tempo I 返回。关注速度与织体对比；当前提供完整谱，细读卡片待补充。",
+          "source_ids": [
+            "tcha-v2-score"
+          ]
+        }
+      ],
+      "source_ids": [
+        "tcha-v2-score"
+      ]
+    },
+    {
+      "work_id": "tchaikovsky-op23-3",
+      "overview": "完整终乐章可供选段分析。第252小节调号为两个降号，末小节钢琴高声部落在降B音级。当前概览仅说明可验证导航事实，完整回旋／奏鸣结构仍待专题整理。",
+      "sections": [
+        {
+          "id": "whole",
+          "title": "第3乐章全谱",
+          "measures": [
+            1,
+            301
+          ],
+          "description": "完整终乐章可供选段分析。第252小节调号为两个降号，末小节钢琴高声部落在降B音级。当前概览仅说明可验证导航事实，完整回旋／奏鸣结构仍待专题整理。",
+          "source_ids": [
+            "tcha-v2-score"
+          ]
+        }
+      ],
+      "source_ids": [
+        "tcha-v2-score"
+      ]
+    }
+  ],
+  "installation": {
+    "notes": {
+      "seed-v2-tcha-1-00": "07c541329aa6404319b4493784c1cfdf9f8a80a01c531cd10db16fd4a2a942c7",
+      "seed-v2-tcha-2-00": "5606d29fe28a278ca4358c2b274aa4c6b54d270ff2a674f105cc1c3ddae17eae",
+      "seed-v2-tcha-3-00": "006be3faeba39f14d5a7b693d34eed155509eac606b50bc4827e31c4a8b050b7",
+      "seed-v2-tcha-1-01": "cb4c426db6fd9935eeb079fba4f4d23b0a83bce95967d1c42d58956210e3f3b6",
+      "seed-v2-tcha-1-02": "f081c7f77a335ebac7f213cf534c098169768a81224e309c76872b8741a30266",
+      "seed-v2-tcha-1-03": "45949d2fc03ecc20a54543c594e7f25a01786d4635f17b04ccc8176198dfa2c8",
+      "seed-v2-tcha-1-04": "f1c4314f8a1701663b444f83a9aed7e9f0851064bbe0b63e3127bcf33606a48e",
+      "seed-v2-tcha-1-05": "7ae1c21b73e8e557950156d7749bbca025857e234e6cd416b4f26fb3be811c1b",
+      "seed-v2-tcha-1-06": "8f53fa5276b64128ad8d61a200d67f77b58fb68d9f181e3b6fe754800115cb94",
+      "seed-v2-tcha-1-07": "2d1ebbd439ef58adc166e232052953a6b584a5909098388e0d5df74568e82483",
+      "seed-v2-tcha-1-08": "470ff67b2f229a13df862a08a3219cc4578e2053cf077f49ad3122b052403233",
+      "seed-v2-tcha-1-09": "62aacda82c056753db315d5794a54db4867b6f6d3d4db139da03e5a580fc72e9",
+      "seed-v2-tcha-1-10": "9d9ba032a565df7d7b764183aba26f9ed773bb222410a5df51a5909273744a47"
+    },
+    "guides": {
+      "tchaikovsky-op23-1": "d1e428a82ac253097890757173c2300869b643443d4213ec63c7feea1f7d12d7",
+      "tchaikovsky-op23-2": "506fd917f0cf21deee49f31bffca37db14b6739bc84572ee94d6db3961c05025",
+      "tchaikovsky-op23-3": "0bdd8d229b46fb1197808edf9791297c4e25ea4aeb2e765b03b406897eb7d701"
+    }
+  },
+  "verification": {
+    "score_facts_checked": true,
+    "human_listening": "pending",
+    "method": "逐项对照保留 MusicXML 的音高、谱号、节拍与文字记号，并核验 canonical MEI 实音事件和全部印刷小节号映射。",
+    "edition_note": "修订版本待校核。首乐章669个小节元素对应印刷号1–666；重复编号按同一印刷小节的全部分段定位，不套用网络文章小节总数。",
+    "navigation_note": "导航依速度、织体和明确谱面标记划分，未声称每个接缝都是唯一的奏鸣曲式边界。"
+  }
+}

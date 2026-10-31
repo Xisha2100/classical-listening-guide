@@ -1,0 +1,37 @@
+[
+  {
+    "id": "seed-v2-beethoven-01-s1",
+    "label": "开头：第一小提琴与大提琴",
+    "score_version": "0dc9a06dc592e643",
+    "start": 0.0,
+    "end": 10.0,
+    "staffs": [
+      "14",
+      "17"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "k190f35j",
+      "oeg183e",
+      "p9vmd3q",
+      "cch0xk7",
+      "d1w5y06z",
+      "e9cerij",
+      "be441t3",
+      "q1sk7pjw",
+      "r4e9plb",
+      "vnlpifc",
+      "w1ripc5f",
+      "gtmrgxe",
+      "h17bizkb",
+      "i1inf9ka",
+      "i155fs3p",
+      "uvniyfg",
+      "v5qvyaa",
+      "h1uo79i7"
+    ],
+    "start_measure": 0,
+    "end_measure": 4
+  }
+]

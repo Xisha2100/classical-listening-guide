@@ -1,0 +1,67 @@
+{
+  "work_id": "tchaikovsky-op23",
+  "source_url": "https://musescore.com/user/20208436/scores/5871238",
+  "archive_url": "https://zenodo.org/records/15571083",
+  "archive_member": "./mxl/7/1/QmP2LJXZC2HbirKSGtvAt534gdhB6jAoBQiQFExazV9sWJ.mxl",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "internal_rights": [
+    "Public Domain"
+  ],
+  "license_conflict_resolution": "The PDMX row has license_conflict=True. Actual MusicXML rights is Public Domain and original author body explicitly states Creative Commons copyright waiver. Manual review found no substantive contradiction or reserved-rights statement.",
+  "source_sha256": "9597e1bf94f18ebf8fc9bfa9f1cd1a3fce191f6a6477a44b8d0308aed2078af1",
+  "source_title_warning": "The upstream page/CSV title says movement I but the actual archived MXL contains all three movements.",
+  "orchestration": "piano and full orchestra; 17 parts, piano uses 2 staves",
+  "validation": "XML parsed; all 17 parts have 1140 measure elements; boundaries have explicit tempo, meter, reset measure labels, and previous final barlines. Not a complete manual proofread.",
+  "movements": [
+    {
+      "movement": 1,
+      "title": "I. Allegro non troppo e molto maestoso — Allegro con spirito",
+      "file": "movement-1.mxl",
+      "measure_count": 669,
+      "source_start_ordinal": 1,
+      "source_end_ordinal": 669,
+      "printed_start": "1",
+      "printed_end": "666",
+      "sha256": "63bbb5063a8d7f883993d852d9025662559d7e8eb7778a1481333f695f4ecfa8",
+      "map_file": "movement-1-measure-map.json"
+    },
+    {
+      "movement": 2,
+      "title": "II. Andantino semplice",
+      "file": "movement-2.mxl",
+      "measure_count": 170,
+      "source_start_ordinal": 670,
+      "source_end_ordinal": 839,
+      "printed_start": "1",
+      "printed_end": "170",
+      "sha256": "62fba4caf5cd2388d0622ea29c0526fb98da6962af99ee5dc20c421f310ace40",
+      "map_file": "movement-2-measure-map.json"
+    },
+    {
+      "movement": 3,
+      "title": "III. Allegro con fuoco",
+      "file": "movement-3.mxl",
+      "measure_count": 301,
+      "source_start_ordinal": 840,
+      "source_end_ordinal": 1140,
+      "printed_start": "1",
+      "printed_end": "301",
+      "sha256": "465470d8420eed66c08bedb607878c37edc537d294a1584b3d3a9b7e8438a494",
+      "map_file": "movement-3-measure-map.json"
+    }
+  ],
+  "parse_validation": {
+    "music21": "All three movements parsed successfully; 18 streams because piano grand staff splits into two PartStaff streams. Measure counts 669/170/301 consistent in every stream.",
+    "warnings": [
+      "Unmatched dynamic wedge/dashes inherited in upstream notation.",
+      "Movement III piano printed measure 137: overfull by 1/160 quarter note (481/160 vs 3). Source preserved; requires proofreading."
+    ]
+  },
+  "version_evidence": {
+    "opening_piano": "First piano entry at printed measure 6: simultaneous quarter-note chords, no arpeggiate elements in measures 6–12.",
+    "finale_measures": 301,
+    "interpretation": "Consistent with standard later version C markers, but exact source edition and full comparison not yet verified.",
+    "reference": "https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+  }
+}

@@ -1,0 +1,388 @@
+---
+id: sol-3-a2
+work_id: tchaikovsky-op23-3
+title: A主题首次回返
+kind: 主题
+dimensions:
+- 主题
+- 曲式
+scope: segment
+section_id: m3-a2
+listen_for: 第89小节钢琴再次呈示舞蹈主题，表明 A 是全乐章的回旋核心。 第101小节突然转慢并转向过渡，因此第100小节作为这一短回返的右边界。听钢琴的节奏与第5小节相似，而配器和调性环境已变。
+claims:
+- id: sol-3-a2-c1
+  statement: 第89小节钢琴再次呈示舞蹈主题，表明 A 是全乐章的回旋核心。 第101小节突然转慢并转向过渡，因此第100小节作为这一短回返的右边界。听钢琴的节奏与第5小节相似，而配器和调性环境已变。
+  evidence_type: source
+  source_ids:
+  - tcha-op23-local-score
+  - tonic-chord-2018
+  segment_ids:
+  - sol-3-a2-s1
+  listening_cue: 第89小节钢琴再次呈示舞蹈主题，表明 A 是全乐章的回旋核心。 第101小节突然转慢并转向过渡，因此第100小节作为这一短回返的右边界。听钢琴的节奏与第5小节相似，而配器和调性环境已变。
+origin: model
+status: suggested
+review_status: unreviewed
+listening_status: pending
+sources:
+- id: tcha-op23-local-score
+  kind: score
+  title: PDMX v9 归档的 jeronjoseph 数字管弦总谱：柴可夫斯基第一钢琴协奏曲 Op.23（本地保留的完整 MusicXML）
+  author: jeronjoseph；PDMX 数字转换
+  edition: ''
+  pages: movement-1/2/3.mxl；各 movement-*-measure-map.json
+  url: https://zenodo.org/records/15571083
+  accessed_at: ''
+  excerpt: ''
+  extracted: true
+  summary: 本轮边界、配器及印刷小节与内部 ordinal 对应的直接谱面证据。
+- id: tonic-chord-2018
+  kind: web
+  title: 'Tchaikovsky: Piano Concerto No.1 Analysis'
+  author: Tonic Chord
+  edition: ''
+  pages: First Movement, Second Movement, Third Movement 各节；网页行 59–177
+  url: https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/
+  accessed_at: ''
+  excerpt: ''
+  extracted: true
+  summary: 第二、三乐章区段与本地谱对照；第一乐章只用作功能候选并以本地谱核界。
+segments:
+- id: sol-3-a2-s1
+  label: A主题短回返
+  score_version: 3b6744272ac1857f
+  start: 264.0
+  end: 300.0
+  staffs:
+  - '12'
+  - '13'
+  voices: []
+  routes: []
+  note_ids:
+  - b196y3nb
+  - fupf2ud
+  - gvrxw3x
+  - ks7ilr0
+  - l26m8fz
+  - p1svi0gi
+  - s1empw3k
+  - w2wvj5p
+  - xa6uxzt
+  - a1tmoy2w
+  - e1uk1sg1
+  - frt7anj
+  - i1t4kfw4
+  - m1sa09n
+  - q1r6bnf7
+  - rxbq02u
+  - v150aanh
+  - yiyn7zi
+  - c1l6ouo7
+  - e1pdpqbn
+  - icpeune
+  - j3itsns
+  - m1k5nd2u
+  - b1ax5nku
+  - fro8pbl
+  - griv220
+  - k1w3reon
+  - l8nsb7j
+  - o144yp29
+  - r1lym2qa
+  - v5s9dt2
+  - xtj84ms
+  - alnr67m
+  - eayiie1
+  - g141l5mi
+  - j1k4txun
+  - lcnxiuk
+  - odgvxto
+  - sml9113
+  - t10cmrv4
+  - x1x9cxwl
+  - aaek0av
+  - dkra58e
+  - fsymfrx
+  - j8bvjk9
+  - l2e458t
+  - o1b7arm2
+  - qwduos4
+  - e1ex73gu
+  - i1yxp18g
+  - k1j4seti
+  - o173j4j0
+  - p1vbl115
+  - smpolq4
+  - v1vmx9jg
+  - zam90l3
+  - b1lz5zz5
+  - eftwkgk
+  - i76fg4t
+  - k1yf9uz
+  - n1j2fno4
+  - p141nyed
+  - sz9imie
+  - w1ismrpm
+  - x14vh80b
+  - b104l5y8
+  - e97e9rc
+  - h487r06
+  - j14r8coq
+  - n5puyxe
+  - p1u0ttzz
+  - sqlaq9e
+  - u12t9y6x
+  - i1jgotwy
+  - m1858jjx
+  - oaktbgn
+  - s1mmjpf7
+  - t1y6bs12
+  - w1p496ih
+  - z11yxis3
+  - dygap2a
+  - f1rhf4vr
+  - ivvvx2g
+  - mudgvjx
+  - o9j177x
+  - rro8e3c
+  - tptcgok
+  - w1999hrx
+  - a1cjplrl
+  - b1tds9cb
+  - f1xo2wm8
+  - i61maoc
+  - lap0w8c
+  - n178mx3y
+  - r58gyvs
+  - tdi6pp0
+  - wc48shu
+  - y1f1bg3
+  - mbttm6t
+  - qcqnmlw
+  - sv3ajvt
+  - wkzry2s
+  - x1mmi4z0
+  - b11nodg0
+  - e10lqsj0
+  - i1ubhlp
+  - j1nofs4n
+  - m1kbheet
+  - qw237lb
+  - r1ll8ymt
+  - u17k5nyk
+  - y12qho3f
+  - cd2w6fx
+  - d1ajfn3m
+  - h1iqueui
+  - k4rngj7
+  - o19zjatb
+  - q1y3gdvv
+  - ulk5crr
+  - vxyguxn
+  - yjl9j1e
+  - nv0ke48
+  - r16a97jg
+  - s1syyf21
+  - wcamp0m
+  - xrm93vt
+  - a1khs6yb
+  - d1cyrb2z
+  - h5qjog6
+  - jq4suvl
+  - m4kmbsf
+  - q1ddjw96
+  - s11see92
+  - vp5nozc
+  - x516xla
+  - a1cnbzqm
+  - euumm0z
+  - f1xrjo4u
+  - jymko4y
+  - m1dypzad
+  - p12yey4c
+  - r97vidi
+  - v1gbiyx
+  - x1w42cb3
+  - a15xjtfu
+  - c1xd7quj
+  - qdhwkhx
+  - u1x9q9zk
+  - wupbqoo
+  - a180w3sj
+  - byujn7l
+  - e16oe773
+  - h17s7pfb
+  - l1hc5m4u
+  - n18r381j
+  - qa8g4g8
+  - uxudjz4
+  - wzh8zya
+  - z1demfoc
+  - bh4svac
+  - e1kl68pd
+  - iccoxny
+  - j1e7r8mu
+  - nomjvem
+  - qn6rdo0
+  - t1wgy08s
+  - vqn8hnc
+  - z1eacp54
+  - b173wyfj
+  - e1vnp8s2
+  - g175lqye
+  - t1frffda
+  - x15f0oxk
+  - ymvrwnm
+  - e1tzy9kx
+  - i408zdw
+  - bpv808o
+  - e12bvxu7
+  - g1g7qp3m
+  - h1ou5b93
+  - lvd7rm5
+  - nmot4a3
+  - q7esynn
+  - t2ozlof
+  - u1jamdfp
+  - v1kc7hkj
+  - x1bngol3
+  - a1tst1xz
+  - bp1fsqy
+  - c1rwyqz4
+  - gty1bks
+  - i1fqn10g
+  - n5zajw5
+  - r1pi24o5
+  - sfusdox
+  - u1pt789x
+  - y1lux3qp
+  - admmcvi
+  - d1e60o28
+  - g1rtqky6
+  - hca8cx
+  - igfa70e
+  - m1tooasg
+  - o1lqoai
+  - e163v3nu
+  - i5t5dy0
+  - j1u333qn
+  - l1j9e9cn
+  - o2iy8ax
+  - qmbkho5
+  - s1ri6tqw
+  - wlj147l
+  - xq7gsst
+  - z14vn4ec
+  - d1dfy7lz
+  - ebvaj1
+  - hm2x42x
+  - k8n93o6
+  - l19tnxjd
+  - mu2expx
+  - p1crusse
+  - q18ocht0
+  - t9mfmli
+  - wuy671x
+  - yd0ugi
+  - z1kqig15
+  - d1cbg31q
+  - escfijp
+  - h15wbhhf
+  - ken8whl
+  - m1y65wn6
+  - n5ktqwb
+  - qa06kak
+  - s1sodif9
+  - u1jrdqf1
+  - xmzzk9t
+  - y1iamxki
+  - zj6lnlz
+  - cz9tgl6
+  - d1rl1sjy
+  - s133srsw
+  - w1ggrfjo
+  - xmcxjy2
+  - zxx8z6w
+  - ck3cuya
+  - dejit9s
+  - eyt2z45
+  - i1lbdix0
+  - keu0mb5
+  - n1cvlusd
+  - q1ovrst5
+  - ryom070
+  - s1fmdzjb
+  - ulyxk5m
+  - x1ya3nhp
+  - ymh800v
+  - zvnhnwq
+  - d4ikn8d
+  - f1fpvhnt
+  - j1wcbdz6
+  - m8h25qh
+  - o19dn9ha
+  - p13wupo7
+  - s1kxwz60
+  - t1mguueg
+  - v1yj8oos
+  - zun149e
+  - b1wmn3q5
+  - ev6fjw6
+  - hlcncj
+  - i1eo2nea
+  - jdqem14
+  - n1ipdulk
+  - p13r44nl
+  - elnpk5o
+  - i1r7l11y
+  - j5uqefl
+  - leb9ced
+  - oqnk2wo
+  - q1llbjt9
+  - s10a3ke9
+  - w1sscpk8
+  - xu6wtnj
+  - zkyhs5s
+  - d1n316cw
+  - e1vemi1d
+  - h7m6icu
+  - k1te6vhs
+  - l4d8au7
+  - m1e4xz6f
+  - p1pc91bq
+  - qcgv7qq
+  - t1wfmegw
+  - w1kghkcb
+  - y1gwgjd1
+  - zpnk66k
+  - d1gs803
+  - eq00itd
+  - h1lvug1g
+  - k1pit5i1
+  - m1ln9cop
+  - n9rer92
+  - q7dqdkq
+  - s8f36lq
+  - u9ov4jn
+  - x1hsgjl1
+  - y16lvp2o
+  - z1hvxxc1
+  - c1v4d8ql
+  - dq2noga
+  start_measure: 88
+  end_measure: 99
+  role: phrase
+  boundary_note: 第89小节钢琴主题回归；第101小节转慢进入新中段。
+  boundary_status: supported
+  source_ids:
+  - tcha-op23-local-score
+  - tonic-chord-2018
+created_at: '2026-10-31T07:06:28.655614+00:00'
+updated_at: '2026-10-31T07:06:28.655620+00:00'
+verification: GPT-6 Sol 根据所列资料与固定数字谱提出曲式和乐句边界；程序已检查谱本、印刷编号、声部和音符范围。边界理由见各谱例，资料编号差异已注明。尚未完成人工乐理复核及听感验收。
+analysis_model: gpt-6-sol
+analysis_run_id: tchaikovsky-phrases-2026-10-31
+---
+
+# A主题首次回返
+
+第89小节钢琴再次呈示舞蹈主题，表明 A 是全乐章的回旋核心。 第101小节突然转慢并转向过渡，因此第100小节作为这一短回返的右边界。听钢琴的节奏与第5小节相似，而配器和调性环境已变。

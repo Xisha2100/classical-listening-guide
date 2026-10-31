@@ -1,0 +1,303 @@
+---
+id: seed-v2-beethoven-10
+work_id: beethoven-op67-1
+title: 回返前的和声｜减七和弦怎样维持悬念
+kind: 和声
+dimensions:
+- 和声
+- 调性／调式
+- 曲式
+scope: section
+section_id: development
+listen_for: 听B–D–F–降A的紧张音组，再跟随短音反复走到248小节的G。
+claims:
+- id: seed-v2-beethoven-10-c1
+  statement: 236小节各声部的主要实音类别为B、D、F、降A，可按谱面音高核对减七和弦构成。
+  evidence_type: score
+  source_ids:
+  - beethoven-v2-score
+  segment_ids:
+  - seed-v2-beethoven-10-s1
+  listening_cue: ''
+- id: seed-v2-beethoven-10-c2
+  statement: 将这一减七音组听成回到C之前的属功能准备，是结合随后进行作出的局部功能解释，不等于宣告某次完整转调。
+  evidence_type: hypothesis
+  source_ids:
+  - beethoven-v2-score
+  segment_ids:
+  - seed-v2-beethoven-10-s1
+  listening_cue: ''
+origin: seed
+status: confirmed
+review_status: unreviewed
+listening_status: pending
+sources:
+- id: beethoven-v2-score
+  kind: score
+  title: 贝多芬 Op.67 第一乐章 · OpenScore Orchestra 总谱
+  author: Ludwig van Beethoven；OpenScore Orchestra 转录
+  edition: 固定 MusicXML／canonical MEI 谱本 0dc9a06dc592e643
+  pages: ''
+  url: https://github.com/MarkGotham/Hauptstimme/tree/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1
+  accessed_at: '2026-10-28'
+  excerpt: ''
+  extracted: true
+  summary: 以下音高、节奏、声部及记号直接取自本地保留的总谱，不将 Hauptstimme 材料标签当作完整曲式分析。总谱 CC0 1.0 Universal。
+segments:
+- id: seed-v2-beethoven-10-s1
+  label: 回返准备：236–248
+  score_version: 0dc9a06dc592e643
+  start: 470.0
+  end: 496.0
+  staffs:
+  - '1'
+  - '3'
+  - '5'
+  - '7'
+  - '14'
+  - '15'
+  - '16'
+  - '17'
+  voices: []
+  routes: []
+  note_ids:
+  - enmyxi0
+  - t6qkvyb
+  - m1eirhhp
+  - rouob48
+  - edshrmx
+  - o1vfigtx
+  - l14xjq5s
+  - b1e5j77f
+  - f1bn8nrs
+  - s30bgyy
+  - k1x5a5jv
+  - qtw9yta
+  - flgpj21
+  - n1ibfua2
+  - jrc57w
+  - z1usc4y1
+  - pie66g9
+  - r1mcoeze
+  - tqp91n4
+  - imcq2b3
+  - tq85w44
+  - koiwat2
+  - r1kta5na
+  - w1bqi88n
+  - y1625bq8
+  - aw19bwg
+  - k2t4mj
+  - p7m0xq
+  - r1pmdp32
+  - qeidmil
+  - sb3ofz8
+  - u12hz85o
+  - lmypguu
+  - ncjt65u
+  - p1g8xrx6
+  - gnkwl8l
+  - c1srehp1
+  - exy7cug
+  - g1mtrxpx
+  - l7zirpb
+  - nocvxc2
+  - prj5hac
+  - bcpqr47
+  - d1h7wpg5
+  - f1l16546
+  - nepx6lq
+  - exqjfhe
+  - h1gw7anj
+  - c1druzgn
+  - t1ioj9fv
+  - viefw4e
+  - x1qcosxk
+  - z14nz5wf
+  - tzl46p8
+  - cu760lg
+  - spgpere
+  - a12lavmo
+  - c1o4g4y1
+  - enotddd
+  - gpu4cit
+  - r1hg8s41
+  - t1487vw4
+  - y140ku6z
+  - aj0plag
+  - uu56546
+  - w2wjhbh
+  - yogbn9t
+  - ahu6o03
+  - p1idao7
+  - r1p388ov
+  - t1pebdbe
+  - v9yozu8
+  - m1o2298u
+  - g11dkinu
+  - iuxi9pz
+  - krvybf1
+  - m15rd0e
+  - p1y7t72t
+  - r1k2ucbj
+  - tgccti9
+  - v1ex271t
+  - f1uvml4f
+  - h4d25i1
+  - j171u3ef
+  - lei5whk
+  - tivsmhd
+  - nbm1hnw
+  - nx3u4t4
+  - ig850ui
+  - z1mor28v
+  - b13ei3ah
+  - d1kg6wir
+  - fbzhyr5
+  - z1yd8vxp
+  - i1425b86
+  - yp2bbwg
+  - g1obk67n
+  - i1kd4ycw
+  - k1b32dey
+  - m173uc0b
+  - a1ve0bdo
+  - czdxakb
+  - h1ullys1
+  - j1vjwkah
+  - aurpi0k
+  - c1jc34e9
+  - e1kf9xis
+  - g1rv7z9a
+  - vxydxpf
+  - x8ixzjs
+  - z1edbwkv
+  - b1crh6pr
+  - s1xkbhdz
+  - ubah7z9
+  - weuvy1p
+  - y1vu7wsc
+  - mu57a8n
+  - oxdni0n
+  - q1s3j6kz
+  - s1b8dqc3
+  - vr94w4h
+  - x1kvr293
+  - zh51hbp
+  - b1y24515
+  - l1hbd7dr
+  - ni9ep70
+  - p1gocrei
+  - r83bxxk
+  - zwngd65
+  - b73oeuy
+  - d1hgwtsy
+  - f1va82i6
+  - w1y3scan
+  - y1atulad
+  - a1mytfsq
+  - c1arp3c7
+  - tad9c17
+  - v1k7yurs
+  - x3450s7
+  - zwehpy
+  - o8s4vwx
+  - qbffzg6
+  - s10wlzfu
+  - u193wvqe
+  - l11n2g7j
+  - n3qunjq
+  - py6x1mq
+  - rjqm1de
+  - f1mwwxdd
+  - h1gomt88
+  - jzhp1ra
+  - lwx26z4
+  - opt16bc
+  - q1tmck3
+  - s1dgx03d
+  - u1byaqy7
+  - e1nqsr8m
+  - g5hdaec
+  - iaovycr
+  - k1836weh
+  - s14ymdob
+  - u14s8bh3
+  - whowxg6
+  - yxhec1c
+  - qpnq91r
+  - r1c5t69a
+  - t1q67nqd
+  - v6lonvx
+  - n148xkqh
+  - o1ixs0p4
+  - q1lddwvo
+  - s1hzckmz
+  - i1aqcxv3
+  - j1rcg7ll
+  - l1iczdko
+  - nans7xo
+  - eno20fe
+  - g1pmfzq0
+  - i158wcqf
+  - k1paole
+  - z1q0o5k1
+  - a1kolgag
+  - cb47xf8
+  - e11r9c8e
+  - in2g0bi
+  - jfb44bt
+  - l1hw9zi8
+  - n15tsdrr
+  - y1skkwho
+  - z17p5llj
+  - b1r7rdnn
+  - d14110ln
+  - m1dn0hjw
+  - nt0b538
+  - pi22rwh
+  - r1bqk45i
+  - i1qub480
+  - k1ja24ua
+  - l16n7ev1
+  - mf3vop1
+  - f134jlin
+  - h14s4e14
+  - i1hob0t2
+  - jnqs5y6
+  - a66c77v
+  - c14kx6t3
+  - ddnxnau
+  - edota33
+  - xtfqkve
+  - z1hy3dm
+  - aulr7vr
+  - bz5q87w
+  - r14g945h
+  - t1c7ipmt
+  - x1jiaf49
+  - y1j30xrh
+  - acif5s
+  - ch5foid
+  - d1232a7j
+  - eccadlr
+  - qocdy3g
+  - sra7emr
+  - tn7ag7k
+  - u1jzhoge
+  - e1fujchw
+  - gv794jn
+  - hho0pys
+  - ialklek
+  start_measure: 235
+  end_measure: 247
+created_at: '2026-10-28T03:15:33.559190+00:00'
+updated_at: '2026-10-28T03:15:33.559196+00:00'
+verification: 数字谱的实际音高、声部、拍位与所列记号已逐项核对，定位通过同一事件索引校验。正文含编辑解释，尚待用户乐理复核及人工试听。钢琴复奏不重现管弦音色或自由延长记号。
+---
+
+# 回返前的和声｜减七和弦怎样维持悬念
+
+236–240小节的突出音类是 B、D、F、降 A，构成等距小三度叠置的减七和弦。低音与上方声部并不是单纯铺开一个稳定主三和弦；它们把紧张维持住，同时继续嵌入短音起奏。先听低声部的 B 与周围持续和弦，再听接下来 F 与降 A 的往复，最后进入248的原型回返。
+
+这张卡把可核对的“和弦构成”与需要上下文的“功能解释”分开。音集合本身能支持减七和弦判断，但等音转写会给出不止一种可能解释；本谱的拼写和随后回到 C 的方向使它适合听成回返前的属功能准备。不要把一个减七和弦自动等同于已经完成转调。试听范围延伸至248，是为了让听者能检验前面的悬念究竟指向哪里，而不是在张力最高处截断后凭感觉命名。

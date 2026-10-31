@@ -37,11 +37,11 @@ def test_sources_are_not_executable():
  with pytest.raises(ValueError):xml_bytes(b'<other/>')
  with pytest.raises(ValueError):xml_bytes(b'<!DOCTYPE a [<!ENTITY x "x">]><score-partwise/>')
 
-def test_corpus_15_notes_and_svg_alignment():
+def test_corpus_notes_and_svg_alignment():
  from backend.store import Store
  s=Store(ROOT);notes=s.all_notes();assert not s.errors
  for wid,measures in [('bach-bwv847',31),('mozart-k265',96),('beethoven-op67-1',502)]:
-  idx=s.events(wid);cards=[a for a in notes if a.work_id==wid and a.origin=='seed'];assert len(cards)==5
+  idx=s.events(wid);cards=[a for a in notes if a.work_id==wid and a.origin=='seed'];assert len(cards)>=5
   assert len(idx['measures'])==measures
   pages={}
   for a in cards:

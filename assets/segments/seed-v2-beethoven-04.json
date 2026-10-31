@@ -1,0 +1,46 @@
+[
+  {
+    "id": "seed-v2-beethoven-04-s1",
+    "label": "A 呈示：第一圆号",
+    "score_version": "0dc9a06dc592e643",
+    "start": 116.0,
+    "end": 124.0,
+    "staffs": [
+      "9"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "q1y5e0a1",
+      "u1emv98s",
+      "v9cxyqn",
+      "j2l1ktz",
+      "xemno6f",
+      "mbwdifb"
+    ],
+    "start_measure": 58,
+    "end_measure": 61
+  },
+  {
+    "id": "seed-v2-beethoven-04-s2",
+    "label": "B 再现：第一巴松",
+    "score_version": "0dc9a06dc592e643",
+    "start": 612.0,
+    "end": 620.0,
+    "staffs": [
+      "7"
+    ],
+    "voices": [],
+    "routes": [],
+    "note_ids": [
+      "wjvogoy",
+      "a1clfm9q",
+      "b872kof",
+      "p8izd95",
+      "dz69xer",
+      "s1rnuhxm"
+    ],
+    "start_measure": 302,
+    "end_measure": 305
+  }
+]

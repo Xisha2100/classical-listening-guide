@@ -6,6 +6,7 @@ import {
   Check,
   ChevronLeft,
   ChevronRight,
+  Copy,
   Disc3,
   FileMusic,
   Headphones,
@@ -14,78 +15,102 @@ import {
   Music2,
   Pause,
   Play,
-  Plus,
   RefreshCw,
   Repeat2,
   Search,
-  Settings2,
-  Sparkles,
-  Trash2,
-  Upload,
   X,
 } from "lucide-react";
-import { api, blankAnalysis, blankSource } from "./types";
+import { api, dimensions, normalizeAnalysis } from "./types";
+import { AnalysisDetails, GuidePanel, SourceView } from "./AnalysisDetails";
+import ComparisonViewer from "./ComparisonViewer";
+import type { PlayingComparison } from "./ComparisonViewer";
+import {
+  COMPARE_KEY,
+  readComparison,
+  addComparison,
+  legacyDrafts,
+} from "./comparison";
 import type {
   Analysis,
-  Job,
   NoteEvent,
   ScoreIndex,
   Segment,
-  Source,
   Work,
+  Collection,
+  Guide,
+  ComparisonEntry,
 } from "./types";
 import * as player from "./player";
-const kinds = ["全部", "动机", "主题", "变奏", "曲式", "和声"];
+import {
+  withContext,
+  printedRange,
+  segmentRoleLabel,
+  sectionDepth,
+  sectionWithin,
+} from "./listening";
+const kinds = ["全部", ...dimensions];
 const statusText = {
   confirmed: "已定位",
   suggested: "待确认",
   unlocated: "待定位",
+  not_applicable: "概览",
 };
-const originText = { seed: "谱例导听", manual: "个人笔记", model: "AI 推测" };
+const originText = {
+  seed: "谱例导听",
+  manual: "个人笔记",
+  model: "模型分析记录",
+};
 export default function App() {
   const [works, setWorks] = useState<Work[]>([]),
-    [query, setQuery] = useState(""),
-    [work, setWork] = useState<Work | null>(null),
-    [index, setIndex] = useState<ScoreIndex | null>(null),
-    [notes, setNotes] = useState<Analysis[]>([]),
-    [filter, setFilter] = useState("全部"),
+    [collections, setCollections] = useState<Collection[]>([]);
+  const [query, setQuery] = useState(""),
+    [collectionFilter, setCollectionFilter] = useState("");
+  const [work, setWork] = useState<Work | null>(null),
+    [index, setIndex] = useState<ScoreIndex | null>(null);
+  const [notes, setNotes] = useState<Analysis[]>([]),
+    [draft, setDraft] = useState<Analysis | null>(null);
+  const [guide, setGuide] = useState<Guide | null>(null),
+    [sectionFilter, setSectionFilter] = useState("");
+  const [filter, setFilter] = useState("全部"),
     [noteQuery, setNoteQuery] = useState("");
-  const [draft, setDraft] = useState<Analysis | null>(null),
-    [selection, setSelection] = useState<Segment | null>(null),
+  const [selection, setSelection] = useState<Segment | null>(null),
     [page, setPage] = useState(1),
-    [svg, setSvg] = useState(""),
-    [tab, setTab] = useState("笔记"),
-    [editing, setEditing] = useState(false);
-  const [startM, setStartM] = useState(1),
-    [endM, setEndM] = useState(2),
-    [staff, setStaff] = useState(""),
+    [svg, setSvg] = useState("");
+  const [tab, setTab] = useState("笔记"),
+    [startM, setStartM] = useState(1),
+    [endM, setEndM] = useState(2);
+  const [staff, setStaff] = useState(""),
     [voice, setVoice] = useState(""),
     [clickStart, setClickStart] = useState<NoteEvent | null>(null);
-  const [book, setBook] = useState<Source>(blankSource),
-    [question, setQuestion] = useState("这段音乐的主题与动机有什么特点？"),
-    [searchResults, setSearchResults] = useState<Source[]>([]),
-    [chosenUrls, setChosenUrls] = useState<string[]>([]),
-    [similar, setSimilar] = useState<Segment[]>([]);
-  const [settings, setSettings] = useState({
-      model: "",
-      model_ready: false,
-      model_local: false,
-      search_ready: false,
-    }),
-    [showSettings, setShowSettings] = useState(false),
-    [showImport, setShowImport] = useState(false),
-    [importFile, setImportFile] = useState<File | null>(null),
-    [importTitle, setImportTitle] = useState(""),
-    [replace, setReplace] = useState(false);
   const [busy, setBusy] = useState(""),
-    [job, setJob] = useState<Job | null>(null),
     [error, setError] = useState(""),
-    [notice, setNotice] = useState(""),
-    [playing, setPlaying] = useState(false),
+    [notice, setNotice] = useState("");
+  const [playing, setPlaying] = useState(false),
     [speed, setSpeed] = useState(1),
     [loop, setLoop] = useState(false),
-    [all, setAll] = useState(false),
-    [activeIds, setActiveIds] = useState<string[]>([]);
+    [all, setAll] = useState(false);
+  const [activeIds, setActiveIds] = useState<string[]>([]),
+    [contextMeasures, setContextMeasures] = useState(2);
+  const [playbackWindow, setPlaybackWindow] = useState<Segment | null>(null),
+    [abIds, setAbIds] = useState<string[]>([]);
+  const [comparison, setComparison] =
+      useState<ComparisonEntry[]>(readComparison),
+    [comparisonTitle, setComparisonTitle] = useState("");
+  const [showComparison, setShowComparison] = useState(false),
+    [comparisonView, setComparisonView] = useState<PlayingComparison | null>(
+      null,
+    );
+  const [comparisonActiveIds, setComparisonActiveIds] = useState<string[]>([]),
+    [selectionExport, setSelectionExport] = useState("");
+  const [oldDrafts] = useState(legacyDrafts);
+  const playingWork = useRef("");
+  useEffect(() => {
+    try {
+      localStorage.setItem(COMPARE_KEY, JSON.stringify(comparison));
+    } catch {
+      setError("无法保存比较队列。");
+    }
+  }, [comparison]);
   const [queryNotes, setQueryNotes] = useState<Analysis[] | null>(null);
   useEffect(() => {
     if (!work || !noteQuery.trim()) {
@@ -110,17 +135,27 @@ export default function App() {
     };
   }, [work?.id, noteQuery, notes]);
   const scoreRef = useRef<HTMLDivElement>(null),
-    fetchGeneration = useRef(0);
-  const refreshWorks = () => api<Work[]>("/works").then(setWorks);
+    fetchGeneration = useRef(0),
+    playbackRequest = useRef(0);
   useEffect(() => {
-    refreshWorks().catch((e) => setError(e.message));
-    api<typeof settings>("/settings")
-      .then(setSettings)
+    Promise.all([
+      api<Work[]>("/works"),
+      api<Collection[]>("/collections"),
+      api<{ note_errors: string[] }>("/health"),
+    ])
+      .then(([ws, cs, health]) => {
+        setWorks(ws);
+        setCollections(cs);
+        if (health.note_errors.length) setError(health.note_errors.join("；"));
+      })
       .catch((e) => setError(e.message));
     return () => player.stop();
   }, []);
   useEffect(() => {
-    if (!work) return;
+    if (!work || !index || work.availability === "pending") {
+      setSvg("");
+      return;
+    }
     const controller = new AbortController();
     setSvg("");
     fetch(`/api/works/${work.id}/pages/${page}`, { signal: controller.signal })
@@ -133,7 +168,7 @@ export default function App() {
         if (e.name !== "AbortError") setError(e.message);
       });
     return () => controller.abort();
-  }, [work?.id, page]);
+  }, [work?.id, index?.version, page]);
   useEffect(() => {
     const el = scoreRef.current;
     if (!el) return;
@@ -152,14 +187,36 @@ export default function App() {
     );
   }, [svg, selection, activeIds]);
   useEffect(() => {
-    if (!playing || !index || !activeIds.length) return;
+    // Orchestral pages are taller than the viewport. Bring the chosen voice into
+    // the score pane instead of leaving the user looking at resting woodwinds.
+    const paper = scoreRef.current,
+      scroller = paper?.parentElement;
+    const target = paper?.querySelector(".selected-note, .sounding-note");
+    if (!scroller || !target) return;
+    const rect = target.getBoundingClientRect(),
+      area = scroller.getBoundingClientRect();
+    scroller.scrollTop += rect.top - area.top - area.height * 0.35;
+  }, [svg, selection?.id]);
+  useEffect(() => {
+    if (
+      !playing ||
+      !index ||
+      !activeIds.length ||
+      (playingWork.current && playingWork.current !== work?.id)
+    )
+      return;
     const e = index.events.find((n) => n.id === activeIds[0]);
     if (e && e.page !== page) setPage(e.page);
   }, [activeIds]);
   const halt = () => {
+    playbackRequest.current++;
     player.stop();
     setPlaying(false);
     setActiveIds([]);
+    setComparisonTitle("");
+    setComparisonActiveIds([]);
+    setPlaybackWindow(null);
+    playingWork.current = "";
   };
   const run = async (label: string, fn: () => Promise<void>) => {
     setError("");
@@ -174,7 +231,11 @@ export default function App() {
     }
   };
   function chooseSegment(s: Segment, idx = index) {
-    if (!idx) return;
+    if (!idx) {
+      halt();
+      setSelection(null);
+      return;
+    }
     halt();
     if (s.score_version !== idx.version) {
       setSelection(null);
@@ -190,89 +251,113 @@ export default function App() {
     setClickStart(null);
   }
   function chooseNote(a: Analysis, idx = index) {
-    setDraft(structuredClone(a));
-    setEditing(false);
+    setDraft(normalizeAnalysis(a));
     setTab("笔记");
-    setSimilar([]);
+    setAbIds([]);
     setNotice("");
     if (a.segments.length) chooseSegment(a.segments[0], idx);
     else {
       halt();
       setSelection(null);
+      setClickStart(null);
     }
   }
-  async function openWork(w: Work) {
-    await run("加载乐谱", async () => {
-      halt();
-      const token = ++fetchGeneration.current;
-      const [data, ns] = await Promise.all([
-        api<{ work: Work; index: ScoreIndex }>(`/works/${w.id}/score`),
-        api<Analysis[]>(`/works/${w.id}/analyses`),
-      ]);
-      if (token !== fetchGeneration.current) return;
-      setWork(data.work);
-      setIndex(data.index);
-      setNotes(ns);
-      setPage(1);
-      setSearchResults([]);
-      setChosenUrls([]);
+  async function loadWork(w: Work, refresh = false) {
+    halt();
+    const token = ++fetchGeneration.current;
+    const [data, rawNotes, g] = await Promise.all([
+      w.availability === "pending"
+        ? Promise.resolve({ work: w, index: null })
+        : api<{ work: Work; index: ScoreIndex }>(`/works/${w.id}/score`),
+      api<Analysis[]>(`/works/${w.id}/analyses`),
+      api<Guide>(`/works/${w.id}/guide`),
+    ]);
+    if (token !== fetchGeneration.current) return;
+    const ns = rawNotes.map(normalizeAnalysis);
+    setWork(data.work);
+    setIndex(data.index);
+    setNotes(ns);
+    setGuide({ ...g, sources: g.sources || [] });
+    setPage(1);
+    setClickStart(null);
+    setQueryNotes(null);
+    if (!refresh) {
+      setSectionFilter("");
       setFilter("全部");
       setNoteQuery("");
-      setBook(blankSource());
-      setJob(null);
-      setClickStart(null);
-      if (ns.length) chooseNote(ns[0], data.index);
-      else {
-        setDraft(blankAnalysis(w.id));
-        setSelection(null);
-        setEditing(true);
-        setTab("笔记");
-      }
-    });
-  }
-  async function refreshNotes() {
-    if (work) {
-      const ns = await api<Analysis[]>(`/works/${work.id}/analyses`);
-      setNotes(ns);
-      return ns;
+    } else if (sectionFilter && !g.sections.some((s) => s.id === sectionFilter))
+      setSectionFilter("");
+    const chosen = (refresh && ns.find((n) => n.id === draft?.id)) || ns[0];
+    if (chosen) chooseNote(chosen, data.index);
+    else {
+      setDraft(null);
+      setSelection(null);
     }
-    return [];
+    setTab(refresh ? tab : g.overview ? "导听" : "笔记");
   }
-  function newNote() {
-    if (!work) return;
-    halt();
-    setDraft(blankAnalysis(work.id));
-    setSelection(null);
-    setEditing(true);
-    setTab("笔记");
-    setBook(blankSource());
-    setNotice("");
-    setSimilar([]);
-  }
-  async function save(confirm = false) {
-    if (!draft || !work) return;
-    await run("保存笔记", async () => {
-      const segments = draft.segments.length
-        ? draft.segments
-        : selection
-          ? [selection]
-          : [];
-      const saved = await api<Analysis>("/analyses", {
-        ...draft,
-        segments,
-        status: confirm
-          ? "confirmed"
-          : segments.length
-            ? draft.status === "confirmed"
-              ? "confirmed"
-              : "suggested"
-            : "unlocated",
-      });
-      await refreshNotes();
-      setDraft(saved);
-      setEditing(false);
-      setNotice("已保存到本机 Markdown 笔记。");
+  const openWork = (w: Work) => run("加载本地乐谱与分析", () => loadWork(w));
+  async function refreshProject() {
+    await run("读取项目最新内容", async () => {
+      const result = await api<{ errors: string[] }>("/reindex", {});
+      const [ws, cs] = await Promise.all([
+        api<Work[]>("/works"),
+        api<Collection[]>("/collections"),
+      ]);
+      setWorks(ws);
+      setCollections(cs);
+      if (work) {
+        const updated = ws.find((w) => w.id === work.id);
+        if (updated) await loadWork(updated, true);
+        else backToLibrary();
+      }
+      if (result.errors.length) setError(result.errors.join("；"));
+      else setNotice("已读取本地最新分析、目录和谱本。");
     });
+  }
+  function backToLibrary() {
+    halt();
+    fetchGeneration.current++;
+    setWork(null);
+    setIndex(null);
+    setDraft(null);
+    setSelection(null);
+    setError("");
+    setNotice("");
+  }
+  async function copySelection() {
+    if (!work || !selection || !index) return;
+    const text = JSON.stringify(
+      {
+        work_id: work.id,
+        work_title: work.title,
+        analysis_id: draft?.id || "",
+        printed_range: printedRange(index, selection),
+        segment: selection,
+      },
+      null,
+      2,
+    );
+    setSelectionExport(text);
+    try {
+      await navigator.clipboard.writeText(text);
+      setNotice("选段已复制；回到 Codex 粘贴，并说明想分析什么。");
+    } catch {
+      setNotice("选段已展开，可手动复制到 Codex。");
+    }
+  }
+  function exportLegacyDrafts() {
+    if (!oldDrafts) return;
+    const url = URL.createObjectURL(
+      new Blob([oldDrafts], { type: "application/json" }),
+    );
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "旧版浏览器草稿.json";
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    setNotice(
+      "旧草稿已导出，请交给 Codex 整理入库；浏览器中的原始草稿仍保留。",
+    );
   }
   async function makeRange() {
     if (!index || !work) return;
@@ -313,7 +398,7 @@ export default function App() {
         score_version: index.version,
         start: first.onset,
         end: last.onset + last.duration,
-        staffs: [first.staff],
+        staffs: [...new Set([first.staff, last.staff])],
         voices:
           first.voice === last.voice && first.staff === last.staff
             ? [first.voice]
@@ -322,59 +407,10 @@ export default function App() {
         note_ids: [],
       });
       chooseSegment(s);
-      setNotice("已选择片段，可试听或绑定到笔记。");
+      setNotice("已选择片段，可试听或复制给 Codex。");
     });
   }
-  async function joinRoutes() {
-    if (!draft || !index || !work) return;
-    await run("合并声部接续", async () => {
-      const segs = draft.segments;
-      if (
-        segs.some(
-          (s) =>
-            s.score_version !== index.version ||
-            s.staffs.length !== 1 ||
-            s.routes.length,
-        )
-      )
-        throw new Error("请先为每段选择一个谱表，再接续。");
-      const sorted = [...segs].sort((a, b) => a.start - b.start);
-      const routes = sorted.map((s, i) => ({
-        start: s.start,
-        end: Math.min(s.end, sorted[i + 1]?.start ?? s.end),
-        staff: s.staffs[0],
-        voice: s.voices[0] || null,
-      }));
-      const merged = await api<Segment>(`/works/${work.id}/segments`, {
-        label: "主题跨声部接续",
-        score_version: index.version,
-        start: sorted[0].start,
-        end: Math.max(...sorted.map((s) => s.end)),
-        staffs: [],
-        voices: [],
-        routes,
-        note_ids: [],
-      });
-      setDraft({ ...draft, segments: [merged], status: "suggested" });
-      chooseSegment(merged);
-      setEditing(true);
-      setNotice("按各片段起点切换声部；请试听确认并保存。");
-    });
-  }
-  function attach() {
-    if (!draft || !selection) return;
-    setDraft({
-      ...draft,
-      segments: [
-        ...draft.segments.filter((s) => s.id !== selection.id),
-        structuredClone(selection),
-      ],
-      status: "suggested",
-    });
-    setEditing(true);
-    setNotice("片段已加入草稿，保存后保留。");
-  }
-  async function playSegments(segs: Segment[]) {
+  async function playSegments(segs: Segment[], context = 0) {
     if (!index || !segs.length) return;
     if (segs.some((s) => s.score_version !== index.version)) {
       setError("谱例属于旧谱本，请重新定位后播放。");
@@ -382,138 +418,150 @@ export default function App() {
     }
     setError("");
     setPlaying(true);
+    setComparisonTitle("");
+    playingWork.current = work?.id || "";
     try {
+      const windows = segs.map((s) => withContext(index, s, context));
       await player.play(
         index,
-        segs,
+        windows,
         speed,
-        all,
+        context > 0 || all,
         loop,
         setActiveIds,
-        () => setPlaying(false),
+        () => {
+          setPlaying(false);
+          setPlaybackWindow(null);
+        },
         (s) => {
-          setSelection(s);
+          // Playback context must not overwrite the saved analysis anchor.
+          const anchor = segs.find((original) => original.id === s.id) || s;
+          setSelection(anchor);
+          setStartM(anchor.start_measure + 1);
+          setEndM(anchor.end_measure + 1);
+          setStaff(anchor.staffs[0] || "");
+          setVoice(anchor.voices[0] || "");
+          setPlaybackWindow(s);
           setPage(index.measures[s.start_measure]?.page || 1);
         },
       );
     } catch (e) {
       setPlaying(false);
+      setPlaybackWindow(null);
       setError((e as Error).message);
     }
   }
-  async function waitJob(j: Job) {
-    setJob(j);
-    while (j.status === "queued" || j.status === "running") {
-      await new Promise((r) => setTimeout(r, 900));
-      j = await api<Job>(`/jobs/${j.id}`);
-      setJob(j);
+  const filteredWorks = works
+    .filter(
+      (w) =>
+        !collectionFilter ||
+        w.collection_id === collectionFilter ||
+        collections
+          .find((c) => c.id === collectionFilter)
+          ?.work_ids.includes(w.id),
+    )
+    .filter((w) =>
+      [w.title, w.composer, w.catalogue, w.movement, ...(w.aliases || [])]
+        .join(" ")
+        .toLowerCase()
+        .replace(/[\s.]/g, "")
+        .includes(query.toLowerCase().replace(/[\s.]/g, "")),
+    );
+  const visibleNotes = (queryNotes || notes).filter(
+    (n) =>
+      (filter === "全部" ||
+        n.kind === filter ||
+        n.dimensions?.includes(filter)) &&
+      sectionWithin(guide?.sections || [], n.section_id, sectionFilter),
+  );
+  function focusSection(id: string) {
+    setSectionFilter(id);
+    setTab("导听");
+    const section = guide?.sections.find((s) => s.id === id);
+    if (index && section?.start_measure != null) {
+      halt();
+      setPage(index.measures[section.start_measure]?.page || 1);
+      setSelection(null);
     }
-    if (j.status === "failed") throw new Error(j.error || "任务失败");
-    return j.result;
   }
-  async function research() {
+  function queueSegment(s: Segment) {
     if (!work) return;
-    await run("正在检索公开分析", async () => {
-      const r = await waitJob(
-        await api<Job>("/research", { work_id: work.id, question }),
-      );
-      setSearchResults(r.sources);
-      setChosenUrls([]);
-      setNotice(`找到 ${r.sources.length} 条资料，选择后提取正文。`);
-    });
-  }
-  async function extract() {
-    if (!work || !draft) return;
-    await run("正在提取资料", async () => {
-      const r = await waitJob(
-        await api<Job>("/extract", { work_id: work.id, urls: chosenUrls }),
-      );
-      const sources: Source[] = r.sources;
-      setDraft({
-        ...draft,
-        sources: [
-          ...draft.sources.filter((s) => !sources.some((n) => n.url === s.url)),
-          ...sources,
-        ],
-      });
-      setNotice("资料已加入草稿。提取失败的条目仍标为搜索摘要。");
-    });
-  }
-  async function analyze(mode: "sources" | "segment") {
-    if (!work || !draft) return;
-    await run("AI 正在结合证据分析", async () => {
-      const segs =
-        mode === "segment"
-          ? draft.segments.length > 1
-            ? draft.segments.slice(0, 2)
-            : selection
-              ? [selection]
-              : []
-          : [];
-      const r = await waitJob(
-        await api<Job>("/analysis-runs", {
+    try {
+      setComparison(
+        addComparison(comparison, {
+          id: crypto.randomUUID(),
           work_id: work.id,
-          mode,
-          question,
-          sources: draft.sources,
-          segments: segs,
+          work_title: `${work.title} · ${work.movement}`,
+          segment: structuredClone(s),
         }),
       );
-      await refreshNotes();
-      if (r.analyses?.length) chooseNote(r.analyses[0]);
-      setNotice("AI 草稿已保存。请试听候选片段，再确认定位。");
+      setNotice("已加入跨作品 A/B 比较，队列保存在此浏览器。");
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  }
+  async function playComparison() {
+    await run("准备 A/B 比较", async () => {
+      halt();
+      const request = playbackRequest.current;
+      setComparisonView(null);
+      setShowComparison(true);
+      const entries = await Promise.all(
+        comparison.map(async (item) => {
+          const data = await api<{ index: ScoreIndex }>(
+            `/works/${item.work_id}/score`,
+          );
+          if (data.index.version !== item.segment.score_version)
+            throw new Error(
+              `${item.work_title} 的谱本已变更，请重新加入谱例。`,
+            );
+          return {
+            index: data.index,
+            segment: item.segment,
+            work_id: item.work_id,
+          };
+        }),
+      );
+      if (!entries.length || request !== playbackRequest.current) return;
+      setPlaying(true);
+      await player
+        .playItems(
+          entries,
+          speed,
+          all,
+          loop,
+          (ids) => {
+            setActiveIds([]);
+            setComparisonActiveIds(ids);
+          },
+          () => {
+            setPlaying(false);
+            setComparisonTitle("");
+            playingWork.current = "";
+          },
+          (seg, idx, wid) => {
+            playingWork.current = wid;
+            const item = comparison.find(
+              (x) => x.work_id === wid && x.segment.id === seg.id,
+            );
+            setComparisonTitle(`${item?.work_title || "比较"} · ${seg.label}`);
+            if (item) setComparisonView({ entry: item, index: idx });
+            setActiveIds([]);
+          },
+        )
+        .catch((e) => {
+          setPlaying(false);
+          throw e;
+        });
     });
   }
-  async function retry() {
-    if (!job) return;
-    await run("重试任务", async () => {
-      const r = await waitJob(await api<Job>(`/jobs/${job.id}/retry`, {}));
-      if (job.kind === "search") setSearchResults(r.sources || []);
-      if (job.kind === "extract" && draft)
-        setDraft({ ...draft, sources: [...draft.sources, ...r.sources] });
-      if (job.kind === "model") {
-        await refreshNotes();
-        if (r.analyses?.length) chooseNote(r.analyses[0]);
-      }
-    });
-  }
-  async function doImport() {
-    if (!importFile) return;
-    await run("导入并生成谱页，大型总谱需要一些时间", async () => {
-      const f = new FormData();
-      f.append("file", importFile);
-      f.append("title", importTitle);
-      if (replace && work) f.append("work_id", work.id);
-      const w = await api<Work>("/import", f);
-      setShowImport(false);
-      await refreshWorks();
-      await openWork(w);
-    });
-  }
-  const filteredWorks = works.filter((w) =>
-    [w.title, w.composer, w.catalogue, ...w.aliases]
-      .join(" ")
-      .toLowerCase()
-      .replace(/[\s.]/g, "")
-      .includes(query.toLowerCase().replace(/[\s.]/g, "")),
-  );
-  const visibleNotes = (queryNotes || notes).filter(
-    (n) => filter === "全部" || n.kind === filter,
+  const currentCollection = collections.find(
+    (c) => c.id === work?.collection_id,
   );
   return (
     <div className={work ? "app workspace" : "app"}>
       <header className="topbar">
-        <button
-          className="brand"
-          onClick={() => {
-            if (!busy) {
-              halt();
-              setWork(null);
-              setIndex(null);
-              setDraft(null);
-            }
-          }}
-        >
+        <button className="brand" disabled={!!busy} onClick={backToLibrary}>
           <span className="brand-mark">
             <Music2 size={21} />
           </span>
@@ -522,13 +570,19 @@ export default function App() {
           </span>
         </button>
         <div className="header-right">
-          <span className="local-dot">本地资料库</span>
+          <span className="local-dot">Codex 项目 · 本地阅读</span>
+          {oldDrafts && (
+            <button className="text-button" onClick={exportLegacyDrafts}>
+              导出旧版草稿
+            </button>
+          )}
           <button
-            className="icon-btn"
-            aria-label="设置"
-            onClick={() => setShowSettings(true)}
+            className="button secondary compact"
+            disabled={!!busy}
+            onClick={refreshProject}
           >
-            <Settings2 size={19} />
+            <RefreshCw size={15} />
+            刷新项目
           </button>
         </div>
       </header>
@@ -545,9 +599,6 @@ export default function App() {
             <Check size={16} />
           )}
           <span>{error || busy || notice}</span>
-          {!busy && job?.status === "failed" && (
-            <button onClick={retry}>重试</button>
-          )}
           {!busy && (
             <button
               aria-label="关闭提示"
@@ -572,9 +623,9 @@ export default function App() {
                 <span>也听见它的来处。</span>
               </h1>
               <p>
-                把书中的见解，放回音乐里。
+                在 Codex 中分析与记录，在这里对谱聆听。
                 <br />
-                寻找主题，比较变奏，让每一段分析都能被听见。
+                从曲式、和声到织体，让每一段分析都能被听见。
               </p>
             </div>
             <div className="hero-stave" aria-hidden="true">
@@ -587,24 +638,54 @@ export default function App() {
               <div className="stave-caption">READ. LISTEN. UNDERSTAND.</div>
             </div>
           </div>
+          {collections.length > 0 && (
+            <div className="collection-strip">
+              <button
+                className={!collectionFilter ? "active" : ""}
+                onClick={() => setCollectionFilter("")}
+              >
+                全部作品
+              </button>
+              {collections.map((c) => (
+                <button
+                  className={collectionFilter === c.id ? "active" : ""}
+                  key={c.id}
+                  onClick={() => setCollectionFilter(c.id)}
+                >
+                  {c.title}
+                  <small>
+                    {c.arranger ? `${c.arranger} · ` : ""}
+                    {c.work_ids.length} 个乐章 / 分曲
+                  </small>
+                </button>
+              ))}
+            </div>
+          )}
+          {collectionFilter && (
+            <div className="collection-overview">
+              <p>
+                {collections.find((c) => c.id === collectionFilter)?.overview ||
+                  collections.find((c) => c.id === collectionFilter)
+                    ?.description}
+              </p>
+              {(
+                collections.find((c) => c.id === collectionFilter)?.missing ||
+                []
+              ).map((m, i) => (
+                <p className="muted" key={i}>
+                  待补充：{typeof m === "string" ? m : JSON.stringify(m)}
+                </p>
+              ))}
+            </div>
+          )}
           <div className="library-toolbar">
             <div>
               <h2>
-                <Library size={20} /> 我的曲库{" "}
-                <span>{works.length.toString().padStart(2, "0")}</span>
+                <Library size={20} />
+                我的曲库 <span>{String(works.length).padStart(2, "0")}</span>
               </h2>
-              <p>从一个熟悉的作品，开始新的聆听。</p>
+              <p>本地乐谱与分析，随时重读和比较。</p>
             </div>
-            <button
-              className="button secondary"
-              onClick={() => {
-                setReplace(false);
-                setShowImport(true);
-              }}
-            >
-              <Upload size={16} />
-              导入乐谱
-            </button>
           </div>
           <label className="main-search">
             <Search size={21} />
@@ -619,25 +700,30 @@ export default function App() {
                 <X size={18} />
               </button>
             )}
-            <span>曲库检索</span>
+            <span>本地曲库</span>
           </label>
           <div className="work-grid">
-            {filteredWorks.map((w, i) => (
+            {filteredWorks.map((w) => (
               <button
                 className="work-card"
                 key={w.id}
+                data-work-id={w.id}
                 onClick={() => openWork(w)}
                 disabled={!!busy}
                 style={{ "--work-color": w.color } as React.CSSProperties}
               >
                 <div className="work-art">
-                  <span className="work-number">0{works.indexOf(w) + 1}</span>
+                  <span className="work-number">
+                    {String(works.indexOf(w) + 1).padStart(2, "0")}
+                  </span>
                   <span className="work-era">{w.era}</span>
-                  <img
-                    src={`/api/works/${w.id}/pages/1`}
-                    alt="乐谱预览"
-                    loading="lazy"
-                  />
+                  {w.availability !== "pending" && (
+                    <img
+                      src={`/api/works/${w.id}/pages/1`}
+                      alt="乐谱预览"
+                      loading="lazy"
+                    />
+                  )}
                   <div className="work-letter">
                     {w.composer.includes("莫扎特")
                       ? "M"
@@ -655,6 +741,13 @@ export default function App() {
                   </h3>
                   <p className="composer">{w.composer}</p>
                   <p className="work-description">{w.description}</p>
+                  <span
+                    className={`availability ${w.availability === "pending" ? "pending" : ""}`}
+                  >
+                    {w.availability === "pending"
+                      ? "完整数字谱待补充 · 可阅读资料"
+                      : `${w.score_type || "数字谱"} · ${w.coverage || "谱例可试听"}`}
+                  </span>
                   <div className="work-bottom">
                     <span>
                       <FileMusic size={14} />
@@ -670,44 +763,31 @@ export default function App() {
             <div className="empty">
               <FileMusic size={32} />
               <h3>这首作品还没有入库</h3>
-              <p>可导入 MusicXML／MXL，或到公开曲库查找谱本。</p>
-              <a
-                className="button secondary"
-                href={`https://imslp.org/index.php?search=${encodeURIComponent(query)}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                在 IMSLP 查找 <ArrowUpRight size={15} />
-              </a>
+              <p>请在 Codex 项目中补充乐谱与分析，然后点击“刷新项目”。</p>
             </div>
           )}
           <div className="library-note">
             <BookOpen size={20} />
             <div>
-              <strong>你的导听书，也是资料库的一部分。</strong>
+              <strong>分析和笔记，留在你的项目里。</strong>
               <p>
-                录入书名、页码与摘录，再将它们连接到真实谱例。所有笔记保存在这台电脑。
+                在 Codex
+                中提供导听书摘录、提出分析问题或修订意见。记录保存为本地
+                Markdown 与 JSON，这里读取最新内容并展示对应乐谱。
               </p>
             </div>
           </div>
-          <footer>
-            以开源乐谱为基础 · Verovio 排版 · Tone.js 钢琴复奏{" "}
-            <span>为更专注的聆听而作</span>
-          </footer>
         </main>
       ) : (
         <>
           <div className="work-heading">
             <button
-              className="icon-btn"
+              className="back-button"
               aria-label="返回曲库"
               disabled={!!busy}
-              onClick={() => {
-                halt();
-                setWork(null);
-              }}
+              onClick={backToLibrary}
             >
-              <ArrowLeft size={19} />
+              <ArrowLeft size={18} />
             </button>
             <div>
               <div className="breadcrumb">
@@ -719,22 +799,65 @@ export default function App() {
             </div>
             <div className="heading-meta">
               <span>{work.movement}</span>
-              <small>{work.edition} · 实音谱</small>
+              <small>
+                {work.edition} ·{" "}
+                {work.availability === "pending" ? "完整谱待补充" : "实音谱"}
+              </small>
             </div>
-            <button
-              className="button secondary compact"
-              onClick={newNote}
-              disabled={!!busy}
-            >
-              <Plus size={15} />
-              写分析
-            </button>
           </div>
+          {currentCollection && (
+            <nav className="movement-nav" aria-label="同作品乐章">
+              <span>
+                {currentCollection.title}
+                {currentCollection.arranger
+                  ? ` · ${currentCollection.arranger}`
+                  : ""}
+              </span>
+              {works
+                .filter((w) => currentCollection.work_ids.includes(w.id))
+                .sort(
+                  (a, b) => (a.movement_order || 0) - (b.movement_order || 0),
+                )
+                .map((w) => (
+                  <button
+                    key={w.id}
+                    className={work.id === w.id ? "active" : ""}
+                    disabled={!!busy}
+                    onClick={() => openWork(w)}
+                  >
+                    {w.movement}
+                    {w.availability === "pending" ? " · 缺谱" : ""}
+                  </button>
+                ))}
+            </nav>
+          )}
           <div className="desk">
             <aside className="analysis-panel">
               <div className="panel-title">
                 导听笔记 <span>{notes.length.toString().padStart(2, "0")}</span>
               </div>
+              {guide && (
+                <label className="sidebar-select">
+                  <span>曲式范围</span>
+                  <select
+                    aria-label="筛选导听章节"
+                    value={sectionFilter}
+                    title={
+                      guide.sections.find((s) => s.id === sectionFilter)
+                        ?.title || "全貌与全部笔记"
+                    }
+                    onChange={(e) => focusSection(e.target.value)}
+                  >
+                    <option value="">全貌与全部笔记</option>
+                    {guide.sections.map((s, i) => (
+                      <option key={s.id} value={s.id}>
+                        {"　".repeat(sectionDepth(guide.sections, s.id))}
+                        {String(i + 1).padStart(2, "0")} · {s.title}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              )}
               <label className="small-search">
                 <Search size={15} />
                 <input
@@ -744,26 +867,31 @@ export default function App() {
                   onChange={(e) => setNoteQuery(e.target.value)}
                 />
               </label>
-              <div className="filters">
-                {kinds.map((k) => (
-                  <button
-                    className={filter === k ? "active" : ""}
-                    onClick={() => setFilter(k)}
-                    key={k}
-                  >
-                    {k}
-                  </button>
-                ))}
-              </div>
+              <label className="sidebar-select dimension-select">
+                <span>分析维度</span>
+                <select
+                  aria-label="筛选分析维度"
+                  value={filter}
+                  onChange={(e) => setFilter(e.target.value)}
+                >
+                  {kinds.map((k) => (
+                    <option key={k} value={k}>
+                      {k === "全部" ? "全部分析" : k}
+                    </option>
+                  ))}
+                </select>
+              </label>
               <div className="analysis-list">
                 {visibleNotes.map((a, i) => (
                   <button
                     key={a.id}
+                    data-analysis-id={a.id}
+                    disabled={!!busy}
                     className={`analysis-item ${draft?.id === a.id ? "active" : ""}`}
                     onClick={() => chooseNote(a)}
                   >
                     <div className="analysis-kicker">
-                      <span>{a.kind}</span>
+                      <span>{a.dimensions?.join(" · ") || a.kind}</span>
                       <span>{statusText[a.status]}</span>
                     </div>
                     <h3>{a.title}</h3>
@@ -772,7 +900,12 @@ export default function App() {
                       {a.body.length > 66 ? "…" : ""}
                     </p>
                     <div className="analysis-origin">
-                      <span>{originText[a.origin]}</span>
+                      <span>
+                        {originText[a.origin]} ·{" "}
+                        {a.review_status === "checked"
+                          ? "内容已核对"
+                          : "内容待核对"}
+                      </span>
                       {a.segments.length > 0 && <Headphones size={14} />}
                     </div>
                   </button>
@@ -781,7 +914,7 @@ export default function App() {
                   <p className="muted empty-small">
                     还没有匹配的笔记。
                     <br />
-                    从“写分析”开始。
+                    可在 Codex 中补充。
                   </p>
                 )}
               </div>
@@ -790,154 +923,172 @@ export default function App() {
                 <button
                   aria-label="刷新笔记索引"
                   className="icon-btn"
-                  onClick={() =>
-                    run("刷新索引", async () => {
-                      const r = await api<{ errors: string[] }>("/reindex", {});
-                      await refreshNotes();
-                      setNotice(
-                        r.errors.length ? r.errors.join("；") : "索引已刷新。",
-                      );
-                    })
-                  }
+                  disabled={!!busy}
+                  onClick={refreshProject}
                 >
                   <RefreshCw size={14} />
                 </button>
               </div>
-            </aside>
+            </aside>{" "}
             <main className="score-panel">
-              <div className="score-toolbar">
-                <span>
-                  <FileMusic size={16} /> 乐谱 <small>实音</small>
-                </span>
-                <div>
-                  <button
-                    aria-label="上一谱页"
-                    disabled={page <= 1}
-                    onClick={() => setPage(page - 1)}
-                  >
-                    <ChevronLeft size={18} />
-                  </button>
-                  <span>
-                    {page} / {index?.pages}
-                  </span>
-                  <button
-                    aria-label="下一谱页"
-                    disabled={page >= (index?.pages || 1)}
-                    onClick={() => setPage(page + 1)}
-                  >
-                    <ChevronRight size={18} />
-                  </button>
+              {guide && sectionFilter && (
+                <div className="section-context">
+                  <strong>
+                    {guide.sections.find((s) => s.id === sectionFilter)?.title}
+                  </strong>
+                  <p>
+                    {
+                      guide.sections.find((s) => s.id === sectionFilter)
+                        ?.description
+                    }
+                  </p>
                 </div>
-              </div>
-              <div className="range-tools">
-                <label>
-                  小节
-                  <input
-                    aria-label="起始小节序号"
-                    type="number"
-                    min={1}
-                    max={index?.measures.length}
-                    value={startM}
-                    onChange={(e) => setStartM(+e.target.value)}
-                  />
-                </label>
-                <span>—</span>
-                <input
-                  aria-label="结束小节序号"
-                  type="number"
-                  min={1}
-                  max={index?.measures.length}
-                  value={endM}
-                  onChange={(e) => setEndM(+e.target.value)}
-                />
-                <select
-                  aria-label="选择谱表"
-                  value={staff}
-                  onChange={(e) => {
-                    setStaff(e.target.value);
-                    setVoice("");
-                  }}
-                >
-                  <option value="">全部谱表</option>
-                  {index?.staffs.map((s) => (
-                    <option key={s.id} value={s.id}>
-                      {s.id}. {s.label}
-                    </option>
-                  ))}
-                </select>
-                <select
-                  aria-label="选择声部"
-                  value={voice}
-                  onChange={(e) => setVoice(e.target.value)}
-                >
-                  <option value="">全部声部</option>
-                  {(
-                    index?.staffs.find((s) => s.id === staff)?.voices || []
-                  ).map((v) => (
-                    <option key={v} value={v}>
-                      声部 {v}
-                    </option>
-                  ))}
-                </select>
-                <button
-                  className="button secondary compact"
-                  onClick={makeRange}
-                  disabled={!!busy}
-                >
-                  选段
-                </button>
-              </div>
-              <div className="score-tip">
-                {clickStart
-                  ? "已选起点，请点击终点音符"
-                  : "点击两个音符可精确选择片段；上方小节按谱面顺序计数。"}
-                <button
-                  onClick={() => {
-                    setReplace(true);
-                    setShowImport(true);
-                  }}
-                  title="导入此作品的新谱本"
-                >
-                  更换谱本
-                </button>
-              </div>
-              <div className="score-scroll">
-                {svg ? (
-                  <div
-                    className="score-paper"
-                    ref={scoreRef}
-                    onClick={(e) => clickScore(e.target)}
-                    dangerouslySetInnerHTML={{ __html: svg }}
-                  />
-                ) : (
-                  <div className="loading-score">
-                    <LoaderCircle className="spin" />
-                    正在展开乐谱…
+              )}
+              {work.availability === "pending" ? (
+                <div className="empty pending-score">
+                  <FileMusic size={36} />
+                  <h3>完整数字谱尚未入库</h3>
+                  <p>现有资料可以阅读。请在 Codex 中补充谱本后刷新项目。</p>
+                </div>
+              ) : (
+                <>
+                  <div className="score-toolbar">
+                    <span>
+                      <FileMusic size={16} /> 乐谱 <small>实音</small>
+                    </span>
+                    <div>
+                      <button
+                        aria-label="上一谱页"
+                        disabled={page <= 1}
+                        onClick={() => setPage(page - 1)}
+                      >
+                        <ChevronLeft size={18} />
+                      </button>
+                      <span>
+                        {page} / {index?.pages}
+                      </span>
+                      <button
+                        aria-label="下一谱页"
+                        disabled={page >= (index?.pages || 1)}
+                        onClick={() => setPage(page + 1)}
+                      >
+                        <ChevronRight size={18} />
+                      </button>
+                    </div>
                   </div>
-                )}
-              </div>
-              <div className="score-caption">
-                <span>
-                  {selection
-                    ? `${selection.label} · ${selection.note_ids.length} 个谱面音符`
-                    : "选择片段，开始试听"}
-                </span>
-                <span>谱面顺序播放 · 不展开反复</span>
-              </div>
+                  <div className="range-tools">
+                    <label>
+                      小节
+                      <input
+                        aria-label="起始小节序号"
+                        type="number"
+                        min={1}
+                        max={index?.measures.length}
+                        value={startM}
+                        onChange={(e) => setStartM(+e.target.value)}
+                      />
+                    </label>
+                    <span>—</span>
+                    <input
+                      aria-label="结束小节序号"
+                      type="number"
+                      min={1}
+                      max={index?.measures.length}
+                      value={endM}
+                      onChange={(e) => setEndM(+e.target.value)}
+                    />
+                    <select
+                      aria-label="选择谱表"
+                      value={staff}
+                      onChange={(e) => {
+                        setStaff(e.target.value);
+                        setVoice("");
+                      }}
+                    >
+                      <option value="">全部谱表</option>
+                      {index?.staffs.map((s) => (
+                        <option key={s.id} value={s.id}>
+                          {s.id}. {s.label}
+                        </option>
+                      ))}
+                    </select>
+                    <select
+                      aria-label="选择声部"
+                      value={voice}
+                      onChange={(e) => setVoice(e.target.value)}
+                    >
+                      <option value="">全部声部</option>
+                      {(
+                        index?.staffs.find((s) => s.id === staff)?.voices || []
+                      ).map((v) => (
+                        <option key={v} value={v}>
+                          声部 {v}
+                        </option>
+                      ))}
+                    </select>
+                    <button
+                      className="button secondary compact"
+                      onClick={makeRange}
+                      disabled={!!busy}
+                    >
+                      选段
+                    </button>
+                  </div>
+                  <div className="score-tip">
+                    {clickStart
+                      ? "已选起点，请点击终点音符"
+                      : "点击两个音符可精确选择片段；上方小节按谱面顺序计数。"}
+                    <button disabled={!selection} onClick={copySelection}>
+                      复制选段给 Codex
+                    </button>
+                  </div>
+                  <div className="score-scroll">
+                    {svg ? (
+                      <div
+                        className="score-paper"
+                        ref={scoreRef}
+                        onClick={(e) => clickScore(e.target)}
+                        dangerouslySetInnerHTML={{ __html: svg }}
+                      />
+                    ) : (
+                      <div className="loading-score">
+                        <LoaderCircle className="spin" />
+                        正在展开乐谱…
+                      </div>
+                    )}
+                  </div>
+                  <div className="score-caption">
+                    <span>
+                      {selection
+                        ? `${selection.label} · ${selection.note_ids.length} 个谱面音符`
+                        : "选择片段，开始试听"}
+                    </span>
+                    <span>谱面顺序播放 · 不展开反复</span>
+                  </div>
+                </>
+              )}
             </main>
             <aside className="detail-panel">
               <div className="detail-tabs">
-                {["笔记", "资料", "AI 分析"].map((t) => (
+                {["导听", "笔记", "资料"].map((t) => (
                   <button
                     className={tab === t ? "active" : ""}
                     onClick={() => setTab(t)}
                     key={t}
                   >
-                    {t === "AI 分析" && <Sparkles size={14} />} {t}
+                    {t}
                   </button>
                 ))}
               </div>
-              <div className="detail-content">
+              <fieldset className="detail-content" disabled={!!busy}>
+                {tab === "导听" && guide && (
+                  <GuidePanel
+                    guide={guide}
+                    index={index}
+                    onSection={focusSection}
+                    noteSources={notes.flatMap((note) => note.sources)}
+                  />
+                )}
                 {draft && tab === "笔记" && (
                   <>
                     <div className="detail-kicker">
@@ -946,103 +1097,112 @@ export default function App() {
                         {statusText[draft.status]}
                       </span>
                     </div>
-                    {editing ? (
-                      <>
-                        <label className="field">
-                          分析标题
-                          <input
-                            aria-label="分析标题"
-                            value={draft.title}
-                            onChange={(e) =>
-                              setDraft({ ...draft, title: e.target.value })
-                            }
-                            placeholder="给这段音乐一个观察角度"
-                          />
-                        </label>
-                        <label className="field">
-                          类别
-                          <select
-                            value={draft.kind}
-                            onChange={(e) =>
-                              setDraft({ ...draft, kind: e.target.value })
-                            }
-                          >
-                            {kinds.slice(1).map((k) => (
-                              <option key={k}>{k}</option>
-                            ))}
-                          </select>
-                        </label>
-                        <label className="field">
-                          我的分析
-                          <textarea
-                            aria-label="分析正文"
-                            rows={9}
-                            value={draft.body}
-                            onChange={(e) =>
-                              setDraft({ ...draft, body: e.target.value })
-                            }
-                            placeholder="写下你的理解，或到资料页粘贴书籍摘录。"
-                          />
-                        </label>
-                      </>
-                    ) : (
-                      <>
-                        <h2 className="detail-title">
-                          {draft.title || "新的聆听笔记"}
-                        </h2>
-                        <div className="prose">
-                          {draft.body.split("\n").map((p, i) => (
-                            <p key={i}>{p}</p>
-                          ))}
-                        </div>
-                        <button
-                          className="text-button"
-                          onClick={() => setEditing(true)}
-                        >
-                          编辑笔记 →
-                        </button>
-                      </>
+                    {draft.analysis_model && (
+                      <p className="model-provenance">
+                        分析模型：{draft.analysis_model} · 项目中的既有记录
+                      </p>
                     )}
+                    <h2 className="detail-title">{draft.title}</h2>
+                    <div className="prose">
+                      {draft.body.split("\n").map((p, i) => (
+                        <p key={i}>{p}</p>
+                      ))}
+                    </div>
+                    <AnalysisDetails
+                      analysis={draft}
+                      onSegment={chooseSegment}
+                    />
                     <div className="section-label">
                       对应谱例 <span>{draft.segments.length}</span>
                     </div>
                     <div className="segment-list">
                       {draft.segments.map((s, i) => (
                         <div
-                          className={`segment-chip ${selection?.id === s.id ? "active" : ""}`}
+                          className="segment-entry"
                           key={s.id}
+                          data-segment-role={s.role || "excerpt"}
                         >
-                          <button onClick={() => chooseSegment(s)}>
-                            <Play size={13} />
-                            <span>{s.label}</span>
-                          </button>
-                          {editing && (
-                            <button
-                              aria-label={`移除片段${i + 1}`}
-                              onClick={() =>
-                                setDraft({
-                                  ...draft,
-                                  segments: draft.segments.filter(
-                                    (_, j) => j !== i,
-                                  ),
-                                  status: "suggested",
-                                })
-                              }
-                            >
-                              <X size={13} />
+                          <div className="segment-role">
+                            {segmentRoleLabel(s)} ·{" "}
+                            {index && printedRange(index, s)}
+                          </div>
+                          <div
+                            className={`segment-chip ${selection?.id === s.id ? "active" : ""}`}
+                          >
+                            <button onClick={() => chooseSegment(s)}>
+                              <Play size={13} />
+                              <span>{s.label}</span>
                             </button>
+                            <button
+                              aria-label={`将片段${i + 1}加入比较`}
+                              title="加入跨作品 A/B 比较"
+                              onClick={() => queueSegment(s)}
+                            >
+                              A/B
+                            </button>
+                          </div>
+                          {s.boundary_note && (
+                            <p className="boundary-note">
+                              边界依据：{s.boundary_note}
+                            </p>
                           )}
+                          <div className="segment-audition">
+                            <button
+                              className="text-button"
+                              onClick={() => playSegments([s])}
+                            >
+                              试听{segmentRoleLabel(s)}
+                            </button>
+                            <button
+                              className="text-button"
+                              onClick={() => playSegments([s], contextMeasures)}
+                            >
+                              播放前后文
+                            </button>
+                          </div>
                         </div>
                       ))}
                     </div>
-                    <button
-                      className="button secondary full"
-                      disabled={!selection}
-                      onClick={attach}
-                    >
-                      <Plus size={15} />
-                      绑定当前选段
-                    </button>
+                    {draft.segments.length > 1 && (
+                      <div className="ab-select">
+                        <p>选择两个谱例，进行 A/B 试听</p>
+                        {draft.segments.map((s) => (
+                          <label className="check-line" key={s.id}>
+                            <input
+                              type="checkbox"
+                              checked={abIds.includes(s.id)}
+                              disabled={
+                                !abIds.includes(s.id) && abIds.length >= 2
+                              }
+                              onChange={(e) =>
+                                setAbIds(
+                                  e.target.checked
+                                    ? [...abIds, s.id]
+                                    : abIds.filter((id) => id !== s.id),
+                                )
+                              }
+                            />
+                            {abIds.includes(s.id)
+                              ? `${abIds.indexOf(s.id) === 0 ? "A" : "B"} · `
+                              : ""}
+                            {s.label}
+                          </label>
+                        ))}
+                        <button
+                          className="button secondary full"
+                          disabled={abIds.length !== 2}
+                          onClick={() =>
+                            playSegments(
+                              abIds.map((id) =>
+                                draft.segments.find((s) => s.id === id)!,
+                              ),
+                            )
+                          }
+                        >
+                          依次试听 A → B
+                        </button>
+                      </div>
+                    )}
                     {draft.segments.length > 1 && (
                       <button
                         className="button secondary full"
@@ -1051,361 +1211,92 @@ export default function App() {
                         依次试听全部谱例
                       </button>
                     )}
-                    {draft.segments.length > 1 && (
-                      <button className="text-button" onClick={joinRoutes}>
-                        按谱面时间接续各声部 →
-                      </button>
-                    )}
-                    {selection && (
-                      <button
-                        className="text-button"
-                        onClick={() =>
-                          run("寻找相似片段", async () => {
-                            const found = await api<Segment[]>(
-                              `/works/${work.id}/similar`,
-                              selection,
-                            );
-                            setSimilar(found);
-                            setNotice(
-                              found.length
-                                ? `找到 ${found.length} 处相似旋律。`
-                                : "没有找到精确或移调重复；这不代表不存在变奏关系。",
-                            );
-                          })
-                        }
-                      >
-                        寻找相同或移调的动机 →
-                      </button>
-                    )}
-                    {similar.map((s) => (
-                      <button
-                        className="similar-result"
-                        key={s.id}
-                        onClick={() => chooseSegment(s)}
-                      >
-                        {s.label}
-                      </button>
+                  </>
+                )}
+                {!draft && tab === "笔记" && (
+                  <p className="muted">尚无分析记录。请在 Codex 中补充。</p>
+                )}
+                {tab === "资料" && (
+                  <>
+                    <h2 className="detail-title">分析的来源</h2>
+                    <p className="muted micro">
+                      已保存的摘录、概括与出处。资料更新由 Codex 记录到项目。
+                    </p>
+                    {draft?.sources.map((s) => (
+                      <SourceView key={s.id} source={s} />
                     ))}
-                    {!!draft.sources.length && (
-                      <>
-                        <div className="section-label">引用资料</div>
-                        {draft.sources.map((s) => (
-                          <div className="citation" key={s.id}>
-                            <BookOpen size={14} />
-                            <div>
-                              <strong>{s.title}</strong>
-                              <p>
-                                {[
-                                  s.author,
-                                  s.edition,
-                                  s.pages && `第 ${s.pages} 页`,
-                                ]
-                                  .filter(Boolean)
-                                  .join(" · ")}
-                              </p>
-                              {s.url && (
-                                <a
-                                  href={s.url}
-                                  target="_blank"
-                                  rel="noreferrer"
-                                >
-                                  查看来源 ↗
-                                </a>
-                              )}
-                            </div>
-                          </div>
-                        ))}
-                      </>
-                    )}
-                    {draft.verification && (
-                      <p className="verification">
-                        核验记录：{draft.verification}
+                    {!draft?.sources.length && (
+                      <p className="muted">
+                        当前笔记尚无引用资料，可在“导听”中查看乐章来源。
                       </p>
                     )}
-                    <div className="save-actions">
-                      <button
-                        className="button primary full"
-                        disabled={!!busy || !draft.title.trim()}
-                        onClick={() => save(false)}
-                      >
-                        保存笔记
-                      </button>
-                      <button
-                        className="button secondary full"
-                        disabled={
-                          !!busy ||
-                          (!draft.segments.length && !selection) ||
-                          !draft.title.trim()
-                        }
-                        onClick={() => save(true)}
-                      >
-                        <Check size={15} />
-                        确认定位并保存
-                      </button>
-                    </div>
-                    <p className="muted micro">
-                      确认表示谱例位置正确；AI 推测仍保留来源标记。
-                    </p>
-                    {draft.id && (
-                      <button
-                        className="delete-button"
-                        onClick={() => {
-                          if (window.confirm("删除这条分析笔记？"))
-                            run("删除笔记", async () => {
-                              await api(
-                                `/analyses/${draft.id}`,
-                                undefined,
-                                "DELETE",
-                              );
-                              const ns = await refreshNotes();
-                              if (ns.length) chooseNote(ns[0]);
-                              else newNote();
-                            });
-                        }}
-                      >
-                        <Trash2 size={13} />
-                        删除笔记
-                      </button>
-                    )}
                   </>
                 )}
-                {draft && tab === "资料" && (
-                  <>
-                    <div className="eyebrow">YOUR READING, CONNECTED</div>
-                    <h2 className="detail-title">把书中的见解带进来</h2>
-                    <p className="muted">摘录保留原文，个人解释写在笔记中。</p>
-                    <label className="field">
-                      书名 / 资料标题
-                      <input
-                        aria-label="书名"
-                        value={book.title}
-                        onChange={(e) =>
-                          setBook({ ...book, title: e.target.value })
-                        }
-                      />
-                    </label>
-                    <div className="field-row">
-                      <label className="field">
-                        作者
-                        <input
-                          value={book.author}
-                          onChange={(e) =>
-                            setBook({ ...book, author: e.target.value })
-                          }
-                        />
-                      </label>
-                      <label className="field">
-                        页码
-                        <input
-                          aria-label="页码"
-                          value={book.pages}
-                          onChange={(e) =>
-                            setBook({ ...book, pages: e.target.value })
-                          }
-                        />
-                      </label>
-                    </div>
-                    <label className="field">
-                      版本
-                      <input
-                        value={book.edition}
-                        onChange={(e) =>
-                          setBook({ ...book, edition: e.target.value })
-                        }
-                        placeholder="出版社 / 年份"
-                      />
-                    </label>
-                    <label className="field">
-                      原文摘录
-                      <textarea
-                        aria-label="书籍摘录"
-                        rows={6}
-                        value={book.excerpt}
-                        onChange={(e) =>
-                          setBook({ ...book, excerpt: e.target.value })
-                        }
-                      />
-                    </label>
-                    <button
-                      className="button primary full"
-                      disabled={!book.title || !book.excerpt}
-                      onClick={() => {
-                        setDraft({
-                          ...draft,
-                          sources: [
-                            ...draft.sources,
-                            { ...book, extracted: true },
-                          ],
-                          title: draft.title || book.title,
-                        });
-                        setBook(blankSource());
-                        setNotice("摘录已加入当前草稿，请保存笔记。");
-                      }}
-                    >
-                      <Plus size={15} />
-                      加入当前笔记
-                    </button>
-                    <div className="section-label">
-                      已选资料 <span>{draft.sources.length}</span>
-                    </div>
-                    {draft.sources.map((s, i) => (
-                      <details className="source-detail" key={s.id}>
-                        <summary>
-                          {s.title}
-                          <span>
-                            {s.kind === "web"
-                              ? s.extracted
-                                ? "已提取正文"
-                                : "仅搜索摘要"
-                              : "原文摘录"}
-                          </span>
-                        </summary>
-                        <p className="prose">{s.excerpt}</p>
-                        <button
-                          className="text-button"
-                          onClick={() =>
-                            setDraft({
-                              ...draft,
-                              sources: draft.sources.filter((_, j) => j !== i),
-                            })
-                          }
-                        >
-                          从草稿移除
-                        </button>
-                      </details>
-                    ))}
-                    <div className="section-label">搜索公开分析</div>
-                    <textarea
-                      aria-label="搜索问题"
-                      rows={3}
-                      value={question}
-                      onChange={(e) => setQuestion(e.target.value)}
-                    />
-                    <button
-                      className="button secondary full"
-                      disabled={!!busy || !question.trim()}
-                      onClick={research}
-                    >
-                      <Search size={15} />
-                      联网搜索
-                    </button>
-                    {!settings.search_ready && (
-                      <p className="muted micro">
-                        尚未配置 Tavily。可先录入书籍内容。
-                      </p>
-                    )}
-                    {searchResults.map((s) => (
-                      <label className="search-result" key={s.id}>
-                        <input
-                          type="checkbox"
-                          checked={chosenUrls.includes(s.url)}
-                          onChange={(e) =>
-                            setChosenUrls(
-                              e.target.checked
-                                ? [...chosenUrls, s.url]
-                                : chosenUrls.filter((u) => u !== s.url),
-                            )
-                          }
-                        />
-                        <span>
-                          <strong>{s.title}</strong>
-                          <small>{new URL(s.url).hostname} · 搜索摘要</small>
-                          <p>{s.excerpt.slice(0, 180)}</p>
-                          <a href={s.url} target="_blank" rel="noreferrer">
-                            打开原文 ↗
-                          </a>
-                        </span>
-                      </label>
-                    ))}
-                    {!!searchResults.length && (
-                      <button
-                        className="button primary full"
-                        disabled={!!busy || !chosenUrls.length}
-                        onClick={extract}
-                      >
-                        提取所选资料并加入笔记
-                      </button>
-                    )}
-                  </>
-                )}
-                {draft && tab === "AI 分析" && (
-                  <>
-                    <div className="ai-symbol">
-                      <Sparkles size={26} />
-                    </div>
-                    <h2 className="detail-title">带着证据，深入一段音乐。</h2>
-                    <p className="muted">
-                      模型读取你选中的资料和乐谱信息，返回独立草稿，保留原来的笔记。
-                    </p>
-                    <div className="context-box">
-                      <span>
-                        <BookOpen size={15} />
-                        {draft.sources.length} 条引用资料
-                      </span>
-                      <span>
-                        <FileMusic size={15} />
-                        {draft.segments.length > 1
-                          ? "比较前两个已绑定片段"
-                          : selection
-                            ? "当前选段已就绪"
-                            : "尚未选择乐段"}
-                      </span>
-                      <small>
-                        每个乐段最多 16 小节；资料分析只发送当前笔记的摘录。
-                      </small>
-                    </div>
-                    <label className="field">
-                      你想了解什么？
-                      <textarea
-                        aria-label="AI 分析问题"
-                        rows={5}
-                        value={question}
-                        onChange={(e) => setQuestion(e.target.value)}
-                      />
-                    </label>
-                    <button
-                      className="button primary full"
-                      disabled={!!busy || !selection || !question.trim()}
-                      onClick={() => analyze("segment")}
-                    >
-                      <Sparkles size={16} />
-                      {draft.segments.length > 1
-                        ? "比较两个片段"
-                        : "分析当前乐段"}
-                    </button>
-                    <button
-                      className="button secondary full"
-                      disabled={
-                        !!busy || !draft.sources.length || !question.trim()
-                      }
-                      onClick={() => analyze("sources")}
-                    >
-                      整理资料并推荐谱例
-                    </button>
-                    <p className="muted micro">
-                      候选位置需要试听确认。模型可以返回“待定位”，不会为无法识别的文字编造音符。
-                    </p>
-                    {!settings.model_ready && (
-                      <div className="config-hint">
-                        尚未配置模型服务。
-                        <button onClick={() => setShowSettings(true)}>
-                          查看配置方法 →
-                        </button>
-                      </div>
-                    )}
-                  </>
-                )}
-              </div>
+                <p className="reader-hint">
+                  需要补充或修订？在 Codex
+                  对话中说明作品与分析标题；选中谱例后可复制位置。
+                </p>
+              </fieldset>
             </aside>
           </div>
+          {comparison.length > 0 && (
+            <div className="comparison-tray">
+              <div>
+                <strong>跨作品 A/B 比较</strong>
+                <small>队列保留在此浏览器</small>
+              </div>
+              {comparison.map((item, i) => (
+                <div className="comparison-item" key={item.id}>
+                  <b>{i === 0 ? "A" : "B"}</b>
+                  <span>
+                    {item.work_title}
+                    <small>{item.segment.label}</small>
+                  </span>
+                  <button
+                    className="icon-btn"
+                    aria-label={`移除比较${i === 0 ? "A" : "B"}`}
+                    onClick={() => {
+                      halt();
+                      setComparison(comparison.filter((q) => q.id !== item.id));
+                    }}
+                  >
+                    <X size={14} />
+                  </button>
+                </div>
+              ))}
+              <button
+                className="button secondary compact"
+                disabled={comparison.length !== 2 || !!busy}
+                onClick={() => {
+                  halt();
+                  setComparison([...comparison].reverse());
+                }}
+              >
+                交换 A/B
+              </button>
+              <button
+                className="button primary compact"
+                disabled={!!busy || comparison.length !== 2}
+                onClick={playComparison}
+              >
+                试听 A → B
+              </button>
+            </div>
+          )}
           <div className="player-bar">
             <div className="player-track">
               <span className="record-icon">
                 <Disc3 className={playing ? "slow-spin" : ""} />
               </span>
               <div>
-                <strong>{selection?.label || "选择一个谱例"}</strong>
-                <small>{work.title} · 钢琴复奏</small>
+                <strong>
+                  {comparisonTitle || selection?.label || "选择一个谱例"}
+                </strong>
+                <small>
+                  {playbackWindow && index
+                    ? `${printedRange(index, playbackWindow)}${playbackWindow !== selection && !playbackWindow.staffs.length ? " · 全部声部" : ""}`
+                    : `${work.title} · 钢琴复奏`}
+                </small>
               </div>
             </div>
             <div className="transport">
@@ -1423,7 +1314,7 @@ export default function App() {
               <button
                 className="play-button"
                 aria-label={playing ? "停止播放" : "播放片段"}
-                disabled={!selection}
+                disabled={!selection && !playing}
                 onClick={() =>
                   playing ? halt() : selection && playSegments([selection])
                 }
@@ -1446,6 +1337,32 @@ export default function App() {
               </select>
             </div>
             <div className="player-options">
+              <label className="context-choice">
+                前后各
+                <select
+                  aria-label="前后文小节数"
+                  value={contextMeasures}
+                  onChange={(e) => {
+                    halt();
+                    setContextMeasures(+e.target.value);
+                  }}
+                >
+                  {[2, 4, 8].map((n) => (
+                    <option key={n} value={n}>
+                      {n} 小节
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <button
+                className="text-button"
+                disabled={!selection || !!busy}
+                onClick={() =>
+                  selection && playSegments([selection], contextMeasures)
+                }
+              >
+                播放前后文
+              </button>
               <Headphones size={16} />
               <select
                 aria-label="播放声部"
@@ -1458,117 +1375,60 @@ export default function App() {
                 <option value="theme">所选主题声部</option>
                 <option value="all">范围内全部声部</option>
               </select>
-              <span className="local-dot">本地音源</span>
+              <span
+                className="local-dot"
+                title="停止启动新音符后，保留已发声音符的自然延音；前后文使用全部声部，不改变分析定位。"
+              >
+                自然收尾
+              </span>
             </div>
           </div>
         </>
       )}
-      {showSettings && (
-        <div className="modal-backdrop" onClick={() => setShowSettings(false)}>
-          <section className="modal" onClick={(e) => e.stopPropagation()}>
-            <button
-              className="modal-close icon-btn"
-              aria-label="关闭设置"
-              onClick={() => setShowSettings(false)}
-            >
-              <X />
-            </button>
-            <div className="eyebrow">LOCAL FIRST</div>
-            <h2>服务与本地资料</h2>
-            <p>
-              乐谱、笔记和钢琴复奏始终在本机。
-              {settings.model_local
-                ? "AI 分析使用本机 Ollama，无需 API 密钥。"
-                : "AI 分析使用你配置的云端模型。"}
-              联网搜索可单独配置 Tavily。
-            </p>
-            <div className="setting-row">
-              大模型{" "}
-              <strong>
-                {settings.model_ready ? settings.model : "未配置"}
-              </strong>
-            </div>
-            <div className="setting-row">
-              Tavily 搜索{" "}
-              <strong>{settings.search_ready ? "已配置" : "未配置"}</strong>
-            </div>
-            <p>
-              复制 <code>app/.env.example</code> 为 <code>app/.env</code>
-              ，填写模型名称和地址后重启应用。Ollama 须在本机运行，可用 ollama
-              list 查看已安装模型。
-            </p>
-            <pre>
-              LLM_MODEL={settings.model || "ollama_chat/qwen3.8:latest"}
-              <br />
-              LLM_API_KEY=（本地 Ollama 留空）
-              <br />
-              LLM_API_BASE=http://127.0.0.1:11434
-              <br />
-              TAVILY_API_KEY=（联网搜索可选）
-            </pre>
-            <p className="muted">
-              正文与引用保存在「作品」，谱本和定位保存在「assets」。备份这两个目录即可保留个人资料。
-            </p>
-            <div className="license-line">
-              排版：Verovio（LGPLv3） · 播放：Tone.js（MIT）
-              <br />
-              钢琴采样：Alexander Holm · Salamander（CC BY 3.0）
-            </div>
-          </section>
-        </div>
+      {showComparison && (
+        <ComparisonViewer
+          current={comparisonView}
+          externalError={error}
+          activeIds={comparisonActiveIds}
+          playing={playing}
+          busy={!!busy}
+          onStop={halt}
+          onClose={() => {
+            halt();
+            setShowComparison(false);
+          }}
+          onReplay={playComparison}
+        />
       )}
-      {showImport && (
+      {selectionExport && (
         <div className="modal-backdrop">
-          <section className="modal">
+          <section
+            className="modal"
+            role="dialog"
+            aria-modal="true"
+            aria-label="选段位置"
+          >
             <button
-              aria-label="关闭导入"
               className="modal-close icon-btn"
-              disabled={!!busy}
-              onClick={() => setShowImport(false)}
+              aria-label="关闭选段位置"
+              onClick={() => setSelectionExport("")}
             >
               <X />
             </button>
-            <div className="eyebrow">ADD TO YOUR LIBRARY</div>
-            <h2>{replace ? "为当前作品导入新谱本" : "导入数字乐谱"}</h2>
-            <p>
-              支持 MusicXML、XML 与 MXL，最大 20
-              MB。谱本替换后，旧分析需重新定位。
-            </p>
-            <label className="field">
-              作品名称
-              <input
-                aria-label="导入作品名称"
-                value={importTitle}
-                onChange={(e) => setImportTitle(e.target.value)}
-              />
-            </label>
-            <label className="upload-field">
-              <Upload />
-              <input
-                aria-label="选择乐谱文件"
-                type="file"
-                accept=".xml,.musicxml,.mxl"
-                onChange={(e) => {
-                  setImportFile(e.target.files?.[0] || null);
-                  if (!importTitle)
-                    setImportTitle(
-                      e.target.files?.[0]?.name.replace(/\.[^.]+$/, "") || "",
-                    );
-                }}
-              />
-            </label>
-            <button
-              className="button primary full"
-              disabled={!!busy || !importFile || !importTitle.trim()}
-              onClick={doImport}
-            >
-              {busy ? "正在处理…" : "导入并生成乐谱"}
+            <h2>交给 Codex 继续分析</h2>
+            <p>把下面的选段位置粘贴到项目对话，并说明你想了解或修正什么。</p>
+            <textarea
+              className="selection-export"
+              aria-label="选段 JSON"
+              readOnly
+              rows={14}
+              value={selectionExport}
+              onFocus={(e) => e.target.select()}
+            />
+            <button className="button secondary" onClick={copySelection}>
+              <Copy size={16} />
+              复制选段
             </button>
-            {error && (
-              <p role="alert" className="error-text">
-                {error}
-              </p>
-            )}
           </section>
         </div>
       )}

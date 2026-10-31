@@ -89,3 +89,19 @@ describe("shared score clock", () => {
     expect(schedule(idx, seg, 1, true).notes).toHaveLength(3);
   });
 });
+
+describe("natural release at the audition boundary", () => {
+  it("finishes a held note without starting new notes outside the selection", () => {
+    const data = schedule(idx, { ...seg, end: 1.5 }, 1, true, true);
+    expect(data.notes.map((n) => n.id)).toEqual(["a", "b"]);
+    expect(data.notes[0].duration).toBe(2.5);
+    expect(data.duration).toBe(2.5);
+  });
+  it("still truncates at interior route switches, while the final voice can finish", () => {
+    const routed = { ...seg, end: 3, routes: [{ start: 0, end: 2, staff: "1" }, { start: 2, end: 3, staff: "2" }] };
+    const data = schedule(idx, routed, 0.5, false, true);
+    expect(data.notes[0].duration).toBe(4);
+    expect(data.notes.find((n) => n.id === "c")?.duration).toBe(2);
+    expect(data.duration).toBe(6);
+  });
+});

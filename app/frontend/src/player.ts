@@ -39,15 +39,14 @@ async function ready() {
   }
   await loading;
 }
-export async function play(
-  index: ScoreIndex,
-  segments: Segment[],
+export async function playItems(
+  items: { index: ScoreIndex; segment: Segment; work_id: string }[],
   speed: number,
   all: boolean,
   loop: boolean,
-  onNotes: (ids: string[]) => void,
+  onNotes: (ids: string[], work_id: string) => void,
   onEnd: () => void,
-  onSegment: (s: Segment) => void,
+  onSegment: (s: Segment, index: ScoreIndex, work_id: string) => void,
 ) {
   stop();
   const token = generation;
@@ -55,13 +54,13 @@ export async function play(
   if (token !== generation) return;
   const transport = Tone.getTransport();
   let offset = 0.1;
-  for (const s of segments) {
-    const data = schedule(index, s, speed, all),
+  for (const { index, segment: s, work_id } of items) {
+    const data = schedule(index, s, speed, all, true),
       base = offset;
     transport.schedule(
       (t) =>
         Tone.getDraw().schedule(() => {
-          if (token === generation) onSegment(s);
+          if (token === generation) onSegment(s, index, work_id);
         }, t),
       base,
     );
@@ -88,7 +87,7 @@ export async function play(
       transport.schedule(
         (t) =>
           Tone.getDraw().schedule(() => {
-            if (token === generation) onNotes(ids);
+            if (token === generation) onNotes(ids, work_id);
           }, t),
         base + at,
       );
@@ -104,11 +103,32 @@ export async function play(
         Tone.getDraw().schedule(() => {
           if (token === generation) {
             stop();
-            onNotes([]);
+            onNotes([], "");
             onEnd();
           }
         }, t),
       offset,
     );
   transport.start("+0.05");
+}
+
+export async function play(
+  index: ScoreIndex,
+  segments: Segment[],
+  speed: number,
+  all: boolean,
+  loop: boolean,
+  onNotes: (ids: string[]) => void,
+  onEnd: () => void,
+  onSegment: (s: Segment) => void,
+) {
+  return playItems(
+    segments.map((segment) => ({ index, segment, work_id: "" })),
+    speed,
+    all,
+    loop,
+    onNotes,
+    onEnd,
+    onSegment,
+  );
 }

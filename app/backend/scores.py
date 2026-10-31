@@ -10,6 +10,7 @@ from .store import write_json, atomic_text
 NS={'m':'http://www.music-encoding.org/ns/mei'}
 XMLID='{http://www.w3.org/XML/1998/namespace}id'
 LOCK=threading.RLock()
+FEATURE_SCHEMA=4
 OPTIONS={'expandNever':True,'transposeToSoundingPitch':True,'pageWidth':1800,'pageHeight':2400,'scale':45,'adjustPageHeight':True,'breaks':'auto','footer':'none','header':'none','xmlIdSeed':847}
 
 def xml_bytes(data: bytes) -> bytes:
@@ -50,7 +51,7 @@ def build_score(data, out:Path, crop=None):
     out=out/version;out.mkdir(parents=True,exist_ok=True)
     atomic_text(out/'normalized.musicxml',raw.decode())
     with LOCK:
-        tk=verovio.toolkit();tk.setResourcePath(str(Path(verovio.__file__).parent/'data'));tk.setOptions(OPTIONS)
+        tk=verovio.toolkit(False);tk.setResourcePath(str(Path(verovio.__file__).parent/'data'));tk.setOptions(OPTIONS)
         if not tk.loadData(raw.decode()): raise ValueError('Verovio 无法读取此乐谱')
         mei=tk.getMEI();atomic_text(out/'score.mei',mei)
         tk.renderToMIDI()
@@ -81,7 +82,7 @@ def build_score(data, out:Path, crop=None):
                         nid=note.get(XMLID);times=tk.getTimesForElement(nid);midi=tk.getMIDIValuesForElement(nid)
                         if 'pitch' not in midi or not times.get('qfracOn'):continue
                         onset=frac(times['qfracOn']);duration=frac(times.get('qfracDuration'))
-                        events.append({'id':nid,'pitch':midi['pitch'],'onset':onset,'duration':duration,'staff':sid,'voice':voice,'measure':i,'page':page,'playable':True,'velocity':min(1,float(note.get('vel','80'))/127),'name':note.get('pname','').upper()+note.get('oct','')})
+                        events.append({'id':nid,'pitch':midi['pitch'],'onset':onset,'duration':duration,'staff':sid,'voice':voice,'measure':i,'page':page,'playable':bool(note.get('pname')),'velocity':min(1,float(note.get('vel','80'))/127),'name':note.get('pname','').upper()+note.get('oct','')})
         byid={e['id']:e for e in events}
         ties={}
         for tie in tree.findall('.//m:tie',NS):
@@ -96,10 +97,64 @@ def build_score(data, out:Path, crop=None):
         duration=max([e['onset']+e['duration'] for e in events]+[p['q'] for p in timeline])
         for i,m in enumerate(measures):m['end']=measures[i+1]['start'] if i+1<len(measures) else duration
         index={'version':version,'notation':'concert','events':events,'measures':measures,'staffs':list(staffs.values()),'timeline':timeline,'duration':duration,'pages':tk.getPageCount(),'engine':tk.getVersion()}
+        enrich_index(index,tree)
         write_json(out/'events.json',index)
         # Persist every page during ingestion: no layout drift between imported IDs and UI.
         for p in range(1,tk.getPageCount()+1): atomic_text(out/f'page-{p}.svg',tk.renderToSVG(p))
     return version,index
+
+def enrich_index(index,tree):
+    """Add facts from the canonical MEI without changing score versions or note IDs."""
+    contexts={};default={};last_context=None;by_measure={m['id']:m for m in index['measures']}
+    notes={e['id']:e for e in index['events']};marks=[]
+    def attrs(container,previous):
+        result=dict(previous)
+        meter=container.find('m:meterSig',NS);key=container.find('m:keySig',NS)
+        if meter is not None:result['meter']={'count':meter.get('count',''),'unit':meter.get('unit',''),'symbol':meter.get('sym','')}
+        if key is not None:result['key_signature']=key.get('sig','')
+        return result
+    def walk(node):
+        nonlocal default,last_context
+        tag=node.tag.split('}')[-1]
+        if tag=='scoreDef':
+            new_default=attrs(node,default)
+            changed={k:v for k,v in new_default.items() if default.get(k)!=v}
+            contexts.update({sid:{**c,**changed} for sid,c in contexts.items()})
+            default=new_default
+            for s in node.findall('.//m:staffDef',NS):contexts[s.get('n')]=attrs(s,{**default,**contexts.get(s.get('n'),{})})
+            return
+        if tag=='measure':
+            m=by_measure.get(node.get(XMLID))
+            if m is None:return
+            for staff in node.findall('m:staff',NS):
+                sid=staff.get('n');current={**default,**contexts.get(sid,{})}
+                for layer in staff.findall('m:layer',NS):current=attrs(layer,current)
+                contexts[sid]=current
+            current_context={sid:dict(c) for sid,c in contexts.items()}
+            if current_context!=last_context:m['staff_context']=current_context
+            else:m.pop('staff_context',None)
+            last_context=current_context
+            for tag in ('dynam','dir','tempo','hairpin','fermata'):
+                for mark in node.findall('m:'+tag,NS):
+                    marks.append({'id':mark.get(XMLID,''),'type':tag,'text':''.join(mark.itertext()).strip(),'staff':mark.get('staff',''),'measure':m['index'],'beat':mark.get('tstamp',''),'beat_unit':'meter_denominator','form':mark.get('form',''),'startid':mark.get('startid','').lstrip('#')})
+            for note in node.findall('.//m:note',NS):
+                event=notes.get(note.get(XMLID))
+                if event is not None:
+                    event['articulations']=[a.get('artic','') for a in note.findall('m:artic',NS)]
+                    if not note.get('pname'):event['playable']=False
+            return
+        for child in node:walk(child)
+    walk(tree)
+    index.update(feature_schema=FEATURE_SCHEMA,marks=marks)
+    return index
+
+def upgrade_index(directory, persist=True):
+    path=directory/'events.json'
+    index=json.loads(path.read_text())
+    if index.get('feature_schema',0)<FEATURE_SCHEMA:
+        enrich_index(index,ET.parse(directory/'score.mei').getroot())
+        if persist:write_json(path,index)
+    return index
 
 def validate_segment(seg:Segment, index):
     if seg.score_version!=index['version']:raise ValueError('谱本版本不一致，请重新定位')
@@ -127,14 +182,34 @@ def matches(e,seg):
 def features(index, seg):
     from music21 import stream,note,chord
     seg=validate_segment(seg,index)
-    selected_ids=set(seg.note_ids)
-    selected=[e for e in index['events'] if e['id'] in selected_ids and e['playable']]
+    selected=[]
+    for e in index['events']:
+        if not e['playable']:continue
+        windows=[(r.start,r.end) for r in seg.routes if r.staff==e['staff'] and (not r.voice or r.voice==e['voice'])] if seg.routes else ([(seg.start,seg.end)] if matches(e,seg) else [])
+        for start,end in windows:
+            on=max(e['onset'],start);off=min(e['onset']+e.get('sounding_duration',e['duration']),end)
+            if on<off:selected.append({**e,'original_onset':e['onset'],'onset':on,'duration':off-on})
+    if len(selected)>2000:raise ValueError('所选音符过多，请选择相关声部或缩小片段。')
     st=stream.Stream()
     for e in selected:
         n=note.Note(e['pitch']);n.quarterLength=max(.001,e['duration']);st.insert(e['onset']-seg.start,n)
     try:k=st.analyze('key');key={'name':str(k),'correlation':round(k.correlationCoefficient,3)}
     except Exception:key=None
-    return {'time_unit':'quarter_note','key_estimate':key,'note_count':len(selected),'pitch_range':[min(e['pitch'] for e in selected),max(e['pitch'] for e in selected)] if selected else None,'events':[{'id':e['id'],'pitch':e['pitch'],'onset':round(e['onset']-seg.start,5),'duration':e['duration'],'staff':e['staff'],'voice':e['voice']} for e in selected]}
+    verticals=[]
+    for q in sorted({seg.start,*[e['onset'] for e in selected],*[e['onset']+e['duration'] for e in selected]}):
+        if q>=seg.end:continue
+        sounding=[e for e in selected if e['onset']<=q<e['onset']+e['duration']-1e-8]
+        if sounding:verticals.append({'onset':round(q-seg.start,5),'pitches':sorted({e['pitch'] for e in sounding}),'bass':min(e['pitch'] for e in sounding),'note_ids':[e['id'] for e in sounding]})
+    lines=[]
+    for sid,voice in sorted({(e['staff'],e['voice']) for e in selected}):
+        es=sorted([e for e in selected if e['staff']==sid and e['voice']==voice],key=lambda e:(e['onset'],e['pitch']))
+        mono=all(b['onset']>=a['onset']+a['duration']-1e-6 for a,b in zip(es,es[1:]))
+        lines.append({'staff':sid,'voice':voice,'note_count':len(es),'first_onset':round(es[0]['onset']-seg.start,5),'monophonic':mono,'intervals':[b['pitch']-a['pitch'] for a,b in zip(es,es[1:])] if mono else [],'durations':[e['duration'] for e in es]})
+    measures=[];context={}
+    for m in index['measures']:
+        context=m.get('staff_context',context)
+        if m['end']>seg.start and m['start']<seg.end:measures.append({'index':m['index'],'label':m['label'],'start':m['start']-seg.start,'end':m['end']-seg.start,'staff_context':context})
+    return {'time_unit':'quarter_note','notation':'concert','key_estimate':key,'key_estimate_is_harmonic_proof':False,'note_count':len(selected),'pitch_range':[min(e['pitch'] for e in selected),max(e['pitch'] for e in selected)] if selected else None,'events':[{'id':e['id'],'pitch':e['pitch'],'onset':round(e['onset']-seg.start,5),'duration':e['duration'],'staff':e['staff'],'voice':e['voice'],'articulations':e.get('articulations',[]),'measure_index':e['measure'],'measure_offset':round(e['original_onset']-index['measures'][e['measure']]['start'],5)} for e in selected],'measures':measures,'staffs':[s for s in index['staffs'] if s['id'] in {e['staff'] for e in selected}],'verticalities':verticals[:1000],'voice_lines':lines,'marks':[m for m in index.get('marks',[]) if seg.start_measure<=m['measure']<=seg.end_measure and (not m['staff'] or any(s in m['staff'].split() for s in {e['staff'] for e in selected}))]}
 
 def similar(index,seg):
     seg=validate_segment(seg,index)

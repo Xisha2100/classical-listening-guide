@@ -1,0 +1,53 @@
+{
+  "notes": {
+    "sol-1-horn": "f14a7b76e6cef11e40a7739fa85df967cdb88f4f76dd3482a12ec168719c0a6b",
+    "sol-1-opening-song": "8d7370bfc3402e82473213c89d90ea5364929e3e17df3993d95c4ba4c78956fc",
+    "sol-1-opening-piano": "b790bef02373ff9278af50aaec34f6d7008ecf436036e9b88cc71f6d41cba1bb",
+    "sol-1-primary": "1bc3da89c1aac5ce70140f029eb9091ad40e0b8b277d51c7b1c792c166b4a5a8",
+    "sol-1-primary-orch": "a9b29c72814a591df335f99cc61de26cd08c63e06e6ebb8c91520fdb8866ee26",
+    "sol-1-primary-octaves": "b6a1579696037a69e757517694d44136430aee201169b7ed504eb707e4d1a943",
+    "sol-1-secondary-one": "c792ed31de56bdffc16639b8d5392e22baaa70fcb8a89ab3d979b905a34b632c",
+    "sol-1-secondary-two": "7f4c69879f3801078be3658c80da57d8bb8c1e3df2ccfde93eb3b920bca08ded",
+    "sol-1-secondary-reprise": "84a2b9ac5d4244323b37f840de64f8b8e266752033b0eed374774776e45b5d61",
+    "sol-1-development": "65ebcf9424c489255773a535934486f525168997a55ba4e8f50d40f92a650dc4",
+    "sol-1-recap-primary": "45efcb9ea56d82d3e7dfad46e33a42910477e614f1fdf9f91fe55ef480c998b7",
+    "sol-1-recap-secondary": "205e277bdbfde735faa4c65b08e0fa56631236693165e59245cf55de20e67b8f",
+    "sol-1-cadenza": "bdf228723e14aacc6fc69dff792fd0f8f17938bbfec3ef8ef49eeb1c0cd05eee",
+    "sol-1-coda": "0a133e1ee396013a128300ba9bd23b6f72560040e39af1ca52460574e54116db",
+    "sol-2-flute": "1624d3a22966c04f3af6c566b8576d14cd9d1959d24e4eead74ae00c9a4b29b3",
+    "sol-2-colored-episodes": "ba4fe64e79507b17254e91cb52b380bd0976b9806610dbd0f4a03cd5916d0f18",
+    "sol-2-cello-oboe": "ec69569787e9388fa3343b27e4bb3d26df337784ae9602d76b7eca2f6523fa83",
+    "sol-2-middle-a": "acf7735f5bc43c62ede1f589bd09f14eb98c8b7b981bd1c750cf5d6868f06db6",
+    "sol-2-middle-song": "03342748fb1e7e0eab3b3bc199b757ce7ca229520e1bac89951e66bed1108454",
+    "sol-2-return": "7ab5297971d09744dbefc52f268bc864b366f509cf691aa29b782c4240e4a33b",
+    "sol-3-a1": "cf8c0bd9d30698eb8b6b8a3eb0fcb71002935dc09ae5b9329728021a9194ad4c",
+    "sol-3-b1": "ff12076c8ac27a07b11f7022b35517238fd8a793948b35bc265d6d41f98d1be2",
+    "sol-3-a2": "0c70b216b977a26b467ff5da4ea5f92ec86747b10014ec06c96c0d3df0967a61",
+    "sol-3-c": "50fc9fe79878b769cce57f04b20e7aedb3f3699e394c663a8ea8243e8a2296b6",
+    "sol-3-b2": "3630e65b5e14118818146e11343673273dec67bf955d60628c2f0a811c13cd92",
+    "sol-3-a4": "854fadb65e989d7507090ee4994de8ea512fde4e0d9c6fcebdf268aae088843d",
+    "sol-3-final-transition": "f889afbc9ab9cf352b5d1f89ef9d58e3ed443c1d602fb03ab942012cae98df73",
+    "sol-3-apotheosis": "1fb3c1f75826d8282596834ba04ca6e9bcad77c03306001ddabede9bef420d0f"
+  },
+  "guides": {
+    "tchaikovsky-op23-1": "cd57c00b1605d10c43e1ce10cd5fa2b8e7cf2a39769f28ef03a05107eff99e9e",
+    "tchaikovsky-op23-2": "6ba7405cdc2d5671e9d32225d182fef0a6730cb2984ea9435793823981095143",
+    "tchaikovsky-op23-3": "2e0d097ece3c48a0e352093596f81eafcf93ae4a54df387d3933040c39623554"
+  },
+  "archived": [
+    "seed-v2-tcha-1-00",
+    "seed-v2-tcha-1-01",
+    "seed-v2-tcha-1-02",
+    "seed-v2-tcha-1-03",
+    "seed-v2-tcha-1-04",
+    "seed-v2-tcha-1-05",
+    "seed-v2-tcha-1-06",
+    "seed-v2-tcha-1-07",
+    "seed-v2-tcha-1-08",
+    "seed-v2-tcha-1-09",
+    "seed-v2-tcha-1-10",
+    "seed-v2-tcha-2-00",
+    "seed-v2-tcha-3-00"
+  ],
+  "analysis_sha256": "04dea97ef3f1bdfddb9cb770d56ba31246a2e749ad038f7282cd9c1c3371c9bb"
+}

@@ -1,0 +1,2945 @@
+{
+  "schema_version": "1.0",
+  "analysis_model": "gpt-6-sol",
+  "review_status": "unreviewed",
+  "listening_status": "pending",
+  "score_versions": {
+    "tchaikovsky-op23-1": "308ba2c44a982ae0",
+    "tchaikovsky-op23-2": "75d22d0412a765e3",
+    "tchaikovsky-op23-3": "3b6744272ac1857f"
+  },
+  "sources": [
+    {
+      "id": "tcha-op23-local-score",
+      "kind": "score",
+      "title": "PDMX v9 归档的 jeronjoseph 数字管弦总谱：柴可夫斯基第一钢琴协奏曲 Op.23（本地保留的完整 MusicXML）",
+      "author": "jeronjoseph；PDMX 数字转换",
+      "url": "https://zenodo.org/records/15571083",
+      "pages": "movement-1/2/3.mxl；各 movement-*-measure-map.json",
+      "excerpt": "",
+      "summary": "本轮边界、配器及印刷小节与内部 ordinal 对应的直接谱面证据。",
+      "extracted": true
+    },
+    {
+      "id": "gauldin-2004",
+      "kind": "web",
+      "title": "Tragic Love and Musical Memory",
+      "author": "Robert Gauldin",
+      "url": "https://www.mtosmt.org/classic/mto.04.10.4/mto.04.10.4.gauldin.html",
+      "pages": "§§17–21；Example 5a–l",
+      "excerpt": "",
+      "summary": "支持主题身份与大结构；其自传性解释属作者假说，本文件不把它当既定事实。",
+      "extracted": true
+    },
+    {
+      "id": "gauldin-ex5",
+      "kind": "web",
+      "title": "Gauldin, Example 5: Unusual features of Tchaikovsky’s B-flat minor Piano Concerto",
+      "author": "Robert Gauldin",
+      "url": "https://mtosmt.org/issues/mto.04.10.4/gauldin_examples.pdf",
+      "pages": "Example 5a–l，PDF pp. 1–2",
+      "excerpt": "",
+      "summary": "用作主题类型和结构交叉核对，不提供本地谱的精确小节映射。",
+      "extracted": true
+    },
+    {
+      "id": "tonic-chord-2018",
+      "kind": "web",
+      "title": "Tchaikovsky: Piano Concerto No.1 Analysis",
+      "author": "Tonic Chord",
+      "url": "https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/",
+      "pages": "First Movement, Second Movement, Third Movement 各节；网页行 59–177",
+      "excerpt": "",
+      "summary": "第二、三乐章区段与本地谱对照；第一乐章只用作功能候选并以本地谱核界。",
+      "extracted": true
+    },
+    {
+      "id": "ptna-wada",
+      "kind": "web",
+      "title": "Concerto for piano and orchestra No. 1 b-moll Op.23",
+      "author": "Mayuko Wada（英译网页）",
+      "url": "https://enc.piano.or.jp/en/musics/92",
+      "pages": "Commentary：First/Second/Third Movement",
+      "excerpt": "",
+      "summary": "大结构和主题角色辅助；网页声明英译未经原作者审校。",
+      "extracted": true
+    },
+    {
+      "id": "tchaikovsky-research",
+      "kind": "web",
+      "title": "Piano Concerto No. 1",
+      "author": "Tchaikovsky Research",
+      "url": "https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1",
+      "pages": "Composition；Versions；Musical features",
+      "excerpt": "",
+      "summary": "版本差异背景。",
+      "extracted": true
+    },
+    {
+      "id": "crescendo-2016",
+      "kind": "web",
+      "title": "Les Concertos du Concours : le 1er Tchaikovski – Guide d’écoute",
+      "author": "Bernadette Beyne et Quentin Mourier",
+      "url": "https://www.crescendo-magazine.be/conc-tchaiko_quentin_corr/",
+      "pages": "I §§Introduction, Allegro, Développement, Réexposition；II §§A–B–A；III §§Rondo–Coda",
+      "excerpt": "",
+      "summary": "附录音与谱例的逐段导听，明确第1乐章第2主题为单簧管/钢琴、第3主题为弱音弦乐；第二乐章中段歌曲归弦乐；终乐章第101段为过渡。与本地谱小节号仍有若干处偏移。",
+      "extracted": true
+    }
+  ],
+  "guides": [
+    {
+      "work_id": "tchaikovsky-op23-1",
+      "overview": "第一乐章依本谱第109小节快板、第293小节展开速度转换、第448小节再现节奏、第538小节华彩记号和第612小节 Tempo I 建立层级。呈示部第二主题在单簧管/钢琴，第三主题在弱音弦乐；外部版本的精确小节号不能直接移植。",
+      "sections": [
+        {
+          "id": "m1-intro",
+          "parent_id": "",
+          "title": "宽广引子",
+          "measures": [
+            1,
+            108
+          ],
+          "ordinal_measures": [
+            1,
+            109
+          ],
+          "description": "圆号召唤与降D大调宽广旋律；第109小节新速度与新节拍进入快板。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "crescendo-2016"
+          ]
+        },
+        {
+          "id": "m1-fanfare",
+          "parent_id": "m1-intro",
+          "title": "圆号召唤",
+          "measures": [
+            1,
+            6
+          ],
+          "ordinal_measures": [
+            1,
+            6
+          ],
+          "description": "前三个下行音是动机；第7小节弦乐旋律才完整展开。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m1-intro-song",
+          "parent_id": "m1-intro",
+          "title": "引子歌唱主题及变化",
+          "measures": [
+            7,
+            39
+          ],
+          "ordinal_measures": [
+            7,
+            39
+          ],
+          "description": "弦乐第7小节弱起完整八小节句，第16小节开始第二轮；钢琴第24小节起再陈述。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "crescendo-2016"
+          ]
+        },
+        {
+          "id": "m1-intro-bridge",
+          "parent_id": "m1-intro",
+          "title": "引子过渡与回返",
+          "measures": [
+            40,
+            108
+          ],
+          "ordinal_measures": [
+            40,
+            109
+          ],
+          "description": "圆号材料、第48附近钢琴独奏式段落、第60附近弦乐回返；末尾过渡到快板。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m1-exp",
+          "parent_id": "",
+          "title": "呈示部",
+          "measures": [
+            109,
+            292
+          ],
+          "ordinal_measures": [
+            110,
+            293
+          ],
+          "description": "第109小节4/4快板入口；单簧管第185小节进入第二主题，弱音弦乐第205小节进入第三主题；第293小节 Poco più sostenuto 开始展开。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "crescendo-2016"
+          ]
+        },
+        {
+          "id": "m1-primary",
+          "parent_id": "m1-exp",
+          "title": "主部：民歌型主题",
+          "measures": [
+            109,
+            184
+          ],
+          "ordinal_measures": [
+            110,
+            185
+          ],
+          "description": "钢琴民歌型主部与乐队、八度变形；第185小节单簧管副题进入。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "crescendo-2016"
+          ]
+        },
+        {
+          "id": "m1-secondary",
+          "parent_id": "m1-exp",
+          "title": "副题组：两项抒情思想",
+          "measures": [
+            185,
+            240
+          ],
+          "ordinal_measures": [
+            186,
+            241
+          ],
+          "description": "单簧管/钢琴第二主题与弱音弦乐第三主题，继有第二主题的扩展。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "crescendo-2016"
+          ]
+        },
+        {
+          "id": "m1-closing",
+          "parent_id": "m1-exp",
+          "title": "过渡与结束区",
+          "measures": [
+            241,
+            292
+          ],
+          "ordinal_measures": [
+            242,
+            293
+          ],
+          "description": "第三主题随后回返；第293小节新速度、弱音弦乐主题加强宣告展开。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "crescendo-2016"
+          ]
+        },
+        {
+          "id": "m1-dev",
+          "parent_id": "",
+          "title": "展开部",
+          "measures": [
+            293,
+            447
+          ],
+          "ordinal_measures": [
+            294,
+            448
+          ],
+          "description": "第293小节 Poco più sostenuto 及弦乐主题新陈述是可靠入口；第448小节钢琴密集音型中主部材料回归。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "crescendo-2016"
+          ]
+        },
+        {
+          "id": "m1-recap",
+          "parent_id": "",
+          "title": "再现部",
+          "measures": [
+            448,
+            537
+          ],
+          "ordinal_measures": [
+            449,
+            538
+          ],
+          "description": "第448小节钢琴十六分音符织体藏有主部材料；第472小节双簧管副题完整起句，第480小节长笛与小提琴接手，第493小节钢琴重述；第538小节华彩。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "crescendo-2016"
+          ]
+        },
+        {
+          "id": "m1-cadenza",
+          "parent_id": "",
+          "title": "钢琴华彩",
+          "measures": [
+            538,
+            611
+          ],
+          "ordinal_measures": [
+            539,
+            614
+          ],
+          "description": "独奏钢琴主导；第603小节 Quasi Adagio，第608–611有拆分小节和渐变速度。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m1-coda",
+          "parent_id": "",
+          "title": "尾声",
+          "measures": [
+            612,
+            666
+          ],
+          "ordinal_measures": [
+            615,
+            669
+          ],
+          "description": "第612小节 Tempo I，第613小节起乐队再加入；终止至印刷666。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "tchaikovsky-op23-2",
+      "overview": "第二乐章为慢—快—慢三段体；快速中段内部又有材料回返。谱面第59与146小节速度转换支撑两道大边界。",
+      "sections": [
+        {
+          "id": "m2-a",
+          "parent_id": "",
+          "title": "A：Andantino semplice",
+          "measures": [
+            1,
+            58
+          ],
+          "ordinal_measures": [
+            1,
+            58
+          ],
+          "description": "第5小节长笛主旋律、钢琴应答及若干调性变化；第42小节慢速主题回返。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m2-a-opening",
+          "parent_id": "m2-a",
+          "title": "开头主题与接续",
+          "measures": [
+            1,
+            41
+          ],
+          "ordinal_measures": [
+            1,
+            41
+          ],
+          "description": "4小节前奏后，长笛、钢琴及木管交替呈示旋律。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m2-a-return",
+          "parent_id": "m2-a",
+          "title": "慢速主题回返",
+          "measures": [
+            42,
+            58
+          ],
+          "ordinal_measures": [
+            42,
+            58
+          ],
+          "description": "大提琴第42–49小节、双簧管第50–57小节唱回主题；第58小节钢琴衔接快段。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m2-b",
+          "parent_id": "",
+          "title": "B：快速对比中段",
+          "measures": [
+            59,
+            145
+          ],
+          "ordinal_measures": [
+            59,
+            145
+          ],
+          "description": "第59小节转快；Gauldin 指出法国歌曲材料，Tonic Chord 分小型 a–b–a。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m2-b-a",
+          "parent_id": "m2-b",
+          "title": "中段 a：开端材料",
+          "measures": [
+            59,
+            79
+          ],
+          "ordinal_measures": [
+            59,
+            79
+          ],
+          "description": "第59小节起节奏和织体明显变化。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m2-b-b",
+          "parent_id": "m2-b",
+          "title": "中段 b：歌曲旋律",
+          "measures": [
+            80,
+            113
+          ],
+          "ordinal_measures": [
+            80,
+            113
+          ],
+          "description": "法国歌曲材料在弦乐中出现；钢琴装饰，句界仍需人工听审。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "gauldin-2004"
+          ]
+        },
+        {
+          "id": "m2-b-ar",
+          "parent_id": "m2-b",
+          "title": "中段 a 回返及准华彩",
+          "measures": [
+            114,
+            145
+          ],
+          "ordinal_measures": [
+            114,
+            145
+          ],
+          "description": "较前段材料回归，第135–145小节为钢琴独奏性收束。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m2-ap",
+          "parent_id": "",
+          "title": "A′：慢速回归与尾声",
+          "measures": [
+            146,
+            170
+          ],
+          "ordinal_measures": [
+            146,
+            170
+          ],
+          "description": "第146小节 Tempo I 回归，154–170小节收束。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "tchaikovsky-op23-3",
+      "overview": "终乐章反复回来的 A 舞蹈主题与 B 抒情插段是可靠的两个主题家族；第101–113小节按过渡处理。整体可描述为回旋/近回旋结构，外部资料对中段是否另列C有分歧。",
+      "sections": [
+        {
+          "id": "m3-intro",
+          "parent_id": "",
+          "title": "乐队引入",
+          "measures": [
+            1,
+            4
+          ],
+          "ordinal_measures": [
+            1,
+            4
+          ],
+          "description": "第5小节钢琴开始回旋主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-a1",
+          "parent_id": "",
+          "title": "A：回旋主部首次陈述",
+          "measures": [
+            5,
+            44
+          ],
+          "ordinal_measures": [
+            5,
+            44
+          ],
+          "description": "钢琴舞蹈主题及调性变化。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-bridge1",
+          "parent_id": "",
+          "title": "乐队过渡",
+          "measures": [
+            45,
+            55
+          ],
+          "ordinal_measures": [
+            45,
+            55
+          ],
+          "description": "第45与49小节有速度标记，带往抒情插段。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-b1",
+          "parent_id": "",
+          "title": "B：抒情插段",
+          "measures": [
+            56,
+            79
+          ],
+          "ordinal_measures": [
+            56,
+            79
+          ],
+          "description": "与 A 的舞蹈节奏对比；Gauldin 视此为全乐章唯一抒情旋律家族。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-bridge2",
+          "parent_id": "",
+          "title": "回返准备",
+          "measures": [
+            80,
+            88
+          ],
+          "ordinal_measures": [
+            80,
+            88
+          ],
+          "description": "第89小节 A 回归。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-a2",
+          "parent_id": "",
+          "title": "A：首次回返",
+          "measures": [
+            89,
+            100
+          ],
+          "ordinal_measures": [
+            89,
+            100
+          ],
+          "description": "回旋主题在钢琴上重现。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-c",
+          "parent_id": "",
+          "title": "过渡：A主题碎片",
+          "measures": [
+            101,
+            113
+          ],
+          "ordinal_measures": [
+            101,
+            113
+          ],
+          "description": "第101小节慢下并发展A主题碎片；Crescendo称过渡，Tonic Chord称C，主题身份保留分歧。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ]
+        },
+        {
+          "id": "m3-a3",
+          "parent_id": "",
+          "title": "A：短回返",
+          "measures": [
+            114,
+            121
+          ],
+          "ordinal_measures": [
+            114,
+            121
+          ],
+          "description": "第114小节快速度回归，主题以变化调性出现。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-bridge3",
+          "parent_id": "",
+          "title": "过渡",
+          "measures": [
+            122,
+            132
+          ],
+          "ordinal_measures": [
+            122,
+            132
+          ],
+          "description": "第122与126小节有速度标记，准备 B 回返。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-b2",
+          "parent_id": "",
+          "title": "B：抒情插段回返",
+          "measures": [
+            133,
+            149
+          ],
+          "ordinal_measures": [
+            133,
+            149
+          ],
+          "description": "第133小节主题重来，调性与配器变化。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-bridge4",
+          "parent_id": "",
+          "title": "回返准备",
+          "measures": [
+            150,
+            158
+          ],
+          "ordinal_measures": [
+            150,
+            158
+          ],
+          "description": "第159小节 A 再来。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-a4",
+          "parent_id": "",
+          "title": "A：末次较完整回返",
+          "measures": [
+            159,
+            182
+          ],
+          "ordinal_measures": [
+            159,
+            182
+          ],
+          "description": "舞蹈主题最后一轮较完整呈示。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-development",
+          "parent_id": "",
+          "title": "展开性过渡与合流",
+          "measures": [
+            183,
+            242
+          ],
+          "ordinal_measures": [
+            183,
+            242
+          ],
+          "description": "音阶琶音与先前材料交替，逐步推至独奏华彩。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-cadenza",
+          "parent_id": "",
+          "title": "短华彩",
+          "measures": [
+            243,
+            251
+          ],
+          "ordinal_measures": [
+            243,
+            251
+          ],
+          "description": "第243小节钢琴密集独奏，第252小节转入终结段。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        },
+        {
+          "id": "m3-coda",
+          "parent_id": "",
+          "title": "大调尾声与抒情主题升华",
+          "measures": [
+            252,
+            301
+          ],
+          "ordinal_measures": [
+            252,
+            301
+          ],
+          "description": "第252小节开始降B大调尾声；Gauldin称抒情插段升华。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "sol-1-horn",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "圆号三音召唤",
+      "body": "圆号 F—降D—C 三音先于宽广弦乐主题出现，是短动机而不是完整主题。 第1小节的三音从小节中部开始，不能把整个小节当成完整旋律。第7小节弦乐大主题进入，听觉上由短促召唤转为宽广歌唱。",
+      "dimensions": [
+        "动机",
+        "配器"
+      ],
+      "scope": "segment",
+      "section_id": "m1-fanfare",
+      "listen_for": "圆号 F—降D—C 三音先于宽广弦乐主题出现，是短动机而不是完整主题。 第1小节的三音从小节中部开始，不能把整个小节当成完整旋律。第7小节弦乐大主题进入，听觉上由短促召唤转为宽广歌唱。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "圆号动机",
+          "role": "evidence",
+          "measures": [
+            1,
+            3
+          ],
+          "ordinal_measures": [
+            1,
+            3
+          ],
+          "staffs": [
+            6
+          ],
+          "boundary_note": "第1小节内部第1.5个四分音符起三音；仅动机证据，不标为完整主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported",
+          "start_offset": 1.5
+        }
+      ],
+      "claims": [
+        {
+          "statement": "圆号 F—降D—C 三音先于宽广弦乐主题出现，是短动机而不是完整主题。 第1小节的三音从小节中部开始，不能把整个小节当成完整旋律。第7小节弦乐大主题进入，听觉上由短促召唤转为宽广歌唱。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-opening-song",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "引子弦乐宽广旋律",
+      "body": "第7小节弦乐在第一拍之后进入宽广旋律，第一小提琴与大提琴作八度重叠。首轮从第7小节的弱起延续到第16小节开头，第16小节后半已转入下一轮，整小节播放会切到新句。听旋律由短促上行进入较长歌唱音，再比较第16小节重新起句。此处只把首轮记为完整主题，不把第7–16小节全部时值都归于它。",
+      "dimensions": [
+        "主题",
+        "配器"
+      ],
+      "scope": "segment",
+      "section_id": "m1-intro-song",
+      "listen_for": "第7小节弦乐在第一拍之后进入宽广旋律，第一小提琴与大提琴作八度重叠。首轮从第7小节的弱起延续到第16小节开头，第16小节后半已转入下一轮，整小节播放会切到新句。听旋律由短促上行进入较长歌唱音，再比较第16小节重新起句。此处只把首轮记为完整主题，不把第7–16小节全部时值都归于它。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "gauldin-2004",
+        "crescendo-2016"
+      ],
+      "segments": [
+        {
+          "label": "引子主旋律首次完整陈述",
+          "role": "theme",
+          "measures": [
+            7,
+            16
+          ],
+          "ordinal_measures": [
+            7,
+            16
+          ],
+          "staffs": [
+            14,
+            17
+          ],
+          "boundary_note": "首轮旋律于印刷第7小节四分音符偏移1.5弱起；第16小节起始降D4为收束音，0.5为排他结束点；该小节偏移1.0处F5新句已起。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported",
+          "start_offset": 1.5,
+          "end_offset": 0.5
+        },
+        {
+          "label": "弦乐八度叠置",
+          "role": "evidence",
+          "measures": [
+            7,
+            9
+          ],
+          "ordinal_measures": [
+            7,
+            9
+          ],
+          "staffs": [
+            14,
+            17
+          ],
+          "boundary_note": "只示起句的八度配器。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "supported",
+          "start_offset": 1.5
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第7小节弦乐在第一拍之后进入宽广旋律，第一小提琴与大提琴作八度重叠。首轮从第7小节的弱起延续到第16小节开头，第16小节后半已转入下一轮，整小节播放会切到新句。听旋律由短促上行进入较长歌唱音，再比较第16小节重新起句。此处只把首轮记为完整主题，不把第7–16小节全部时值都归于它。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004",
+            "crescendo-2016"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-opening-piano",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "钢琴装饰引子主题",
+      "body": "钢琴第24–32小节把引子的弦乐歌唱旋律移到独奏声部，改成装饰化陈述。 第24小节钢琴接管旋律，第33小节开始把主题分解为较短的扩张材料，因此32是这一轮重述的右边界。试听时先用弦乐第7–16小节建立原形，再比较钢琴的音型密度。",
+      "dimensions": [
+        "主题",
+        "变奏"
+      ],
+      "scope": "segment",
+      "section_id": "m1-intro-song",
+      "listen_for": "钢琴第24–32小节把引子的弦乐歌唱旋律移到独奏声部，改成装饰化陈述。 第24小节钢琴接管旋律，第33小节开始把主题分解为较短的扩张材料，因此32是这一轮重述的右边界。试听时先用弦乐第7–16小节建立原形，再比较钢琴的音型密度。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "钢琴装饰重述",
+          "role": "phrase",
+          "measures": [
+            24,
+            32
+          ],
+          "ordinal_measures": [
+            24,
+            32
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第24小节钢琴在弦乐拨奏背景上取得旋律；第33小节转为主题片段扩大。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "钢琴第24–32小节把引子的弦乐歌唱旋律移到独奏声部，改成装饰化陈述。 第24小节钢琴接管旋律，第33小节开始把主题分解为较短的扩张材料，因此32是这一轮重述的右边界。试听时先用弦乐第7–16小节建立原形，再比较钢琴的音型密度。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-primary",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "快板主部：民歌型钢琴主题",
+      "body": "本谱第109小节 4/4、Allegro con spirito 及钢琴主部动机同时出现，音程序列在第109小节以 E–F–降G–F 开头。它与引子宽广歌唱形成急速节奏对比，第130小节才进入连接。第109–129小节可听一轮主部陈述；第134小节附近材料交由木管、弦乐继续。",
+      "dimensions": [
+        "主题",
+        "节奏／节拍"
+      ],
+      "scope": "segment",
+      "section_id": "m1-primary",
+      "listen_for": "本谱第109小节 4/4、Allegro con spirito 及钢琴主部动机同时出现，音程序列在第109小节以 E–F–降G–F 开头。它与引子宽广歌唱形成急速节奏对比，第130小节才进入连接。第109–129小节可听一轮主部陈述；第134小节附近材料交由木管、弦乐继续。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "gauldin-2004",
+        "crescendo-2016",
+        "gauldin-ex5"
+      ],
+      "segments": [
+        {
+          "label": "主部第一轮",
+          "role": "theme",
+          "measures": [
+            109,
+            129
+          ],
+          "ordinal_measures": [
+            110,
+            130
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第109小节4/4快板及钢琴入口为明确起点；第130小节开始连接，故止于129。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-ex5"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "主部起始节奏",
+          "role": "evidence",
+          "measures": [
+            109,
+            113
+          ],
+          "ordinal_measures": [
+            110,
+            114
+          ],
+          "staffs": [
+            12
+          ],
+          "boundary_note": "起始五小节示节奏型；不是独立完整主题。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "本谱第109小节 4/4、Allegro con spirito 及钢琴主部动机同时出现，音程序列在第109小节以 E–F–降G–F 开头。它与引子宽广歌唱形成急速节奏对比，第130小节才进入连接。第109–129小节可听一轮主部陈述；第134小节附近材料交由木管、弦乐继续。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004",
+            "crescendo-2016",
+            "gauldin-ex5"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-primary-orch",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "主部在乐队中的接续",
+      "body": "钢琴的民歌型主部并未原样停在独奏声部：第135小节长笛以 F–G–降A–G 接续，第136小节单簧管进入，稍后低弦也携带同一节奏。钢琴在这段主要铺陈分解和弦。第135–159小节作为完整接续范围仍是候选，需逐句确定木管和弦乐交接末点。",
+      "dimensions": [
+        "主题",
+        "配器"
+      ],
+      "scope": "segment",
+      "section_id": "m1-primary",
+      "listen_for": "钢琴的民歌型主部并未原样停在独奏声部：第135小节长笛以 F–G–降A–G 接续，第136小节单簧管进入，稍后低弦也携带同一节奏。钢琴在这段主要铺陈分解和弦。第135–159小节作为完整接续范围仍是候选，需逐句确定木管和弦乐交接末点。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016"
+      ],
+      "segments": [
+        {
+          "label": "主部木管与弦乐接续",
+          "role": "phrase",
+          "measures": [
+            135,
+            159
+          ],
+          "ordinal_measures": [
+            136,
+            160
+          ],
+          "staffs": [
+            1,
+            4,
+            17
+          ],
+          "boundary_note": "候选边界。第135小节长笛以F–G–降A–G起句，第136小节单簧管接手；第134小节钢琴仅有连接性低音，故起点改135。第160小节另起连接。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "candidate"
+        },
+        {
+          "label": "第134小节钢琴分解和弦",
+          "role": "evidence",
+          "measures": [
+            134,
+            136
+          ],
+          "ordinal_measures": [
+            135,
+            137
+          ],
+          "staffs": [
+            13
+          ],
+          "boundary_note": "局部织体证据。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "钢琴的民歌型主部并未原样停在独奏声部：第135小节长笛以 F–G–降A–G 接续，第136小节单簧管进入，稍后低弦也携带同一节奏。钢琴在这段主要铺陈分解和弦。第135–159小节作为完整接续范围仍是候选，需逐句确定木管和弦乐交接末点。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-primary-octaves",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "钢琴八度主部变形",
+      "body": "第168–183小节钢琴以八度及快速音型改写主部，临近副题前速度有短暂拉伸。 第168小节钢琴出现多音区八度奔跑，第184附近音型收紧并转向较慢副题。这里所谓完整，是这一轮八度变形的区段，并非另起一个新旋律主题。",
+      "dimensions": [
+        "变奏",
+        "织体／复调"
+      ],
+      "scope": "segment",
+      "section_id": "m1-primary",
+      "listen_for": "第168–183小节钢琴以八度及快速音型改写主部，临近副题前速度有短暂拉伸。 第168小节钢琴出现多音区八度奔跑，第184附近音型收紧并转向较慢副题。这里所谓完整，是这一轮八度变形的区段，并非另起一个新旋律主题。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "八度变形完整段",
+          "role": "phrase",
+          "measures": [
+            168,
+            183
+          ],
+          "ordinal_measures": [
+            169,
+            184
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "Tonic Chord 给168–183；本谱第184–185附近速度标记转向副题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "八度上冲",
+          "role": "evidence",
+          "measures": [
+            168,
+            171
+          ],
+          "ordinal_measures": [
+            169,
+            172
+          ],
+          "staffs": [
+            12
+          ],
+          "boundary_note": "选取起始四小节展示音区处理。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第168–183小节钢琴以八度及快速音型改写主部，临近副题前速度有短暂拉伸。 第168小节钢琴出现多音区八度奔跑，第184附近音型收紧并转向较慢副题。这里所谓完整，是这一轮八度变形的区段，并非另起一个新旋律主题。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-secondary-one",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "第二主题：单簧管与钢琴应答",
+      "body": "第185小节 Poco meno mosso 时，降B调单簧管按实音以降D–A–降B唱出新旋律；第192小节结束后它休止，钢琴第193小节复述同型起句。钢琴在第204小节的下降音导向第205小节起始和弦，随后第一小提琴于该小节偏移1.0处开启另一主题。两段完整范围由换奏、休止、连线终点及新声部入口共同支持；单簧管185–192为首轮，钢琴193–205只取新弦乐入口前的时值。",
+      "dimensions": [
+        "主题",
+        "曲式"
+      ],
+      "scope": "segment",
+      "section_id": "m1-secondary",
+      "listen_for": "第185小节 Poco meno mosso 时，降B调单簧管按实音以降D–A–降B唱出新旋律；第192小节结束后它休止，钢琴第193小节复述同型起句。钢琴在第204小节的下降音导向第205小节起始和弦，随后第一小提琴于该小节偏移1.0处开启另一主题。两段完整范围由换奏、休止、连线终点及新声部入口共同支持；单簧管185–192为首轮，钢琴193–205只取新弦乐入口前的时值。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "第二主题单簧管首轮",
+          "role": "theme",
+          "measures": [
+            185,
+            192
+          ],
+          "ordinal_measures": [
+            186,
+            193
+          ],
+          "staffs": [
+            4
+          ],
+          "boundary_note": "单簧管记谱第185小节降E5–B4–C5（降B调实音降D5–A4–降B4）起，第192小节C5收住，193小节单簧管整小节休止而钢琴同型复述；因此185–192是完整首轮。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "钢琴第二主题应答",
+          "role": "phrase",
+          "measures": [
+            193,
+            205
+          ],
+          "ordinal_measures": [
+            194,
+            206
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第193小节钢琴实音降D5–A4–降B4复述。第204小节末D4导向第205小节起始C大调和弦（钢琴高、低谱表）；第205小节偏移1.0处弱音小提琴新主题入句，故排他终点为1.0。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported",
+          "end_offset": 1.0
+        },
+        {
+          "label": "单簧管起句",
+          "role": "evidence",
+          "measures": [
+            185,
+            187
+          ],
+          "ordinal_measures": [
+            186,
+            188
+          ],
+          "staffs": [
+            4
+          ],
+          "boundary_note": "起句降D5、A4、降B4和下一小节延长音，局部身份识别证据。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第185小节 Poco meno mosso 时，降B调单簧管按实音以降D–A–降B唱出新旋律；第192小节结束后它休止，钢琴第193小节复述同型起句。钢琴在第204小节的下降音导向第205小节起始和弦，随后第一小提琴于该小节偏移1.0处开启另一主题。两段完整范围由换奏、休止、连线终点及新声部入口共同支持；单簧管185–192为首轮，钢琴193–205只取新弦乐入口前的时值。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-secondary-two",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "第三主题：弱音弦乐",
+      "body": "第205小节 a tempo tranquillo 后，弱音第一小提琴从偏移1.0处以降E4–F4–G4起句；钢琴前一主题的终止和弦已在此前结束。小提琴连线以两小节一组组织歌唱旋律，第212小节末出现休止，第213小节另起扩展。由这个休止和下一次起句，205–212可作为第三主题的完整首轮；第213小节以后归后续扩展。",
+      "dimensions": [
+        "主题",
+        "曲式"
+      ],
+      "scope": "segment",
+      "section_id": "m1-secondary",
+      "listen_for": "第205小节 a tempo tranquillo 后，弱音第一小提琴从偏移1.0处以降E4–F4–G4起句；钢琴前一主题的终止和弦已在此前结束。小提琴连线以两小节一组组织歌唱旋律，第212小节末出现休止，第213小节另起扩展。由这个休止和下一次起句，205–212可作为第三主题的完整首轮；第213小节以后归后续扩展。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "第三主题弱音小提琴首轮",
+          "role": "theme",
+          "measures": [
+            205,
+            212
+          ],
+          "ordinal_measures": [
+            206,
+            213
+          ],
+          "staffs": [
+            14
+          ],
+          "boundary_note": "第205小节小提琴偏移1.0处降E4–F4–G4弱起，连线跨小节形成成对短句；第212小节末有休止，第213小节再起扩展，因此首次完整八小节陈述止于212。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "gauldin-2004"
+          ],
+          "start_offset": 1.0,
+          "certainty": "supported"
+        },
+        {
+          "label": "小提琴新起句",
+          "role": "evidence",
+          "measures": [
+            205,
+            208
+          ],
+          "ordinal_measures": [
+            206,
+            209
+          ],
+          "staffs": [
+            14
+          ],
+          "boundary_note": "205小节偏移1.0起 降E4–F4–G4，206小节续上行，证明主旋律在弦乐。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "start_offset": 1.0,
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第205小节 a tempo tranquillo 后，弱音第一小提琴从偏移1.0处以降E4–F4–G4起句；钢琴前一主题的终止和弦已在此前结束。小提琴连线以两小节一组组织歌唱旋律，第212小节末出现休止，第213小节另起扩展。由这个休止和下一次起句，205–212可作为第三主题的完整首轮；第213小节以后归后续扩展。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-secondary-reprise",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "第一副题的装饰重述",
+      "body": "第219小节起长笛唱回第二主题，钢琴以较密的和弦和琶音装饰它；第227小节附近同一歌唱型转到双簧管，钢琴也与木管同奏关键音并继续装饰。这里主题旋律在木管，不能只播放钢琴伴奏来代表它。第219–240小节有连续扩展和渐强，当前只放两处局部证据，完整乐句终点尚待听审。",
+      "dimensions": [
+        "主题",
+        "变奏"
+      ],
+      "scope": "segment",
+      "section_id": "m1-secondary",
+      "listen_for": "第219小节起长笛唱回第二主题，钢琴以较密的和弦和琶音装饰它；第227小节附近同一歌唱型转到双簧管，钢琴也与木管同奏关键音并继续装饰。这里主题旋律在木管，不能只播放钢琴伴奏来代表它。第219–240小节有连续扩展和渐强，当前只放两处局部证据，完整乐句终点尚待听审。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016"
+      ],
+      "segments": [
+        {
+          "label": "长笛第二主题回返起句",
+          "role": "evidence",
+          "measures": [
+            219,
+            223
+          ],
+          "ordinal_measures": [
+            220,
+            224
+          ],
+          "staffs": [
+            1,
+            12
+          ],
+          "boundary_note": "第219小节长笛旋律、钢琴装饰同在；仅展示首个局部，不冒充完整乐句。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "双簧管接续",
+          "role": "evidence",
+          "measures": [
+            227,
+            231
+          ],
+          "ordinal_measures": [
+            228,
+            232
+          ],
+          "staffs": [
+            3,
+            12
+          ],
+          "boundary_note": "第227小节双簧管进入，钢琴同时参与同型旋律和装饰，不是木管独奏/钢琴全程伴奏；仅为交接证据。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第219小节起长笛唱回第二主题，钢琴以较密的和弦和琶音装饰它；第227小节附近同一歌唱型转到双簧管，钢琴也与木管同奏关键音并继续装饰。这里主题旋律在木管，不能只播放钢琴伴奏来代表它。第219–240小节有连续扩展和渐强，当前只放两处局部证据，完整乐句终点尚待听审。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-development",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "展开部的材料交织",
+      "body": "第293小节 Poco più sostenuto 后，第一小提琴接过第三主题的新一轮呈示，钢琴暂时沉默；这比外部网页给出的第321小节更符合本谱变化。第347小节前后钢琴重新加入，发展成密集八度。第405小节附近先前材料叠加、渐强，直到第448小节主部节奏在钢琴中回归。这里仅选局部证据；整段展开由导听层级表示。",
+      "dimensions": [
+        "曲式",
+        "织体／复调"
+      ],
+      "scope": "segment",
+      "section_id": "m1-dev",
+      "listen_for": "第293小节 Poco più sostenuto 后，第一小提琴接过第三主题的新一轮呈示，钢琴暂时沉默；这比外部网页给出的第321小节更符合本谱变化。第347小节前后钢琴重新加入，发展成密集八度。第405小节附近先前材料叠加、渐强，直到第448小节主部节奏在钢琴中回归。这里仅选局部证据；整段展开由导听层级表示。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016"
+      ],
+      "segments": [
+        {
+          "label": "展开部弦乐入口",
+          "role": "evidence",
+          "measures": [
+            293,
+            301
+          ],
+          "ordinal_measures": [
+            294,
+            302
+          ],
+          "staffs": [
+            14,
+            17
+          ],
+          "boundary_note": "第293小节谱面 Poco più sostenuto，第一小提琴重新呈示第三主题；钢琴静默。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "钢琴重入",
+          "role": "evidence",
+          "measures": [
+            347,
+            354
+          ],
+          "ordinal_measures": [
+            348,
+            355
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第347附近钢琴密集八度进入；局部织体证据。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "展开末端叠加",
+          "role": "evidence",
+          "measures": [
+            405,
+            415
+          ],
+          "ordinal_measures": [
+            406,
+            416
+          ],
+          "staffs": [
+            12,
+            14,
+            17
+          ],
+          "boundary_note": "钢琴与弦乐重叠渐强，延至再现前；不称完整主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第293小节 Poco più sostenuto 后，第一小提琴接过第三主题的新一轮呈示，钢琴暂时沉默；这比外部网页给出的第321小节更符合本谱变化。第347小节前后钢琴重新加入，发展成密集八度。第405小节附近先前材料叠加、渐强，直到第448小节主部节奏在钢琴中回归。这里仅选局部证据；整段展开由导听层级表示。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "segments": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-recap-primary",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "主部在钢琴密集织体中再现",
+      "body": "第448小节钢琴的短促重复与半音音阶把主部节奏压缩进十六分音符织体，听上去不再是呈示部第109小节的清楚旋律。第452小节弦乐和单簧管开始加入和声层；第467小节木管转向第二主题的准备。由于旋律在密集音型中不易逐音辨识，本轮只标局部再现证据，不称它为完整主部主题。",
+      "dimensions": [
+        "曲式",
+        "变奏"
+      ],
+      "scope": "segment",
+      "section_id": "m1-recap",
+      "listen_for": "第448小节钢琴的短促重复与半音音阶把主部节奏压缩进十六分音符织体，听上去不再是呈示部第109小节的清楚旋律。第452小节弦乐和单簧管开始加入和声层；第467小节木管转向第二主题的准备。由于旋律在密集音型中不易逐音辨识，本轮只标局部再现证据，不称它为完整主部主题。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016"
+      ],
+      "segments": [
+        {
+          "label": "钢琴主部节奏再现",
+          "role": "evidence",
+          "measures": [
+            448,
+            458
+          ],
+          "ordinal_measures": [
+            449,
+            459
+          ],
+          "staffs": [
+            12
+          ],
+          "boundary_note": "第448小节起钢琴密集十六分音符；这是节奏再现的局部证据，不能直接称完整主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "木管转向副题",
+          "role": "evidence",
+          "measures": [
+            467,
+            471
+          ],
+          "ordinal_measures": [
+            468,
+            472
+          ],
+          "staffs": [
+            3,
+            4
+          ],
+          "boundary_note": "第467小节双簧管/单簧管短型进入，第472小节双簧管完整起句。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第448小节钢琴的短促重复与半音音阶把主部节奏压缩进十六分音符织体，听上去不再是呈示部第109小节的清楚旋律。第452小节弦乐和单簧管开始加入和声层；第467小节木管转向第二主题的准备。由于旋律在密集音型中不易逐音辨识，本轮只标局部再现证据，不称它为完整主部主题。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-recap-secondary",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "第二主题移调再现",
+      "body": "第472小节双簧管以降E–B–C起句，与第185小节单簧管主题实音降D–A–降B保持同一节奏及整体上移全音。第479小节尾音后双簧管在480休止，长笛和第一小提琴从480同奏该旋律；它们的第492小节起始 D4 是收束音，之后钢琴才重新进入。第493小节钢琴再以降E–B–C接过旋律并加琶音。换奏休止与第492小节内部终止共同确立前两轮，钢琴后续仍只标局部证据。",
+      "dimensions": [
+        "曲式",
+        "主题"
+      ],
+      "scope": "segment",
+      "section_id": "m1-recap",
+      "listen_for": "第472小节双簧管以降E–B–C起句，与第185小节单簧管主题实音降D–A–降B保持同一节奏及整体上移全音。第479小节尾音后双簧管在480休止，长笛和第一小提琴从480同奏该旋律；它们的第492小节起始 D4 是收束音，之后钢琴才重新进入。第493小节钢琴再以降E–B–C接过旋律并加琶音。换奏休止与第492小节内部终止共同确立前两轮，钢琴后续仍只标局部证据。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016"
+      ],
+      "segments": [
+        {
+          "label": "双簧管移调起句",
+          "role": "phrase",
+          "measures": [
+            472,
+            479
+          ],
+          "ordinal_measures": [
+            473,
+            480
+          ],
+          "staffs": [
+            3
+          ],
+          "boundary_note": "第472小节双簧管降E5–B4–C5起，与呈示部单簧管实音整体上移全音；第479小节C5结束，第480小节双簧管休止且长笛/小提琴接手，472–479为完整首轮。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "长笛与小提琴应答",
+          "role": "phrase",
+          "measures": [
+            480,
+            492
+          ],
+          "ordinal_measures": [
+            481,
+            493
+          ],
+          "staffs": [
+            1,
+            14
+          ],
+          "boundary_note": "第480小节长笛与第一小提琴同奏降E5–B4–C5；第491小节连线到E4，第492小节开始D4四分音符是收束音，偏移1.0为排他终点。钢琴在492小节偏移2.33起新连接，493小节正式接句。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported",
+          "end_offset": 1.0
+        },
+        {
+          "label": "钢琴装饰接续",
+          "role": "evidence",
+          "measures": [
+            493,
+            501
+          ],
+          "ordinal_measures": [
+            494,
+            502
+          ],
+          "staffs": [
+            12,
+            4
+          ],
+          "boundary_note": "第493小节钢琴降E5–B4–C5并以琶音装饰；仅取局部身份识别证据。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第472小节双簧管以降E–B–C起句，与第185小节单簧管主题实音降D–A–降B保持同一节奏及整体上移全音。第479小节尾音后双簧管在480休止，长笛和第一小提琴从480同奏该旋律；它们的第492小节起始 D4 是收束音，之后钢琴才重新进入。第493小节钢琴再以降E–B–C接过旋律并加琶音。换奏休止与第492小节内部终止共同确立前两轮，钢琴后续仍只标局部证据。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "segments": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-cadenza",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "大型钢琴华彩",
+      "body": "本地总谱在印刷第538小节明确写 Cadenza，开头仍有乐队和弦，第539小节起长时间主要由钢琴独奏。Gauldin 论证华彩内有多轮抒情主题及发展，但没有提供可以直接搬到本地谱的完整句界。第603小节 Quasi Adagio 和第608–611附近渐变速度说明华彩末段内部仍有结构变化。这里只标三个短证据窗，不把整个华彩误写成一个乐句。",
+      "dimensions": [
+        "曲式",
+        "织体／复调"
+      ],
+      "scope": "segment",
+      "section_id": "m1-cadenza",
+      "listen_for": "本地总谱在印刷第538小节明确写 Cadenza，开头仍有乐队和弦，第539小节起长时间主要由钢琴独奏。Gauldin 论证华彩内有多轮抒情主题及发展，但没有提供可以直接搬到本地谱的完整句界。第603小节 Quasi Adagio 和第608–611附近渐变速度说明华彩末段内部仍有结构变化。这里只标三个短证据窗，不把整个华彩误写成一个乐句。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "gauldin-2004",
+        "crescendo-2016"
+      ],
+      "segments": [
+        {
+          "label": "华彩起始",
+          "role": "evidence",
+          "measures": [
+            538,
+            545
+          ],
+          "ordinal_measures": [
+            539,
+            546
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第538小节谱面明确写 Cadenza；此处局部片段不代表完整华彩。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "Quasi Adagio 转折",
+          "role": "evidence",
+          "measures": [
+            603,
+            607
+          ],
+          "ordinal_measures": [
+            604,
+            608
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第603小节谱面 Quasi Adagio；局部速度转折。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "华彩末端渐变速度",
+          "role": "evidence",
+          "measures": [
+            607,
+            611
+          ],
+          "ordinal_measures": [
+            608,
+            614
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "本谱含X2、X3两个拆分元素，印刷607与608之间；此处需 ordinal 609–614 才能完整播放。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "本地总谱在印刷第538小节明确写 Cadenza，开头仍有乐队和弦，第539小节起长时间主要由钢琴独奏。Gauldin 论证华彩内有多轮抒情主题及发展，但没有提供可以直接搬到本地谱的完整句界。第603小节 Quasi Adagio 和第608–611附近渐变速度说明华彩末段内部仍有结构变化。这里只标三个短证据窗，不把整个华彩误写成一个乐句。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "gauldin-2004",
+            "crescendo-2016"
+          ],
+          "segments": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-1-coda",
+      "work_id": "tchaikovsky-op23-1",
+      "title": "尾声与终止",
+      "body": "第612小节 Tempo I 后，第613小节起乐队重新加入，独奏与合奏继续交换材料。末尾印刷第666小节形成全曲第一乐章的终止；这段总长并不等于一条单一主题。当前两个播放段只是尾声的前后阶段候选，尚未逐句听审，界面应以章节导航呈现。",
+      "dimensions": [
+        "曲式",
+        "调性／调式"
+      ],
+      "scope": "segment",
+      "section_id": "m1-coda",
+      "listen_for": "第612小节 Tempo I 后，第613小节起乐队重新加入，独奏与合奏继续交换材料。末尾印刷第666小节形成全曲第一乐章的终止；这段总长并不等于一条单一主题。当前两个播放段只是尾声的前后阶段候选，尚未逐句听审，界面应以章节导航呈现。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016"
+      ],
+      "segments": [
+        {
+          "label": "尾声开头",
+          "role": "evidence",
+          "measures": [
+            612,
+            640
+          ],
+          "ordinal_measures": [
+            615,
+            643
+          ],
+          "staffs": [
+            12,
+            13,
+            14,
+            17
+          ],
+          "boundary_note": "第612小节 Tempo I；第613小节乐队复入。此为长段落，作为尾声第一导航阶段而非单一主题。 此范围仅作导航候选，内部句界待核。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "candidate"
+        },
+        {
+          "label": "终结性合奏",
+          "role": "evidence",
+          "measures": [
+            641,
+            666
+          ],
+          "ordinal_measures": [
+            644,
+            669
+          ],
+          "staffs": [
+            12,
+            13,
+            14,
+            17
+          ],
+          "boundary_note": "第641附近进入最终合奏句；以乐章终止小节666收尾。内部乐句边界还需听审。 此范围仅作导航候选，内部句界待核。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "candidate"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第612小节 Tempo I 后，第613小节起乐队重新加入，独奏与合奏继续交换材料。末尾印刷第666小节形成全曲第一乐章的终止；这段总长并不等于一条单一主题。当前两个播放段只是尾声的前后阶段候选，尚未逐句听审，界面应以章节导航呈现。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-2-flute",
+      "work_id": "tchaikovsky-op23-2",
+      "title": "长笛主旋律",
+      "body": "第5–12小节长笛唱出开头完整旋律，钢琴第13–20小节接过同一主题。 第5小节起长笛音型 降A–降E–F 清楚地位于拨奏背景前方。钢琴第13小节接同一轮廓并改变音色；第20小节有跨句重叠，故钢琴段终点仍属候选。",
+      "dimensions": [
+        "主题",
+        "配器"
+      ],
+      "scope": "segment",
+      "section_id": "m2-a-opening",
+      "listen_for": "第5–12小节长笛唱出开头完整旋律，钢琴第13–20小节接过同一主题。 第5小节起长笛音型 降A–降E–F 清楚地位于拨奏背景前方。钢琴第13小节接同一轮廓并改变音色；第20小节有跨句重叠，故钢琴段终点仍属候选。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "长笛主题首述",
+          "role": "theme",
+          "measures": [
+            5,
+            12
+          ],
+          "ordinal_measures": [
+            5,
+            12
+          ],
+          "staffs": [
+            1
+          ],
+          "boundary_note": "第5小节长笛进入；第13小节钢琴接句，故止于12。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "钢琴应答",
+          "role": "phrase",
+          "measures": [
+            13,
+            20
+          ],
+          "ordinal_measures": [
+            13,
+            20
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "候选边界。第13小节钢琴旋律接手；第20小节与下一调性段接壤，实际终止在该小节内需人工听审。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "candidate"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第5–12小节长笛唱出开头完整旋律，钢琴第13–20小节接过同一主题。 第5小节起长笛音型 降A–降E–F 清楚地位于拨奏背景前方。钢琴第13小节接同一轮廓并改变音色；第20小节有跨句重叠，故钢琴段终点仍属候选。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-2-colored-episodes",
+      "work_id": "tchaikovsky-op23-2",
+      "title": "A段调性色彩转移",
+      "body": "第20–33小节木管与钢琴带出两个短旋律段，分别转向 F 与 D 大调色彩。 第25小节双簧管以快速上行音型打开新短句，钢琴随后接续。第20小节既是前主题句尾也被下一段借用，所列边界为播放方便的无重叠切法，需人工审听。 所列较长范围仍是候选，等待人工确认终止音与换句点。",
+      "dimensions": [
+        "调性／调式",
+        "配器"
+      ],
+      "scope": "segment",
+      "section_id": "m2-a-opening",
+      "listen_for": "第20–33小节木管与钢琴带出两个短旋律段，分别转向 F 与 D 大调色彩。 第25小节双簧管以快速上行音型打开新短句，钢琴随后接续。第20小节既是前主题句尾也被下一段借用，所列边界为播放方便的无重叠切法，需人工审听。 所列较长范围仍是候选，等待人工确认终止音与换句点。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "F大调短句",
+          "role": "phrase",
+          "measures": [
+            20,
+            24
+          ],
+          "ordinal_measures": [
+            20,
+            24
+          ],
+          "staffs": [
+            12,
+            13,
+            1,
+            3
+          ],
+          "boundary_note": "候选边界。第20小节与前句重叠；第25小节木管新材料出现，末端以24作无重叠播放。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "candidate"
+        },
+        {
+          "label": "D大调短句",
+          "role": "phrase",
+          "measures": [
+            25,
+            32
+          ],
+          "ordinal_measures": [
+            25,
+            32
+          ],
+          "staffs": [
+            3,
+            12,
+            13
+          ],
+          "boundary_note": "第25小节双簧管快速上行起句；第33小节转入前主题碎片。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第20–33小节木管与钢琴带出两个短旋律段，分别转向 F 与 D 大调色彩。 第25小节双簧管以快速上行音型打开新短句，钢琴随后接续。第20小节既是前主题句尾也被下一段借用，所列边界为播放方便的无重叠切法，需人工审听。 所列较长范围仍是候选，等待人工确认终止音与换句点。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-2-cello-oboe",
+      "work_id": "tchaikovsky-op23-2",
+      "title": "大提琴与双簧管的慢段回返",
+      "body": "第42–49小节大提琴唱主题，第50–57小节由双簧管应答，随后第59小节切换快段。 第42小节大提琴在钢琴短促重复和弦上唱回慢段主旋律，第50小节双簧管续唱。第58小节双簧管已停、钢琴衔接；第59小节速度骤升，是慢段的明确右边界。",
+      "dimensions": [
+        "主题",
+        "配器"
+      ],
+      "scope": "segment",
+      "section_id": "m2-a-return",
+      "listen_for": "第42–49小节大提琴唱主题，第50–57小节由双簧管应答，随后第59小节切换快段。 第42小节大提琴在钢琴短促重复和弦上唱回慢段主旋律，第50小节双簧管续唱。第58小节双簧管已停、钢琴衔接；第59小节速度骤升，是慢段的明确右边界。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "大提琴主题回返",
+          "role": "phrase",
+          "measures": [
+            42,
+            49
+          ],
+          "ordinal_measures": [
+            42,
+            49
+          ],
+          "staffs": [
+            17
+          ],
+          "boundary_note": "第42小节大提琴进入；第50小节双簧管接手。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "双簧管应答",
+          "role": "phrase",
+          "measures": [
+            50,
+            57
+          ],
+          "ordinal_measures": [
+            50,
+            57
+          ],
+          "staffs": [
+            3
+          ],
+          "boundary_note": "第50小节双簧管进入并延续至第57小节；第58小节双簧管休止、钢琴接续，第59小节快速中段开始。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第42–49小节大提琴唱主题，第50–57小节由双簧管应答，随后第59小节切换快段。 第42小节大提琴在钢琴短促重复和弦上唱回慢段主旋律，第50小节双簧管续唱。第58小节双簧管已停、钢琴衔接；第59小节速度骤升，是慢段的明确右边界。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-2-middle-a",
+      "work_id": "tchaikovsky-op23-2",
+      "title": "快速中段的开端材料",
+      "body": "第59小节速度明显提高，钢琴的跳跃短句与慢段形成对比。 这一段并非一条从59唱到79小节的单一旋律；它是多个钢琴短句构成的开端群。第80附近歌曲材料进入，所以79只作阶段边界；此卡中的长段是候选乐句群。",
+      "dimensions": [
+        "曲式",
+        "节奏／节拍"
+      ],
+      "scope": "segment",
+      "section_id": "m2-b-a",
+      "listen_for": "第59小节速度明显提高，钢琴的跳跃短句与慢段形成对比。 这一段并非一条从59唱到79小节的单一旋律；它是多个钢琴短句构成的开端群。第80附近歌曲材料进入，所以79只作阶段边界；此卡中的长段是候选乐句群。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "快速中段第一轮",
+          "role": "phrase",
+          "measures": [
+            59,
+            79
+          ],
+          "ordinal_measures": [
+            59,
+            79
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "候选边界。以第59小节速度改变为起点，第80小节出现新主题；本段内部有短句与变形，整体归为阶段性乐句群。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "candidate"
+        },
+        {
+          "label": "速度转换证据",
+          "role": "evidence",
+          "measures": [
+            59,
+            62
+          ],
+          "ordinal_measures": [
+            59,
+            62
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "仅展示新节奏入口。",
+          "source_ids": [
+            "tcha-op23-local-score"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第59小节速度明显提高，钢琴的跳跃短句与慢段形成对比。 这一段并非一条从59唱到79小节的单一旋律；它是多个钢琴短句构成的开端群。第80附近歌曲材料进入，所以79只作阶段边界；此卡中的长段是候选乐句群。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-2-middle-song",
+      "work_id": "tchaikovsky-op23-2",
+      "title": "快速中段的歌曲主题",
+      "body": "第80小节末大提琴弱起开启歌曲旋律，后续由弦乐和木管接力，钢琴保持轻快装饰；这与 Gauldin 和 Crescendo 对法国歌曲材料的描述一致。第98小节乐队换调/变奏继续同一家族的旋律。第80小节末至97小节可作歌曲材料第一大轮的候选播放范围；内部旋律由大提琴移至弦乐、木管，句界仍待人工听审。",
+      "dimensions": [
+        "主题",
+        "变奏"
+      ],
+      "scope": "segment",
+      "section_id": "m2-b-b",
+      "listen_for": "第80小节末大提琴弱起开启歌曲旋律，后续由弦乐和木管接力，钢琴保持轻快装饰；这与 Gauldin 和 Crescendo 对法国歌曲材料的描述一致。第98小节乐队换调/变奏继续同一家族的旋律。第80小节末至97小节可作歌曲材料第一大轮的候选播放范围；内部旋律由大提琴移至弦乐、木管，句界仍待人工听审。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "法国歌曲材料第一轮候选",
+          "role": "theme",
+          "measures": [
+            80,
+            97
+          ],
+          "ordinal_measures": [
+            80,
+            97
+          ],
+          "staffs": [
+            1,
+            3,
+            14,
+            15,
+            17
+          ],
+          "start_offset": 2.5,
+          "boundary_note": "候选边界。第80小节大提琴偏移2.5弱起，81–88小节弦乐歌唱；89后木管参与，第98小节变奏/转调。含重复与交接，内部终止音待人工听审。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "gauldin-2004"
+          ],
+          "certainty": "candidate"
+        },
+        {
+          "label": "中段歌曲旋律第一轮",
+          "role": "evidence",
+          "measures": [
+            80,
+            88
+          ],
+          "ordinal_measures": [
+            80,
+            88
+          ],
+          "staffs": [
+            17
+          ],
+          "boundary_note": "第80小节大提琴偏移2.5的F4为弱起，第81小节以下行旋律接续；此处只取前两轮起句证据，未宣称完整歌曲主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "gauldin-2004"
+          ],
+          "start_offset": 2.5,
+          "certainty": "supported"
+        },
+        {
+          "label": "歌曲材料变奏",
+          "role": "evidence",
+          "measures": [
+            98,
+            105
+          ],
+          "ordinal_measures": [
+            98,
+            105
+          ],
+          "staffs": [
+            1,
+            3,
+            14,
+            15
+          ],
+          "boundary_note": "第98小节乐队声部接续；只选局部，不称完整主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第80小节末大提琴弱起开启歌曲旋律，后续由弦乐和木管接力，钢琴保持轻快装饰；这与 Gauldin 和 Crescendo 对法国歌曲材料的描述一致。第98小节乐队换调/变奏继续同一家族的旋律。第80小节末至97小节可作歌曲材料第一大轮的候选播放范围；内部旋律由大提琴移至弦乐、木管，句界仍待人工听审。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-2-return",
+      "work_id": "tchaikovsky-op23-2",
+      "title": "慢速 A 段归来",
+      "body": "第146小节 Tempo I，开头旋律回到钢琴和弦乐；第154小节进入收束。 第146小节 Tempo I 与钢琴主旋律同时回归，而不是简单延续快段。第154小节以后只保留尾声性材料；其长范围并非单一完整乐句，已标候选。",
+      "dimensions": [
+        "曲式",
+        "主题"
+      ],
+      "scope": "segment",
+      "section_id": "m2-ap",
+      "listen_for": "第146小节 Tempo I，开头旋律回到钢琴和弦乐；第154小节进入收束。 第146小节 Tempo I 与钢琴主旋律同时回归，而不是简单延续快段。第154小节以后只保留尾声性材料；其长范围并非单一完整乐句，已标候选。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "A主题回归",
+          "role": "theme",
+          "measures": [
+            146,
+            153
+          ],
+          "ordinal_measures": [
+            146,
+            153
+          ],
+          "staffs": [
+            12,
+            14
+          ],
+          "boundary_note": "第146小节 Tempo I 和开头旋律同时回归，第154小节进入尾声。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "尾声末句",
+          "role": "phrase",
+          "measures": [
+            154,
+            170
+          ],
+          "ordinal_measures": [
+            154,
+            170
+          ],
+          "staffs": [
+            12,
+            14,
+            17
+          ],
+          "boundary_note": "候选边界。以第154小节后的收束材料至乐章终止为完整尾声段，内部句界待听审。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "candidate"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第146小节 Tempo I，开头旋律回到钢琴和弦乐；第154小节进入收束。 第146小节 Tempo I 与钢琴主旋律同时回归，而不是简单延续快段。第154小节以后只保留尾声性材料；其长范围并非单一完整乐句，已标候选。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-3-a1",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "终乐章舞蹈主题 A",
+      "body": "第5小节钢琴展开节奏鲜明的 A 主题，至第44小节经历数次调性转移。 第21小节钢琴以同样的节奏和音型移调重起，因此将首次主题轮次止于第20小节。第45小节出现新的速度指示，过渡到抒情 B 段。 所列较长范围仍是候选，等待人工确认终止音与换句点。",
+      "dimensions": [
+        "主题",
+        "节奏／节拍"
+      ],
+      "scope": "segment",
+      "section_id": "m3-a1",
+      "listen_for": "第5小节钢琴展开节奏鲜明的 A 主题，至第44小节经历数次调性转移。 第21小节钢琴以同样的节奏和音型移调重起，因此将首次主题轮次止于第20小节。第45小节出现新的速度指示，过渡到抒情 B 段。 所列较长范围仍是候选，等待人工确认终止音与换句点。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "A主题第一轮",
+          "role": "theme",
+          "measures": [
+            5,
+            20
+          ],
+          "ordinal_measures": [
+            5,
+            20
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第5小节钢琴进入；第21小节同主题移调重起。以5–20为首个完整轮次。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "A主题移调接续",
+          "role": "phrase",
+          "measures": [
+            21,
+            44
+          ],
+          "ordinal_measures": [
+            21,
+            44
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "候选边界。第21小节相同钢琴织体移调重起，第45小节出现过渡速度记号。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "candidate"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第5小节钢琴展开节奏鲜明的 A 主题，至第44小节经历数次调性转移。 第21小节钢琴以同样的节奏和音型移调重起，因此将首次主题轮次止于第20小节。第45小节出现新的速度指示，过渡到抒情 B 段。 所列较长范围仍是候选，等待人工确认终止音与换句点。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-3-b1",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "抒情插段 B",
+      "body": "第56小节起歌唱主题与 A 的舞蹈节奏形成对比，至第79小节为第一轮插段。 第56小节钢琴引导，第一小提琴从该小节偏移2.0处进入歌唱旋律；第58小节弦乐将旋律推至前景，与 A 的舞蹈重音对比。第80小节转入返还准备；整段包括重复与配器交接，主题完整轮次的内部句界待人工核查。",
+      "dimensions": [
+        "主题",
+        "曲式"
+      ],
+      "scope": "segment",
+      "section_id": "m3-b1",
+      "listen_for": "第56小节起歌唱主题与 A 的舞蹈节奏形成对比，至第79小节为第一轮插段。 第56小节钢琴引导，第一小提琴从该小节偏移2.0处进入歌唱旋律；第58小节弦乐将旋律推至前景，与 A 的舞蹈重音对比。第80小节转入返还准备；整段包括重复与配器交接，主题完整轮次的内部句界待人工核查。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "B主题第一轮",
+          "role": "theme",
+          "measures": [
+            56,
+            79
+          ],
+          "ordinal_measures": [
+            56,
+            79
+          ],
+          "staffs": [
+            12,
+            13,
+            14,
+            17
+          ],
+          "boundary_note": "第56小节钢琴先作引导，同小节偏移2.0第一小提琴进入抒情旋律；第80小节转为回返过渡。此主题家族的整轮演奏含配器交接，内部句界待人工听审。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第56小节起歌唱主题与 A 的舞蹈节奏形成对比，至第79小节为第一轮插段。 第56小节钢琴引导，第一小提琴从该小节偏移2.0处进入歌唱旋律；第58小节弦乐将旋律推至前景，与 A 的舞蹈重音对比。第80小节转入返还准备；整段包括重复与配器交接，主题完整轮次的内部句界待人工核查。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-3-a2",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "A主题首次回返",
+      "body": "第89小节钢琴再次呈示舞蹈主题，表明 A 是全乐章的回旋核心。 第101小节突然转慢并转向过渡，因此第100小节作为这一短回返的右边界。听钢琴的节奏与第5小节相似，而配器和调性环境已变。",
+      "dimensions": [
+        "主题",
+        "曲式"
+      ],
+      "scope": "segment",
+      "section_id": "m3-a2",
+      "listen_for": "第89小节钢琴再次呈示舞蹈主题，表明 A 是全乐章的回旋核心。 第101小节突然转慢并转向过渡，因此第100小节作为这一短回返的右边界。听钢琴的节奏与第5小节相似，而配器和调性环境已变。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "A主题短回返",
+          "role": "phrase",
+          "measures": [
+            89,
+            100
+          ],
+          "ordinal_measures": [
+            89,
+            100
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第89小节钢琴主题回归；第101小节转慢进入新中段。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第89小节钢琴再次呈示舞蹈主题，表明 A 是全乐章的回旋核心。 第101小节突然转慢并转向过渡，因此第100小节作为这一短回返的右边界。听钢琴的节奏与第5小节相似，而配器和调性环境已变。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-3-c",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "第101小节：回旋主题碎片过渡",
+      "body": "第101小节速度降下并出现与回旋 A 相关的碎片，这段织体与两侧快段形成对比。Crescendo 把它明确称为过渡，Tonic Chord 则单列 C，Gauldin 也强调全乐章只有一个抒情插段。依据本地谱与较一致的主题身份，本轮不把它标成第三个独立主题，只保留过渡的局部证据。第114小节快段回归作为右边界。",
+      "dimensions": [
+        "曲式",
+        "主题"
+      ],
+      "scope": "segment",
+      "section_id": "m3-c",
+      "listen_for": "第101小节速度降下并出现与回旋 A 相关的碎片，这段织体与两侧快段形成对比。Crescendo 把它明确称为过渡，Tonic Chord 则单列 C，Gauldin 也强调全乐章只有一个抒情插段。依据本地谱与较一致的主题身份，本轮不把它标成第三个独立主题，只保留过渡的局部证据。第114小节快段回归作为右边界。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016",
+        "tonic-chord-2018",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "C段局部旋律",
+          "role": "evidence",
+          "measures": [
+            101,
+            113
+          ],
+          "ordinal_measures": [
+            101,
+            113
+          ],
+          "staffs": [
+            14,
+            17,
+            12
+          ],
+          "boundary_note": "第101小节速度与配器转变、第114小节快段返回。因主题独立性有分歧，仅标局部证据，不宣称完整独立主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第101小节速度降下并出现与回旋 A 相关的碎片，这段织体与两侧快段形成对比。Crescendo 把它明确称为过渡，Tonic Chord 则单列 C，Gauldin 也强调全乐章只有一个抒情插段。依据本地谱与较一致的主题身份，本轮不把它标成第三个独立主题，只保留过渡的局部证据。第114小节快段回归作为右边界。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "crescendo-2016",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-3-b2",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "抒情插段再现",
+      "body": "第133–149小节 B 主题变换调性重来，与第56小节的初次呈示形成对照。 第133小节旋律重来，第150小节钢琴的快速过渡开始。对照第56小节的抒情初呈可听到移调与配器的变化；整段完整句界仍是候选。",
+      "dimensions": [
+        "主题",
+        "变奏"
+      ],
+      "scope": "segment",
+      "section_id": "m3-b2",
+      "listen_for": "第133–149小节 B 主题变换调性重来，与第56小节的初次呈示形成对照。 第133小节旋律重来，第150小节钢琴的快速过渡开始。对照第56小节的抒情初呈可听到移调与配器的变化；整段完整句界仍是候选。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "B主题再现完整段",
+          "role": "phrase",
+          "measures": [
+            133,
+            149
+          ],
+          "ordinal_measures": [
+            133,
+            149
+          ],
+          "staffs": [
+            12,
+            13,
+            14,
+            17
+          ],
+          "boundary_note": "第133小节速度变慢且旋律回归，第150小节进入过渡。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第133–149小节 B 主题变换调性重来，与第56小节的初次呈示形成对照。 第133小节旋律重来，第150小节钢琴的快速过渡开始。对照第56小节的抒情初呈可听到移调与配器的变化；整段完整句界仍是候选。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-3-a4",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "回旋主题末次较完整回返",
+      "body": "第159–182小节钢琴重现 A 主题；此后转入较长展开性过渡与华彩。 第183小节钢琴进入延长的快速音阶琶音，形成与较规律的 A 回旋段不同的推进。第159–182小节作一轮回返，但内部终止点仍需听审。",
+      "dimensions": [
+        "主题",
+        "曲式"
+      ],
+      "scope": "segment",
+      "section_id": "m3-a4",
+      "listen_for": "第159–182小节钢琴重现 A 主题；此后转入较长展开性过渡与华彩。 第183小节钢琴进入延长的快速音阶琶音，形成与较规律的 A 回旋段不同的推进。第159–182小节作一轮回返，但内部终止点仍需听审。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "A主题末轮",
+          "role": "phrase",
+          "measures": [
+            159,
+            182
+          ],
+          "ordinal_measures": [
+            159,
+            182
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第159小节钢琴旧主题回返，第183小节钢琴密集音型开始过渡。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第159–182小节钢琴重现 A 主题；此后转入较长展开性过渡与华彩。 第183小节钢琴进入延长的快速音阶琶音，形成与较规律的 A 回旋段不同的推进。第159–182小节作一轮回返，但内部终止点仍需听审。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-3-final-transition",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "尾声前的展开性推进",
+      "body": "第183–242小节音阶、琶音及旧主题片段逐渐交织；第243–251小节钢琴形成短华彩。 第214小节钢琴暂歇、乐队处理 A 的碎片，第222小节附近又有 B 的起句进入。第243小节钢琴密集八度构成短华彩，第252小节全乐队大调高潮进入。所选前两段只作主题碎片证据。",
+      "dimensions": [
+        "曲式",
+        "织体／复调"
+      ],
+      "scope": "segment",
+      "section_id": "m3-development",
+      "listen_for": "第183–242小节音阶、琶音及旧主题片段逐渐交织；第243–251小节钢琴形成短华彩。 第214小节钢琴暂歇、乐队处理 A 的碎片，第222小节附近又有 B 的起句进入。第243小节钢琴密集八度构成短华彩，第252小节全乐队大调高潮进入。所选前两段只作主题碎片证据。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ],
+      "segments": [
+        {
+          "label": "音阶琶音过渡",
+          "role": "evidence",
+          "measures": [
+            183,
+            190
+          ],
+          "ordinal_measures": [
+            183,
+            190
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "只示展开性过渡起点，不当作完整主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "旧材料合流",
+          "role": "evidence",
+          "measures": [
+            214,
+            223
+          ],
+          "ordinal_measures": [
+            214,
+            223
+          ],
+          "staffs": [
+            12,
+            13,
+            14
+          ],
+          "boundary_note": "第214附近乐队材料与钢琴交替，局部证据。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "短华彩",
+          "role": "phrase",
+          "measures": [
+            243,
+            251
+          ],
+          "ordinal_measures": [
+            243,
+            251
+          ],
+          "staffs": [
+            12,
+            13
+          ],
+          "boundary_note": "第243小节钢琴密集独奏起，第252小节大调尾声起。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "supported"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第183–242小节音阶、琶音及旧主题片段逐渐交织；第243–251小节钢琴形成短华彩。 第214小节钢琴暂歇、乐队处理 A 的碎片，第222小节附近又有 B 的起句进入。第243小节钢琴密集八度构成短华彩，第252小节全乐队大调高潮进入。所选前两段只作主题碎片证据。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "segments": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sol-3-apotheosis",
+      "work_id": "tchaikovsky-op23-3",
+      "title": "大调尾声中的抒情主题升华",
+      "body": "第252小节起降B大调尾声将先前抒情插段扩大为全乐队的终结性陈述。 第252小节抒情 B 旋律在降B大调与强大合奏中扩张，与第56、133小节的较柔和陈述形成规模对比。第271小节 Allegro vivo 进入终结性快速收束；271–301不是一条单独主题，范围仅作候选导航。",
+      "dimensions": [
+        "主题",
+        "配器",
+        "调性／调式"
+      ],
+      "scope": "segment",
+      "section_id": "m3-coda",
+      "listen_for": "第252小节起降B大调尾声将先前抒情插段扩大为全乐队的终结性陈述。 第252小节抒情 B 旋律在降B大调与强大合奏中扩张，与第56、133小节的较柔和陈述形成规模对比。第271小节 Allegro vivo 进入终结性快速收束；271–301不是一条单独主题，范围仅作候选导航。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "gauldin-2004"
+      ],
+      "segments": [
+        {
+          "label": "抒情主题大调升华",
+          "role": "theme",
+          "measures": [
+            252,
+            270
+          ],
+          "ordinal_measures": [
+            252,
+            270
+          ],
+          "staffs": [
+            1,
+            3,
+            12,
+            13,
+            14,
+            17
+          ],
+          "boundary_note": "第252小节调号两降并乐队齐入；第271小节速度回快，作为升华陈述终点。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "certainty": "supported"
+        },
+        {
+          "label": "最后收束",
+          "role": "phrase",
+          "measures": [
+            271,
+            301
+          ],
+          "ordinal_measures": [
+            271,
+            301
+          ],
+          "staffs": [
+            12,
+            13,
+            14,
+            17
+          ],
+          "boundary_note": "候选边界。第271小节速度再次加快，终至301；这是尾声收束段，非一个旋律主题。",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018"
+          ],
+          "certainty": "candidate"
+        }
+      ],
+      "claims": [
+        {
+          "statement": "第252小节起降B大调尾声将先前抒情插段扩大为全乐队的终结性陈述。 第252小节抒情 B 旋律在降B大调与强大合奏中扩张，与第56、133小节的较柔和陈述形成规模对比。第271小节 Allegro vivo 进入终结性快速收束；271–301不是一条单独主题，范围仅作候选导航。",
+          "evidence_type": "source",
+          "source_ids": [
+            "tcha-op23-local-score",
+            "tonic-chord-2018",
+            "gauldin-2004"
+          ],
+          "segments": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

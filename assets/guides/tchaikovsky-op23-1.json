@@ -1,0 +1,359 @@
+{
+  "work_id": "tchaikovsky-op23-1",
+  "overview": "第一乐章依本谱第109小节快板、第293小节展开速度转换、第448小节再现节奏、第538小节华彩记号和第612小节 Tempo I 建立层级。呈示部第二主题在单簧管/钢琴，第三主题在弱音弦乐；外部版本的精确小节号不能直接移植。 本轮补充的是若干关键乐句的和声、调性、句法与配器：引子降D持续低音，副题钢琴的局部C小调落点、降A区域，再现的降B大调语境，以及末尾降B大调终止。局部调性变化不等同于全乐章逐小节和声分析。详见新卡片及本地研究记录，均待人工试听。",
+  "sections": [
+    {
+      "id": "m1-intro",
+      "parent_id": "",
+      "title": "宽广引子",
+      "start_measure": 0,
+      "end_measure": 108,
+      "description": "圆号召唤与降D大调宽广旋律；第109小节新速度与新节拍进入快板。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "crescendo-2016"
+      ]
+    },
+    {
+      "id": "m1-fanfare",
+      "parent_id": "m1-intro",
+      "title": "圆号召唤",
+      "start_measure": 0,
+      "end_measure": 5,
+      "description": "前三个下行音是动机；第7小节弦乐旋律才完整展开。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m1-intro-song",
+      "parent_id": "m1-intro",
+      "title": "引子歌唱主题及变化",
+      "start_measure": 6,
+      "end_measure": 38,
+      "description": "弦乐第7小节弱起完整八小节句，第16小节开始第二轮；钢琴第24小节起再陈述。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "crescendo-2016"
+      ]
+    },
+    {
+      "id": "m1-intro-first-phrase",
+      "parent_id": "m1-intro-song",
+      "title": "引子首句：弱起、持续低音与落点",
+      "start_measure": 6,
+      "end_measure": 15,
+      "description": "小节目录包含7–16，精确试听止于16偏移0.5；16偏移1已开始下一轮。",
+      "source_ids": [
+        "score-tcha1-308ba2c4"
+      ]
+    },
+    {
+      "id": "m1-intro-bridge",
+      "parent_id": "m1-intro",
+      "title": "引子过渡与回返",
+      "start_measure": 39,
+      "end_measure": 108,
+      "description": "圆号材料、第48附近钢琴独奏式段落、第60附近弦乐回返；末尾过渡到快板。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m1-exp",
+      "parent_id": "",
+      "title": "呈示部",
+      "start_measure": 109,
+      "end_measure": 292,
+      "description": "第109小节4/4快板入口；单簧管第185小节进入第二主题，弱音弦乐第205小节进入第三主题；第293小节 Poco più sostenuto 开始展开。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "crescendo-2016"
+      ]
+    },
+    {
+      "id": "m1-primary",
+      "parent_id": "m1-exp",
+      "title": "主部：民歌型主题",
+      "start_measure": 109,
+      "end_measure": 184,
+      "description": "钢琴民歌型主部与乐队、八度变形；第185小节单簧管副题进入。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "crescendo-2016"
+      ]
+    },
+    {
+      "id": "m1-secondary",
+      "parent_id": "m1-exp",
+      "title": "副题组：两项抒情思想",
+      "start_measure": 185,
+      "end_measure": 240,
+      "description": "单簧管/钢琴第二主题与弱音弦乐第三主题，继有第二主题的扩展。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "crescendo-2016"
+      ]
+    },
+    {
+      "id": "m1-secondary-winds-first",
+      "parent_id": "m1-secondary",
+      "title": "第二主题：木管首轮与开放句尾",
+      "start_measure": 185,
+      "end_measure": 192,
+      "description": "单簧管完成首轮，193钢琴接奏；八小节配器陈述不等同于主和弦闭合。",
+      "source_ids": [
+        "score-tcha1-308ba2c4"
+      ]
+    },
+    {
+      "id": "m1-secondary-piano-extension",
+      "parent_id": "m1-secondary",
+      "title": "第二主题：钢琴扩展至C小调落点",
+      "start_measure": 193,
+      "end_measure": 205,
+      "description": "精确终点为205偏移1；同小节后续弦乐进入另属第三主题。",
+      "source_ids": [
+        "score-tcha1-308ba2c4"
+      ]
+    },
+    {
+      "id": "m1-secondary-strings-first",
+      "parent_id": "m1-secondary",
+      "title": "第三主题首轮：弱音弦乐与伴奏层",
+      "start_measure": 205,
+      "end_measure": 212,
+      "description": "精确起点为205偏移1；212末旋律休止，213另起扩展。与前一目录在205交接，非定位冲突。",
+      "source_ids": [
+        "score-tcha1-308ba2c4"
+      ]
+    },
+    {
+      "id": "m1-closing",
+      "parent_id": "m1-exp",
+      "title": "过渡与结束区",
+      "start_measure": 241,
+      "end_measure": 292,
+      "description": "第三主题随后回返；第293小节新速度、源自弱音弦乐段的主题在解除弱音器后加强，引出展开。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "crescendo-2016",
+        "score-tcha1-308ba2c4"
+      ]
+    },
+    {
+      "id": "m1-dev",
+      "parent_id": "",
+      "title": "展开部",
+      "start_measure": 293,
+      "end_measure": 447,
+      "description": "第293小节 Poco più sostenuto 及弦乐主题新陈述是可靠入口；第448小节钢琴密集音型中主部材料回归。 配器补记：原始MusicXML在292–293的弦乐写有senza sord.，即解除弱音器；不可把这一入口的音色继续称作弱音弦乐。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "crescendo-2016",
+        "score-tcha1-308ba2c4"
+      ]
+    },
+    {
+      "id": "m1-recap",
+      "parent_id": "",
+      "title": "再现部",
+      "start_measure": 448,
+      "end_measure": 537,
+      "description": "第448小节钢琴十六分音符织体藏有主部材料；第472小节双簧管副题完整起句，第480小节长笛与小提琴接手，第493小节钢琴重述；第538小节华彩。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018",
+        "crescendo-2016"
+      ]
+    },
+    {
+      "id": "m1-recap-secondary-first",
+      "parent_id": "m1-recap",
+      "title": "副题再现：双簧管与降B大调语境",
+      "start_measure": 472,
+      "end_measure": 479,
+      "description": "与呈示部185–192对照；480开始乐器接续，不把开放句尾当作主和弦终止。",
+      "source_ids": [
+        "score-tcha1-308ba2c4"
+      ]
+    },
+    {
+      "id": "m1-cadenza",
+      "parent_id": "",
+      "title": "钢琴华彩",
+      "start_measure": 538,
+      "end_measure": 613,
+      "description": "独奏钢琴主导；第603小节 Quasi Adagio，第608–611有拆分小节和渐变速度。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m1-coda",
+      "parent_id": "",
+      "title": "尾声",
+      "start_measure": 614,
+      "end_measure": 668,
+      "description": "第612小节 Tempo I，第613小节起乐队再加入；终止至印刷666。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m1-coda-final-period",
+      "parent_id": "m1-coda",
+      "title": "末尾终止段：大调主和弦与变格补充",
+      "start_measure": 661,
+      "end_measure": 668,
+      "description": "从末轮钢琴上行与乐队主和弦至乐章末长音，非整个尾声。",
+      "source_ids": [
+        "score-tcha1-308ba2c4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tcha-op23-local-score",
+      "kind": "score",
+      "title": "PDMX v9 归档的 jeronjoseph 数字管弦总谱：柴可夫斯基第一钢琴协奏曲 Op.23（本地保留的完整 MusicXML）",
+      "author": "jeronjoseph；PDMX 数字转换",
+      "edition": "",
+      "pages": "movement-1/2/3.mxl；各 movement-*-measure-map.json",
+      "url": "https://zenodo.org/records/15571083",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "本轮边界、配器及印刷小节与内部 ordinal 对应的直接谱面证据。"
+    },
+    {
+      "id": "gauldin-2004",
+      "kind": "web",
+      "title": "Tragic Love and Musical Memory",
+      "author": "Robert Gauldin",
+      "edition": "",
+      "pages": "§§17–21；Example 5a–l",
+      "url": "https://www.mtosmt.org/classic/mto.04.10.4/mto.04.10.4.gauldin.html",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "支持主题身份与大结构；其自传性解释属作者假说，本文件不把它当既定事实。"
+    },
+    {
+      "id": "gauldin-ex5",
+      "kind": "web",
+      "title": "Gauldin, Example 5: Unusual features of Tchaikovsky’s B-flat minor Piano Concerto",
+      "author": "Robert Gauldin",
+      "edition": "",
+      "pages": "Example 5a–l，PDF pp. 1–2",
+      "url": "https://mtosmt.org/issues/mto.04.10.4/gauldin_examples.pdf",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "用作主题类型和结构交叉核对，不提供本地谱的精确小节映射。"
+    },
+    {
+      "id": "tonic-chord-2018",
+      "kind": "web",
+      "title": "Tchaikovsky: Piano Concerto No.1 Analysis",
+      "author": "Tonic Chord",
+      "edition": "",
+      "pages": "First Movement, Second Movement, Third Movement 各节；网页行 59–177",
+      "url": "https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "第二、三乐章区段与本地谱对照；第一乐章只用作功能候选并以本地谱核界。"
+    },
+    {
+      "id": "ptna-wada",
+      "kind": "web",
+      "title": "Concerto for piano and orchestra No. 1 b-moll Op.23",
+      "author": "Mayuko Wada（英译网页）",
+      "edition": "",
+      "pages": "Commentary：First/Second/Third Movement",
+      "url": "https://enc.piano.or.jp/en/musics/92",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "大结构和主题角色辅助；网页声明英译未经原作者审校。"
+    },
+    {
+      "id": "tchaikovsky-research",
+      "kind": "web",
+      "title": "Piano Concerto No. 1",
+      "author": "Tchaikovsky Research",
+      "edition": "",
+      "pages": "Composition；Versions；Musical features",
+      "url": "https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "版本差异背景。"
+    },
+    {
+      "id": "crescendo-2016",
+      "kind": "web",
+      "title": "Les Concertos du Concours : le 1er Tchaikovski – Guide d’écoute",
+      "author": "Bernadette Beyne et Quentin Mourier",
+      "edition": "",
+      "pages": "I §§Introduction, Allegro, Développement, Réexposition；II §§A–B–A；III §§Rondo–Coda",
+      "url": "https://www.crescendo-magazine.be/conc-tchaiko_quentin_corr/",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "附录音与谱例的逐段导听，明确第1乐章第2主题为单簧管/钢琴、第3主题为弱音弦乐；第二乐章中段歌曲归弦乐；终乐章第101段为过渡。与本地谱小节号仍有若干处偏移。"
+    },
+    {
+      "id": "score-tcha1-308ba2c4",
+      "kind": "score",
+      "title": "柴可夫斯基第一钢琴协奏曲第一乐章：本地固定数字总谱",
+      "author": "jeronjoseph；PDMX v9 数字转换",
+      "edition": "score_version 308ba2c44a982ae0；历史版次仍待校勘",
+      "pages": "movement-1.mxl；同版本 MEI 与 events.json",
+      "url": "https://zenodo.org/records/15571083",
+      "accessed_at": "2026-10-31",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "本次定位以本地印刷小节号、实音事件及原始 MusicXML 为准；谱源标注 CC0-1.0。文件 SHA-256 与逐项证据见本地研究记录。"
+    },
+    {
+      "id": "gauldin-first-movement-2004",
+      "kind": "web",
+      "title": "Tragic Love and Musical Memory",
+      "author": "Robert Gauldin",
+      "edition": "Music Theory Online 10.4，2004",
+      "pages": "正文 §§18–19；Example 5a、5c，附谱 PDF 实际第 3–4 页",
+      "url": "https://www.mtosmt.org/classic/mto.04.10.4/mto.04.10.4.gauldin.html",
+      "accessed_at": "2026-10-31",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "本次使用第一乐章的调性与和声比较；精确范围另按本地谱定位。"
+    },
+    {
+      "id": "crescendo-first-movement-2016",
+      "kind": "web",
+      "title": "Les Concertos du Concours : le 1er Tchaikovski – Guide d’écoute",
+      "author": "Bernadette Beyne et Quentin Mourier",
+      "edition": "Crescendo Magazine，2016-05-19",
+      "pages": "第一乐章：Introduction、Thèmes 2–3、Réexposition",
+      "url": "https://www.crescendo-magazine.be/conc-tchaiko_quentin_corr/",
+      "accessed_at": "2026-10-31",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "已读第一乐章相关正文；沿用分析问题，外部小节号不直接套用本地谱。"
+    }
+  ],
+  "source_ids": []
+}

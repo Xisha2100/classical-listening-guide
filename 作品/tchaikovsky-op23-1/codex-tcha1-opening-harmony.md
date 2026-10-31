@@ -1,0 +1,547 @@
+---
+id: codex-tcha1-opening-harmony
+work_id: tchaikovsky-op23-1
+title: 开场和声：半音低音如何通向降 D 大调
+kind: 和声
+dimensions:
+- 和声
+- 调性／调式
+scope: segment
+section_id: m1-fanfare
+listen_for: 先听完整开场，再单听低音；最后注意第6小节从半音游移转为稳定大三和弦。
+claims:
+- id: codex-tcha1-opening-harmony-c1
+  statement: 第2小节偏移1至第5小节的弦乐低音形成降A—G—降G—F—降F—降E的半音下降，随后为降A、降D。
+  evidence_type: score
+  source_ids: []
+  segment_ids:
+  - ct1-opening-call
+  - ct1-opening-bass
+  - ct1-opening-arrival
+  listening_cue: 注意低音方向，不把上方圆号旋律误当成低音。
+- id: codex-tcha1-opening-harmony-c2
+  statement: 第5小节偏移1为降E–G–降B–降D，偏移2为降A–C–降E；第6小节落到降D–F–降A。
+  evidence_type: score
+  source_ids: []
+  segment_ids:
+  - ct1-opening-arrival
+  listening_cue: ''
+- id: codex-tcha1-opening-harmony-c3
+  statement: 末端可作降D大调 V7/V—V—I 的定向收束；前段主要体现半音声部连接。
+  evidence_type: hypothesis
+  source_ids:
+  - score-tcha1-308ba2c4
+  segment_ids:
+  - ct1-opening-call
+  - ct1-opening-arrival
+  listening_cue: ''
+- id: codex-tcha1-opening-harmony-c4
+  statement: Gauldin §18 将宽广引子的调性中心说明为降D大调。
+  evidence_type: source
+  source_ids:
+  - gauldin-first-movement-2004
+  segment_ids: []
+  listening_cue: ''
+origin: model
+status: suggested
+review_status: unreviewed
+listening_status: pending
+sources:
+- id: score-tcha1-308ba2c4
+  kind: score
+  title: 柴可夫斯基第一钢琴协奏曲第一乐章：本地固定数字总谱
+  author: jeronjoseph；PDMX v9 数字转换
+  edition: score_version 308ba2c44a982ae0；历史版次仍待校勘
+  pages: movement-1.mxl；同版本 MEI 与 events.json
+  url: https://zenodo.org/records/15571083
+  accessed_at: '2026-10-31'
+  excerpt: ''
+  extracted: true
+  summary: 本次定位以本地印刷小节号、实音事件及原始 MusicXML 为准；谱源标注 CC0-1.0。文件 SHA-256 与逐项证据见本地研究记录。
+- id: gauldin-first-movement-2004
+  kind: web
+  title: Tragic Love and Musical Memory
+  author: Robert Gauldin
+  edition: Music Theory Online 10.4，2004
+  pages: 正文 §§18–19；Example 5a、5c，附谱 PDF 实际第 3–4 页
+  url: https://www.mtosmt.org/classic/mto.04.10.4/mto.04.10.4.gauldin.html
+  accessed_at: '2026-10-31'
+  excerpt: ''
+  extracted: true
+  summary: 本次使用第一乐章的调性与和声比较；精确范围另按本地谱定位。
+segments:
+- id: ct1-opening-call
+  label: 完整开场引句及落点｜1–6
+  score_version: 308ba2c44a982ae0
+  start: 1.5
+  end: 18.0
+  staffs: []
+  voices: []
+  routes: []
+  note_ids:
+  - l1hr9wrb
+  - m1efkevw
+  - ohz5lwo
+  - t11h7wix
+  - u104jlhq
+  - w1uyrpj5
+  - p1wxxufi
+  - q1vfrl1j
+  - sm08qhh
+  - xnktn8i
+  - yexumhm
+  - a1x2ti8m
+  - g1owpnkr
+  - d1ck8ry1
+  - g1roxqb6
+  - i1f23aek
+  - mcxe1v5
+  - p10gacvu
+  - bl9djx4
+  - e1sbdmrs
+  - icl9341
+  - k1kineji
+  - ljlubgg
+  - mhka1hm
+  - o7k89h3
+  - qkh5vr8
+  - sr15jse
+  - t11ek8iz
+  - u1l8hxx6
+  - w1x07heo
+  - m1rr54u
+  - o10s5whs
+  - pbuqaph
+  - q28rwvg
+  - s1dja4hu
+  - u13vxwxn
+  - w1e454hd
+  - xto0inm
+  - y19h12wa
+  - a191uahe
+  - r1d3zx6r
+  - u5k2fxf
+  - x1nunmvy
+  - a10zuih4
+  - c12yvv0
+  - r427dms
+  - j1pwfu0y
+  - l1ui485a
+  - nim5x9a
+  - y6soyrl
+  - bypehy8
+  - d1io1c25
+  - n177jkdc
+  - q1ohfzkm
+  - d1iot9c4
+  - h1uc2zmv
+  - w2e2iis
+  - s10lwaef
+  - y1325v1o
+  - a18oh8to
+  - enh27jo
+  - himzhyd
+  - u1nw49lg
+  - xsrquqr
+  - i1rxpzk3
+  - k7l2xu6
+  - l17hbrdk
+  - m1qe96mc
+  - o13pv9kv
+  - q1mh7uui
+  - sywd6q8
+  - tptbvx3
+  - uukjiqt
+  - we7maix
+  - m14pn8zr
+  - ox4mc3i
+  - p5atr4n
+  - qh7yap6
+  - s1hl8v33
+  - uu4n2vm
+  - wfbpgbp
+  - x12ajivb
+  - y1wn07lf
+  - axe47mz
+  - j1mscj82
+  - m509748
+  - pxo6itx
+  - s8quoo9
+  - s19evu28
+  - hhoetz6
+  - d15ba8wq
+  - f11j00fc
+  - h3u5znm
+  - s1ll1owg
+  - vfoba0g
+  - x6v0i4x
+  - g10b9ru5
+  - j1jpnmbc
+  - tfx14ra
+  - xjy8zmp
+  - m1b8ho0e
+  - owx9mhp
+  - h1xmtyo6
+  - jj8m2m
+  - qdq47m6
+  - s1itmt65
+  - u2ff0re
+  - x19fr5yd
+  - w140mnkt
+  - y4y65ui
+  - zm3kg9c
+  - c1n65vgi
+  - nbtpvye
+  - q1hpb66y
+  - s1bprks4
+  - u1f0zv7p
+  - i10ont7e
+  - j1bxlvhg
+  - ljxb4os
+  - mgo2zg4
+  - pble7yy
+  - sd9nsjk
+  - m1hyjxyd
+  - nkg59lh
+  - p1gysv07
+  - qvm4hv9
+  - tbm56az
+  - w1u8rmo9
+  - b1yeiy9k
+  - duky4ca
+  - fpisoae
+  - i9x6166
+  - h1yojzke
+  - j1vlvazk
+  - l11hipsa
+  - oavsglt
+  - i4qx01i
+  - k4u2j1u
+  - xiawd79
+  - zwspbl1
+  - x1kk7mt8
+  - z1lfd5sy
+  - b6p3nqv
+  - d1axna5q
+  - f12tuas5
+  - m7tlerp
+  - p1bd8a5j
+  - r1orpzej
+  - u1hbff3i
+  - wne6ic1
+  - z18bnlj2
+  - b1wucd34
+  - d568lrr
+  - gtb5ca5
+  - jof1e1e
+  - l1k4ahx1
+  - n8nf6l1
+  - ptad6dk
+  - b1px47cz
+  - d17e5h2p
+  - f11jyn96
+  - wsoauxb
+  - y1tp1ej9
+  - aw5nx8o
+  - j1ti8kzc
+  - m4wj9k5
+  - o1lfe62v
+  - rdrfatt
+  - turdgpv
+  - wwvk0og
+  - oeisb6k
+  - qs2k1hw
+  - sl1l5fd
+  - uib1rkk
+  - w1i61os8
+  - y4q287c
+  - g8bfjfq
+  - jqhi3u
+  - l4yq7en
+  - o1z018an
+  - q1h5uctg
+  - t5cy79x
+  - ek61a70
+  - h76c1hn
+  - jq1nepk
+  - m1p4ejzr
+  - oqg7jj1
+  - r4lz4ii
+  - i1g6xhai
+  - ljxukw7
+  - ny6wg73
+  - q17xs7a4
+  - s1ezpc9z
+  - v18brslz
+  - v1xhvumz
+  - xnbmdkc
+  - zrylftk
+  - bd8pjc3
+  - dgiu9zt
+  - g1sb5xww
+  - ba5r0to
+  - e1ignz3b
+  - g1gu3ob4
+  - j1a655as
+  - l18a62k5
+  - o1h16qkh
+  - wjaz7i0
+  - y1j4iv1t
+  - a1l0oul9
+  - m1kl1359
+  - o1kz309x
+  - q1wi5dl3
+  - s1f95bs4
+  - v14oitrw
+  - xpp67mf
+  - z111rohy
+  - c1l7v214
+  - eiu3s2y
+  - g1bzt9t5
+  - j1qubza8
+  - laaq28t
+  - ihgxvyi
+  - lzo7l10
+  - nycarst
+  - p1e5cs5d
+  - s1v0usaf
+  - u1bmtheo
+  - xkgqp22
+  - s1fb4kz7
+  - vd96hzz
+  - x18xh8hf
+  - axif7z
+  - cccs92c
+  - e17u2mey
+  - xlga0ky
+  - zgumj13
+  - bwhv684
+  - b1qvyr4j
+  - duip3o4
+  - f129bygf
+  - r74tmvq
+  - mgn3tav
+  - j1bda3v1
+  - m13z0ewj
+  - l1qtfsq5
+  - o1ka9k8y
+  - g11u8706
+  - j1l9ycgn
+  - e1vkh83u
+  - hh3q3tx
+  - i1d4qtd4
+  - lva5uki
+  - s1spou68
+  - x48z83o
+  - a4tbzk4
+  - c13cpzr2
+  - n1a4ryw2
+  - d1jwtiw8
+  - x1p6zjwp
+  - a14ie2vh
+  - b1eunq6e
+  - d18qzg6t
+  - fig4xud
+  - h86er8o
+  - jo7ak8c
+  - l57yb7c
+  - n17yaivb
+  - pbidhnv
+  - ro0b4y
+  - tatyzp
+  - xuvk1ts
+  - a73ys9b
+  - c1mp4egu
+  - e1m44hwk
+  - h15ozzeb
+  - j11z6fa9
+  - m7qhvzm
+  - p11otoj3
+  - rmsorto
+  - x1apa9nz
+  - a1s441kq
+  - c1fft81r
+  - d5mw0dn
+  - j1qc94us
+  - lbalv8a
+  - n1s0i95g
+  - rfagsl2
+  - u9r3i82
+  - ww2fojz
+  - x14y0va2
+  - owezgq2
+  - s1o0cuur
+  start_measure: 0
+  end_measure: 5
+  role: phrase
+  boundary_note: 从圆号第1小节偏移1.5的弱起开始，包含第6小节降D主和弦与钢琴三拍铺陈；第7小节另起歌唱主题的准备与弱起。这里是完整开场引句，不称为完整歌唱主题。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+- id: ct1-opening-bass
+  label: 局部证据：半音低音链｜2–5
+  score_version: 308ba2c44a982ae0
+  start: 4.0
+  end: 15.0
+  staffs:
+  - '17'
+  - '18'
+  voices: []
+  routes: []
+  note_ids:
+  - d1iot9c4
+  - h1uc2zmv
+  - tfx14ra
+  - xjy8zmp
+  - jof1e1e
+  - l1k4ahx1
+  - n8nf6l1
+  - ptad6dk
+  - xlga0ky
+  - zgumj13
+  - bwhv684
+  - b1qvyr4j
+  - duip3o4
+  - f129bygf
+  start_measure: 1
+  end_measure: 4
+  role: evidence
+  boundary_note: 只抽出弦乐低音，以第2小节偏移1的降A开始，听到第5小节的降E与降A；此片段有意不包含终止落点。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+- id: ct1-opening-arrival
+  label: 局部证据：降E—降A—降D｜5–6
+  score_version: 308ba2c44a982ae0
+  start: 13.0
+  end: 18.0
+  staffs: []
+  voices: []
+  routes: []
+  note_ids:
+  - d17e5h2p
+  - f11jyn96
+  - y1tp1ej9
+  - aw5nx8o
+  - o1lfe62v
+  - rdrfatt
+  - turdgpv
+  - wwvk0og
+  - sl1l5fd
+  - uib1rkk
+  - w1i61os8
+  - y4q287c
+  - l4yq7en
+  - o1z018an
+  - q1h5uctg
+  - t5cy79x
+  - jq1nepk
+  - m1p4ejzr
+  - oqg7jj1
+  - r4lz4ii
+  - ny6wg73
+  - q17xs7a4
+  - s1ezpc9z
+  - v18brslz
+  - zrylftk
+  - bd8pjc3
+  - dgiu9zt
+  - g1sb5xww
+  - g1gu3ob4
+  - j1a655as
+  - l18a62k5
+  - o1h16qkh
+  - y1j4iv1t
+  - a1l0oul9
+  - o1kz309x
+  - q1wi5dl3
+  - z111rohy
+  - c1l7v214
+  - eiu3s2y
+  - g1bzt9t5
+  - j1qubza8
+  - laaq28t
+  - p1e5cs5d
+  - s1v0usaf
+  - u1bmtheo
+  - xkgqp22
+  - x18xh8hf
+  - axif7z
+  - cccs92c
+  - e17u2mey
+  - zgumj13
+  - bwhv684
+  - duip3o4
+  - f129bygf
+  - r74tmvq
+  - mgn3tav
+  - j1bda3v1
+  - m13z0ewj
+  - l1qtfsq5
+  - o1ka9k8y
+  - g11u8706
+  - j1l9ycgn
+  - e1vkh83u
+  - hh3q3tx
+  - i1d4qtd4
+  - lva5uki
+  - s1spou68
+  - x48z83o
+  - a4tbzk4
+  - c13cpzr2
+  - n1a4ryw2
+  - d1jwtiw8
+  - x1p6zjwp
+  - a14ie2vh
+  - b1eunq6e
+  - d18qzg6t
+  - fig4xud
+  - h86er8o
+  - jo7ak8c
+  - l57yb7c
+  - n17yaivb
+  - pbidhnv
+  - ro0b4y
+  - tatyzp
+  - xuvk1ts
+  - a73ys9b
+  - c1mp4egu
+  - e1m44hwk
+  - h15ozzeb
+  - j11z6fa9
+  - m7qhvzm
+  - p11otoj3
+  - rmsorto
+  - x1apa9nz
+  - a1s441kq
+  - c1fft81r
+  - d5mw0dn
+  - j1qc94us
+  - lbalv8a
+  - n1s0i95g
+  - rfagsl2
+  - u9r3i82
+  - ww2fojz
+  - x14y0va2
+  - owezgq2
+  - s1o0cuur
+  start_measure: 4
+  end_measure: 5
+  role: evidence
+  boundary_note: 保留第5小节后两拍及第6小节，包含属的属、属和弦和降D落点。
+  boundary_status: supported
+  source_ids:
+  - score-tcha1-308ba2c4
+created_at: '2026-10-31T08:29:14.535484+00:00'
+updated_at: '2026-10-31T08:29:14.535561+00:00'
+verification: Codex 核对了固定谱本的印刷号映射、MEI、实音事件和相关 MusicXML 记谱；论点分别标注资料观点、谱面观察与分析推测。程序定位检查不等于人工听审；新分析尚待用户复核。当前会话未提供可核验的具体模型标识，故记为
+  unknown。
+analysis_model: unknown
+analysis_run_id: 作品/tchaikovsky-op23-1/研究记录/和声调性句法与配器.md
+---
+
+# 开场和声：半音低音如何通向降 D 大调
+
+圆号召唤下面的低音在移动，不能只按旋律判断调性。当前谱第2小节偏移1起，低音依次经过降A、G、降G、F、降F、降E，再走向降A、降D。前段以半音连接增强不稳定感，第5小节后两拍的降E属七和弦、降A大三和弦，才把方向集中到第6小节的降D大三和弦。
+
+在降D大调的局部语境中，末三项可理解为 V7/V—V—I。这个功能解释针对落点附近，不把前面的每个半音和弦都解释成一次独立转调。Gauldin §18 也将引子歌唱区的调性解释为降D大调，即作品降B小调的关系大调。

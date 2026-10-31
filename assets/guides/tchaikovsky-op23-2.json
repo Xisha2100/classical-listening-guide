@@ -1,0 +1,197 @@
+{
+  "work_id": "tchaikovsky-op23-2",
+  "overview": "第二乐章为慢—快—慢三段体；快速中段内部又有材料回返。谱面第59与146小节速度转换支撑两道大边界。",
+  "sections": [
+    {
+      "id": "m2-a",
+      "parent_id": "",
+      "title": "A：Andantino semplice",
+      "start_measure": 0,
+      "end_measure": 57,
+      "description": "第5小节长笛主旋律、钢琴应答及若干调性变化；第42小节慢速主题回返。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m2-a-opening",
+      "parent_id": "m2-a",
+      "title": "开头主题与接续",
+      "start_measure": 0,
+      "end_measure": 40,
+      "description": "4小节前奏后，长笛、钢琴及木管交替呈示旋律。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m2-a-return",
+      "parent_id": "m2-a",
+      "title": "慢速主题回返",
+      "start_measure": 41,
+      "end_measure": 57,
+      "description": "大提琴第42–49小节、双簧管第50–57小节唱回主题；第58小节钢琴衔接快段。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m2-b",
+      "parent_id": "",
+      "title": "B：快速对比中段",
+      "start_measure": 58,
+      "end_measure": 144,
+      "description": "第59小节转快；Gauldin 指出法国歌曲材料，Tonic Chord 分小型 a–b–a。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m2-b-a",
+      "parent_id": "m2-b",
+      "title": "中段 a：开端材料",
+      "start_measure": 58,
+      "end_measure": 78,
+      "description": "第59小节起节奏和织体明显变化。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m2-b-b",
+      "parent_id": "m2-b",
+      "title": "中段 b：歌曲旋律",
+      "start_measure": 79,
+      "end_measure": 112,
+      "description": "法国歌曲材料在弦乐中出现；钢琴装饰，句界仍需人工听审。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "crescendo-2016",
+        "gauldin-2004"
+      ]
+    },
+    {
+      "id": "m2-b-ar",
+      "parent_id": "m2-b",
+      "title": "中段 a 回返及准华彩",
+      "start_measure": 113,
+      "end_measure": 144,
+      "description": "较前段材料回归，第135–145小节为钢琴独奏性收束。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    },
+    {
+      "id": "m2-ap",
+      "parent_id": "",
+      "title": "A′：慢速回归与尾声",
+      "start_measure": 145,
+      "end_measure": 169,
+      "description": "第146小节 Tempo I 回归，154–170小节收束。",
+      "source_ids": [
+        "tcha-op23-local-score",
+        "tonic-chord-2018"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tcha-op23-local-score",
+      "kind": "score",
+      "title": "PDMX v9 归档的 jeronjoseph 数字管弦总谱：柴可夫斯基第一钢琴协奏曲 Op.23（本地保留的完整 MusicXML）",
+      "author": "jeronjoseph；PDMX 数字转换",
+      "edition": "",
+      "pages": "movement-1/2/3.mxl；各 movement-*-measure-map.json",
+      "url": "https://zenodo.org/records/15571083",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "本轮边界、配器及印刷小节与内部 ordinal 对应的直接谱面证据。"
+    },
+    {
+      "id": "gauldin-2004",
+      "kind": "web",
+      "title": "Tragic Love and Musical Memory",
+      "author": "Robert Gauldin",
+      "edition": "",
+      "pages": "§§17–21；Example 5a–l",
+      "url": "https://www.mtosmt.org/classic/mto.04.10.4/mto.04.10.4.gauldin.html",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "支持主题身份与大结构；其自传性解释属作者假说，本文件不把它当既定事实。"
+    },
+    {
+      "id": "gauldin-ex5",
+      "kind": "web",
+      "title": "Gauldin, Example 5: Unusual features of Tchaikovsky’s B-flat minor Piano Concerto",
+      "author": "Robert Gauldin",
+      "edition": "",
+      "pages": "Example 5a–l，PDF pp. 1–2",
+      "url": "https://mtosmt.org/issues/mto.04.10.4/gauldin_examples.pdf",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "用作主题类型和结构交叉核对，不提供本地谱的精确小节映射。"
+    },
+    {
+      "id": "tonic-chord-2018",
+      "kind": "web",
+      "title": "Tchaikovsky: Piano Concerto No.1 Analysis",
+      "author": "Tonic Chord",
+      "edition": "",
+      "pages": "First Movement, Second Movement, Third Movement 各节；网页行 59–177",
+      "url": "https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "第二、三乐章区段与本地谱对照；第一乐章只用作功能候选并以本地谱核界。"
+    },
+    {
+      "id": "ptna-wada",
+      "kind": "web",
+      "title": "Concerto for piano and orchestra No. 1 b-moll Op.23",
+      "author": "Mayuko Wada（英译网页）",
+      "edition": "",
+      "pages": "Commentary：First/Second/Third Movement",
+      "url": "https://enc.piano.or.jp/en/musics/92",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "大结构和主题角色辅助；网页声明英译未经原作者审校。"
+    },
+    {
+      "id": "tchaikovsky-research",
+      "kind": "web",
+      "title": "Piano Concerto No. 1",
+      "author": "Tchaikovsky Research",
+      "edition": "",
+      "pages": "Composition；Versions；Musical features",
+      "url": "https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "版本差异背景。"
+    },
+    {
+      "id": "crescendo-2016",
+      "kind": "web",
+      "title": "Les Concertos du Concours : le 1er Tchaikovski – Guide d’écoute",
+      "author": "Bernadette Beyne et Quentin Mourier",
+      "edition": "",
+      "pages": "I §§Introduction, Allegro, Développement, Réexposition；II §§A–B–A；III §§Rondo–Coda",
+      "url": "https://www.crescendo-magazine.be/conc-tchaiko_quentin_corr/",
+      "accessed_at": "",
+      "excerpt": "",
+      "extracted": true,
+      "summary": "附录音与谱例的逐段导听，明确第1乐章第2主题为单簧管/钢琴、第3主题为弱音弦乐；第二乐章中段歌曲归弦乐；终乐章第101段为过渡。与本地谱小节号仍有若干处偏移。"
+    }
+  ],
+  "source_ids": []
+}
